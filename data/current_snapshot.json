@@ -31,7 +31,7 @@
       "home": "Deportivo Alavés",
       "away": "Getafe CF",
       "referee": "Manuel Orellana Cid",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 1
     },
     {
@@ -40,7 +40,7 @@
       "time": "21:30",
       "home": "Sevilla FC",
       "away": "Rayo Vallecano",
-      "referee": "",
+      "referee": "Ricardo de Burgos",
       "status": "TIMED",
       "matchday": 1
     },
@@ -3827,5 +3827,5 @@
   ],
   "finished": [],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-08-15T17:05:38Z"
+  "updatedAt": "2026-08-15T18:58:58Z"
 }
