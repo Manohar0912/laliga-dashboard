@@ -26,7 +26,42 @@ TEMPLATE_DIR = ROOT / "template_parts"
 OUTPUT_HTML = ROOT / "index.html"
 CONFIG_JSON = ROOT / "config.json"
 
+# Canonical club identities used across historical archives, recent CSV sources,
+# the live API, selectors and H2H. Only genuine naming variants of the same club
+# are merged here; predecessor clubs remain distinct.
 ALIASES = {
+    # Historical engsoccerdata names
+    "Athletic Bilbao": "Athletic Club",
+    "Atletico Madrid": "Atlético Madrid",
+    "CD Alaves": "Deportivo Alavés",
+    "CD Leganes": "CD Leganés",
+    "Cadiz CF": "Cádiz CF",
+    "Espanyol Barcelona": "RCD Espanyol",
+    "Girona": "Girona FC",
+    "UD Almeria": "UD Almería",
+    "Sporting Gijon": "Sporting Gijón",
+    "Malaga CF": "Málaga CF",
+    "Deportivo La Coruna": "RC Deportivo",
+    # football-data.co.uk / common short names
+    "Alaves": "Deportivo Alavés",
+    "Ath Bilbao": "Athletic Club",
+    "Ath Madrid": "Atlético Madrid",
+    "Barcelona": "FC Barcelona",
+    "Betis": "Real Betis",
+    "Celta": "Celta Vigo",
+    "Elche": "Elche CF",
+    "Espanol": "RCD Espanyol",
+    "Getafe": "Getafe CF",
+    "Levante": "Levante UD",
+    "Mallorca": "RCD Mallorca",
+    "Osasuna": "CA Osasuna",
+    "Oviedo": "Real Oviedo",
+    "Vallecano": "Rayo Vallecano",
+    "Sociedad": "Real Sociedad",
+    "Sevilla": "Sevilla FC",
+    "Valencia": "Valencia CF",
+    "Villarreal": "Villarreal CF",
+    # football-data.org names
     "Real Madrid CF": "Real Madrid",
     "Club Atlético de Madrid": "Atlético Madrid",
     "Atlético de Madrid": "Atlético Madrid",
@@ -71,6 +106,8 @@ def load_config() -> dict:
 
 
 def canonical_team(name: str, short_name: str | None = None) -> str:
+    name = (name or "").strip()
+    short_name = (short_name or "").strip() or None
     if name in ALIASES:
         return ALIASES[name]
     if short_name and short_name in ALIASES:
@@ -133,8 +170,14 @@ def fetch_live(config: dict) -> dict:
 
 
 def read_rows() -> list[dict]:
+    # Normalize the full archive every time it is read. This repairs legacy rows
+    # already committed under old club names and keeps H2H/team selectors unified.
     with MATCHES_CSV.open(newline="", encoding="utf-8") as f:
-        return list(csv.DictReader(f))
+        rows = list(csv.DictReader(f))
+    for row in rows:
+        row["home"] = canonical_team(row.get("home", ""))
+        row["away"] = canonical_team(row.get("away", ""))
+    return rows
 
 
 def write_rows(rows: list[dict]) -> None:
