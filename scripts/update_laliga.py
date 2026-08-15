@@ -21,6 +21,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 MATCHES_CSV = DATA_DIR / "laliga_matches.csv"
 STATIC_JSON = DATA_DIR / "static_data.json"
+PLAYER_JSON = DATA_DIR / "player_data.json"
 SNAPSHOT_JSON = DATA_DIR / "current_snapshot.json"
 TEMPLATE_DIR = ROOT / "template_parts"
 OUTPUT_HTML = ROOT / "index.html"
@@ -229,6 +230,16 @@ def compact_row(row: dict) -> dict:
     return ordered
 
 
+def load_player_payload() -> dict:
+    if not PLAYER_JSON.exists():
+        return {}
+    try:
+        return json.loads(PLAYER_JSON.read_text(encoding="utf-8"))
+    except Exception as exc:
+        print(f"WARNING: player_data.json could not be loaded: {exc}", file=sys.stderr)
+        return {}
+
+
 def build_data(rows: list[dict], snapshot: dict, static: dict, config: dict) -> dict:
     seasons = defaultdict(list)
     for row in rows:
@@ -244,11 +255,20 @@ def build_data(rows: list[dict], snapshot: dict, static: dict, config: dict) -> 
     meta["currentSeason"] = current_season
     meta["currentFinishedMatches"] = len(seasons[current_season])
     current_teams = snapshot.get("teams") or static["currentTeams"]
+    player_payload = load_player_payload()
     return {
         "seasons": dict(seasons),
         "currentTeams": current_teams,
         "fixtures": snapshot.get("fixtures", []),
+        # Keep the legacy two-season object for backwards compatibility, while
+        # the redesigned Players view consumes the richer profile catalogue.
         "players": static["players"],
+        "playerProfiles": player_payload.get("players", {}),
+        "playerMeta": {
+            "source": player_payload.get("source"),
+            "coverage": player_payload.get("coverage"),
+            "updatedAt": player_payload.get("updatedAt"),
+        },
         "champions": static["champions"],
         "meta": meta,
     }
@@ -282,7 +302,7 @@ def main() -> int:
     write_rows(rows)
     data = build_data(rows, snapshot, static, config)
     render_dashboard(data, snapshot.get("updatedAt", "unknown"))
-    print(f"Built {OUTPUT_HTML.name}: {len(rows):,} results, {len(snapshot.get('fixtures', []))} upcoming fixtures")
+    print(f"Built {OUTPUT_HTML.name}: {len(rows):,} results, {len(snapshot.get('fixtures', []))} upcoming fixtures, {len(data.get('playerProfiles', {}))} player profiles")
     return 0
 
 
