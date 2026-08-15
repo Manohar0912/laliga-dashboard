@@ -8,6 +8,8 @@ on:
     paths:
       - 'template_parts/**'
       - 'scripts/update_laliga.py'
+      - 'scripts/update_players.py'
+      - 'scripts/validate.py'
       - '.github/workflows/update-laliga.yml'
   schedule:
     - cron: '17 5 * * 2'
@@ -51,17 +53,23 @@ jobs:
           FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
         run: python scripts/update_laliga.py
 
+      - name: Refresh player analytics
+        run: python scripts/update_players.py
+
+      - name: Rebuild dashboard with player analytics
+        run: python scripts/update_laliga.py --offline
+
       - name: Validate build
         run: python scripts/validate.py
 
       - name: Commit refreshed data
         run: |
-          if git diff --quiet -- data/laliga_matches.csv data/current_snapshot.json index.html && git ls-files --error-unmatch data/laliga_matches.csv >/dev/null 2>&1; then
+          if [ -z "$(git status --porcelain -- data/laliga_matches.csv data/current_snapshot.json data/player_data.json index.html)" ]; then
             echo "No repository data changes."
           else
             git config user.name "laliga-dashboard-bot"
             git config user.email "actions@users.noreply.github.com"
-            git add data/laliga_matches.csv data/current_snapshot.json index.html
+            git add data/laliga_matches.csv data/current_snapshot.json data/player_data.json index.html
             git commit -m "chore: refresh LaLiga data" || true
             git push
           fi

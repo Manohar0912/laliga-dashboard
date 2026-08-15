@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 import csv
+import json
 from collections import Counter
 from pathlib import Path
 
@@ -36,13 +37,29 @@ assert len(barca_athletic) >= 190, (
     f'FC Barcelona vs Athletic Club H2H incomplete: {len(barca_athletic)} matches'
 )
 
+player_path = ROOT / 'data/player_data.json'
+assert player_path.exists(), 'player_data.json must be built before validation'
+player_payload = json.loads(player_path.read_text(encoding='utf-8'))
+profiles = player_payload.get('players') or {}
+assert len(profiles) >= 40, f'player catalogue unexpectedly small: {len(profiles)}'
+assert 'Kylian Mbappé' in profiles, 'Kylian Mbappé missing from player profiles'
+mbappe = profiles['Kylian Mbappé']
+assert len(mbappe.get('seasons') or []) >= 2, 'Mbappé must have multi-season LaLiga history'
+mbappe_barca = [m for m in (mbappe.get('matches') or []) if m.get('opponent') == 'FC Barcelona']
+assert len(mbappe_barca) >= 3, f'Mbappé vs Barcelona history incomplete: {len(mbappe_barca)} matches'
+assert sum(int(m.get('goals', 0)) for m in mbappe_barca) >= 4, 'Mbappé vs Barcelona goals unexpectedly low'
+
 html = (ROOT / 'index.html').read_text(encoding='utf-8')
 assert 'const DATA={' in html
 assert '__DATA_JSON__' not in html and '__LAST_UPDATED__' not in html
 assert '1928/29' in html and '2026/27' in html
 assert '<section class="view" id="h2h"></section>' in html
 assert '<section class="view" id="predictions"></section>' in html
+assert 'playerProfiles' in html and 'Kylian Mbappé' in html
+assert 'PLAYER VS TEAM' in html and 'Performance across seasons' in html
 print(
     f'OK: {len(rows):,} match rows; no duplicates; '
-    f'Barcelona-Athletic H2H={len(barca_athletic)}; dashboard placeholders resolved'
+    f'Barcelona-Athletic H2H={len(barca_athletic)}; '
+    f'{len(profiles)} player profiles; Mbappé-Barcelona matches={len(mbappe_barca)}; '
+    'dashboard placeholders resolved'
 )
