@@ -2,6 +2,13 @@ name: Update and deploy LaLiga dashboard
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'template_parts/**'
+      - 'scripts/update_laliga.py'
+      - '.github/workflows/update-laliga.yml'
   schedule:
     - cron: '17 5 * * 2'
 
@@ -32,6 +39,9 @@ jobs:
 
       - name: Install bootstrap dependencies
         run: pip install -r requirements.txt
+
+      - name: Assemble dashboard template
+        run: cat template_parts/part*.html > dashboard_template.html
 
       - name: Bootstrap all-time history if needed
         run: python scripts/bootstrap_history.py
