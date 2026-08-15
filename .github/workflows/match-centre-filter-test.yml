@@ -1,0 +1,39 @@
+name: Test Match Centre team filter
+
+on:
+  push:
+    branches:
+      - agent/fix-match-centre-team-filter
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Assemble dashboard template
+        run: cat template_parts/part*.html > dashboard_template.html
+      - name: Rebuild dashboard offline
+        run: python scripts/update_laliga.py --offline
+      - name: Validate datasets
+        run: python scripts/validate.py
+      - name: Validate generated JavaScript
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          html=Path('index.html').read_text(encoding='utf-8')
+          js=html.rsplit('<script>',1)[1].split('</script>',1)[0]
+          Path('/tmp/laliga-dashboard.js').write_text(js,encoding='utf-8')
+          PY
+          node --check /tmp/laliga-dashboard.js
+      - name: Assert team filter drives KPIs
+        run: |
+          grep -q "analysis=teamFilter?raw.filter" index.html
+          grep -q "Goals scored / match" index.html
+          grep -q "Win / Draw / Loss" index.html
+          grep -q "TEAM SEASON" index.html
