@@ -17,35 +17,42 @@ jobs:
           python - <<'PY'
           import json, urllib.request
 
-          def get_json(url):
-              req = urllib.request.Request(url, headers={'User-Agent':'Mozilla/5.0'})
+          candidates = [
+              ('https://understat.com/getLeagueData/La_liga/2025','https://understat.com/league/La_liga/2025'),
+              ('https://understat.com/league/getLeagueData/La_liga/2025','https://understat.com/league/La_liga/2025'),
+              ('https://understat.com/getPlayerData/3423','https://understat.com/player/3423'),
+              ('https://understat.com/player/getPlayerData/3423','https://understat.com/player/3423'),
+          ]
+          for url, ref in candidates:
+              headers = {
+                  'User-Agent':'Mozilla/5.0',
+                  'Accept':'application/json, text/javascript, */*; q=0.01',
+                  'X-Requested-With':'XMLHttpRequest',
+                  'Referer':ref,
+              }
+              req = urllib.request.Request(url, headers=headers)
               try:
                   with urllib.request.urlopen(req, timeout=30) as r:
-                      data = json.load(r)
-                  print('OK', url)
-                  return data
+                      raw = r.read().decode('utf-8','replace')
+                  print('OK', url, 'LEN', len(raw), 'PREFIX', raw[:180])
+                  try:
+                      data=json.loads(raw)
+                  except Exception:
+                      continue
+                  if 'PlayerData' in url:
+                      print('PLAYER_KEYS', sorted(data.keys()))
+                      matches=data.get('matches') or []
+                      print('PLAYER_MATCH_COUNT',len(matches))
+                      for m in matches[:2]: print('MATCH_SAMPLE',json.dumps(m,ensure_ascii=False)[:2500])
+                      barca=[m for m in matches if 'Barcelona' in json.dumps(m,ensure_ascii=False)]
+                      print('BARCA_MATCH_COUNT',len(barca))
+                      for m in barca[:4]: print('BARCA_MATCH',json.dumps(m,ensure_ascii=False)[:2500])
+                  if 'LeagueData' in url:
+                      print('LEAGUE_KEYS', sorted(data.keys()))
+                      players=data.get('players') or []
+                      print('PLAYER_COUNT',len(players))
+                      mb=next((p for p in players if 'Mbapp' in str(p)),None)
+                      print('MBAPPE_ROW',json.dumps(mb,ensure_ascii=False)[:2500] if mb else 'NONE')
               except Exception as e:
-                  print('ERROR', url, type(e).__name__, str(e)[:300])
-                  return None
-
-          league = get_json('https://understat.com/league/getLeagueData/La_liga/2025')
-          if league:
-              print('LEAGUE_KEYS', sorted(league.keys()))
-              players = league.get('players') or []
-              print('PLAYER_COUNT', len(players))
-              mb = next((p for p in players if 'Mbapp' in str(p)), None)
-              print('MBAPPE_LEAGUE_ROW', json.dumps(mb, ensure_ascii=False)[:3500] if mb else 'NONE')
-
-          player = get_json('https://understat.com/player/getPlayerData/3423')
-          if player:
-              print('PLAYER_KEYS', sorted(player.keys()))
-              print('PLAYER_INFO', json.dumps(player.get('player'), ensure_ascii=False)[:1500])
-              matches = player.get('matches') or []
-              print('PLAYER_MATCH_COUNT', len(matches))
-              for m in matches[:3]:
-                  print('MATCH_SAMPLE', json.dumps(m, ensure_ascii=False)[:3000])
-              barca = [m for m in matches if 'Barcelona' in json.dumps(m, ensure_ascii=False)]
-              print('BARCA_MATCH_COUNT', len(barca))
-              for m in barca[:5]:
-                  print('BARCA_MATCH', json.dumps(m, ensure_ascii=False)[:3000])
+                  print('ERROR',url,type(e).__name__,str(e)[:300])
           PY
