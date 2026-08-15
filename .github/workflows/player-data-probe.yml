@@ -19,15 +19,6 @@ jobs:
           python - <<'PY'
           import json, os, re, urllib.request, urllib.error
 
-          token = os.environ['FOOTBALL_DATA_TOKEN']
-          headers = {
-              'X-Auth-Token': token,
-              'User-Agent': 'laliga-dashboard/1.0',
-              'X-Unfold-Goals': 'true',
-              'X-Unfold-Lineups': 'true',
-              'X-Unfold-Subs': 'true',
-          }
-
           def fetch_text(url, request_headers=None):
               req = urllib.request.Request(url, headers=request_headers or {'User-Agent':'Mozilla/5.0'})
               with urllib.request.urlopen(req, timeout=30) as r:
@@ -36,45 +27,50 @@ jobs:
           def get_json(url, request_headers=None):
               try:
                   return json.loads(fetch_text(url, request_headers))
-              except urllib.error.HTTPError as e:
-                  print('HTTP_ERROR', url, e.code, e.read().decode('utf-8','replace')[:300])
+              except Exception as e:
+                  print('JSON_ERROR', url, type(e).__name__, str(e)[:250])
                   return None
 
-          scorers = get_json('https://api.football-data.org/v4/competitions/PD/scorers?season=2025&limit=100', headers)
+          token = os.environ['FOOTBALL_DATA_TOKEN']
+          fd_headers = {'X-Auth-Token': token, 'User-Agent': 'laliga-dashboard/1.0'}
+          scorers = get_json('https://api.football-data.org/v4/competitions/PD/scorers?season=2025&limit=100', fd_headers)
           if scorers:
               items = scorers.get('scorers', [])
-              print('SCORERS_COUNT', len(items))
+              print('FOOTBALL_DATA_SCORERS', len(items))
               for item in items[:3]:
                   p = item.get('player') or {}
-                  print('PLAYER', p.get('id'), p.get('name'), 'G', item.get('goals'), 'A', item.get('assists'))
+                  print('FD_PLAYER', p.get('id'), p.get('name'), item.get('goals'), item.get('assists'))
 
-          matches_payload = get_json('https://api.football-data.org/v4/competitions/PD/matches?season=2025&status=FINISHED', headers)
-          if matches_payload:
-              matches = matches_payload.get('matches', [])
-              print('COMP_MATCH_COUNT', len(matches))
-              print('MATCHES_WITH_GOALS', sum(bool(m.get('goals')) for m in matches))
-              print('MATCHES_WITH_LINEUPS', sum(bool(m.get('lineups')) for m in matches))
-              print('MATCHES_WITH_SUBS', sum(bool(m.get('substitutions')) for m in matches))
+          league = get_json('https://understat.com/getLeagueData/La_liga/2025')
+          print('UNDERSTAT_LEAGUE_TYPE', type(league).__name__)
+          if league:
+              print('UNDERSTAT_LEAGUE_KEYS', sorted(league.keys()))
+              players = league.get('players') or []
+              print('UNDERSTAT_PLAYERS', len(players))
+              for p in players[:3]:
+                  print('US_PLAYER_SAMPLE', json.dumps(p, ensure_ascii=False)[:1200])
+              mb = next((p for p in players if 'Mbapp' in str(p.get('player_name') or p.get('player') or p.get('name') or '')), None)
+              print('MBAPPE_LEAGUE_ROW', json.dumps(mb, ensure_ascii=False)[:2000] if mb else 'NONE')
 
-          try:
-              page = fetch_text('https://understat.com/league/La_liga/2025')
+          search = get_json('https://understat.com/main/getPlayersName/Kylian')
+          print('UNDERSTAT_SEARCH', json.dumps(search, ensure_ascii=False)[:2500] if search else 'NONE')
+          mb_id = None
+          if search:
+              pool = ((search.get('response') or {}).get('players') or []) if isinstance(search, dict) else []
+              for p in pool:
+                  if 'Mbapp' in str(p.get('player','')):
+                      mb_id = p.get('id'); break
+          if mb_id:
+              page = fetch_text(f'https://understat.com/player/{mb_id}')
               srcs = re.findall(r'<script[^>]+src=["\']([^"\']+)', page, flags=re.I)
-              print('UNDERSTAT_STATUS', len(page), 'SCRIPTS', len(srcs))
+              print('MBAPPE_UNDERSTAT_ID', mb_id, 'PLAYER_SCRIPTS', [s for s in srcs if 'player' in s.lower()])
               for src in srcs:
-                  if not src.startswith('js/'):
+                  if 'player' not in src.lower() or not src.startswith('js/'):
                       continue
-                  url = 'https://understat.com/' + src
-                  try:
-                      js = fetch_text(url)
-                  except Exception as e:
-                      print('SCRIPT_ERROR', url, type(e).__name__, str(e)[:150])
-                      continue
-                  if 'league.min.js' in src or 'main.min.js' in src:
-                      print('SCRIPT_OK', url, 'LEN', len(js))
-                      for marker in ['ajax','fetch(','/get','leagueData','playersData','datesData','getLeague']:
-                          pos = js.find(marker)
-                          if pos >= 0:
-                              print('MARKER', marker, js[max(0,pos-250):pos+550].replace('\n',' ')[:800])
-          except Exception as e:
-              print('UNDERSTAT_ERROR', type(e).__name__, str(e)[:300])
+                  js = fetch_text('https://understat.com/' + src)
+                  print('PLAYER_SCRIPT', src, 'LEN', len(js))
+                  for marker in ['ajax','getPlayer','playerData','datesData','matchesData','getPlayerData']:
+                      pos = js.find(marker)
+                      if pos >= 0:
+                          print('PLAYER_MARKER', marker, js[max(0,pos-280):pos+620].replace('\n',' ')[:900])
           PY
