@@ -22,7 +22,7 @@ DATA_DIR = ROOT / "data"
 MATCHES_CSV = DATA_DIR / "laliga_matches.csv"
 STATIC_JSON = DATA_DIR / "static_data.json"
 SNAPSHOT_JSON = DATA_DIR / "current_snapshot.json"
-TEMPLATE_HTML = ROOT / "dashboard_template.html"
+TEMPLATE_DIR = ROOT / "template_parts"
 OUTPUT_HTML = ROOT / "index.html"
 CONFIG_JSON = ROOT / "config.json"
 
@@ -146,6 +146,8 @@ def write_rows(rows: list[dict]) -> None:
 
 
 def merge_current(rows: list[dict], snapshot: dict, season: str) -> list[dict]:
+    # Replace current-season rows wholesale. This makes refreshes idempotent and
+    # reconciles postponed/corrected matches instead of duplicating them.
     base = [r for r in rows if r.get("season") != season]
     current = []
     for m in snapshot.get("finished", []):
@@ -176,6 +178,7 @@ def compact_row(row: dict) -> dict:
         out[dst] = number(value) if src in INT_FIELDS else value
     hg, ag = out["hg"], out["ag"]
     out["r"] = "H" if hg > ag else "A" if ag > hg else "D"
+    # Keep result near the score fields for readability/stability.
     ordered = {}
     for key in ("d", "h", "a", "hg", "ag", "r", "hhg", "hag", "hs", "as", "hst", "ast", "hf", "af", "hc", "ac", "hy", "ay", "hr", "ar"):
         if key in out:
@@ -209,7 +212,10 @@ def build_data(rows: list[dict], snapshot: dict, static: dict, config: dict) -> 
 
 
 def render_dashboard(data: dict, updated_at: str) -> None:
-    template = TEMPLATE_HTML.read_text(encoding="utf-8")
+    parts = sorted(TEMPLATE_DIR.glob("part*.html"))
+    if not parts:
+        raise RuntimeError("template_parts are missing")
+    template = "".join(p.read_text(encoding="utf-8") for p in parts)
     payload = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
     if "__DATA_JSON__" not in template:
         raise RuntimeError("dashboard_template.html is missing __DATA_JSON__ placeholder")
