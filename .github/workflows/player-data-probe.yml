@@ -17,7 +17,7 @@ jobs:
           FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
         run: |
           python - <<'PY'
-          import json, os, urllib.request, urllib.error
+          import json, os, re, urllib.request, urllib.error, urllib.parse
 
           token = os.environ['FOOTBALL_DATA_TOKEN']
           headers = {
@@ -57,13 +57,24 @@ jobs:
               print('MATCHES_WITH_SUBS', sum(bool(m.get('substitutions')) for m in matches))
 
           try:
-              req = urllib.request.Request('https://understat.com/league/La_liga/2025', headers={'User-Agent':'Mozilla/5.0'})
+              page_url = 'https://understat.com/league/La_liga/2025'
+              req = urllib.request.Request(page_url, headers={'User-Agent':'Mozilla/5.0'})
               with urllib.request.urlopen(req, timeout=30) as r:
                   html = r.read().decode('utf-8', 'replace')
-              pos = html.find('playersData')
-              print('UNDERSTAT_STATUS', len(html), 'PLAYERS_MARKER', pos)
-              if pos >= 0:
-                  print('UNDERSTAT_SNIPPET', html[max(0,pos-180):pos+420].replace('\n',' ')[:600])
+              print('UNDERSTAT_STATUS', len(html))
+              srcs = re.findall(r'<script[^>]+src=["\']([^"\']+)', html, flags=re.I)
+              print('UNDERSTAT_SCRIPT_SRCS', srcs)
+              for src in srcs:
+                  js_url = urllib.parse.urljoin(page_url, src)
+                  try:
+                      req = urllib.request.Request(js_url, headers={'User-Agent':'Mozilla/5.0'})
+                      with urllib.request.urlopen(req, timeout=30) as r:
+                          js = r.read().decode('utf-8', 'replace')
+                      hits = sorted(set(re.findall(r'["\']([^"\']*(?:api|league|player)[^"\']*)["\']', js, flags=re.I)))
+                      useful = [h for h in hits if '/' in h][:30]
+                      print('SCRIPT', js_url, 'LEN', len(js), 'HITS', useful[:20])
+                  except Exception as e:
+                      print('SCRIPT_ERROR', js_url, type(e).__name__, str(e)[:200])
           except Exception as e:
               print('UNDERSTAT_ERROR', type(e).__name__, str(e)[:300])
           PY
