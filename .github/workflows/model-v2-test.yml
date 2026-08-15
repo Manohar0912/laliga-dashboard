@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Train and backtest
-        run: python scripts/train_model.py
+        run: python scripts/train_model_ensemble.py
       - name: Validate model payload
         run: |
           python - <<'PY'
@@ -29,5 +29,6 @@ jobs:
           assert len(p['predictions']) >= 300, len(p['predictions'])
           assert v['logLoss'] < v['baselineLogLoss'], v
           assert v['brier'] <= v['baselineBrier'], v
+          assert v['accuracy'] >= v['baselineAccuracy'], v
           print(json.dumps(v, indent=2))
           PY
