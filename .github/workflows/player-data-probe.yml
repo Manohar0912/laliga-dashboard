@@ -20,7 +20,7 @@ jobs:
           import json, os, urllib.request, urllib.error
 
           token = os.environ['FOOTBALL_DATA_TOKEN']
-          base_headers = {
+          headers = {
               'X-Auth-Token': token,
               'User-Agent': 'laliga-dashboard/1.0',
               'X-Unfold-Goals': 'true',
@@ -29,7 +29,7 @@ jobs:
           }
 
           def get(url):
-              req = urllib.request.Request(url, headers=base_headers)
+              req = urllib.request.Request(url, headers=headers)
               try:
                   with urllib.request.urlopen(req, timeout=30) as r:
                       body = json.load(r)
@@ -47,24 +47,25 @@ jobs:
               for item in items[:3]:
                   p = item.get('player') or {}
                   print('PLAYER', p.get('id'), p.get('name'), 'G', item.get('goals'), 'A', item.get('assists'))
-              if items:
-                  pid = (items[0].get('player') or {}).get('id')
-                  if pid:
-                      url = f'https://api.football-data.org/v4/persons/{pid}/matches?competitions=PD&dateFrom=2025-08-01&dateTo=2026-06-15&limit=100'
-                      pm = get(url)
-                      if pm:
-                          print('PERSON_MATCH_KEYS', sorted(pm.keys()))
-                          print('AGGREGATIONS', pm.get('aggregations'))
-                          matches = pm.get('matches', [])
-                          print('MATCH_COUNT', len(matches))
-                          if matches:
-                              m = matches[0]
-                              print('MATCH_SAMPLE_KEYS', sorted(m.keys()))
-                              print('MATCH_SAMPLE', json.dumps({
-                                  'id': m.get('id'), 'date': m.get('utcDate'),
-                                  'home': (m.get('homeTeam') or {}).get('name'),
-                                  'away': (m.get('awayTeam') or {}).get('name'),
-                                  'goals': m.get('goals'), 'lineups': m.get('lineups'),
-                                  'substitutions': m.get('substitutions')
-                              }, ensure_ascii=False)[:4000])
+
+          matches_payload = get('https://api.football-data.org/v4/competitions/PD/matches?season=2025&status=FINISHED')
+          if matches_payload:
+              matches = matches_payload.get('matches', [])
+              with_goals = [m for m in matches if isinstance(m.get('goals'), list) and m.get('goals')]
+              with_lineups = [m for m in matches if isinstance(m.get('lineups'), list) and m.get('lineups')]
+              with_subs = [m for m in matches if isinstance(m.get('substitutions'), list) and m.get('substitutions')]
+              print('COMP_MATCH_COUNT', len(matches))
+              print('MATCHES_WITH_GOALS', len(with_goals))
+              print('MATCHES_WITH_LINEUPS', len(with_lineups))
+              print('MATCHES_WITH_SUBS', len(with_subs))
+              sample = with_goals[0] if with_goals else (matches[0] if matches else None)
+              if sample:
+                  print('COMP_MATCH_SAMPLE', json.dumps({
+                      'id': sample.get('id'),
+                      'home': (sample.get('homeTeam') or {}).get('name'),
+                      'away': (sample.get('awayTeam') or {}).get('name'),
+                      'goals': sample.get('goals'),
+                      'lineups': sample.get('lineups'),
+                      'substitutions': sample.get('substitutions')
+                  }, ensure_ascii=False)[:5000])
           PY
