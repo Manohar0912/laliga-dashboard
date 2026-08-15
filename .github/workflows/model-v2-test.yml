@@ -16,19 +16,22 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Assemble dashboard template
+        run: cat template_parts/part*.html > dashboard_template.html
       - name: Train and backtest
         run: python scripts/train_model_ensemble.py
-      - name: Validate model payload
+      - name: Rebuild dashboard offline
+        run: python scripts/update_laliga.py --offline
+      - name: Embed trained model
+        run: python scripts/inject_model.py
+      - name: Validate datasets and model
+        run: python scripts/validate.py
+      - name: Validate generated JavaScript
         run: |
           python - <<'PY'
-          import json
           from pathlib import Path
-          p=json.loads(Path('data/model_predictions.json').read_text())
-          v=p['validation']
-          assert v['matches'] >= 2500, v
-          assert len(p['predictions']) >= 300, len(p['predictions'])
-          assert v['logLoss'] < v['baselineLogLoss'], v
-          assert v['brier'] <= v['baselineBrier'], v
-          assert v['accuracy'] >= v['baselineAccuracy'], v
-          print(json.dumps(v, indent=2))
+          html=Path('index.html').read_text(encoding='utf-8')
+          js=html.rsplit('<script>',1)[1].split('</script>',1)[0]
+          Path('/tmp/laliga-dashboard.js').write_text(js,encoding='utf-8')
           PY
+          node --check /tmp/laliga-dashboard.js
