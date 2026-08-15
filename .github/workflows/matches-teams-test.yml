@@ -1,0 +1,41 @@
+name: Test Matches and Teams insights
+
+on:
+  push:
+    branches:
+      - agent/matches-teams-insights
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Assemble template
+        run: cat template_parts/part*.html > dashboard_template.html
+      - name: Rebuild dashboard offline
+        run: python scripts/update_laliga.py --offline
+      - name: Validate datasets
+        run: python scripts/validate.py
+      - name: Validate generated JavaScript
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          html=Path('index.html').read_text(encoding='utf-8')
+          js=html.rsplit('<script>',1)[1].split('</script>',1)[0]
+          Path('/tmp/laliga-dashboard.js').write_text(js,encoding='utf-8')
+          PY
+          node --check /tmp/laliga-dashboard.js
+      - name: Assert insight UI markers
+        run: |
+          grep -q 'SEASON MATCH CENTRE' index.html
+          grep -q 'TEAM INTELLIGENCE' index.html
+          grep -q 'SEASON TRAJECTORY' index.html
+          grep -q 'RECENT 20 VS SEASON' index.html
