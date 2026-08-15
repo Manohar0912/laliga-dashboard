@@ -1,0 +1,75 @@
+name: Update and deploy LaLiga dashboard
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 5 * * 2'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: laliga-refresh-and-deploy
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install bootstrap dependencies
+        run: pip install -r requirements.txt
+
+      - name: Bootstrap all-time history if needed
+        run: python scripts/bootstrap_history.py
+
+      - name: Refresh current season
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: python scripts/update_laliga.py
+
+      - name: Validate build
+        run: python scripts/validate.py
+
+      - name: Commit refreshed data
+        run: |
+          if git diff --quiet -- data/laliga_matches.csv data/current_snapshot.json index.html && git ls-files --error-unmatch data/laliga_matches.csv >/dev/null 2>&1; then
+            echo "No repository data changes."
+          else
+            git config user.name "laliga-dashboard-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add data/laliga_matches.csv data/current_snapshot.json index.html
+            git commit -m "chore: refresh LaLiga data" || true
+            git push
+          fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Prepare published site
+        run: |
+          rm -rf site
+          mkdir site
+          cp index.html site/index.html
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
