@@ -20,10 +20,16 @@ jobs:
           import json, os, urllib.request, urllib.error
 
           token = os.environ['FOOTBALL_DATA_TOKEN']
-          headers = {'X-Auth-Token': token, 'User-Agent': 'laliga-dashboard/1.0'}
+          base_headers = {
+              'X-Auth-Token': token,
+              'User-Agent': 'laliga-dashboard/1.0',
+              'X-Unfold-Goals': 'true',
+              'X-Unfold-Lineups': 'true',
+              'X-Unfold-Subs': 'true',
+          }
 
           def get(url):
-              req = urllib.request.Request(url, headers=headers)
+              req = urllib.request.Request(url, headers=base_headers)
               try:
                   with urllib.request.urlopen(req, timeout=30) as r:
                       body = json.load(r)
@@ -44,9 +50,21 @@ jobs:
               if items:
                   pid = (items[0].get('player') or {}).get('id')
                   if pid:
-                      pm = get(f'https://api.football-data.org/v4/persons/{pid}/matches?competitions=PD&limit=5')
+                      url = f'https://api.football-data.org/v4/persons/{pid}/matches?competitions=PD&dateFrom=2025-08-01&dateTo=2026-06-15&limit=100'
+                      pm = get(url)
                       if pm:
                           print('PERSON_MATCH_KEYS', sorted(pm.keys()))
                           print('AGGREGATIONS', pm.get('aggregations'))
-                          print('MATCH_COUNT', len(pm.get('matches', [])))
+                          matches = pm.get('matches', [])
+                          print('MATCH_COUNT', len(matches))
+                          if matches:
+                              m = matches[0]
+                              print('MATCH_SAMPLE_KEYS', sorted(m.keys()))
+                              print('MATCH_SAMPLE', json.dumps({
+                                  'id': m.get('id'), 'date': m.get('utcDate'),
+                                  'home': (m.get('homeTeam') or {}).get('name'),
+                                  'away': (m.get('awayTeam') or {}).get('name'),
+                                  'goals': m.get('goals'), 'lineups': m.get('lineups'),
+                                  'substitutions': m.get('substitutions')
+                              }, ensure_ascii=False)[:4000])
           PY
