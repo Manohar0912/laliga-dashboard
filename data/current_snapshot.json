@@ -1,0 +1,41 @@
+{
+  "season": "2026/27",
+  "apiSeason": 2026,
+  "teams": [
+    "Athletic Club",
+    "Atlético Madrid",
+    "CA Osasuna",
+    "Celta Vigo",
+    "Deportivo Alavés",
+    "Elche CF",
+    "FC Barcelona",
+    "Getafe CF",
+    "Levante UD",
+    "Málaga CF",
+    "Racing Santander",
+    "Rayo Vallecano",
+    "RC Deportivo",
+    "RCD Espanyol",
+    "Real Betis",
+    "Real Madrid",
+    "Real Sociedad",
+    "Sevilla FC",
+    "Valencia CF",
+    "Villarreal CF"
+  ],
+  "fixtures": [
+    {"date": "2026-08-15", "time": "17:30", "home": "Deportivo Alavés", "away": "Getafe CF", "referee": "Manuel Jesús Orellana Cid"},
+    {"date": "2026-08-15", "time": "19:30", "home": "Sevilla FC", "away": "Rayo Vallecano", "referee": "Ricardo de Burgos Bengoetxea"},
+    {"date": "2026-08-16", "time": "15:00", "home": "Racing Santander", "away": "Villarreal CF", "referee": "Miguel Sesma Espinosa"},
+    {"date": "2026-08-16", "time": "17:00", "home": "RCD Espanyol", "away": "Levante UD", "referee": "Muñiz Muñoz"},
+    {"date": "2026-08-17", "time": "19:00", "home": "RC Deportivo", "away": "Elche CF", "referee": "TBC"},
+    {"date": "2026-08-19", "time": "19:00", "home": "Atlético Madrid", "away": "Málaga CF", "referee": "TBC"},
+    {"date": "2026-08-25", "time": "19:00", "home": "Valencia CF", "away": "Real Betis", "referee": "TBC"},
+    {"date": "2026-08-26", "time": "19:00", "home": "Real Madrid", "away": "Real Sociedad", "referee": "TBC"},
+    {"date": "2026-08-27", "time": "18:30", "home": "Celta Vigo", "away": "CA Osasuna", "referee": "TBC"},
+    {"date": "2026-08-27", "time": "19:00", "home": "FC Barcelona", "away": "Athletic Club", "referee": "TBC"}
+  ],
+  "finished": [],
+  "source": "bootstrap from Release 2",
+  "updatedAt": "2026-08-15T15:24:00Z"
+}
