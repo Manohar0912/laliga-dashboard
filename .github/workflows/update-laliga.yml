@@ -9,6 +9,9 @@ on:
       - 'template_parts/**'
       - 'scripts/update_laliga.py'
       - 'scripts/update_players.py'
+      - 'scripts/train_model.py'
+      - 'scripts/train_model_ensemble.py'
+      - 'scripts/inject_model.py'
       - 'scripts/validate.py'
       - '.github/workflows/update-laliga.yml'
   schedule:
@@ -56,21 +59,27 @@ jobs:
       - name: Refresh player analytics
         run: python scripts/update_players.py
 
-      - name: Rebuild dashboard with player analytics
+      - name: Train prediction model
+        run: python scripts/train_model_ensemble.py
+
+      - name: Rebuild dashboard with refreshed analytics
         run: python scripts/update_laliga.py --offline
+
+      - name: Embed trained prediction model
+        run: python scripts/inject_model.py
 
       - name: Validate build
         run: python scripts/validate.py
 
       - name: Commit refreshed data
         run: |
-          if [ -z "$(git status --porcelain -- data/laliga_matches.csv data/current_snapshot.json data/player_data.json index.html)" ]; then
+          if [ -z "$(git status --porcelain -- data/laliga_matches.csv data/current_snapshot.json data/player_data.json data/model_predictions.json index.html)" ]; then
             echo "No repository data changes."
           else
             git config user.name "laliga-dashboard-bot"
             git config user.email "actions@users.noreply.github.com"
-            git add data/laliga_matches.csv data/current_snapshot.json data/player_data.json index.html
-            git commit -m "chore: refresh LaLiga data" || true
+            git add data/laliga_matches.csv data/current_snapshot.json data/player_data.json data/model_predictions.json index.html
+            git commit -m "chore: refresh LaLiga data and model" || true
             git push
           fi
 
