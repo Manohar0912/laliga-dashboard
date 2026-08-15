@@ -25,23 +25,13 @@
   ],
   "fixtures": [
     {
-      "id": 564634,
-      "date": "2026-08-15",
-      "time": "19:30",
-      "home": "Deportivo Alavés",
-      "away": "Getafe CF",
-      "referee": "Manuel Orellana Cid",
-      "status": "IN_PLAY",
-      "matchday": 1
-    },
-    {
       "id": 564633,
       "date": "2026-08-15",
       "time": "21:30",
       "home": "Sevilla FC",
       "away": "Rayo Vallecano",
       "referee": "Ricardo de Burgos",
-      "status": "TIMED",
+      "status": "LIVE",
       "matchday": 1
     },
     {
@@ -3825,7 +3815,18 @@
       "matchday": 38
     }
   ],
-  "finished": [],
+  "finished": [
+    {
+      "id": 564634,
+      "date": "2026-08-15",
+      "home": "Deportivo Alavés",
+      "away": "Getafe CF",
+      "home_goals": 3,
+      "away_goals": 0,
+      "ht_home_goals": 0,
+      "ht_away_goals": 0
+    }
+  ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-08-15T19:22:59Z"
+  "updatedAt": "2026-08-15T19:51:12Z"
 }
