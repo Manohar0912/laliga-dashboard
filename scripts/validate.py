@@ -27,8 +27,6 @@ clubs = {r['home'] for r in rows} | {r['away'] for r in rows}
 remaining_aliases = sorted(legacy_aliases & clubs)
 assert not remaining_aliases, f'legacy club aliases remain: {remaining_aliases}'
 
-# Barcelona and Athletic are ever-present top-flight clubs. Their all-time league
-# H2H must include the historical archive, not only the two recent-season rows.
 barca_athletic = [
     r for r in rows
     if {r['home'], r['away']} == {'FC Barcelona', 'Athletic Club'}
@@ -49,17 +47,35 @@ mbappe_barca = [m for m in (mbappe.get('matches') or []) if m.get('opponent') ==
 assert len(mbappe_barca) >= 3, f'Mbappé vs Barcelona history incomplete: {len(mbappe_barca)} matches'
 assert sum(int(m.get('goals', 0)) for m in mbappe_barca) >= 4, 'Mbappé vs Barcelona goals unexpectedly low'
 
+model_path = ROOT / 'data/model_predictions.json'
+assert model_path.exists(), 'model_predictions.json must be trained before validation'
+model = json.loads(model_path.read_text(encoding='utf-8'))
+validation = model.get('validation') or {}
+assert validation.get('matches', 0) >= 2500, f"prediction validation sample too small: {validation}"
+assert validation.get('logLoss', 99) < validation.get('baselineLogLoss', 0), f"trained model did not beat baseline log loss: {validation}"
+assert validation.get('brier', 99) <= validation.get('baselineBrier', 0), f"trained model did not beat baseline Brier score: {validation}"
+assert validation.get('accuracy', 0) >= validation.get('baselineAccuracy', 1), f"trained model did not beat baseline accuracy: {validation}"
+high = (validation.get('confidence') or {}).get('high') or {}
+assert high.get('matches', 0) >= 100, f"high-confidence validation sample too small: {high}"
+assert high.get('accuracy', 0) >= 0.64, f"high-confidence bucket is not reliable enough: {high}"
+snapshot = json.loads((ROOT / 'data/current_snapshot.json').read_text(encoding='utf-8'))
+assert len(model.get('predictions') or {}) == len(snapshot.get('fixtures') or []), 'every upcoming fixture must have a trained prediction'
+
 html = (ROOT / 'index.html').read_text(encoding='utf-8')
 assert 'const DATA={' in html
+assert 'const PREDICTION_MODEL={' in html
 assert '__DATA_JSON__' not in html and '__LAST_UPDATED__' not in html
 assert '1928/29' in html and '2026/27' in html
 assert '<section class="view" id="h2h"></section>' in html
 assert '<section class="view" id="predictions"></section>' in html
 assert 'playerProfiles' in html and 'Kylian Mbappé' in html
 assert 'PLAYER VS TEAM' in html and 'Performance across seasons' in html
+assert 'Historically trained Poisson + Elo ensemble' in html
+assert 'historical hit rate' in html
 print(
     f'OK: {len(rows):,} match rows; no duplicates; '
     f'Barcelona-Athletic H2H={len(barca_athletic)}; '
     f'{len(profiles)} player profiles; Mbappé-Barcelona matches={len(mbappe_barca)}; '
-    'dashboard placeholders resolved'
+    f"prediction holdout={validation['matches']:,}, accuracy={validation['accuracy']:.1%}, "
+    f"high-confidence={high['accuracy']:.1%}; dashboard placeholders resolved"
 )
