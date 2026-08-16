@@ -67,7 +67,7 @@ def combine_records(poisson_records: list[dict], elo_records: list[dict], weight
     return out
 
 
-def aligned_scorelines(lh: float, la: float, rho: float, target_probs: list[float]) -> tuple[list[dict], dict, dict]:
+def aligned_scorelines(lh: float, la: float, rho: float, target_probs: list[float]) -> tuple[list[dict], dict, dict, list[dict], str]:
     total_target = sum(target_probs) or 1.0
     targets = [max(0.0, x) / total_target for x in target_probs]
     raw = []
@@ -96,8 +96,18 @@ def aligned_scorelines(lh: float, la: float, rho: float, target_probs: list[floa
         for idx, row in enumerate(best) if row is not None
     }
     favourite = max(range(3), key=lambda idx: targets[idx])
+    fav_code = "HDA"[favourite]
     pick = {**best[favourite], "p": round(best[favourite]["p"], 5)}
-    return top, scenarios, pick
+    fav_total = targets[favourite] or 1.0
+    fav_pool = sorted(
+        (row for row in adjusted if row["outcome"] == fav_code),
+        key=lambda row: row["p"], reverse=True
+    )[:3]
+    favoured_scores = [
+        {**row, "p": round(row["p"], 5), "conditional": round(row["p"] / fav_total, 5)}
+        for row in fav_pool
+    ]
+    return top, scenarios, pick, favoured_scores, fav_code
 
 
 def main() -> int:
@@ -152,7 +162,7 @@ def main() -> int:
         pp["hp"] = blend * pp["hp"] + (1.0 - blend) * ep[0]
         pp["dp"] = blend * pp["dp"] + (1.0 - blend) * ep[1]
         pp["ap"] = blend * pp["ap"] + (1.0 - blend) * ep[2]
-        scorelines, scenarios, score_pick = aligned_scorelines(
+        scorelines, scenarios, score_pick, favoured_scores, favoured_outcome = aligned_scorelines(
             pp["lh"], pp["la"], best_rho, [pp["hp"], pp["dp"], pp["ap"]]
         )
         conf, conf_rate = base.assign_confidence(pp, calibration)
@@ -161,14 +171,15 @@ def main() -> int:
             "hp": round(pp["hp"], 5), "dp": round(pp["dp"], 5), "ap": round(pp["ap"], 5),
             "o": round(pp["o"], 5), "b": round(pp["b"], 5), "s": scorelines,
             "scenarios": scenarios, "pick": score_pick,
+            "favouredScores": favoured_scores, "favouredOutcome": favoured_outcome,
             "conf": conf, "confRate": round(conf_rate, 4), "support": round(pp["support"], 2),
         }
 
     improvement = (baseline["logLoss"] - validation["logLoss"]) / baseline["logLoss"]
     payload = {
-        "version": "2.2 outcome-aligned Poisson + Elo ensemble",
+        "version": "2.3 favourite-conditioned scoreline ensemble",
         "updatedAt": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
-        "method": "Walk-forward ensemble: recency-weighted home/away Poisson plus Elo team strength; Dixon-Coles correction, calibrated confidence, and exact-score marginals aligned to final 1X2 probabilities",
+        "method": "Walk-forward ensemble: recency-weighted home/away Poisson plus Elo team strength; Dixon-Coles correction and calibrated confidence. Displayed scorelines are ranked conditionally within the highest-probability 1X2 outcome.",
         "params": {
             "halfLifeDays": int(best_poisson["half_life"]),
             "priorMatches": int(best_poisson["prior"]),
