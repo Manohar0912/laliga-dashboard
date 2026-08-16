@@ -68,7 +68,7 @@ p.write_text(s, encoding="utf-8")
 
 # 3) Make the dashboard's scoreline recommendation explicitly outcome-consistent.
 p = ROOT / "template_parts" / "part04.html"
-s = p.read_text(encoding="utf-8")n = s
+s = p.read_text(encoding="utf-8")
 helper_js = '''\nfunction scoreScenarioRows(p){const probs={H:p.hp,D:p.dp,A:p.ap},labels={H:'Home win',D:'Draw',A:'Away win'},given=p.scenarios||{},rows=[];for(const o of ['H','D','A']){let x=given[o];if(!x){x=(p.s||[]).filter(r=>(r.i>r.j?'H':r.i===r.j?'D':'A')===o).sort((a,b)=>b.p-a.p)[0]}if(x)rows.push({...x,outcome:o,label:labels[o],outcomeProb:probs[o]})}return rows.sort((a,b)=>b.outcomeProb-a.outcomeProb)}\nfunction modelScorePick(p){if(p.pick)return {...p.pick,label:{H:'Home win',D:'Draw',A:'Away win'}[p.pick.outcome]};const rows=scoreScenarioRows(p);return rows[0]||null}\n'''
 s = replace_once(s, '\nfunction renderPredictions(){', helper_js + '\nfunction renderPredictions(){', "score scenario JS helpers")
 s = replace_once(
