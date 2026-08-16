@@ -61,6 +61,12 @@ for key, pred in predictions.items():
     assert pick.get('outcome') == expected, f'score pick contradicts 1X2 favourite for {key}: {pred}'
     scenarios = pred.get('scenarios') or {}
     assert set(scenarios) == {'H', 'D', 'A'}, f'missing outcome score scenarios for {key}'
+    assert pred.get('favouredOutcome') == expected, f'favoured score class contradicts 1X2 favourite for {key}'
+    favoured = pred.get('favouredScores') or []
+    assert len(favoured) == 3, f'expected three favoured scorelines for {key}: {favoured}'
+    assert all(x.get('outcome') == expected for x in favoured), f'contradictory scoreline in favoured set for {key}: {favoured}'
+    conditional = [x.get('conditional', 0) for x in favoured]
+    assert conditional == sorted(conditional, reverse=True), f'favoured scorelines not ranked for {key}: {favoured}'
 
 html = (ROOT / 'index.html').read_text(encoding='utf-8')
 assert 'const DATA={' in html
@@ -73,7 +79,8 @@ assert 'data-v="players"' not in html
 assert 'id="players"' not in html
 assert 'Historically trained Poisson + Elo ensemble' in html
 assert 'historical hit rate' in html
-assert 'TOP 3 EXACT SCORES' in html
+assert 'LIKELY SCORES ·' in html
+assert 'TOP 3 EXACT SCORES' not in html
 assert 'MODEL SCORE PICK' not in html and 'OUTCOME SCORE SCENARIOS' not in html
 assert 'Barça' not in html and '>Athletic<' not in html
 print(
