@@ -33,6 +33,7 @@ CONFIG_JSON = ROOT / "config.json"
 ALIASES = {
     # Historical engsoccerdata names
     "Athletic Bilbao": "Athletic Club",
+    "Athletic": "Athletic Club",
     "Atletico Madrid": "Atlético Madrid",
     "CD Alaves": "Deportivo Alavés",
     "CD Leganes": "CD Leganés",
@@ -48,6 +49,8 @@ ALIASES = {
     "Ath Bilbao": "Athletic Club",
     "Ath Madrid": "Atlético Madrid",
     "Barcelona": "FC Barcelona",
+    "Barça": "FC Barcelona",
+    "Barca": "FC Barcelona",
     "Betis": "Real Betis",
     "Celta": "Celta Vigo",
     "Elche": "Elche CF",
@@ -109,11 +112,13 @@ def load_config() -> dict:
 def canonical_team(name: str, short_name: str | None = None) -> str:
     name = (name or "").strip()
     short_name = (short_name or "").strip() or None
-    if name in ALIASES:
-        return ALIASES[name]
-    if short_name and short_name in ALIASES:
-        return ALIASES[short_name]
-    return short_name or name
+    # Prefer the API's full club name. Falling back to shortName caused
+    # display values such as "Barça" and "Athletic" to leak into fixtures.
+    if name:
+        return ALIASES.get(name, name)
+    if short_name:
+        return ALIASES.get(short_name, short_name)
+    return ""
 
 
 def parse_utc(value: str) -> datetime:
@@ -168,6 +173,20 @@ def fetch_live(config: dict) -> dict:
         "source": "football-data.org v4 / competitions/PD/matches",
         "updatedAt": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
     }
+
+
+def normalize_snapshot(snapshot: dict) -> dict:
+    out = dict(snapshot)
+    out["teams"] = sorted({canonical_team(t) for t in snapshot.get("teams", []) if canonical_team(t)})
+    for key in ("fixtures", "finished"):
+        cooked = []
+        for item in snapshot.get(key, []):
+            row = dict(item)
+            row["home"] = canonical_team(row.get("home", ""))
+            row["away"] = canonical_team(row.get("away", ""))
+            cooked.append(row)
+        out[key] = cooked
+    return out
 
 
 def read_rows() -> list[dict]:
@@ -296,7 +315,10 @@ def main() -> int:
         snapshot = json.loads(SNAPSHOT_JSON.read_text(encoding="utf-8"))
     else:
         snapshot = fetch_live(config)
-        SNAPSHOT_JSON.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    snapshot = normalize_snapshot(snapshot)
+    # Persist canonical names in both live and offline rebuilds so downstream
+    # prediction training uses the same club identities as the dashboard.
+    SNAPSHOT_JSON.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     rows = merge_current(read_rows(), snapshot, config["currentSeason"])
     write_rows(rows)

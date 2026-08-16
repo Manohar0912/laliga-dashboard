@@ -67,6 +67,39 @@ def combine_records(poisson_records: list[dict], elo_records: list[dict], weight
     return out
 
 
+def aligned_scorelines(lh: float, la: float, rho: float, target_probs: list[float]) -> tuple[list[dict], dict, dict]:
+    total_target = sum(target_probs) or 1.0
+    targets = [max(0.0, x) / total_target for x in target_probs]
+    raw = []
+    buckets = [0.0, 0.0, 0.0]
+    for i in range(base.MAX_GOALS):
+        for j in range(base.MAX_GOALS):
+            p = base.poisson(i, lh) * base.poisson(j, la) * base.dc_tau(i, j, lh, la, rho)
+            outcome = 0 if i > j else 1 if i == j else 2
+            raw.append({"i": i, "j": j, "p": p, "outcome_idx": outcome})
+            buckets[outcome] += p
+
+    adjusted = []
+    best = [None, None, None]
+    for row in raw:
+        outcome = row["outcome_idx"]
+        p = row["p"] * (targets[outcome] / buckets[outcome] if buckets[outcome] else 0.0)
+        cooked = {"i": row["i"], "j": row["j"], "p": p, "outcome": "HDA"[outcome]}
+        adjusted.append(cooked)
+        if best[outcome] is None or p > best[outcome]["p"]:
+            best[outcome] = cooked
+
+    adjusted.sort(key=lambda x: x["p"], reverse=True)
+    top = [{**row, "p": round(row["p"], 5)} for row in adjusted[:3]]
+    scenarios = {
+        "HDA"[idx]: {**row, "p": round(row["p"], 5)}
+        for idx, row in enumerate(best) if row is not None
+    }
+    favourite = max(range(3), key=lambda idx: targets[idx])
+    pick = {**best[favourite], "p": round(best[favourite]["p"], 5)}
+    return top, scenarios, pick
+
+
 def main() -> int:
     matches = base.load_matches()
     snapshot = json.loads(base.SNAPSHOT_JSON.read_text(encoding="utf-8"))
@@ -119,19 +152,23 @@ def main() -> int:
         pp["hp"] = blend * pp["hp"] + (1.0 - blend) * ep[0]
         pp["dp"] = blend * pp["dp"] + (1.0 - blend) * ep[1]
         pp["ap"] = blend * pp["ap"] + (1.0 - blend) * ep[2]
+        scorelines, scenarios, score_pick = aligned_scorelines(
+            pp["lh"], pp["la"], best_rho, [pp["hp"], pp["dp"], pp["ap"]]
+        )
         conf, conf_rate = base.assign_confidence(pp, calibration)
         predictions[base.fixture_key(f)] = {
             "lh": round(pp["lh"], 4), "la": round(pp["la"], 4),
             "hp": round(pp["hp"], 5), "dp": round(pp["dp"], 5), "ap": round(pp["ap"], 5),
-            "o": round(pp["o"], 5), "b": round(pp["b"], 5), "s": pp["s"],
+            "o": round(pp["o"], 5), "b": round(pp["b"], 5), "s": scorelines,
+            "scenarios": scenarios, "pick": score_pick,
             "conf": conf, "confRate": round(conf_rate, 4), "support": round(pp["support"], 2),
         }
 
     improvement = (baseline["logLoss"] - validation["logLoss"]) / baseline["logLoss"]
     payload = {
-        "version": "2.1 historical Poisson + Elo ensemble",
+        "version": "2.2 outcome-aligned Poisson + Elo ensemble",
         "updatedAt": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
-        "method": "Walk-forward ensemble: recency-weighted home/away Poisson plus Elo team strength; Dixon-Coles correction and calibrated confidence",
+        "method": "Walk-forward ensemble: recency-weighted home/away Poisson plus Elo team strength; Dixon-Coles correction, calibrated confidence, and exact-score marginals aligned to final 1X2 probabilities",
         "params": {
             "halfLifeDays": int(best_poisson["half_life"]),
             "priorMatches": int(best_poisson["prior"]),

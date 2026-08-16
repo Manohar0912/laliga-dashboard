@@ -47,7 +47,20 @@ high = (validation.get('confidence') or {}).get('high') or {}
 assert high.get('matches', 0) >= 100, f"high-confidence validation sample too small: {high}"
 assert high.get('accuracy', 0) >= 0.64, f"high-confidence bucket is not reliable enough: {high}"
 snapshot = json.loads((ROOT / 'data/current_snapshot.json').read_text(encoding='utf-8'))
-assert len(model.get('predictions') or {}) == len(snapshot.get('fixtures') or []), 'every upcoming fixture must have a trained prediction'
+snapshot_teams = set(snapshot.get('teams') or [])
+assert 'Barça' not in snapshot_teams and 'Barca' not in snapshot_teams, 'Barcelona short name leaked into snapshot'
+assert 'Athletic' not in snapshot_teams, 'Athletic short name leaked into snapshot'
+assert 'FC Barcelona' in snapshot_teams, 'FC Barcelona canonical name missing from snapshot'
+assert 'Athletic Club' in snapshot_teams, 'Athletic Club canonical name missing from snapshot'
+predictions = model.get('predictions') or {}
+assert len(predictions) == len(snapshot.get('fixtures') or []), 'every upcoming fixture must have a trained prediction'
+for key, pred in predictions.items():
+    probs = [pred.get('hp', 0), pred.get('dp', 0), pred.get('ap', 0)]
+    expected = 'HDA'[max(range(3), key=lambda i: probs[i])]
+    pick = pred.get('pick') or {}
+    assert pick.get('outcome') == expected, f'score pick contradicts 1X2 favourite for {key}: {pred}'
+    scenarios = pred.get('scenarios') or {}
+    assert set(scenarios) == {'H', 'D', 'A'}, f'missing outcome score scenarios for {key}'
 
 html = (ROOT / 'index.html').read_text(encoding='utf-8')
 assert 'const DATA={' in html
@@ -60,6 +73,8 @@ assert 'data-v="players"' not in html
 assert 'id="players"' not in html
 assert 'Historically trained Poisson + Elo ensemble' in html
 assert 'historical hit rate' in html
+assert 'MODEL SCORE PICK' in html and 'OUTCOME SCORE SCENARIOS' in html
+assert 'Barça' not in html and '>Athletic<' not in html
 print(
     f'OK: {len(rows):,} match rows; no duplicates; '
     f'Barcelona-Athletic H2H={len(barca_athletic)}; '
