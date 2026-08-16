@@ -73,7 +73,8 @@ assert 'data-v="players"' not in html
 assert 'id="players"' not in html
 assert 'Historically trained Poisson + Elo ensemble' in html
 assert 'historical hit rate' in html
-assert 'MODEL SCORE PICK' in html and 'OUTCOME SCORE SCENARIOS' in html
+assert 'TOP 3 EXACT SCORES' in html
+assert 'MODEL SCORE PICK' not in html and 'OUTCOME SCORE SCENARIOS' not in html
 assert 'Barça' not in html and '>Athletic<' not in html
 print(
     f'OK: {len(rows):,} match rows; no duplicates; '
