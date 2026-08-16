@@ -14,8 +14,10 @@ on:
       - 'scripts/validate.py'
       - '.github/workflows/update-laliga.yml'
   schedule:
-    # Nightly results sync after the latest usual LaLiga kickoffs have finished.
-    - cron: '17 0 * * *'
+    # During the LaLiga match window, check every 30 minutes for newly
+    # completed current-season matches. UTC 10:12-23:42 covers the usual
+    # Spanish match window across summer and winter time.
+    - cron: '12,42 10-23 * * *'
 
 permissions:
   contents: write
@@ -56,19 +58,36 @@ jobs:
           FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
         run: python scripts/update_laliga.py
 
+      - name: Detect completed-result changes
+        id: result_changes
+        shell: bash
+        run: |
+          if git diff --quiet -- data/laliga_matches.csv; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No newly completed or corrected current-season results."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Completed-result change detected; rebuilding analytics and deployment."
+          fi
+
       - name: Train prediction model
+        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true'
         run: python scripts/train_model_ensemble.py
 
       - name: Rebuild dashboard with refreshed analytics
+        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true'
         run: python scripts/update_laliga.py --offline
 
       - name: Embed trained prediction model
+        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true'
         run: python scripts/inject_model.py
 
       - name: Validate build
+        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true'
         run: python scripts/validate.py
 
       - name: Commit refreshed data
+        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true'
         run: |
           if [ -z "$(git status --porcelain -- data/laliga_matches.csv data/current_snapshot.json data/model_predictions.json index.html)" ]; then
             echo "No repository data changes."
@@ -81,19 +100,23 @@ jobs:
           fi
 
       - name: Configure GitHub Pages
+        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true'
         uses: actions/configure-pages@v5
 
       - name: Prepare published site
+        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true'
         run: |
           rm -rf site
           mkdir site
           cp index.html site/index.html
 
       - name: Upload Pages artifact
+        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
 
       - name: Deploy to GitHub Pages
+        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
