@@ -1,0 +1,67 @@
+name: Favourite-conditioned scoreline test
+
+on:
+  push:
+    branches:
+      - agent/condition-scorelines-on-favourite
+
+permissions:
+  contents: write
+
+jobs:
+  test-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Apply favourite-conditioned scoreline patch
+        run: python scripts/condition_scorelines_once.py
+      - name: Assemble template
+        run: cat template_parts/part*.html > dashboard_template.html
+      - name: Rebuild dashboard offline
+        run: python scripts/update_laliga.py --offline
+      - name: Retrain model
+        run: python scripts/train_model_ensemble.py
+      - name: Rebuild dashboard with trained inputs
+        run: python scripts/update_laliga.py --offline
+      - name: Embed trained model
+        run: python scripts/inject_model.py
+      - name: Validate dashboard
+        run: python scripts/validate.py
+      - name: Validate JavaScript
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          html = Path('index.html').read_text(encoding='utf-8')
+          js = html.rsplit('<script>', 1)[1].split('</script>', 1)[0]
+          Path('/tmp/dashboard.js').write_text(js, encoding='utf-8')
+          PY
+          node --check /tmp/dashboard.js
+      - name: Inspect Racing vs Villarreal scoreline logic
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          model = json.loads(Path('data/model_predictions.json').read_text(encoding='utf-8'))
+          p = model['predictions']['id:564629']
+          probs = {'H': p['hp'], 'D': p['dp'], 'A': p['ap']}
+          fav = max(probs, key=probs.get)
+          assert fav == 'A', probs
+          assert p['favouredOutcome'] == 'A'
+          rows = p['favouredScores']
+          assert len(rows) == 3 and all(r['outcome'] == 'A' and r['j'] > r['i'] for r in rows), rows
+          print('1X2:', probs)
+          print('Favoured scorelines:', rows)
+          PY
+      - name: Commit validated non-workflow changes
+        run: |
+          rm -f scripts/condition_scorelines_once.py
+          git config user.name "laliga-dashboard-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add scripts/train_model_ensemble.py scripts/validate.py template_parts/part04.html dashboard_template.html data/model_predictions.json index.html scripts/condition_scorelines_once.py
+          git commit -m "Condition scorelines on favoured prediction outcome" || true
+          git push
