@@ -15,6 +15,9 @@ on:
       - 'scripts/validate.py'
       - '.github/workflows/update-laliga.yml'
   schedule:
+    # Nightly results sync after the latest usual LaLiga kickoffs have finished.
+    - cron: '17 0 * * *'
+    # Weekly deeper refresh also updates the player analytics catalogue.
     - cron: '17 5 * * 2'
 
 permissions:
@@ -57,6 +60,7 @@ jobs:
         run: python scripts/update_laliga.py
 
       - name: Refresh player analytics
+        if: github.event_name != 'schedule' || github.event.schedule == '17 5 * * 2'
         run: python scripts/update_players.py
 
       - name: Train prediction model
