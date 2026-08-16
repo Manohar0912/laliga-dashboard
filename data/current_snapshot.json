@@ -25,16 +25,6 @@
   ],
   "fixtures": [
     {
-      "id": 564632,
-      "date": "2026-08-16",
-      "time": "19:00",
-      "home": "RCD Espanyol",
-      "away": "Levante UD",
-      "referee": "Carlos Muñiz Muñoz",
-      "status": "LIVE",
-      "matchday": 1
-    },
-    {
       "id": 564635,
       "date": "2026-08-17",
       "time": "21:00",
@@ -3817,6 +3807,16 @@
       "ht_away_goals": 1
     },
     {
+      "id": 564632,
+      "date": "2026-08-16",
+      "home": "RCD Espanyol",
+      "away": "Levante UD",
+      "home_goals": 3,
+      "away_goals": 0,
+      "ht_home_goals": 2,
+      "ht_away_goals": 0
+    },
+    {
       "id": 564629,
       "date": "2026-08-16",
       "home": "Racing Santander",
@@ -3828,5 +3828,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-08-16T18:33:46Z"
+  "updatedAt": "2026-08-16T19:31:58Z"
 }
