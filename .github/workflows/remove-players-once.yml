@@ -1,0 +1,49 @@
+name: Remove Players section test
+
+on:
+  push:
+    branches:
+      - agent/remove-players-v2
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply cleanup
+        run: python scripts/remove_players_once.py
+      - name: Assemble template
+        run: cat template_parts/part*.html > dashboard_template.html
+      - name: Rebuild dashboard offline
+        run: python scripts/update_laliga.py --offline
+      - name: Embed trained predictions
+        run: python scripts/inject_model.py
+      - name: Validate dashboard
+        run: python scripts/validate.py
+      - name: Validate JavaScript
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          html = Path('index.html').read_text(encoding='utf-8')
+          js = html.rsplit('<script>', 1)[1].split('</script>', 1)[0]
+          Path('/tmp/laliga-dashboard.js').write_text(js, encoding='utf-8')
+          PY
+          node --check /tmp/laliga-dashboard.js
+      - name: Confirm Players is absent
+        run: |
+          ! grep -q 'data-v="players"' index.html
+          ! grep -q 'id="players"' index.html
+      - name: Commit validated cleanup
+        run: |
+          rm -f scripts/remove_players_once.py .github/workflows/remove-players-once.yml
+          git config user.name "laliga-dashboard-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -m "Remove Players section and player refresh pipeline"
+          git push
