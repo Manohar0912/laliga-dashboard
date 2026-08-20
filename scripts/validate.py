@@ -47,6 +47,9 @@ high = (validation.get('confidence') or {}).get('high') or {}
 assert high.get('matches', 0) >= 100, f"high-confidence validation sample too small: {high}"
 assert high.get('accuracy', 0) >= 0.64, f"high-confidence bucket is not reliable enough: {high}"
 snapshot = json.loads((ROOT / 'data/current_snapshot.json').read_text(encoding='utf-8'))
+season_stats = json.loads((ROOT / 'data/season_stats.json').read_text(encoding='utf-8'))
+current_players = ((season_stats.get('seasons') or {}).get('2026/27') or {}).get('players') or []
+assert current_players, 'current-season player leaderboards are empty'
 snapshot_teams = set(snapshot.get('teams') or [])
 assert 'Barça' not in snapshot_teams and 'Barca' not in snapshot_teams, 'Barcelona short name leaked into snapshot'
 assert 'Athletic' not in snapshot_teams, 'Athletic short name leaked into snapshot'
@@ -73,6 +76,9 @@ assert 'const DATA={' in html
 assert 'const PREDICTION_MODEL={' in html
 assert '__DATA_JSON__' not in html and '__LAST_UPDATED__' not in html
 assert '1928/29' in html and '2026/27' in html
+assert '<section id="stats" class="view"></section>' in html
+assert 'data-v="stats"' in html
+assert 'CLUB CLEAN SHEETS' in html and 'TOP GOAL SCORERS' in html and 'TOP ASSISTS' in html
 assert '<section class="view" id="h2h"></section>' in html
 assert '<section class="view" id="predictions"></section>' in html
 assert 'data-v="players"' not in html

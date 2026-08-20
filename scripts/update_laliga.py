@@ -23,6 +23,7 @@ MATCHES_CSV = DATA_DIR / "laliga_matches.csv"
 STATIC_JSON = DATA_DIR / "static_data.json"
 PLAYER_JSON = DATA_DIR / "player_data.json"
 SNAPSHOT_JSON = DATA_DIR / "current_snapshot.json"
+SEASON_STATS_JSON = DATA_DIR / "season_stats.json"
 TEMPLATE_DIR = ROOT / "template_parts"
 OUTPUT_HTML = ROOT / "index.html"
 CONFIG_JSON = ROOT / "config.json"
@@ -259,6 +260,18 @@ def load_player_payload() -> dict:
         return {}
 
 
+def load_season_stats() -> dict:
+    if not SEASON_STATS_JSON.exists():
+        return {"seasons": {}}
+    try:
+        payload = json.loads(SEASON_STATS_JSON.read_text(encoding="utf-8"))
+    except Exception as exc:
+        print(f"WARNING: season_stats.json could not be loaded: {exc}", file=sys.stderr)
+        return {"seasons": {}}
+    payload.setdefault("seasons", {})
+    return payload
+
+
 def build_data(rows: list[dict], snapshot: dict, static: dict, config: dict) -> dict:
     seasons = defaultdict(list)
     for row in rows:
@@ -275,10 +288,12 @@ def build_data(rows: list[dict], snapshot: dict, static: dict, config: dict) -> 
     meta["currentFinishedMatches"] = len(seasons[current_season])
     current_teams = snapshot.get("teams") or static["currentTeams"]
     player_payload = load_player_payload()
+    season_stats = load_season_stats()
     return {
         "seasons": dict(seasons),
         "currentTeams": current_teams,
         "fixtures": snapshot.get("fixtures", []),
+        "seasonStats": season_stats,
         # Keep the legacy two-season object for backwards compatibility, while
         # the redesigned Players view consumes the richer profile catalogue.
         "players": static["players"],
