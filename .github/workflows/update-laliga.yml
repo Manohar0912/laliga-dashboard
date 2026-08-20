@@ -8,6 +8,7 @@ on:
     paths:
       - 'template_parts/**'
       - 'scripts/update_laliga.py'
+      - 'scripts/update_season_stats.py'
       - 'scripts/train_model.py'
       - 'scripts/train_model_ensemble.py'
       - 'scripts/inject_model.py'
@@ -70,6 +71,12 @@ jobs:
             echo "Completed-result change detected; rebuilding analytics and deployment."
           fi
 
+      - name: Refresh season leaderboards
+        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true'
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: python scripts/update_season_stats.py
+
       - name: Train prediction model
         if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true'
         run: python scripts/train_model_ensemble.py
@@ -89,13 +96,13 @@ jobs:
       - name: Commit refreshed data
         if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true'
         run: |
-          if [ -z "$(git status --porcelain -- data/laliga_matches.csv data/current_snapshot.json data/model_predictions.json index.html)" ]; then
+          if [ -z "$(git status --porcelain -- data/laliga_matches.csv data/current_snapshot.json data/season_stats.json data/model_predictions.json index.html)" ]; then
             echo "No repository data changes."
           else
             git config user.name "laliga-dashboard-bot"
             git config user.email "actions@users.noreply.github.com"
-            git add data/laliga_matches.csv data/current_snapshot.json data/model_predictions.json index.html
-            git commit -m "chore: refresh LaLiga data and model" || true
+            git add data/laliga_matches.csv data/current_snapshot.json data/season_stats.json data/model_predictions.json index.html
+            git commit -m "chore: refresh LaLiga data, season stats and model" || true
             git push
           fi
 
