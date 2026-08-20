@@ -1614,6 +1614,14 @@
     "2026/27": {
       "players": [
         {
+          "name": "Mariano Díaz",
+          "team": "Deportivo Alavés",
+          "matches": 2,
+          "goals": 2,
+          "assists": 2,
+          "penalties": 0
+        },
+        {
           "name": "Roberto Fernández",
           "team": "RCD Espanyol",
           "matches": 1,
@@ -1624,23 +1632,15 @@
         {
           "name": "Nahuel Tenaglia",
           "team": "Deportivo Alavés",
-          "matches": 1,
+          "matches": 2,
           "goals": 1,
           "assists": 0,
           "penalties": 0
         },
         {
-          "name": "Mariano Díaz",
-          "team": "Deportivo Alavés",
-          "matches": 1,
-          "goals": 1,
-          "assists": 2,
-          "penalties": 0
-        },
-        {
           "name": "Mikel Rodríguez",
           "team": "Deportivo Alavés",
-          "matches": 1,
+          "matches": 2,
           "goals": 1,
           "assists": 0,
           "penalties": 0
@@ -1648,7 +1648,7 @@
         {
           "name": "Álvaro García",
           "team": "Rayo Vallecano",
-          "matches": 1,
+          "matches": 2,
           "goals": 1,
           "assists": 0,
           "penalties": 0
@@ -1740,10 +1740,18 @@
           "goals": 1,
           "assists": 0,
           "penalties": 0
+        },
+        {
+          "name": "Sergio Camello",
+          "team": "Rayo Vallecano",
+          "matches": 2,
+          "goals": 1,
+          "assists": 0,
+          "penalties": 0
         }
       ],
-      "updatedAt": "2026-08-20T14:35:41Z"
+      "updatedAt": "2026-08-20T21:42:19Z"
     }
   },
-  "updatedAt": "2026-08-20T14:35:41Z"
+  "updatedAt": "2026-08-20T21:42:19Z"
 }
