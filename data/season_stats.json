@@ -1,4 +1,1749 @@
 {
   "source": "football-data.org v4 / competitions/PD/scorers",
-  "seasons": {}
+  "seasons": {
+    "2024/25": {
+      "players": [
+        {
+          "name": "Kylian Mbappé",
+          "team": "Real Madrid",
+          "matches": 34,
+          "goals": 31,
+          "assists": 3,
+          "penalties": 7
+        },
+        {
+          "name": "Robert Lewandowski",
+          "team": "FC Barcelona",
+          "matches": 36,
+          "goals": 27,
+          "assists": 2,
+          "penalties": 3
+        },
+        {
+          "name": "Ante Budimir",
+          "team": "CA Osasuna",
+          "matches": 38,
+          "goals": 21,
+          "assists": 4,
+          "penalties": 8
+        },
+        {
+          "name": "Alexander Sørloth",
+          "team": "Atlético Madrid",
+          "matches": 37,
+          "goals": 20,
+          "assists": 2,
+          "penalties": 1
+        },
+        {
+          "name": "Ayoze Pérez",
+          "team": "Villarreal CF",
+          "matches": 30,
+          "goals": 19,
+          "assists": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Raphinha",
+          "team": "FC Barcelona",
+          "matches": 37,
+          "goals": 18,
+          "assists": 11,
+          "penalties": 2
+        },
+        {
+          "name": "Julián Álvarez",
+          "team": "Atlético Madrid",
+          "matches": 37,
+          "goals": 17,
+          "assists": 4,
+          "penalties": 4
+        },
+        {
+          "name": "Oihan Sancet",
+          "team": "Athletic Club",
+          "matches": 30,
+          "goals": 15,
+          "assists": 1,
+          "penalties": 3
+        },
+        {
+          "name": "Kike García",
+          "team": "Deportivo Alavés",
+          "matches": 37,
+          "goals": 13,
+          "assists": 0,
+          "penalties": 3
+        },
+        {
+          "name": "Javi Puado",
+          "team": "RCD Espanyol",
+          "matches": 35,
+          "goals": 12,
+          "assists": 4,
+          "penalties": 5
+        },
+        {
+          "name": "Hugo Duro",
+          "team": "Valencia CF",
+          "matches": 33,
+          "goals": 11,
+          "assists": 2,
+          "penalties": 1
+        },
+        {
+          "name": "Dodi Lukebakio",
+          "team": "Sevilla FC",
+          "matches": 38,
+          "goals": 11,
+          "assists": 2,
+          "penalties": 1
+        },
+        {
+          "name": "Borja Iglesias",
+          "team": "Celta Vigo",
+          "matches": 38,
+          "goals": 11,
+          "assists": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Thierno Barry",
+          "team": "Villarreal CF",
+          "matches": 35,
+          "goals": 11,
+          "assists": 5,
+          "penalties": 1
+        },
+        {
+          "name": "Cristhian Stuani",
+          "team": "Girona FC",
+          "matches": 38,
+          "goals": 11,
+          "assists": 1,
+          "penalties": 3
+        },
+        {
+          "name": "Vinicius Junior",
+          "team": "Real Madrid",
+          "matches": 30,
+          "goals": 11,
+          "assists": 9,
+          "penalties": 2
+        },
+        {
+          "name": "Iago Aspas",
+          "team": "Celta Vigo",
+          "matches": 33,
+          "goals": 10,
+          "assists": 6,
+          "penalties": 5
+        },
+        {
+          "name": "Dani Olmo",
+          "team": "FC Barcelona",
+          "matches": 28,
+          "goals": 10,
+          "assists": 3,
+          "penalties": 2
+        },
+        {
+          "name": "Ferrán Torres",
+          "team": "FC Barcelona",
+          "matches": 29,
+          "goals": 10,
+          "assists": 5,
+          "penalties": 0
+        },
+        {
+          "name": "Mauro Arambarri",
+          "team": "Getafe CF",
+          "matches": 35,
+          "goals": 10,
+          "assists": 0,
+          "penalties": 3
+        },
+        {
+          "name": "Fábio Silva",
+          "team": "UD Las Palmas",
+          "matches": 24,
+          "goals": 10,
+          "assists": 3,
+          "penalties": 2
+        },
+        {
+          "name": "Sandro",
+          "team": "UD Las Palmas",
+          "matches": 32,
+          "goals": 9,
+          "assists": 3,
+          "penalties": 1
+        },
+        {
+          "name": "Lamine Yamal",
+          "team": "FC Barcelona",
+          "matches": 35,
+          "goals": 9,
+          "assists": 13,
+          "penalties": 0
+        },
+        {
+          "name": "Mikel Oyarzabal",
+          "team": "Real Sociedad",
+          "matches": 37,
+          "goals": 9,
+          "assists": 2,
+          "penalties": 4
+        },
+        {
+          "name": "Jude Bellingham",
+          "team": "Real Madrid",
+          "matches": 31,
+          "goals": 9,
+          "assists": 10,
+          "penalties": 1
+        },
+        {
+          "name": "Isco",
+          "team": "Real Betis",
+          "matches": 22,
+          "goals": 9,
+          "assists": 7,
+          "penalties": 5
+        },
+        {
+          "name": "Diego López",
+          "team": "Valencia CF",
+          "matches": 37,
+          "goals": 8,
+          "assists": 4,
+          "penalties": 0
+        },
+        {
+          "name": "Antoine Griezmann",
+          "team": "Atlético Madrid",
+          "matches": 38,
+          "goals": 8,
+          "assists": 7,
+          "penalties": 1
+        },
+        {
+          "name": "Giovani Lo Celso",
+          "team": "Real Betis",
+          "matches": 25,
+          "goals": 8,
+          "assists": 3,
+          "penalties": 2
+        },
+        {
+          "name": "Dani Raba",
+          "team": "CD Leganés",
+          "matches": 34,
+          "goals": 8,
+          "assists": 6,
+          "penalties": 4
+        },
+        {
+          "name": "Vedat Muriqi",
+          "team": "RCD Mallorca",
+          "matches": 29,
+          "goals": 7,
+          "assists": 2,
+          "penalties": 2
+        },
+        {
+          "name": "Gorka Guruzeta",
+          "team": "Athletic Club",
+          "matches": 37,
+          "goals": 7,
+          "assists": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Cyle Larin",
+          "team": "RCD Mallorca",
+          "matches": 36,
+          "goals": 7,
+          "assists": 2,
+          "penalties": 1
+        },
+        {
+          "name": "Álex Baena",
+          "team": "Villarreal CF",
+          "matches": 32,
+          "goals": 7,
+          "assists": 10,
+          "penalties": 0
+        },
+        {
+          "name": "Jorge de Frutos",
+          "team": "Rayo Vallecano",
+          "matches": 36,
+          "goals": 6,
+          "assists": 3,
+          "penalties": 0
+        },
+        {
+          "name": "Rodrygo",
+          "team": "Real Madrid",
+          "matches": 31,
+          "goals": 6,
+          "assists": 4,
+          "penalties": 0
+        },
+        {
+          "name": "Federico Valverde",
+          "team": "Real Madrid",
+          "matches": 37,
+          "goals": 6,
+          "assists": 4,
+          "penalties": 0
+        },
+        {
+          "name": "Alberto Moleiro",
+          "team": "UD Las Palmas",
+          "matches": 36,
+          "goals": 6,
+          "assists": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Iñaki Williams",
+          "team": "Athletic Club",
+          "matches": 35,
+          "goals": 6,
+          "assists": 9,
+          "penalties": 0
+        },
+        {
+          "name": "Álex Berenguer",
+          "team": "Athletic Club",
+          "matches": 37,
+          "goals": 6,
+          "assists": 7,
+          "penalties": 0
+        },
+        {
+          "name": "Roberto Fernández",
+          "team": "RCD Espanyol",
+          "matches": 19,
+          "goals": 6,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Fermín López",
+          "team": "FC Barcelona",
+          "matches": 31,
+          "goals": 6,
+          "assists": 5,
+          "penalties": 0
+        },
+        {
+          "name": "Juan Cruz",
+          "team": "CD Leganés",
+          "matches": 38,
+          "goals": 5,
+          "assists": 4,
+          "penalties": 0
+        },
+        {
+          "name": "Rubén García",
+          "team": "CA Osasuna",
+          "matches": 36,
+          "goals": 5,
+          "assists": 5,
+          "penalties": 0
+        },
+        {
+          "name": "Takefusa Kubo",
+          "team": "Real Sociedad",
+          "matches": 37,
+          "goals": 5,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Carlos Vicente",
+          "team": "Deportivo Alavés",
+          "matches": 38,
+          "goals": 5,
+          "assists": 5,
+          "penalties": 1
+        },
+        {
+          "name": "Nico Williams",
+          "team": "Athletic Club",
+          "matches": 29,
+          "goals": 5,
+          "assists": 5,
+          "penalties": 0
+        },
+        {
+          "name": "Aimar Oroz",
+          "team": "CA Osasuna",
+          "matches": 37,
+          "goals": 5,
+          "assists": 4,
+          "penalties": 1
+        },
+        {
+          "name": "Borja Mayoral",
+          "team": "Getafe CF",
+          "matches": 25,
+          "goals": 5,
+          "assists": 1,
+          "penalties": 1
+        },
+        {
+          "name": "Mamadou Sylla",
+          "team": "Real Valladolid CF",
+          "matches": 35,
+          "goals": 5,
+          "assists": 2,
+          "penalties": 4
+        },
+        {
+          "name": "Santi Comesaña",
+          "team": "Villarreal CF",
+          "matches": 37,
+          "goals": 5,
+          "assists": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Alfonso González",
+          "team": "Celta Vigo",
+          "matches": 35,
+          "goals": 5,
+          "assists": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Joan Jordán",
+          "team": "Deportivo Alavés",
+          "matches": 29,
+          "goals": 5,
+          "assists": 2,
+          "penalties": 3
+        },
+        {
+          "name": "Antony",
+          "team": "Real Betis",
+          "matches": 17,
+          "goals": 5,
+          "assists": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Umar Sadiq",
+          "team": "Valencia CF",
+          "matches": 36,
+          "goals": 5,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Cucho Hernández",
+          "team": "Real Betis",
+          "matches": 16,
+          "goals": 5,
+          "assists": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Chrisantus",
+          "team": "Getafe CF",
+          "matches": 33,
+          "goals": 4,
+          "assists": 6,
+          "penalties": 0
+        },
+        {
+          "name": "Williot Swedberg",
+          "team": "Celta Vigo",
+          "matches": 33,
+          "goals": 4,
+          "assists": 4,
+          "penalties": 0
+        },
+        {
+          "name": "Juanlu",
+          "team": "Sevilla FC",
+          "matches": 36,
+          "goals": 4,
+          "assists": 3,
+          "penalties": 0
+        },
+        {
+          "name": "Raúl Moro",
+          "team": "Real Valladolid CF",
+          "matches": 33,
+          "goals": 4,
+          "assists": 4,
+          "penalties": 0
+        },
+        {
+          "name": "Arnaut Danjuma",
+          "team": "Girona FC",
+          "matches": 33,
+          "goals": 4,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Óscar Mingueza",
+          "team": "Celta Vigo",
+          "matches": 34,
+          "goals": 4,
+          "assists": 6,
+          "penalties": 0
+        },
+        {
+          "name": "Brahim Diaz",
+          "team": "Real Madrid",
+          "matches": 31,
+          "goals": 4,
+          "assists": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Pedri",
+          "team": "FC Barcelona",
+          "matches": 37,
+          "goals": 4,
+          "assists": 5,
+          "penalties": 0
+        },
+        {
+          "name": "Toni Martínez",
+          "team": "Deportivo Alavés",
+          "matches": 36,
+          "goals": 4,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Abel Ruiz",
+          "team": "Girona FC",
+          "matches": 27,
+          "goals": 4,
+          "assists": 0,
+          "penalties": 1
+        },
+        {
+          "name": "Ángel Correa",
+          "team": "Atlético Madrid",
+          "matches": 34,
+          "goals": 4,
+          "assists": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Álvaro García",
+          "team": "Rayo Vallecano",
+          "matches": 36,
+          "goals": 4,
+          "assists": 5,
+          "penalties": 0
+        },
+        {
+          "name": "Dani Rodríguez",
+          "team": "RCD Mallorca",
+          "matches": 37,
+          "goals": 4,
+          "assists": 7,
+          "penalties": 0
+        },
+        {
+          "name": "Vítor Roque",
+          "team": "Real Betis",
+          "matches": 22,
+          "goals": 4,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Hugo Alvarez",
+          "team": "Celta Vigo",
+          "matches": 34,
+          "goals": 4,
+          "assists": 3,
+          "penalties": 0
+        },
+        {
+          "name": "Raúl",
+          "team": "CA Osasuna",
+          "matches": 34,
+          "goals": 4,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Daniel Vivian",
+          "team": "Athletic Club",
+          "matches": 35,
+          "goals": 4,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Jofre Carreras Pagès",
+          "team": "RCD Espanyol",
+          "matches": 37,
+          "goals": 4,
+          "assists": 3,
+          "penalties": 0
+        },
+        {
+          "name": "Isi Palazón",
+          "team": "Rayo Vallecano",
+          "matches": 35,
+          "goals": 4,
+          "assists": 5,
+          "penalties": 0
+        },
+        {
+          "name": "Yangel Herrera",
+          "team": "Girona FC",
+          "matches": 30,
+          "goals": 4,
+          "assists": 3,
+          "penalties": 0
+        },
+        {
+          "name": "Munir El Haddadi",
+          "team": "CD Leganés",
+          "matches": 31,
+          "goals": 4,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Luis Rioja",
+          "team": "Valencia CF",
+          "matches": 37,
+          "goals": 4,
+          "assists": 3,
+          "penalties": 2
+        },
+        {
+          "name": "Leandro Cabrera",
+          "team": "RCD Espanyol",
+          "matches": 33,
+          "goals": 4,
+          "assists": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Pathé Ciss",
+          "team": "Rayo Vallecano",
+          "matches": 36,
+          "goals": 4,
+          "assists": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Isaac",
+          "team": "Sevilla FC",
+          "matches": 32,
+          "goals": 4,
+          "assists": 3,
+          "penalties": 0
+        },
+        {
+          "name": "Pablo Duran",
+          "team": "Celta Vigo",
+          "matches": 37,
+          "goals": 4,
+          "assists": 4,
+          "penalties": 0
+        },
+        {
+          "name": "Yeremi Pino",
+          "team": "Villarreal CF",
+          "matches": 35,
+          "goals": 4,
+          "assists": 7,
+          "penalties": 0
+        },
+        {
+          "name": "Pape Gueye",
+          "team": "Villarreal CF",
+          "matches": 34,
+          "goals": 4,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "RamónTerrats Espacio",
+          "team": "Getafe CF",
+          "matches": 31,
+          "goals": 4,
+          "assists": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Sergio Camello",
+          "team": "Rayo Vallecano",
+          "matches": 25,
+          "goals": 3,
+          "assists": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Dani Parejo",
+          "team": "Villarreal CF",
+          "matches": 36,
+          "goals": 3,
+          "assists": 3,
+          "penalties": 1
+        },
+        {
+          "name": "Unai López",
+          "team": "Rayo Vallecano",
+          "matches": 33,
+          "goals": 3,
+          "assists": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Brais Méndez",
+          "team": "Real Sociedad",
+          "matches": 31,
+          "goals": 3,
+          "assists": 3,
+          "penalties": 0
+        },
+        {
+          "name": "Bryan Gil",
+          "team": "Girona FC",
+          "matches": 25,
+          "goals": 3,
+          "assists": 3,
+          "penalties": 0
+        },
+        {
+          "name": "Anastasios Douvikas",
+          "team": "Celta Vigo",
+          "matches": 22,
+          "goals": 3,
+          "assists": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Aitor Paredes Casamichana",
+          "team": "Athletic Club",
+          "matches": 34,
+          "goals": 3,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Álex Muñoz",
+          "team": "UD Las Palmas",
+          "matches": 37,
+          "goals": 3,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Conor Gallagher",
+          "team": "Atlético Madrid",
+          "matches": 37,
+          "goals": 3,
+          "assists": 3,
+          "penalties": 0
+        },
+        {
+          "name": "Pablo Torre",
+          "team": "FC Barcelona",
+          "matches": 36,
+          "goals": 3,
+          "assists": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Orri Oskarsson",
+          "team": "Real Sociedad",
+          "matches": 26,
+          "goals": 3,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Nicolas Pépé",
+          "team": "Villarreal CF",
+          "matches": 28,
+          "goals": 3,
+          "assists": 6,
+          "penalties": 0
+        },
+        {
+          "name": "Marash Kumbulla",
+          "team": "RCD Espanyol",
+          "matches": 35,
+          "goals": 3,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Selim Amallah",
+          "team": "Real Valladolid CF",
+          "matches": 31,
+          "goals": 3,
+          "assists": 1,
+          "penalties": 1
+        },
+        {
+          "name": "Yaser Asprilla",
+          "team": "Girona FC",
+          "matches": 30,
+          "goals": 3,
+          "assists": 1,
+          "penalties": 0
+        }
+      ],
+      "updatedAt": "2026-08-20T14:32:09Z"
+    },
+    "2025/26": {
+      "players": [
+        {
+          "name": "Kylian Mbappé",
+          "team": "Real Madrid",
+          "matches": 31,
+          "goals": 25,
+          "assists": 4,
+          "penalties": 8
+        },
+        {
+          "name": "Vedat Muriqi",
+          "team": "RCD Mallorca",
+          "matches": 37,
+          "goals": 23,
+          "assists": 1,
+          "penalties": 5
+        },
+        {
+          "name": "Ante Budimir",
+          "team": "CA Osasuna",
+          "matches": 37,
+          "goals": 17,
+          "assists": 0,
+          "penalties": 6
+        },
+        {
+          "name": "Ferrán Torres",
+          "team": "FC Barcelona",
+          "matches": 35,
+          "goals": 16,
+          "assists": 3,
+          "penalties": 0
+        },
+        {
+          "name": "Lamine Yamal",
+          "team": "FC Barcelona",
+          "matches": 28,
+          "goals": 16,
+          "assists": 11,
+          "penalties": 3
+        },
+        {
+          "name": "Vinicius Junior",
+          "team": "Real Madrid",
+          "matches": 35,
+          "goals": 16,
+          "assists": 5,
+          "penalties": 4
+        },
+        {
+          "name": "Borja Iglesias",
+          "team": "Celta Vigo",
+          "matches": 37,
+          "goals": 15,
+          "assists": 1,
+          "penalties": 4
+        },
+        {
+          "name": "Mikel Oyarzabal",
+          "team": "Real Sociedad",
+          "matches": 35,
+          "goals": 15,
+          "assists": 4,
+          "penalties": 7
+        },
+        {
+          "name": "Toni Martínez",
+          "team": "Deportivo Alavés",
+          "matches": 38,
+          "goals": 14,
+          "assists": 3,
+          "penalties": 1
+        },
+        {
+          "name": "Robert Lewandowski",
+          "team": "FC Barcelona",
+          "matches": 35,
+          "goals": 14,
+          "assists": 2,
+          "penalties": 1
+        },
+        {
+          "name": "Raphinha",
+          "team": "FC Barcelona",
+          "matches": 24,
+          "goals": 13,
+          "assists": 3,
+          "penalties": 3
+        },
+        {
+          "name": "Alexander Sørloth",
+          "team": "Atlético Madrid",
+          "matches": 35,
+          "goals": 13,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Georges Mikautadze",
+          "team": "Villarreal CF",
+          "matches": 33,
+          "goals": 13,
+          "assists": 6,
+          "penalties": 0
+        },
+        {
+          "name": "Cucho Hernández",
+          "team": "Real Betis",
+          "matches": 32,
+          "goals": 11,
+          "assists": 3,
+          "penalties": 1
+        },
+        {
+          "name": "Lucas Boyé",
+          "team": "Deportivo Alavés",
+          "matches": 30,
+          "goals": 11,
+          "assists": 1,
+          "penalties": 3
+        },
+        {
+          "name": "Carlos Espí",
+          "team": "Levante UD",
+          "matches": 34,
+          "goals": 11,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Jorge de Frutos",
+          "team": "Rayo Vallecano",
+          "matches": 36,
+          "goals": 10,
+          "assists": 1,
+          "penalties": 1
+        },
+        {
+          "name": "Hugo Duro",
+          "team": "Valencia CF",
+          "matches": 37,
+          "goals": 10,
+          "assists": 0,
+          "penalties": 1
+        },
+        {
+          "name": "André Silva",
+          "team": "Elche CF",
+          "matches": 33,
+          "goals": 10,
+          "assists": 0,
+          "penalties": 3
+        },
+        {
+          "name": "Alberto Moleiro",
+          "team": "Villarreal CF",
+          "matches": 37,
+          "goals": 10,
+          "assists": 5,
+          "penalties": 0
+        },
+        {
+          "name": "Akor Adams",
+          "team": "Sevilla FC",
+          "matches": 32,
+          "goals": 10,
+          "assists": 3,
+          "penalties": 3
+        },
+        {
+          "name": "Abdessamad Ezzalzouli",
+          "team": "Real Betis",
+          "matches": 29,
+          "goals": 10,
+          "assists": 8,
+          "penalties": 0
+        },
+        {
+          "name": "Gerard Moreno",
+          "team": "Villarreal CF",
+          "matches": 23,
+          "goals": 10,
+          "assists": 0,
+          "penalties": 3
+        },
+        {
+          "name": "Gorka Guruzeta",
+          "team": "Athletic Club",
+          "matches": 36,
+          "goals": 10,
+          "assists": 3,
+          "penalties": 1
+        },
+        {
+          "name": "Orri Oskarsson",
+          "team": "Real Sociedad",
+          "matches": 21,
+          "goals": 9,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Vladyslav Vanat",
+          "team": "Girona FC",
+          "matches": 27,
+          "goals": 9,
+          "assists": 1,
+          "penalties": 3
+        },
+        {
+          "name": "Pablo Fornals",
+          "team": "Real Betis",
+          "matches": 38,
+          "goals": 9,
+          "assists": 6,
+          "penalties": 0
+        },
+        {
+          "name": "Federico Viñas",
+          "team": "Real Oviedo",
+          "matches": 33,
+          "goals": 9,
+          "assists": 1,
+          "penalties": 2
+        },
+        {
+          "name": "Ferran Jutglà",
+          "team": "Celta Vigo",
+          "matches": 35,
+          "goals": 9,
+          "assists": 3,
+          "penalties": 0
+        },
+        {
+          "name": "Julián Álvarez",
+          "team": "Atlético Madrid",
+          "matches": 32,
+          "goals": 8,
+          "assists": 4,
+          "penalties": 2
+        },
+        {
+          "name": "Rafael Mir",
+          "team": "Elche CF",
+          "matches": 30,
+          "goals": 8,
+          "assists": 0,
+          "penalties": 1
+        },
+        {
+          "name": "Nicolas Pépé",
+          "team": "Villarreal CF",
+          "matches": 37,
+          "goals": 8,
+          "assists": 8,
+          "penalties": 1
+        },
+        {
+          "name": "Kike García",
+          "team": "RCD Espanyol",
+          "matches": 37,
+          "goals": 8,
+          "assists": 1,
+          "penalties": 1
+        },
+        {
+          "name": "Marcus Rashford",
+          "team": "FC Barcelona",
+          "matches": 36,
+          "goals": 8,
+          "assists": 7,
+          "penalties": 0
+        },
+        {
+          "name": "Antony",
+          "team": "Real Betis",
+          "matches": 32,
+          "goals": 8,
+          "assists": 6,
+          "penalties": 0
+        },
+        {
+          "name": "Gonçalo Guedes",
+          "team": "Real Sociedad",
+          "matches": 32,
+          "goals": 8,
+          "assists": 4,
+          "penalties": 0
+        },
+        {
+          "name": "Karl Etta Eyong",
+          "team": "Levante UD",
+          "matches": 36,
+          "goals": 7,
+          "assists": 5,
+          "penalties": 0
+        },
+        {
+          "name": "Pere Milla",
+          "team": "RCD Espanyol",
+          "matches": 34,
+          "goals": 7,
+          "assists": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Iván Romero",
+          "team": "Levante UD",
+          "matches": 35,
+          "goals": 7,
+          "assists": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Tajon Buchanan",
+          "team": "Villarreal CF",
+          "matches": 35,
+          "goals": 7,
+          "assists": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Raúl",
+          "team": "CA Osasuna",
+          "matches": 37,
+          "goals": 7,
+          "assists": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Roberto Fernández",
+          "team": "RCD Espanyol",
+          "matches": 37,
+          "goals": 7,
+          "assists": 2,
+          "penalties": 1
+        },
+        {
+          "name": "Dani Olmo",
+          "team": "FC Barcelona",
+          "matches": 33,
+          "goals": 7,
+          "assists": 9,
+          "penalties": 0
+        },
+        {
+          "name": "Antoine Griezmann",
+          "team": "Atlético Madrid",
+          "matches": 36,
+          "goals": 7,
+          "assists": 4,
+          "penalties": 0
+        },
+        {
+          "name": "Samuel Almeida Costa",
+          "team": "RCD Mallorca",
+          "matches": 34,
+          "goals": 7,
+          "assists": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Alvaro Rodriguez",
+          "team": "Elche CF",
+          "matches": 37,
+          "goals": 7,
+          "assists": 5,
+          "penalties": 0
+        },
+        {
+          "name": "Nico Williams",
+          "team": "Athletic Club",
+          "matches": 25,
+          "goals": 6,
+          "assists": 4,
+          "penalties": 1
+        },
+        {
+          "name": "Roberto Navarro",
+          "team": "Athletic Club",
+          "matches": 34,
+          "goals": 6,
+          "assists": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Carlos Romero",
+          "team": "RCD Espanyol",
+          "matches": 35,
+          "goals": 6,
+          "assists": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Fermín López",
+          "team": "FC Barcelona",
+          "matches": 31,
+          "goals": 6,
+          "assists": 9,
+          "penalties": 0
+        },
+        {
+          "name": "Mauro Arambarri",
+          "team": "Getafe CF",
+          "matches": 37,
+          "goals": 6,
+          "assists": 2,
+          "penalties": 2
+        },
+        {
+          "name": "Víctor Muñoz",
+          "team": "CA Osasuna",
+          "matches": 34,
+          "goals": 6,
+          "assists": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Jude Bellingham",
+          "team": "Real Madrid",
+          "matches": 27,
+          "goals": 6,
+          "assists": 4,
+          "penalties": 0
+        },
+        {
+          "name": "Viktor Tsyhankov",
+          "team": "Girona FC",
+          "matches": 32,
+          "goals": 6,
+          "assists": 5,
+          "penalties": 0
+        },
+        {
+          "name": "Gonzalo García",
+          "team": "Real Madrid",
+          "matches": 37,
+          "goals": 6,
+          "assists": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Ilyas Chaira",
+          "team": "Real Oviedo",
+          "matches": 36,
+          "goals": 6,
+          "assists": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Largie Ramazani",
+          "team": "Valencia CF",
+          "matches": 31,
+          "goals": 6,
+          "assists": 1,
+          "penalties": 3
+        },
+        {
+          "name": "Martin Satriano",
+          "team": "Getafe CF",
+          "matches": 18,
+          "goals": 6,
+          "assists": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Pape Gueye",
+          "team": "Villarreal CF",
+          "matches": 32,
+          "goals": 5,
+          "assists": 2,
+          "penalties": 1
+        },
+        {
+          "name": "Carlos Vicente",
+          "team": "Deportivo Alavés",
+          "matches": 21,
+          "goals": 5,
+          "assists": 0,
+          "penalties": 3
+        },
+        {
+          "name": "Nicolás González",
+          "team": "Atlético Madrid",
+          "matches": 24,
+          "goals": 5,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Brais Méndez",
+          "team": "Real Sociedad",
+          "matches": 34,
+          "goals": 5,
+          "assists": 2,
+          "penalties": 1
+        },
+        {
+          "name": "Azzedine Ounahi",
+          "team": "Girona FC",
+          "matches": 24,
+          "goals": 5,
+          "assists": 2,
+          "penalties": 1
+        },
+        {
+          "name": "Djibril Sow",
+          "team": "Sevilla FC",
+          "matches": 34,
+          "goals": 5,
+          "assists": 4,
+          "penalties": 0
+        },
+        {
+          "name": "Iago Aspas",
+          "team": "Celta Vigo",
+          "matches": 37,
+          "goals": 5,
+          "assists": 3,
+          "penalties": 2
+        },
+        {
+          "name": "Cristhian Stuani",
+          "team": "Girona FC",
+          "matches": 26,
+          "goals": 5,
+          "assists": 0,
+          "penalties": 3
+        },
+        {
+          "name": "Ayoze Pérez",
+          "team": "Villarreal CF",
+          "matches": 26,
+          "goals": 5,
+          "assists": 4,
+          "penalties": 1
+        },
+        {
+          "name": "Williot Swedberg",
+          "team": "Celta Vigo",
+          "matches": 31,
+          "goals": 5,
+          "assists": 5,
+          "penalties": 0
+        },
+        {
+          "name": "Federico Valverde",
+          "team": "Real Madrid",
+          "matches": 32,
+          "goals": 5,
+          "assists": 6,
+          "penalties": 0
+        },
+        {
+          "name": "Sergio Camello",
+          "team": "Rayo Vallecano",
+          "matches": 32,
+          "goals": 5,
+          "assists": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Álvaro García",
+          "team": "Rayo Vallecano",
+          "matches": 32,
+          "goals": 4,
+          "assists": 5,
+          "penalties": 0
+        },
+        {
+          "name": "Diego López",
+          "team": "Valencia CF",
+          "matches": 36,
+          "goals": 4,
+          "assists": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Aitor Ruibal",
+          "team": "Real Betis",
+          "matches": 31,
+          "goals": 4,
+          "assists": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Germán Valera",
+          "team": "Elche CF",
+          "matches": 36,
+          "goals": 4,
+          "assists": 5,
+          "penalties": 0
+        },
+        {
+          "name": "Oihan Sancet",
+          "team": "Athletic Club",
+          "matches": 28,
+          "goals": 4,
+          "assists": 0,
+          "penalties": 2
+        },
+        {
+          "name": "Hugo Alvarez",
+          "team": "Celta Vigo",
+          "matches": 34,
+          "goals": 4,
+          "assists": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Giuliano Simeone",
+          "team": "Atlético Madrid",
+          "matches": 33,
+          "goals": 4,
+          "assists": 6,
+          "penalties": 0
+        },
+        {
+          "name": "Isaac",
+          "team": "Sevilla FC",
+          "matches": 33,
+          "goals": 4,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Arda Guler",
+          "team": "Real Madrid",
+          "matches": 32,
+          "goals": 4,
+          "assists": 9,
+          "penalties": 0
+        },
+        {
+          "name": "Borja Mayoral",
+          "team": "Getafe CF",
+          "matches": 21,
+          "goals": 4,
+          "assists": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Alexis Sánchez",
+          "team": "Sevilla FC",
+          "matches": 30,
+          "goals": 4,
+          "assists": 2,
+          "penalties": 1
+        },
+        {
+          "name": "Alberto Reina",
+          "team": "Real Oviedo",
+          "matches": 37,
+          "goals": 4,
+          "assists": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Carlos Soler",
+          "team": "Real Sociedad",
+          "matches": 34,
+          "goals": 4,
+          "assists": 3,
+          "penalties": 0
+        },
+        {
+          "name": "Alexandre Alemão",
+          "team": "Rayo Vallecano",
+          "matches": 31,
+          "goals": 4,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Pablo Torre",
+          "team": "RCD Mallorca",
+          "matches": 38,
+          "goals": 4,
+          "assists": 4,
+          "penalties": 0
+        },
+        {
+          "name": "Umar Sadiq",
+          "team": "Valencia CF",
+          "matches": 31,
+          "goals": 4,
+          "assists": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Ademola Lookman",
+          "team": "Atlético Madrid",
+          "matches": 14,
+          "goals": 4,
+          "assists": 0,
+          "penalties": 1
+        },
+        {
+          "name": "Javier Guerra",
+          "team": "Valencia CF",
+          "matches": 38,
+          "goals": 4,
+          "assists": 6,
+          "penalties": 0
+        },
+        {
+          "name": "Guido Rodríguez",
+          "team": "Valencia CF",
+          "matches": 16,
+          "goals": 4,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Isi Palazón",
+          "team": "Rayo Vallecano",
+          "matches": 31,
+          "goals": 3,
+          "assists": 2,
+          "penalties": 2
+        },
+        {
+          "name": "Casals",
+          "team": "Girona FC",
+          "matches": 34,
+          "goals": 3,
+          "assists": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Adri Liso",
+          "team": "Getafe CF",
+          "matches": 34,
+          "goals": 3,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Ander Barrenetxea",
+          "team": "Real Sociedad",
+          "matches": 30,
+          "goals": 3,
+          "assists": 5,
+          "penalties": 0
+        },
+        {
+          "name": "Arnaut Danjuma",
+          "team": "Valencia CF",
+          "matches": 37,
+          "goals": 3,
+          "assists": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Cédric Bakambu",
+          "team": "Real Betis",
+          "matches": 31,
+          "goals": 3,
+          "assists": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Carlos Álvarez",
+          "team": "Levante UD",
+          "matches": 31,
+          "goals": 3,
+          "assists": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Ruben Vargas",
+          "team": "Sevilla FC",
+          "matches": 23,
+          "goals": 3,
+          "assists": 6,
+          "penalties": 1
+        },
+        {
+          "name": "Leandro Cabrera",
+          "team": "RCD Espanyol",
+          "matches": 36,
+          "goals": 3,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Ronald Araújo",
+          "team": "FC Barcelona",
+          "matches": 32,
+          "goals": 3,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Catena",
+          "team": "CA Osasuna",
+          "matches": 35,
+          "goals": 3,
+          "assists": 2,
+          "penalties": 0
+        }
+      ],
+      "updatedAt": "2026-08-20T14:32:14Z"
+    },
+    "2026/27": {
+      "players": [
+        {
+          "name": "Roberto Fernández",
+          "team": "RCD Espanyol",
+          "matches": 1,
+          "goals": 2,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Nahuel Tenaglia",
+          "team": "Deportivo Alavés",
+          "matches": 1,
+          "goals": 1,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Mariano Díaz",
+          "team": "Deportivo Alavés",
+          "matches": 1,
+          "goals": 1,
+          "assists": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Mikel Rodríguez",
+          "team": "Deportivo Alavés",
+          "matches": 1,
+          "goals": 1,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Álvaro García",
+          "team": "Rayo Vallecano",
+          "matches": 1,
+          "goals": 1,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Jon Guridi",
+          "team": "Sevilla FC",
+          "matches": 1,
+          "goals": 1,
+          "assists": 0,
+          "penalties": 1
+        },
+        {
+          "name": "Peque",
+          "team": "Sevilla FC",
+          "matches": 1,
+          "goals": 1,
+          "assists": 0,
+          "penalties": 1
+        },
+        {
+          "name": "Andrés Martín",
+          "team": "Racing Santander",
+          "matches": 1,
+          "goals": 1,
+          "assists": 0,
+          "penalties": 1
+        },
+        {
+          "name": "Sergio Martínez",
+          "team": "Racing Santander",
+          "matches": 1,
+          "goals": 1,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Pape Gueye",
+          "team": "Villarreal CF",
+          "matches": 1,
+          "goals": 1,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Nicolas Pépé",
+          "team": "Villarreal CF",
+          "matches": 1,
+          "goals": 1,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Tyrhys Dolan",
+          "team": "RCD Espanyol",
+          "matches": 1,
+          "goals": 1,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "team": "RC Deportivo",
+          "matches": 1,
+          "goals": 1,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Marc Aguado",
+          "team": "Elche CF",
+          "matches": 1,
+          "goals": 1,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Kang-in Lee",
+          "team": "Atlético Madrid",
+          "matches": 1,
+          "goals": 1,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Álex Baena",
+          "team": "Atlético Madrid",
+          "matches": 1,
+          "goals": 1,
+          "assists": 0,
+          "penalties": 0
+        }
+      ],
+      "updatedAt": "2026-08-20T14:32:15Z"
+    }
+  },
+  "updatedAt": "2026-08-20T14:32:15Z"
 }
