@@ -1748,10 +1748,18 @@
           "goals": 1,
           "assists": 0,
           "penalties": 0
+        },
+        {
+          "name": "Rodrigo Riquelme",
+          "team": "Real Betis",
+          "matches": 1,
+          "goals": 1,
+          "assists": 0,
+          "penalties": 0
         }
       ],
-      "updatedAt": "2026-08-20T21:42:19Z"
+      "updatedAt": "2026-08-21T21:37:07Z"
     }
   },
-  "updatedAt": "2026-08-20T21:42:19Z"
+  "updatedAt": "2026-08-21T21:37:07Z"
 }
