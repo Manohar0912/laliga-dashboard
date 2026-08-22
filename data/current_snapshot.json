@@ -25,16 +25,6 @@
   ],
   "fixtures": [
     {
-      "id": 564645,
-      "date": "2026-08-22",
-      "time": "21:30",
-      "home": "RCD Espanyol",
-      "away": "Real Madrid",
-      "referee": "José Sánchez Martínez",
-      "status": "IN_PLAY",
-      "matchday": 2
-    },
-    {
       "id": 564646,
       "date": "2026-08-23",
       "time": "17:00",
@@ -3817,6 +3807,16 @@
       "ht_away_goals": 1
     },
     {
+      "id": 564645,
+      "date": "2026-08-22",
+      "home": "RCD Espanyol",
+      "away": "Real Madrid",
+      "home_goals": 1,
+      "away_goals": 2,
+      "ht_home_goals": 1,
+      "ht_away_goals": 1
+    },
+    {
       "id": 564643,
       "date": "2026-08-22",
       "home": "Valencia CF",
@@ -3828,5 +3828,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-08-22T19:55:32Z"
+  "updatedAt": "2026-08-22T21:34:46Z"
 }

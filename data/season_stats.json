@@ -1796,10 +1796,26 @@
           "goals": 1,
           "assists": 0,
           "penalties": 0
+        },
+        {
+          "name": "Álex Calatrava",
+          "team": "RCD Espanyol",
+          "matches": 2,
+          "goals": 1,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Carlos Espí",
+          "team": "Real Madrid",
+          "matches": 1,
+          "goals": 1,
+          "assists": 0,
+          "penalties": 0
         }
       ],
-      "updatedAt": "2026-08-22T19:55:37Z"
+      "updatedAt": "2026-08-22T21:34:48Z"
     }
   },
-  "updatedAt": "2026-08-22T19:55:37Z"
+  "updatedAt": "2026-08-22T21:34:48Z"
 }
