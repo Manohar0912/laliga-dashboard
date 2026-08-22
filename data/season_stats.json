@@ -1656,7 +1656,7 @@
         {
           "name": "Jon Guridi",
           "team": "Sevilla FC",
-          "matches": 1,
+          "matches": 2,
           "goals": 1,
           "assists": 0,
           "penalties": 1
@@ -1664,7 +1664,7 @@
         {
           "name": "Peque",
           "team": "Sevilla FC",
-          "matches": 1,
+          "matches": 2,
           "goals": 1,
           "assists": 0,
           "penalties": 1
@@ -1756,10 +1756,42 @@
           "goals": 1,
           "assists": 0,
           "penalties": 0
+        },
+        {
+          "name": "Oso",
+          "team": "Sevilla FC",
+          "matches": 2,
+          "goals": 1,
+          "assists": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Chidera Ejuke",
+          "team": "Sevilla FC",
+          "matches": 2,
+          "goals": 1,
+          "assists": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Isaac",
+          "team": "Sevilla FC",
+          "matches": 2,
+          "goals": 1,
+          "assists": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Aitor Paredes Casamichana",
+          "team": "Athletic Club",
+          "matches": 1,
+          "goals": 1,
+          "assists": 0,
+          "penalties": 0
         }
       ],
-      "updatedAt": "2026-08-21T21:37:07Z"
+      "updatedAt": "2026-08-22T17:34:41Z"
     }
   },
-  "updatedAt": "2026-08-21T21:37:07Z"
+  "updatedAt": "2026-08-22T17:34:41Z"
 }
