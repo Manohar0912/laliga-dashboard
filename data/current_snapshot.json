@@ -25,23 +25,13 @@
   ],
   "fixtures": [
     {
-      "id": 564643,
-      "date": "2026-08-22",
-      "time": "19:30",
-      "home": "Valencia CF",
-      "away": "Celta Vigo",
-      "referee": "Jesús Gil Manzano",
-      "status": "TIMED",
-      "matchday": 2
-    },
-    {
       "id": 564645,
       "date": "2026-08-22",
       "time": "21:30",
       "home": "RCD Espanyol",
       "away": "Real Madrid",
       "referee": "José Sánchez Martínez",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 2
     },
     {
@@ -3825,8 +3815,18 @@
       "away_goals": 3,
       "ht_home_goals": 0,
       "ht_away_goals": 1
+    },
+    {
+      "id": 564643,
+      "date": "2026-08-22",
+      "home": "Valencia CF",
+      "away": "Celta Vigo",
+      "home_goals": 0,
+      "away_goals": 0,
+      "ht_home_goals": 0,
+      "ht_away_goals": 0
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-08-22T17:34:40Z"
+  "updatedAt": "2026-08-22T19:55:32Z"
 }

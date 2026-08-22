@@ -1624,7 +1624,7 @@
         {
           "name": "Roberto Fernández",
           "team": "RCD Espanyol",
-          "matches": 1,
+          "matches": 2,
           "goals": 2,
           "assists": 0,
           "penalties": 0
@@ -1704,7 +1704,7 @@
         {
           "name": "Tyrhys Dolan",
           "team": "RCD Espanyol",
-          "matches": 1,
+          "matches": 2,
           "goals": 1,
           "assists": 0,
           "penalties": 0
@@ -1788,10 +1788,18 @@
           "goals": 1,
           "assists": 0,
           "penalties": 0
+        },
+        {
+          "name": "Jude Bellingham",
+          "team": "Real Madrid",
+          "matches": 1,
+          "goals": 1,
+          "assists": 0,
+          "penalties": 0
         }
       ],
-      "updatedAt": "2026-08-22T17:34:41Z"
+      "updatedAt": "2026-08-22T19:55:37Z"
     }
   },
-  "updatedAt": "2026-08-22T17:34:41Z"
+  "updatedAt": "2026-08-22T19:55:37Z"
 }
