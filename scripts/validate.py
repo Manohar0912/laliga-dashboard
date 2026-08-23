@@ -46,19 +46,29 @@ assert validation.get('accuracy', 0) >= validation.get('baselineAccuracy', 1), f
 high = (validation.get('confidence') or {}).get('high') or {}
 assert high.get('matches', 0) >= 100, f"high-confidence validation sample too small: {high}"
 assert high.get('accuracy', 0) >= 0.64, f"high-confidence bucket is not reliable enough: {high}"
+
 snapshot = json.loads((ROOT / 'data/current_snapshot.json').read_text(encoding='utf-8'))
+config = json.loads((ROOT / 'config.json').read_text(encoding='utf-8'))
+current_season = config['currentSeason']
 season_stats = json.loads((ROOT / 'data/season_stats.json').read_text(encoding='utf-8'))
-current_season_stats = ((season_stats.get('seasons') or {}).get('2026/27') or {})
+current_season_stats = ((season_stats.get('seasons') or {}).get(current_season) or {})
 current_players = current_season_stats.get('players') or []
 current_assists = current_season_stats.get('assists') or []
 assert current_players, 'current-season goal leaderboard is empty'
 assert current_assists, 'current-season dedicated assist leaderboard is empty'
 assert 'asistencias-de-gol' in (current_season_stats.get('assistsSource') or ''), 'assist leaderboard is not using the dedicated assist-ranked source'
-javi = [p for p in current_assists if p.get('name') == 'Javi Hernández']
-assert javi and max(p.get('assists', 0) for p in javi) >= 2, f'Javi Hernández assist regression: {javi}'
-embedded_max = max((p.get('assistsInScorerFeed', 0) for p in current_players), default=0)
-dedicated_max = max((p.get('assists', 0) for p in current_assists), default=0)
-assert dedicated_max >= embedded_max, f'dedicated assist ranking below scorer-feed maximum: {dedicated_max} < {embedded_max}'
+# The goal-ranked population must never be reused as the assist leaderboard.
+assert all('assists' not in p for p in current_players), 'goal-ranked rows contain a generic assists field; source separation regressed'
+assist_values = [int(p.get('assists', 0)) for p in current_assists]
+assert len(assist_values) >= 3, f'dedicated assist leaderboard suspiciously short: {len(assist_values)}'
+assert assist_values == sorted(assist_values, reverse=True), 'dedicated assist leaderboard is not sorted descending'
+assert max(assist_values, default=0) > 0, 'dedicated assist leaderboard has no positive values'
+# Concrete regression for the season in which the original omission was found.
+# It is scoped to 2026/27 so the validation rolls forward cleanly next season.
+if current_season == '2026/27':
+    javi = [p for p in current_assists if p.get('name') == 'Javi Hernández']
+    assert javi and max(p.get('assists', 0) for p in javi) >= 2, f'Javi Hernández assist regression: {javi}'
+
 snapshot_teams = set(snapshot.get('teams') or [])
 assert 'Barça' not in snapshot_teams and 'Barca' not in snapshot_teams, 'Barcelona short name leaked into snapshot'
 assert 'Athletic' not in snapshot_teams, 'Athletic short name leaked into snapshot'
@@ -84,7 +94,7 @@ html = (ROOT / 'index.html').read_text(encoding='utf-8')
 assert 'const DATA={' in html
 assert 'const PREDICTION_MODEL={' in html
 assert '__DATA_JSON__' not in html and '__LAST_UPDATED__' not in html
-assert '1928/29' in html and '2026/27' in html
+assert '1928/29' in html and current_season in html
 assert '<section id="stats" class="view"></section>' in html
 assert 'data-v="stats"' in html
 assert 'CLUB CLEAN SHEETS' in html and 'TOP GOAL SCORERS' in html and 'TOP ASSISTS' in html

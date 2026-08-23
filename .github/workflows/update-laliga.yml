@@ -16,8 +16,8 @@ on:
       - '.github/workflows/update-laliga.yml'
   schedule:
     # During the LaLiga match window, check every 30 minutes for newly
-    # completed current-season matches. UTC 10:12-23:42 covers the usual
-    # Spanish match window across summer and winter time.
+    # completed results AND player-leaderboard corrections. UTC 10:12-23:42
+    # covers the usual Spanish match window across summer and winter time.
     - cron: '12,42 10-23 * * *'
 
 permissions:
@@ -68,33 +68,71 @@ jobs:
             echo "No newly completed or corrected current-season results."
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
-            echo "Completed-result change detected; rebuilding analytics and deployment."
+            echo "Completed-result change detected."
           fi
 
       - name: Refresh season leaderboards
-        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true'
         env:
           FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
         run: python scripts/update_season_stats.py
+
+      - name: Detect meaningful leaderboard changes
+        id: stats_changes
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import subprocess
+          from copy import deepcopy
+          from pathlib import Path
+
+          path = Path('data/season_stats.json')
+          current = json.loads(path.read_text(encoding='utf-8'))
+          try:
+              previous = json.loads(subprocess.check_output(
+                  ['git', 'show', 'HEAD:data/season_stats.json'], text=True
+              ))
+          except Exception:
+              previous = None
+
+          def semantic(payload):
+              if payload is None:
+                  return None
+              value = deepcopy(payload)
+              value.pop('updatedAt', None)
+              for season in (value.get('seasons') or {}).values():
+                  if isinstance(season, dict):
+                      season.pop('updatedAt', None)
+              return value
+
+          changed = semantic(current) != semantic(previous)
+          if not changed and previous is not None:
+              # Do not turn a timestamp-only refresh into a repository change.
+              subprocess.run(['git', 'checkout', '--', str(path)], check=True)
+          with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as out:
+              out.write(f"changed={'true' if changed else 'false'}\n")
+          print('Meaningful season-stat change detected.' if changed else 'Season leaderboards unchanged.')
+          PY
 
       - name: Train prediction model
         if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true'
         run: python scripts/train_model_ensemble.py
 
       - name: Rebuild dashboard with refreshed analytics
-        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true'
+        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true' || steps.stats_changes.outputs.changed == 'true'
         run: python scripts/update_laliga.py --offline
 
       - name: Embed trained prediction model
-        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true'
+        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true' || steps.stats_changes.outputs.changed == 'true'
         run: python scripts/inject_model.py
 
       - name: Validate build
-        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true'
+        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true' || steps.stats_changes.outputs.changed == 'true'
         run: python scripts/validate.py
 
       - name: Commit refreshed data
-        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true'
+        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true' || steps.stats_changes.outputs.changed == 'true'
         run: |
           if [ -z "$(git status --porcelain -- data/laliga_matches.csv data/current_snapshot.json data/season_stats.json data/model_predictions.json index.html)" ]; then
             echo "No repository data changes."
@@ -102,28 +140,28 @@ jobs:
             git config user.name "laliga-dashboard-bot"
             git config user.email "actions@users.noreply.github.com"
             git add data/laliga_matches.csv data/current_snapshot.json data/season_stats.json data/model_predictions.json index.html
-            git commit -m "chore: refresh LaLiga data, season stats and model" || true
+            git commit -m "chore: refresh LaLiga dashboard data" || true
             git push
           fi
 
       - name: Configure GitHub Pages
-        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true'
+        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true' || steps.stats_changes.outputs.changed == 'true'
         uses: actions/configure-pages@v5
 
       - name: Prepare published site
-        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true'
+        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true' || steps.stats_changes.outputs.changed == 'true'
         run: |
           rm -rf site
           mkdir site
           cp index.html site/index.html
 
       - name: Upload Pages artifact
-        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true'
+        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true' || steps.stats_changes.outputs.changed == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
 
       - name: Deploy to GitHub Pages
-        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true'
+        if: github.event_name != 'schedule' || steps.result_changes.outputs.changed == 'true' || steps.stats_changes.outputs.changed == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
