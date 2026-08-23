@@ -31,7 +31,7 @@
       "home": "Elche CF",
       "away": "FC Barcelona",
       "referee": "",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "matchday": 2
     },
     {
@@ -3828,5 +3828,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-08-23T19:55:11Z"
+  "updatedAt": "2026-08-23T20:37:38Z"
 }
