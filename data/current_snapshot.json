@@ -31,7 +31,7 @@
       "home": "Atlético Madrid",
       "away": "Villarreal CF",
       "referee": "",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 2
     },
     {
@@ -3828,5 +3828,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-08-23T14:37:44Z"
+  "updatedAt": "2026-08-23T16:42:20Z"
 }
