@@ -1,9 +1,9 @@
 name: Assist event probe
 
 on:
-  push:
+  pull_request:
     branches:
-      - agent/fix-season-assists
+      - main
 
 permissions:
   contents: read
@@ -27,7 +27,7 @@ jobs:
           with urllib.request.urlopen(req,timeout=30) as r: payload=json.load(r)
           finished=[m for m in payload.get('matches',[]) if m.get('status')=='FINISHED']
           print('finished',len(finished))
-          for m in finished[-5:]:
+          for m in finished[-6:]:
               print('MATCH',m.get('id'),m.get('homeTeam',{}).get('name'),m.get('awayTeam',{}).get('name'))
               print('keys',sorted(m.keys()))
               print('goals',json.dumps(m.get('goals'),ensure_ascii=False))
