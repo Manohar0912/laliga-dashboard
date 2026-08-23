@@ -25,23 +25,13 @@
   ],
   "fixtures": [
     {
-      "id": 564644,
-      "date": "2026-08-23",
-      "time": "19:30",
-      "home": "Getafe CF",
-      "away": "Racing Santander",
-      "referee": "",
-      "status": "IN_PLAY",
-      "matchday": 2
-    },
-    {
       "id": 564642,
       "date": "2026-08-23",
       "time": "21:30",
       "home": "Elche CF",
       "away": "FC Barcelona",
       "referee": "",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 2
     },
     {
@@ -3825,8 +3815,18 @@
       "away_goals": 2,
       "ht_home_goals": 0,
       "ht_away_goals": 0
+    },
+    {
+      "id": 564644,
+      "date": "2026-08-23",
+      "home": "Getafe CF",
+      "away": "Racing Santander",
+      "home_goals": 1,
+      "away_goals": 0,
+      "ht_home_goals": 0,
+      "ht_away_goals": 0
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-08-23T19:33:17Z"
+  "updatedAt": "2026-08-23T19:55:11Z"
 }

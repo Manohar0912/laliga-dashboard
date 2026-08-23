@@ -2801,6 +2801,14 @@
           "penalties": 0
         },
         {
+          "name": "Raphinha",
+          "team": "FC Barcelona",
+          "matches": 1,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
+          "penalties": 1
+        },
+        {
           "name": "Rodrigo Riquelme",
           "team": "Real Betis",
           "matches": 1,
@@ -2941,8 +2949,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-08-23T19:33:21Z"
+      "updatedAt": "2026-08-23T19:55:14Z"
     }
   },
-  "updatedAt": "2026-08-23T19:33:21Z"
+  "updatedAt": "2026-08-23T19:55:14Z"
 }
