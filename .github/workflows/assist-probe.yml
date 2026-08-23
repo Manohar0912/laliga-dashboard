@@ -21,7 +21,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Patch Season Stats UI and validation
-        run: python scripts/patch_assist_leaderboard_once.py
+        run: |
+          python scripts/patch_assist_leaderboard_once.py
+          python scripts/patch_assist_source_validation_once.py
       - name: Refresh separated goal and assist leaderboards
         env:
           FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
@@ -51,9 +53,9 @@ jobs:
           node --check /tmp/dashboard.js
       - name: Commit validated fix to branch
         run: |
-          rm -f scripts/patch_assist_leaderboard_once.py
+          rm -f scripts/patch_assist_leaderboard_once.py scripts/patch_assist_source_validation_once.py
           git config user.name "laliga-dashboard-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add scripts/update_season_stats.py scripts/validate.py template_parts/part04.html data/season_stats.json dashboard_template.html index.html scripts/patch_assist_leaderboard_once.py
+          git add scripts/update_season_stats.py scripts/validate.py template_parts/part04.html data/season_stats.json dashboard_template.html index.html scripts/patch_assist_leaderboard_once.py scripts/patch_assist_source_validation_once.py
           git commit -m "Fix incomplete Season Stats assists leaderboard" || true
           git push origin HEAD:agent/fix-season-assists
