@@ -2665,6 +2665,14 @@
           "penalties": 0
         },
         {
+          "name": "Enes Ünal",
+          "team": "Getafe CF",
+          "matches": 2,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Georges Mikautadze",
           "team": "Villarreal CF",
           "matches": 2,
@@ -2933,8 +2941,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-08-23T18:47:06Z"
+      "updatedAt": "2026-08-23T19:33:21Z"
     }
   },
-  "updatedAt": "2026-08-23T18:47:06Z"
+  "updatedAt": "2026-08-23T19:33:21Z"
 }
