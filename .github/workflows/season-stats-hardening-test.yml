@@ -1,0 +1,60 @@
+name: Season Stats hardening test
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/harden-season-stats-refresh
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Refresh leaderboards twice and verify semantic stability
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: |
+          python scripts/update_season_stats.py
+          cp data/season_stats.json /tmp/first.json
+          python scripts/update_season_stats.py
+          python - <<'PY'
+          import json
+          from copy import deepcopy
+          from pathlib import Path
+          a=json.loads(Path('/tmp/first.json').read_text(encoding='utf-8'))
+          b=json.loads(Path('data/season_stats.json').read_text(encoding='utf-8'))
+          def semantic(x):
+              x=deepcopy(x)
+              x.pop('updatedAt',None)
+              for s in (x.get('seasons') or {}).values():
+                  if isinstance(s,dict): s.pop('updatedAt',None)
+              return x
+          assert semantic(a)==semantic(b), 'identical source data produced a false semantic change'
+          current=b['seasons']['2026/27']['assists']
+          leaders=[x for x in current if x['assists']==max(p['assists'] for p in current)]
+          print('CURRENT ASSIST LEADERS',[(x['name'],x['team'],x['assists']) for x in leaders])
+          assert any(x['name']=='Javi Hernández' and x['assists']>=2 for x in leaders)
+          PY
+      - name: Rebuild and validate dashboard
+        run: |
+          cat template_parts/part*.html > dashboard_template.html
+          python scripts/update_laliga.py --offline
+          python scripts/inject_model.py
+          python scripts/validate.py
+          python - <<'PY'
+          from pathlib import Path
+          html=Path('index.html').read_text(encoding='utf-8')
+          js=html.rsplit('<script>',1)[1].split('</script>',1)[0]
+          Path('/tmp/dashboard.js').write_text(js,encoding='utf-8')
+          PY
+          node --check /tmp/dashboard.js
