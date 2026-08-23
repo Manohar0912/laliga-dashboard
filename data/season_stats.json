@@ -2617,12 +2617,28 @@
     "2026/27": {
       "players": [
         {
+          "name": "Fermín López",
+          "team": "FC Barcelona",
+          "matches": 1,
+          "goals": 2,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Mariano Díaz",
           "team": "Deportivo Alavés",
           "matches": 2,
           "goals": 2,
           "assistsInScorerFeed": 2,
           "penalties": 0
+        },
+        {
+          "name": "Raphinha",
+          "team": "FC Barcelona",
+          "matches": 1,
+          "goals": 2,
+          "assistsInScorerFeed": 0,
+          "penalties": 1
         },
         {
           "name": "Roberto Fernández",
@@ -2809,14 +2825,6 @@
           "penalties": 0
         },
         {
-          "name": "Raphinha",
-          "team": "FC Barcelona",
-          "matches": 1,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
-          "penalties": 1
-        },
-        {
           "name": "Rodrigo Riquelme",
           "team": "Real Betis",
           "matches": 1,
@@ -2874,6 +2882,11 @@
         }
       ],
       "assists": [
+        {
+          "name": "Anthony Gordon",
+          "team": "FC Barcelona",
+          "assists": 2
+        },
         {
           "name": "Javi Hernández",
           "team": "RCD Espanyol",
@@ -2945,6 +2958,16 @@
           "assists": 1
         },
         {
+          "name": "Raphinha",
+          "team": "FC Barcelona",
+          "assists": 1
+        },
+        {
+          "name": "Xavi Espart",
+          "team": "FC Barcelona",
+          "assists": 1
+        },
+        {
           "name": "Yeray",
           "team": "Athletic Club",
           "assists": 1
@@ -2957,8 +2980,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-08-23T20:37:40Z"
+      "updatedAt": "2026-08-23T21:35:10Z"
     }
   },
-  "updatedAt": "2026-08-23T20:37:40Z"
+  "updatedAt": "2026-08-23T21:35:10Z"
 }
