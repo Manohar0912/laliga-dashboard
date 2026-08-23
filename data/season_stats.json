@@ -2665,12 +2665,28 @@
           "penalties": 0
         },
         {
+          "name": "Georges Mikautadze",
+          "team": "Villarreal CF",
+          "matches": 2,
+          "goals": 1,
+          "assistsInScorerFeed": 1,
+          "penalties": 1
+        },
+        {
           "name": "Gerard Moreno",
           "team": "Villarreal CF",
           "matches": 2,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
+        },
+        {
+          "name": "Giuliano Simeone",
+          "team": "Atlético Madrid",
+          "matches": 2,
+          "goals": 1,
+          "assistsInScorerFeed": 1,
+          "penalties": 0
         },
         {
           "name": "Isaac",
@@ -2813,7 +2829,7 @@
           "team": "Atlético Madrid",
           "matches": 2,
           "goals": 1,
-          "assistsInScorerFeed": 0,
+          "assistsInScorerFeed": 1,
           "penalties": 0
         },
         {
@@ -2860,6 +2876,11 @@
           "assists": 1
         },
         {
+          "name": "Giuliano",
+          "team": "Atlético Madrid",
+          "assists": 1
+        },
+        {
           "name": "Gonzalo Villar",
           "team": "Elche CF",
           "assists": 1
@@ -2903,12 +2924,17 @@
           "name": "Yeray",
           "team": "Athletic Club",
           "assists": 1
+        },
+        {
+          "name": "Álex Baena",
+          "team": "Atlético Madrid",
+          "assists": 1
         }
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-08-23T16:42:21Z"
+      "updatedAt": "2026-08-23T17:33:21Z"
     }
   },
-  "updatedAt": "2026-08-23T16:42:21Z"
+  "updatedAt": "2026-08-23T17:33:21Z"
 }
