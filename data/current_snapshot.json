@@ -25,16 +25,6 @@
   ],
   "fixtures": [
     {
-      "id": 564640,
-      "date": "2026-08-24",
-      "time": "21:30",
-      "home": "Málaga CF",
-      "away": "RC Deportivo",
-      "referee": "",
-      "status": "IN_PLAY",
-      "matchday": 2
-    },
-    {
       "id": 564637,
       "date": "2026-08-25",
       "time": "21:00",
@@ -3825,8 +3815,18 @@
       "away_goals": 0,
       "ht_home_goals": 0,
       "ht_away_goals": 0
+    },
+    {
+      "id": 564640,
+      "date": "2026-08-24",
+      "home": "Málaga CF",
+      "away": "RC Deportivo",
+      "home_goals": 1,
+      "away_goals": 1,
+      "ht_home_goals": 1,
+      "ht_away_goals": 1
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-08-24T20:47:24Z"
+  "updatedAt": "2026-08-24T21:43:09Z"
 }
