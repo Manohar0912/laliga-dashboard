@@ -31,7 +31,7 @@
       "home": "CA Osasuna",
       "away": "Levante UD",
       "referee": "",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 2
     },
     {
@@ -3828,5 +3828,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-08-23T21:35:07Z"
+  "updatedAt": "2026-08-24T18:58:29Z"
 }
