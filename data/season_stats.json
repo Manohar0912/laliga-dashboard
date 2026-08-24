@@ -2633,6 +2633,14 @@
           "penalties": 0
         },
         {
+          "name": "Pierre-Emerick Aubameyang",
+          "team": "RC Deportivo",
+          "matches": 2,
+          "goals": 2,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Raphinha",
           "team": "FC Barcelona",
           "matches": 1,
@@ -2679,6 +2687,14 @@
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
+        },
+        {
+          "name": "Chupete",
+          "team": "Málaga CF",
+          "matches": 2,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
+          "penalties": 1
         },
         {
           "name": "Enes Ünal",
@@ -2815,14 +2831,6 @@
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
-        },
-        {
-          "name": "Pierre-Emerick Aubameyang",
-          "team": "RC Deportivo",
-          "matches": 2,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
         },
         {
           "name": "Rodrigo Riquelme",
@@ -2980,8 +2988,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-08-24T18:58:31Z"
+      "updatedAt": "2026-08-24T20:47:26Z"
     }
   },
-  "updatedAt": "2026-08-24T18:58:31Z"
+  "updatedAt": "2026-08-24T20:47:26Z"
 }
