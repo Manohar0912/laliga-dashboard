@@ -2817,6 +2817,14 @@
           "penalties": 0
         },
         {
+          "name": "Pablo García",
+          "team": "Real Betis",
+          "matches": 2,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Pape Gueye",
           "team": "Villarreal CF",
           "matches": 2,
@@ -2916,6 +2924,11 @@
           "assists": 1
         },
         {
+          "name": "Fran Garcia",
+          "team": "Real Betis",
+          "assists": 1
+        },
+        {
           "name": "Georges Mikautadze",
           "team": "Villarreal CF",
           "assists": 1
@@ -2993,8 +3006,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-08-25T18:56:09Z"
+      "updatedAt": "2026-08-25T21:42:55Z"
     }
   },
-  "updatedAt": "2026-08-25T18:56:09Z"
+  "updatedAt": "2026-08-25T21:42:55Z"
 }
