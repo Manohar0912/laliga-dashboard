@@ -30,7 +30,7 @@
       "time": "21:00",
       "home": "Valencia CF",
       "away": "Real Betis",
-      "referee": "",
+      "referee": "Jon González Esteban",
       "status": "TIMED",
       "matchday": 1
     },
@@ -3828,5 +3828,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-08-24T21:43:09Z"
+  "updatedAt": "2026-08-25T18:56:07Z"
 }

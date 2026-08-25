@@ -2835,7 +2835,7 @@
         {
           "name": "Rodrigo Riquelme",
           "team": "Real Betis",
-          "matches": 1,
+          "matches": 2,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2993,8 +2993,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-08-24T21:43:11Z"
+      "updatedAt": "2026-08-25T18:56:09Z"
     }
   },
-  "updatedAt": "2026-08-24T21:43:11Z"
+  "updatedAt": "2026-08-25T18:56:09Z"
 }
