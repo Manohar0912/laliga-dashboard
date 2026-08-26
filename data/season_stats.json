@@ -2617,6 +2617,14 @@
     "2026/27": {
       "players": [
         {
+          "name": "Kylian Mbappé",
+          "team": "Real Madrid",
+          "matches": 2,
+          "goals": 3,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Fermín López",
           "team": "FC Barcelona",
           "matches": 1,
@@ -2749,7 +2757,7 @@
           "team": "Real Madrid",
           "matches": 2,
           "goals": 1,
-          "assistsInScorerFeed": 0,
+          "assistsInScorerFeed": 2,
           "penalties": 0
         },
         {
@@ -2764,6 +2772,14 @@
           "name": "Karim Adeyemi",
           "team": "FC Barcelona",
           "matches": 1,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Luka Sučić",
+          "team": "Real Sociedad",
+          "matches": 2,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2873,6 +2889,14 @@
           "penalties": 0
         },
         {
+          "name": "Vinicius Junior",
+          "team": "Real Madrid",
+          "matches": 2,
+          "goals": 1,
+          "assistsInScorerFeed": 1,
+          "penalties": 0
+        },
+        {
           "name": "Álex Baena",
           "team": "Atlético Madrid",
           "matches": 2,
@@ -2901,6 +2925,11 @@
         {
           "name": "Anthony Gordon",
           "team": "FC Barcelona",
+          "assists": 2
+        },
+        {
+          "name": "Bellingham",
+          "team": "Real Madrid",
           "assists": 2
         },
         {
@@ -2989,6 +3018,16 @@
           "assists": 1
         },
         {
+          "name": "Valverde",
+          "team": "Real Madrid",
+          "assists": 1
+        },
+        {
+          "name": "Vinicius Junior",
+          "team": "Real Madrid",
+          "assists": 1
+        },
+        {
           "name": "Xavi Espart",
           "team": "FC Barcelona",
           "assists": 1
@@ -3006,8 +3045,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-08-26T19:17:58Z"
+      "updatedAt": "2026-08-26T22:30:18Z"
     }
   },
-  "updatedAt": "2026-08-26T19:17:58Z"
+  "updatedAt": "2026-08-26T22:30:18Z"
 }
