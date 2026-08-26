@@ -30,8 +30,8 @@
       "time": "21:00",
       "home": "Real Madrid",
       "away": "Real Sociedad",
-      "referee": "",
-      "status": "TIMED",
+      "referee": "Mateo Busquets Ferrer",
+      "status": "IN_PLAY",
       "matchday": 1
     },
     {
@@ -3828,5 +3828,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-08-25T21:42:52Z"
+  "updatedAt": "2026-08-26T19:17:56Z"
 }
