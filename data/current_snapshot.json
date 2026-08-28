@@ -25,26 +25,6 @@
   ],
   "fixtures": [
     {
-      "id": 564636,
-      "date": "2026-08-27",
-      "time": "20:30",
-      "home": "Celta Vigo",
-      "away": "CA Osasuna",
-      "referee": "",
-      "status": "IN_PLAY",
-      "matchday": 1
-    },
-    {
-      "id": 564630,
-      "date": "2026-08-27",
-      "time": "21:00",
-      "home": "FC Barcelona",
-      "away": "Athletic Club",
-      "referee": "",
-      "status": "IN_PLAY",
-      "matchday": 1
-    },
-    {
       "id": 564654,
       "date": "2026-08-28",
       "time": "19:00",
@@ -3825,8 +3805,28 @@
       "away_goals": 1,
       "ht_home_goals": 1,
       "ht_away_goals": 1
+    },
+    {
+      "id": 564636,
+      "date": "2026-08-27",
+      "home": "Celta Vigo",
+      "away": "CA Osasuna",
+      "home_goals": 1,
+      "away_goals": 2,
+      "ht_home_goals": 1,
+      "ht_away_goals": 0
+    },
+    {
+      "id": 564630,
+      "date": "2026-08-27",
+      "home": "FC Barcelona",
+      "away": "Athletic Club",
+      "home_goals": 2,
+      "away_goals": 0,
+      "ht_home_goals": 1,
+      "ht_away_goals": 0
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-08-27T20:28:58Z"
+  "updatedAt": "2026-08-28T04:28:35Z"
 }

@@ -2617,6 +2617,14 @@
     "2026/27": {
       "players": [
         {
+          "name": "Fermín López",
+          "team": "FC Barcelona",
+          "matches": 2,
+          "goals": 3,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Kylian Mbappé",
           "team": "Real Madrid",
           "matches": 2,
@@ -2631,14 +2639,6 @@
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 1
-        },
-        {
-          "name": "Fermín López",
-          "team": "FC Barcelona",
-          "matches": 2,
-          "goals": 2,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
         },
         {
           "name": "Mariano Díaz",
@@ -3022,6 +3022,11 @@
           "assists": 1
         },
         {
+          "name": "Miguel Román",
+          "team": "Celta Vigo",
+          "assists": 1
+        },
+        {
           "name": "Moleiro",
           "team": "Villarreal CF",
           "assists": 1
@@ -3032,6 +3037,11 @@
           "assists": 1
         },
         {
+          "name": "Pedri",
+          "team": "FC Barcelona",
+          "assists": 1
+        },
+        {
           "name": "Rafel Bauzà",
           "team": "RCD Espanyol",
           "assists": 1
@@ -3039,6 +3049,11 @@
         {
           "name": "Raphinha",
           "team": "FC Barcelona",
+          "assists": 1
+        },
+        {
+          "name": "Raul García de Haro",
+          "team": "CA Osasuna",
           "assists": 1
         },
         {
@@ -3069,8 +3084,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-08-27T20:29:00Z"
+      "updatedAt": "2026-08-28T04:28:37Z"
     }
   },
-  "updatedAt": "2026-08-27T20:29:00Z"
+  "updatedAt": "2026-08-28T04:28:37Z"
 }
