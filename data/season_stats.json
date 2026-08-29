@@ -3141,6 +3141,11 @@
           "assists": 1
         },
         {
+          "name": "Lee Kang-In",
+          "team": "Atlético Madrid",
+          "assists": 1
+        },
+        {
           "name": "Lorenzo Amatucci",
           "team": "RC Deportivo",
           "assists": 1
@@ -3161,6 +3166,11 @@
           "assists": 1
         },
         {
+          "name": "Marcos Llorente",
+          "team": "Atlético Madrid",
+          "assists": 1
+        },
+        {
           "name": "Miguel Román",
           "team": "Celta Vigo",
           "assists": 1
@@ -3173,6 +3183,11 @@
         {
           "name": "Oso",
           "team": "Sevilla FC",
+          "assists": 1
+        },
+        {
+          "name": "Pablo Barrios",
+          "team": "Atlético Madrid",
           "assists": 1
         },
         {
@@ -3193,6 +3208,11 @@
         {
           "name": "Raul García de Haro",
           "team": "CA Osasuna",
+          "assists": 1
+        },
+        {
+          "name": "Robbie Ure",
+          "team": "Sevilla FC",
           "assists": 1
         },
         {
@@ -3233,8 +3253,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-08-29T21:13:49Z"
+      "updatedAt": "2026-08-29T23:35:46Z"
     }
   },
-  "updatedAt": "2026-08-29T21:13:49Z"
+  "updatedAt": "2026-08-29T23:35:46Z"
 }
