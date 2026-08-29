@@ -3127,12 +3127,17 @@
           "name": "Álex Baena",
           "team": "Atlético Madrid",
           "assists": 1
+        },
+        {
+          "name": "Ángel Pérez",
+          "team": "Deportivo Alavés",
+          "assists": 1
         }
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-08-28T21:11:15Z"
+      "updatedAt": "2026-08-29T03:11:18Z"
     }
   },
-  "updatedAt": "2026-08-28T21:11:15Z"
+  "updatedAt": "2026-08-29T03:11:18Z"
 }
