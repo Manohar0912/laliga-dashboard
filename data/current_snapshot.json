@@ -25,23 +25,13 @@
   ],
   "fixtures": [
     {
-      "id": 564653,
-      "date": "2026-08-29",
-      "time": "19:00",
-      "home": "Real Sociedad",
-      "away": "RCD Espanyol",
-      "referee": "",
-      "status": "IN_PLAY",
-      "matchday": 3
-    },
-    {
       "id": 564649,
       "date": "2026-08-29",
       "time": "21:30",
       "home": "Sevilla FC",
       "away": "Atlético Madrid",
       "referee": "",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 3
     },
     {
@@ -3825,8 +3815,18 @@
       "away_goals": 2,
       "ht_home_goals": 2,
       "ht_away_goals": 2
+    },
+    {
+      "id": 564653,
+      "date": "2026-08-29",
+      "home": "Real Sociedad",
+      "away": "RCD Espanyol",
+      "home_goals": 2,
+      "away_goals": 1,
+      "ht_home_goals": 1,
+      "ht_away_goals": 1
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-08-29T18:27:05Z"
+  "updatedAt": "2026-08-29T21:13:47Z"
 }

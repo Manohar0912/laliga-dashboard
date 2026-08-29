@@ -2657,6 +2657,14 @@
           "penalties": 0
         },
         {
+          "name": "Álex Baena",
+          "team": "Atlético Madrid",
+          "matches": 3,
+          "goals": 3,
+          "assistsInScorerFeed": 1,
+          "penalties": 0
+        },
+        {
           "name": "Brugui",
           "team": "Levante UD",
           "matches": 2,
@@ -2685,6 +2693,14 @@
           "team": "Real Betis",
           "matches": 3,
           "goals": 2,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Ademola Lookman",
+          "team": "Atlético Madrid",
+          "matches": 3,
+          "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
         },
@@ -2755,7 +2771,7 @@
         {
           "name": "Chidera Ejuke",
           "team": "Sevilla FC",
-          "matches": 2,
+          "matches": 3,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2811,7 +2827,7 @@
         {
           "name": "Giuliano Simeone",
           "team": "Atlético Madrid",
-          "matches": 2,
+          "matches": 3,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2827,7 +2843,7 @@
         {
           "name": "Isaac",
           "team": "Sevilla FC",
-          "matches": 2,
+          "matches": 3,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2835,7 +2851,7 @@
         {
           "name": "Jon Guridi",
           "team": "Sevilla FC",
-          "matches": 2,
+          "matches": 3,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -2859,9 +2875,9 @@
         {
           "name": "Kang-in Lee",
           "team": "Atlético Madrid",
-          "matches": 2,
+          "matches": 3,
           "goals": 1,
-          "assistsInScorerFeed": 0,
+          "assistsInScorerFeed": 1,
           "penalties": 0
         },
         {
@@ -2907,7 +2923,15 @@
         {
           "name": "Marc Pubill",
           "team": "Atlético Madrid",
-          "matches": 2,
+          "matches": 3,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Miguel Ángel Sierra",
+          "team": "Sevilla FC",
+          "matches": 3,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2971,7 +2995,7 @@
         {
           "name": "Peque",
           "team": "Sevilla FC",
-          "matches": 2,
+          "matches": 3,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -3009,14 +3033,6 @@
           "penalties": 0
         },
         {
-          "name": "Álex Baena",
-          "team": "Atlético Madrid",
-          "matches": 2,
-          "goals": 1,
-          "assistsInScorerFeed": 1,
-          "penalties": 0
-        },
-        {
           "name": "Álex Calatrava",
           "team": "RCD Espanyol",
           "matches": 3,
@@ -3035,6 +3051,11 @@
       ],
       "assists": [
         {
+          "name": "Javi Hernández",
+          "team": "RCD Espanyol",
+          "assists": 3
+        },
+        {
           "name": "Anthony Gordon",
           "team": "FC Barcelona",
           "assists": 2
@@ -3045,13 +3066,13 @@
           "assists": 2
         },
         {
-          "name": "Javi Hernández",
-          "team": "RCD Espanyol",
+          "name": "Mariano Díaz",
+          "team": "Deportivo Alavés",
           "assists": 2
         },
         {
-          "name": "Mariano Díaz",
-          "team": "Deportivo Alavés",
+          "name": "Oyarzabal",
+          "team": "Real Sociedad",
           "assists": 2
         },
         {
@@ -3212,8 +3233,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-08-29T18:27:07Z"
+      "updatedAt": "2026-08-29T21:13:49Z"
     }
   },
-  "updatedAt": "2026-08-29T18:27:07Z"
+  "updatedAt": "2026-08-29T21:13:49Z"
 }
