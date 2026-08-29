@@ -2641,10 +2641,26 @@
           "penalties": 1
         },
         {
+          "name": "Roberto Fernández",
+          "team": "RCD Espanyol",
+          "matches": 3,
+          "goals": 3,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Yassir Zabiri",
           "team": "Racing Santander",
           "matches": 3,
           "goals": 3,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Brugui",
+          "team": "Levante UD",
+          "matches": 2,
+          "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
         },
@@ -2665,10 +2681,18 @@
           "penalties": 0
         },
         {
-          "name": "Roberto Fernández",
-          "team": "RCD Espanyol",
-          "matches": 2,
+          "name": "Rodrigo Riquelme",
+          "team": "Real Betis",
+          "matches": 3,
           "goals": 2,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Adrián de la Fuente",
+          "team": "Levante UD",
+          "matches": 3,
+          "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
         },
@@ -2676,6 +2700,14 @@
           "name": "Aitor Paredes Casamichana",
           "team": "Athletic Club",
           "matches": 2,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Ander Barrenetxea",
+          "team": "Real Sociedad",
+          "matches": 3,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2695,6 +2727,14 @@
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
+        },
+        {
+          "name": "Bartra",
+          "team": "Real Betis",
+          "matches": 3,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
         },
         {
           "name": "Buba",
@@ -2734,6 +2774,14 @@
           "matches": 2,
           "goals": 1,
           "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Enzo Bardeli",
+          "team": "Levante UD",
+          "matches": 3,
+          "goals": 1,
+          "assistsInScorerFeed": 1,
           "penalties": 0
         },
         {
@@ -2793,6 +2841,14 @@
           "penalties": 1
         },
         {
+          "name": "Jon Olasagasti",
+          "team": "Levante UD",
+          "matches": 3,
+          "goals": 1,
+          "assistsInScorerFeed": 1,
+          "penalties": 0
+        },
+        {
           "name": "Jude Bellingham",
           "team": "Real Madrid",
           "matches": 2,
@@ -2835,7 +2891,7 @@
         {
           "name": "Luka Sučić",
           "team": "Real Sociedad",
-          "matches": 2,
+          "matches": 3,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2881,6 +2937,14 @@
           "penalties": 0
         },
         {
+          "name": "Orri Oskarsson",
+          "team": "Real Sociedad",
+          "matches": 3,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Oso",
           "team": "Sevilla FC",
           "matches": 2,
@@ -2913,14 +2977,6 @@
           "penalties": 1
         },
         {
-          "name": "Rodrigo Riquelme",
-          "team": "Real Betis",
-          "matches": 3,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
           "name": "Sergio Camello",
           "team": "Rayo Vallecano",
           "matches": 2,
@@ -2939,7 +2995,7 @@
         {
           "name": "Tyrhys Dolan",
           "team": "RCD Espanyol",
-          "matches": 2,
+          "matches": 3,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2963,7 +3019,7 @@
         {
           "name": "Álex Calatrava",
           "team": "RCD Espanyol",
-          "matches": 2,
+          "matches": 3,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3009,6 +3065,11 @@
           "assists": 1
         },
         {
+          "name": "Enzo Bardeli",
+          "team": "Levante UD",
+          "assists": 1
+        },
+        {
           "name": "Fran Garcia",
           "team": "Real Betis",
           "assists": 1
@@ -3049,6 +3110,16 @@
           "assists": 1
         },
         {
+          "name": "Jon Ander Olasagasti",
+          "team": "Levante UD",
+          "assists": 1
+        },
+        {
+          "name": "Karl Etta Eyong",
+          "team": "Levante UD",
+          "assists": 1
+        },
+        {
           "name": "Lorenzo Amatucci",
           "team": "RC Deportivo",
           "assists": 1
@@ -3061,6 +3132,11 @@
         {
           "name": "Luismi Cruz",
           "team": "RC Deportivo",
+          "assists": 1
+        },
+        {
+          "name": "Marc Roca",
+          "team": "Real Betis",
           "assists": 1
         },
         {
@@ -3136,8 +3212,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-08-29T15:03:14Z"
+      "updatedAt": "2026-08-29T18:27:07Z"
     }
   },
-  "updatedAt": "2026-08-29T15:03:14Z"
+  "updatedAt": "2026-08-29T18:27:07Z"
 }
