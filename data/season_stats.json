@@ -2723,7 +2723,7 @@
         {
           "name": "Aitor Paredes Casamichana",
           "team": "Athletic Club",
-          "matches": 2,
+          "matches": 3,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2851,7 +2851,7 @@
         {
           "name": "Iago Aspas",
           "team": "Celta Vigo",
-          "matches": 2,
+          "matches": 3,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3009,6 +3009,14 @@
           "penalties": 1
         },
         {
+          "name": "Roberto Navarro",
+          "team": "Athletic Club",
+          "matches": 3,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Sergio Camello",
           "team": "Rayo Vallecano",
           "matches": 2,
@@ -3046,6 +3054,14 @@
           "matches": 3,
           "goals": 1,
           "assistsInScorerFeed": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Álex Berenguer",
+          "team": "Athletic Club",
+          "matches": 3,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
           "penalties": 0
         },
         {
@@ -3114,6 +3130,11 @@
         {
           "name": "Fran Garcia",
           "team": "Real Betis",
+          "assists": 1
+        },
+        {
+          "name": "Galarreta",
+          "team": "Athletic Club",
           "assists": 1
         },
         {
@@ -3192,6 +3213,11 @@
           "assists": 1
         },
         {
+          "name": "Mario Soriano",
+          "team": "RC Deportivo",
+          "assists": 1
+        },
+        {
           "name": "Miguel Román",
           "team": "Celta Vigo",
           "assists": 1
@@ -3247,6 +3273,11 @@
           "assists": 1
         },
         {
+          "name": "Williams",
+          "team": "Athletic Club",
+          "assists": 1
+        },
+        {
           "name": "Xavi Espart",
           "team": "FC Barcelona",
           "assists": 1
@@ -3269,8 +3300,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-08-30T18:37:58Z"
+      "updatedAt": "2026-08-30T21:34:29Z"
     }
   },
-  "updatedAt": "2026-08-30T18:37:58Z"
+  "updatedAt": "2026-08-30T21:34:29Z"
 }
