@@ -2627,7 +2627,7 @@
         {
           "name": "Kylian Mbappé",
           "team": "Real Madrid",
-          "matches": 2,
+          "matches": 3,
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2763,7 +2763,7 @@
         {
           "name": "Carlos Espí",
           "team": "Real Madrid",
-          "matches": 2,
+          "matches": 3,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2779,7 +2779,7 @@
         {
           "name": "Chupete",
           "team": "Málaga CF",
-          "matches": 2,
+          "matches": 3,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -2867,7 +2867,7 @@
         {
           "name": "Jude Bellingham",
           "team": "Real Madrid",
-          "matches": 2,
+          "matches": 3,
           "goals": 1,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -3027,7 +3027,7 @@
         {
           "name": "Vinicius Junior",
           "team": "Real Madrid",
-          "matches": 2,
+          "matches": 3,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3253,8 +3253,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-08-29T23:35:46Z"
+      "updatedAt": "2026-08-30T14:51:45Z"
     }
   },
-  "updatedAt": "2026-08-29T23:35:46Z"
+  "updatedAt": "2026-08-30T14:51:45Z"
 }
