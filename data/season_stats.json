@@ -2617,20 +2617,20 @@
     "2026/27": {
       "players": [
         {
+          "name": "Raphinha",
+          "team": "FC Barcelona",
+          "matches": 3,
+          "goals": 5,
+          "assistsInScorerFeed": 0,
+          "penalties": 1
+        },
+        {
           "name": "Kylian Mbappé",
           "team": "Real Madrid",
           "matches": 3,
           "goals": 4,
           "assistsInScorerFeed": 0,
           "penalties": 0
-        },
-        {
-          "name": "Raphinha",
-          "team": "FC Barcelona",
-          "matches": 3,
-          "goals": 4,
-          "assistsInScorerFeed": 0,
-          "penalties": 1
         },
         {
           "name": "Fermín López",
@@ -2651,6 +2651,14 @@
         {
           "name": "Roberto Fernández",
           "team": "RCD Espanyol",
+          "matches": 3,
+          "goals": 3,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Sergio Camello",
+          "team": "Rayo Vallecano",
           "matches": 3,
           "goals": 3,
           "assistsInScorerFeed": 0,
@@ -2697,6 +2705,14 @@
           "penalties": 0
         },
         {
+          "name": "Lamine Yamal",
+          "team": "FC Barcelona",
+          "matches": 3,
+          "goals": 2,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Mariano Díaz",
           "team": "Deportivo Alavés",
           "matches": 3,
@@ -2707,14 +2723,6 @@
         {
           "name": "Rodrigo Riquelme",
           "team": "Real Betis",
-          "matches": 3,
-          "goals": 2,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
-          "name": "Sergio Camello",
-          "team": "Rayo Vallecano",
           "matches": 3,
           "goals": 2,
           "assistsInScorerFeed": 0,
@@ -2901,20 +2909,12 @@
           "team": "FC Barcelona",
           "matches": 3,
           "goals": 1,
-          "assistsInScorerFeed": 0,
+          "assistsInScorerFeed": 1,
           "penalties": 0
         },
         {
           "name": "Kike Barja",
           "team": "CA Osasuna",
-          "matches": 3,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
-          "name": "Lamine Yamal",
-          "team": "FC Barcelona",
           "matches": 3,
           "goals": 1,
           "assistsInScorerFeed": 0,
@@ -3091,14 +3091,14 @@
       ],
       "assists": [
         {
-          "name": "Javi Hernández",
-          "team": "RCD Espanyol",
+          "name": "Anthony Gordon",
+          "team": "FC Barcelona",
           "assists": 3
         },
         {
-          "name": "Anthony Gordon",
-          "team": "FC Barcelona",
-          "assists": 2
+          "name": "Javi Hernández",
+          "team": "RCD Espanyol",
+          "assists": 3
         },
         {
           "name": "Bellingham",
@@ -3118,6 +3118,11 @@
         {
           "name": "Vinicius Junior",
           "team": "Real Madrid",
+          "assists": 2
+        },
+        {
+          "name": "Xavi Espart",
+          "team": "FC Barcelona",
           "assists": 2
         },
         {
@@ -3186,6 +3191,11 @@
           "assists": 1
         },
         {
+          "name": "Karim Adeyemi",
+          "team": "FC Barcelona",
+          "assists": 1
+        },
+        {
           "name": "Karl Etta Eyong",
           "team": "Levante UD",
           "assists": 1
@@ -3208,6 +3218,11 @@
         {
           "name": "Luismi Cruz",
           "team": "RC Deportivo",
+          "assists": 1
+        },
+        {
+          "name": "Marc Bernal",
+          "team": "FC Barcelona",
           "assists": 1
         },
         {
@@ -3276,6 +3291,11 @@
           "assists": 1
         },
         {
+          "name": "Unai López",
+          "team": "Rayo Vallecano",
+          "assists": 1
+        },
+        {
           "name": "Valverde",
           "team": "Real Madrid",
           "assists": 1
@@ -3283,11 +3303,6 @@
         {
           "name": "Williams",
           "team": "Athletic Club",
-          "assists": 1
-        },
-        {
-          "name": "Xavi Espart",
-          "team": "FC Barcelona",
           "assists": 1
         },
         {
@@ -3301,6 +3316,11 @@
           "assists": 1
         },
         {
+          "name": "Álvaro García",
+          "team": "Rayo Vallecano",
+          "assists": 1
+        },
+        {
           "name": "Ángel Pérez",
           "team": "Deportivo Alavés",
           "assists": 1
@@ -3308,8 +3328,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-08-31T20:51:18Z"
+      "updatedAt": "2026-08-31T22:02:19Z"
     }
   },
-  "updatedAt": "2026-08-31T20:51:18Z"
+  "updatedAt": "2026-08-31T22:02:19Z"
 }
