@@ -2625,9 +2625,17 @@
           "penalties": 0
         },
         {
+          "name": "Raphinha",
+          "team": "FC Barcelona",
+          "matches": 3,
+          "goals": 4,
+          "assistsInScorerFeed": 0,
+          "penalties": 1
+        },
+        {
           "name": "Fermín López",
           "team": "FC Barcelona",
-          "matches": 2,
+          "matches": 3,
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2639,14 +2647,6 @@
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 0
-        },
-        {
-          "name": "Raphinha",
-          "team": "FC Barcelona",
-          "matches": 2,
-          "goals": 3,
-          "assistsInScorerFeed": 0,
-          "penalties": 1
         },
         {
           "name": "Roberto Fernández",
@@ -2671,6 +2671,14 @@
           "goals": 3,
           "assistsInScorerFeed": 1,
           "penalties": 0
+        },
+        {
+          "name": "Ante Budimir",
+          "team": "CA Osasuna",
+          "matches": 3,
+          "goals": 2,
+          "assistsInScorerFeed": 0,
+          "penalties": 2
         },
         {
           "name": "Brugui",
@@ -2699,6 +2707,14 @@
         {
           "name": "Rodrigo Riquelme",
           "team": "Real Betis",
+          "matches": 3,
+          "goals": 2,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Sergio Camello",
+          "team": "Rayo Vallecano",
           "matches": 3,
           "goals": 2,
           "assistsInScorerFeed": 0,
@@ -2739,14 +2755,6 @@
         {
           "name": "Andrés Martín",
           "team": "Racing Santander",
-          "matches": 3,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
-          "penalties": 1
-        },
-        {
-          "name": "Ante Budimir",
-          "team": "CA Osasuna",
           "matches": 3,
           "goals": 1,
           "assistsInScorerFeed": 0,
@@ -2891,7 +2899,7 @@
         {
           "name": "Karim Adeyemi",
           "team": "FC Barcelona",
-          "matches": 2,
+          "matches": 3,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2899,6 +2907,14 @@
         {
           "name": "Kike Barja",
           "team": "CA Osasuna",
+          "matches": 3,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Lamine Yamal",
+          "team": "FC Barcelona",
           "matches": 3,
           "goals": 1,
           "assistsInScorerFeed": 0,
@@ -3017,14 +3033,6 @@
           "penalties": 0
         },
         {
-          "name": "Sergio Camello",
-          "team": "Rayo Vallecano",
-          "matches": 2,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
           "name": "Sergio Martínez",
           "team": "Racing Santander",
           "matches": 3,
@@ -3075,9 +3083,9 @@
         {
           "name": "Álvaro García",
           "team": "Rayo Vallecano",
-          "matches": 2,
+          "matches": 3,
           "goals": 1,
-          "assistsInScorerFeed": 0,
+          "assistsInScorerFeed": 1,
           "penalties": 0
         }
       ],
@@ -3300,8 +3308,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-08-31T17:36:34Z"
+      "updatedAt": "2026-08-31T20:51:18Z"
     }
   },
-  "updatedAt": "2026-08-31T17:36:34Z"
+  "updatedAt": "2026-08-31T20:51:18Z"
 }

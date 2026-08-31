@@ -69,6 +69,23 @@ if current_season == '2026/27':
     javi = [p for p in current_assists if p.get('name') == 'Javi Hernández']
     assert javi and max(p.get('assists', 0) for p in javi) >= 2, f'Javi Hernández assist regression: {javi}'
 
+config = json.loads((ROOT / 'config.json').read_text(encoding='utf-8'))
+current_label = config['currentSeason']
+archive_current_pairs = {
+    (r['home'], r['away']) for r in rows if r.get('season') == current_label
+}
+snapshot_finished_pairs = {
+    (m.get('home'), m.get('away')) for m in snapshot.get('finished', [])
+}
+snapshot_fixture_pairs = {
+    (m.get('home'), m.get('away')) for m in snapshot.get('fixtures', [])
+}
+assert archive_current_pairs <= snapshot_finished_pairs, (
+    f'confirmed results missing from snapshot.finished: {sorted(archive_current_pairs - snapshot_finished_pairs)[:5]}'
+)
+assert not (snapshot_finished_pairs & snapshot_fixture_pairs), (
+    f'finished matches leaked back into fixtures: {sorted(snapshot_finished_pairs & snapshot_fixture_pairs)[:5]}'
+)
 snapshot_teams = set(snapshot.get('teams') or [])
 assert 'Barça' not in snapshot_teams and 'Barca' not in snapshot_teams, 'Barcelona short name leaked into snapshot'
 assert 'Athletic' not in snapshot_teams, 'Athletic short name leaked into snapshot'
