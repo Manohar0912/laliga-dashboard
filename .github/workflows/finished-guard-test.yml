@@ -1,0 +1,67 @@
+name: Finished result guard test
+
+on:
+  push:
+    branches:
+      - agent/protect-finished-results
+
+permissions:
+  contents: write
+
+jobs:
+  test-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/protect-finished-results
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Patch updater and restore regressed results
+        run: |
+          python scripts/patch_finished_guard_once.py
+          python scripts/repair_aug30_results_once.py
+      - name: Refresh live season with monotonic finished guard
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: python scripts/update_laliga.py
+      - name: Refresh season stats
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: python scripts/update_season_stats.py
+      - name: Retrain predictions
+        run: python scripts/train_model_ensemble.py
+      - name: Assemble and rebuild
+        run: |
+          cat template_parts/part*.html > dashboard_template.html
+          python scripts/update_laliga.py --offline
+          python scripts/inject_model.py
+      - name: Validate build and finished-state regression
+        run: |
+          python scripts/validate.py
+          python - <<'PY'
+          import sys
+          sys.path.insert(0, 'scripts')
+          import update_laliga as u
+          rows=[{'season':'2026/27','date':'2026-08-30','home':'Test Home','away':'Test Away','home_goals':'2','away_goals':'1','ht_home_goals':'1','ht_away_goals':'0'}]
+          snap={'fixtures':[{'date':'2026-08-30','time':'20:00','home':'Test Home','away':'Test Away','status':'TIMED'}],'finished':[]}
+          fixed=u.reconcile_finished(snap,rows,'2026/27')
+          assert not fixed['fixtures'], fixed
+          assert len(fixed['finished'])==1 and fixed['finished'][0]['home_goals']==2, fixed
+          print('Monotonic FINISHED synthetic regression passed')
+          from pathlib import Path
+          html=Path('index.html').read_text(encoding='utf-8')
+          js=html.rsplit('<script>',1)[1].split('</script>',1)[0]
+          Path('/tmp/dashboard.js').write_text(js,encoding='utf-8')
+          PY
+          node --check /tmp/dashboard.js
+      - name: Commit validated fix to branch
+        run: |
+          git config user.name "laliga-dashboard-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add scripts/update_laliga.py scripts/validate.py data/laliga_matches.csv data/current_snapshot.json data/season_stats.json data/model_predictions.json dashboard_template.html index.html
+          git commit -m "Protect completed results from API status regressions" || true
+          git push origin HEAD:agent/protect-finished-results
