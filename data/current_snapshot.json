@@ -25,43 +25,13 @@
   ],
   "fixtures": [
     {
-      "id": 564651,
-      "date": "2026-08-30",
-      "time": "19:30",
-      "home": "RC Deportivo",
-      "away": "Valencia CF",
-      "referee": "",
-      "status": "IN_PLAY",
-      "matchday": 3
-    },
-    {
-      "id": 564652,
-      "date": "2026-08-30",
-      "time": "21:30",
-      "home": "Celta Vigo",
-      "away": "Athletic Club",
-      "referee": "",
-      "status": "TIMED",
-      "matchday": 3
-    },
-    {
-      "id": 564657,
-      "date": "2026-08-31",
-      "time": "19:30",
-      "home": "CA Osasuna",
-      "away": "Getafe CF",
-      "referee": "",
-      "status": "IN_PLAY",
-      "matchday": 3
-    },
-    {
       "id": 564650,
       "date": "2026-08-31",
       "time": "21:30",
       "home": "FC Barcelona",
       "away": "Rayo Vallecano",
       "referee": "",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 3
     },
     {
@@ -3817,6 +3787,26 @@
       "ht_away_goals": 3
     },
     {
+      "id": null,
+      "date": "2026-08-30",
+      "home": "Celta Vigo",
+      "away": "Athletic Club",
+      "home_goals": 0,
+      "away_goals": 2,
+      "ht_home_goals": 0,
+      "ht_away_goals": 2
+    },
+    {
+      "id": null,
+      "date": "2026-08-30",
+      "home": "RC Deportivo",
+      "away": "Valencia CF",
+      "home_goals": 3,
+      "away_goals": 1,
+      "ht_home_goals": 2,
+      "ht_away_goals": 1
+    },
+    {
       "id": 564656,
       "date": "2026-08-30",
       "home": "Real Madrid",
@@ -3825,8 +3815,18 @@
       "away_goals": 0,
       "ht_home_goals": 3,
       "ht_away_goals": 0
+    },
+    {
+      "id": 564657,
+      "date": "2026-08-31",
+      "home": "CA Osasuna",
+      "away": "Getafe CF",
+      "home_goals": 1,
+      "away_goals": 0,
+      "ht_home_goals": 1,
+      "ht_away_goals": 0
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-08-31T17:36:32Z"
+  "updatedAt": "2026-08-31T20:51:15Z"
 }
