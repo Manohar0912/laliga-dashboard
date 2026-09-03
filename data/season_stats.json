@@ -2755,7 +2755,7 @@
         {
           "name": "Ander Barrenetxea",
           "team": "Real Sociedad",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2931,7 +2931,7 @@
         {
           "name": "Luka Sučić",
           "team": "Real Sociedad",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2987,7 +2987,7 @@
         {
           "name": "Orri Oskarsson",
           "team": "Real Sociedad",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3328,8 +3328,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-08-31T22:02:19Z"
+      "updatedAt": "2026-09-03T18:04:29Z"
     }
   },
-  "updatedAt": "2026-08-31T22:02:19Z"
+  "updatedAt": "2026-09-03T18:04:29Z"
 }
