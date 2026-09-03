@@ -31,7 +31,7 @@
       "home": "Real Sociedad",
       "away": "Celta Vigo",
       "referee": "Víctor García Verdura",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 6
     },
     {
@@ -3828,5 +3828,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-09-03T18:04:26Z"
+  "updatedAt": "2026-09-03T21:00:30Z"
 }

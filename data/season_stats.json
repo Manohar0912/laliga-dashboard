@@ -2867,7 +2867,7 @@
         {
           "name": "Iago Aspas",
           "team": "Celta Vigo",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3328,8 +3328,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-03T18:04:29Z"
+      "updatedAt": "2026-09-03T21:00:33Z"
     }
   },
-  "updatedAt": "2026-09-03T18:04:29Z"
+  "updatedAt": "2026-09-03T21:00:33Z"
 }
