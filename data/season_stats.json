@@ -3041,6 +3041,14 @@
           "penalties": 0
         },
         {
+          "name": "Troy Parrott",
+          "team": "Real Betis",
+          "matches": 3,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Tyrhys Dolan",
           "team": "RCD Espanyol",
           "matches": 3,
@@ -3328,8 +3336,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-04T20:44:23Z"
+      "updatedAt": "2026-09-04T23:02:35Z"
     }
   },
-  "updatedAt": "2026-09-04T20:44:23Z"
+  "updatedAt": "2026-09-04T23:02:35Z"
 }
