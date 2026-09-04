@@ -2627,7 +2627,7 @@
         {
           "name": "Kylian Mbappé",
           "team": "Real Madrid",
-          "matches": 3,
+          "matches": 4,
           "goals": 4,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2699,7 +2699,7 @@
         {
           "name": "Jude Bellingham",
           "team": "Real Madrid",
-          "matches": 3,
+          "matches": 4,
           "goals": 2,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -2723,7 +2723,7 @@
         {
           "name": "Rodrigo Riquelme",
           "team": "Real Betis",
-          "matches": 3,
+          "matches": 4,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2771,7 +2771,7 @@
         {
           "name": "Arda Guler",
           "team": "Real Madrid",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2779,7 +2779,7 @@
         {
           "name": "Bartra",
           "team": "Real Betis",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2795,7 +2795,7 @@
         {
           "name": "Carlos Espí",
           "team": "Real Madrid",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3035,7 +3035,7 @@
         {
           "name": "Sergio Martínez",
           "team": "Racing Santander",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3059,7 +3059,7 @@
         {
           "name": "Vinicius Junior",
           "team": "Real Madrid",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -3328,8 +3328,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-03T21:00:33Z"
+      "updatedAt": "2026-09-04T20:44:23Z"
     }
   },
-  "updatedAt": "2026-09-03T21:00:33Z"
+  "updatedAt": "2026-09-04T20:44:23Z"
 }

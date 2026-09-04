@@ -30,8 +30,8 @@
       "time": "21:00",
       "home": "Real Betis",
       "away": "Real Madrid",
-      "referee": "",
-      "status": "2026-09-05 13:15:00Z",
+      "referee": "Alejandro Hernández Hernández",
+      "status": "IN_PLAY",
       "matchday": 4
     },
     {
@@ -41,7 +41,7 @@
       "home": "Athletic Club",
       "away": "Atlético Madrid",
       "referee": "",
-      "status": "2026-09-05 14:15:00Z",
+      "status": "TIMED",
       "matchday": 4
     },
     {
@@ -3817,7 +3817,7 @@
       "ht_away_goals": 1
     },
     {
-      "id": 564682,
+      "id": null,
       "date": "2026-09-03",
       "home": "Real Sociedad",
       "away": "Celta Vigo",
@@ -3828,5 +3828,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-09-03T23:16:14Z"
+  "updatedAt": "2026-09-04T20:44:21Z"
 }
