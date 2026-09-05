@@ -30,8 +30,8 @@
       "time": "16:15",
       "home": "Athletic Club",
       "away": "Atlético Madrid",
-      "referee": "",
-      "status": "TIMED",
+      "referee": "José Munuera Montero",
+      "status": "IN_PLAY",
       "matchday": 4
     },
     {
@@ -40,7 +40,7 @@
       "time": "18:30",
       "home": "Rayo Vallecano",
       "away": "Racing Santander",
-      "referee": "",
+      "referee": "Alejandro Quintero González",
       "status": "TIMED",
       "matchday": 4
     },
@@ -3828,5 +3828,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-09-05T13:27:23Z"
+  "updatedAt": "2026-09-05T16:16:05Z"
 }
