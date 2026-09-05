@@ -2653,7 +2653,7 @@
           "team": "RC Deportivo",
           "matches": 4,
           "goals": 3,
-          "assistsInScorerFeed": 0,
+          "assistsInScorerFeed": 2,
           "penalties": 0
         },
         {
@@ -2718,6 +2718,14 @@
           "matches": 3,
           "goals": 2,
           "assistsInScorerFeed": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Nicolas Pépé",
+          "team": "Villarreal CF",
+          "matches": 4,
+          "goals": 2,
+          "assistsInScorerFeed": 0,
           "penalties": 0
         },
         {
@@ -2961,6 +2969,14 @@
           "penalties": 0
         },
         {
+          "name": "Luismi Cruz",
+          "team": "RC Deportivo",
+          "matches": 4,
+          "goals": 1,
+          "assistsInScorerFeed": 1,
+          "penalties": 0
+        },
+        {
           "name": "Luka Sučić",
           "team": "Real Sociedad",
           "matches": 4,
@@ -3011,14 +3027,6 @@
         {
           "name": "Nico Williams",
           "team": "Athletic Club",
-          "matches": 4,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
-          "name": "Nicolas Pépé",
-          "team": "Villarreal CF",
           "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
@@ -3102,6 +3110,14 @@
           "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Zakaria Eddahchouri",
+          "team": "RC Deportivo",
+          "matches": 4,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
           "penalties": 0
         },
         {
@@ -3373,8 +3389,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-05T18:34:23Z"
+      "updatedAt": "2026-09-05T20:43:02Z"
     }
   },
-  "updatedAt": "2026-09-05T18:34:23Z"
+  "updatedAt": "2026-09-05T20:43:02Z"
 }
