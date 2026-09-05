@@ -2675,7 +2675,7 @@
         {
           "name": "Álex Baena",
           "team": "Atlético Madrid",
-          "matches": 3,
+          "matches": 4,
           "goals": 3,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2731,7 +2731,7 @@
         {
           "name": "Ademola Lookman",
           "team": "Atlético Madrid",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2859,7 +2859,7 @@
         {
           "name": "Giuliano Simeone",
           "team": "Atlético Madrid",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2899,7 +2899,7 @@
         {
           "name": "Kang-in Lee",
           "team": "Atlético Madrid",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2947,7 +2947,7 @@
         {
           "name": "Marc Pubill",
           "team": "Atlético Madrid",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3336,8 +3336,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-04T23:02:35Z"
+      "updatedAt": "2026-09-05T13:27:25Z"
     }
   },
-  "updatedAt": "2026-09-04T23:02:35Z"
+  "updatedAt": "2026-09-05T13:27:25Z"
 }
