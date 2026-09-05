@@ -25,16 +25,6 @@
   ],
   "fixtures": [
     {
-      "id": 564662,
-      "date": "2026-09-05",
-      "time": "21:00",
-      "home": "Villarreal CF",
-      "away": "RC Deportivo",
-      "referee": "Jesús Gil Manzano",
-      "status": "IN_PLAY",
-      "matchday": 4
-    },
-    {
       "id": 564659,
       "date": "2026-09-06",
       "time": "16:15",
@@ -3825,8 +3815,18 @@
       "away_goals": 2,
       "ht_home_goals": 2,
       "ht_away_goals": 2
+    },
+    {
+      "id": 564662,
+      "date": "2026-09-05",
+      "home": "Villarreal CF",
+      "away": "RC Deportivo",
+      "home_goals": 2,
+      "away_goals": 3,
+      "ht_home_goals": 1,
+      "ht_away_goals": 1
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-09-05T20:42:59Z"
+  "updatedAt": "2026-09-05T22:53:56Z"
 }

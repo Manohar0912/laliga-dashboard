@@ -2641,19 +2641,19 @@
           "penalties": 0
         },
         {
+          "name": "Pierre-Emerick Aubameyang",
+          "team": "RC Deportivo",
+          "matches": 4,
+          "goals": 4,
+          "assistsInScorerFeed": 2,
+          "penalties": 0
+        },
+        {
           "name": "Fermín López",
           "team": "FC Barcelona",
           "matches": 3,
           "goals": 3,
           "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
-          "name": "Pierre-Emerick Aubameyang",
-          "team": "RC Deportivo",
-          "matches": 4,
-          "goals": 3,
-          "assistsInScorerFeed": 2,
           "penalties": 0
         },
         {
@@ -3162,6 +3162,11 @@
           "assists": 3
         },
         {
+          "name": "Aubameyang",
+          "team": "RC Deportivo",
+          "assists": 2
+        },
+        {
           "name": "Bellingham",
           "team": "Real Madrid",
           "assists": 2
@@ -3190,6 +3195,11 @@
           "name": "Xavi Espart",
           "team": "FC Barcelona",
           "assists": 2
+        },
+        {
+          "name": "Ayoze Pérez",
+          "team": "Villarreal CF",
+          "assists": 1
         },
         {
           "name": "Camello",
@@ -3389,8 +3399,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-05T20:43:02Z"
+      "updatedAt": "2026-09-05T22:53:59Z"
     }
   },
-  "updatedAt": "2026-09-05T20:43:02Z"
+  "updatedAt": "2026-09-05T22:53:59Z"
 }
