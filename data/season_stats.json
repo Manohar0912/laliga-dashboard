@@ -2633,6 +2633,14 @@
           "penalties": 0
         },
         {
+          "name": "Ante Budimir",
+          "team": "CA Osasuna",
+          "matches": 4,
+          "goals": 4,
+          "assistsInScorerFeed": 0,
+          "penalties": 3
+        },
+        {
           "name": "Fermín López",
           "team": "FC Barcelona",
           "matches": 4,
@@ -2657,6 +2665,14 @@
           "penalties": 0
         },
         {
+          "name": "Lucas Boyé",
+          "team": "Deportivo Alavés",
+          "matches": 3,
+          "goals": 4,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Pierre-Emerick Aubameyang",
           "team": "RC Deportivo",
           "matches": 4,
@@ -2665,9 +2681,17 @@
           "penalties": 0
         },
         {
+          "name": "Mariano Díaz",
+          "team": "Deportivo Alavés",
+          "matches": 4,
+          "goals": 3,
+          "assistsInScorerFeed": 3,
+          "penalties": 0
+        },
+        {
           "name": "Roberto Fernández",
           "team": "RCD Espanyol",
-          "matches": 3,
+          "matches": 4,
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2689,14 +2713,6 @@
           "penalties": 0
         },
         {
-          "name": "Ante Budimir",
-          "team": "CA Osasuna",
-          "matches": 4,
-          "goals": 2,
-          "assistsInScorerFeed": 0,
-          "penalties": 2
-        },
-        {
           "name": "Brugui",
           "team": "Levante UD",
           "matches": 3,
@@ -2707,14 +2723,6 @@
         {
           "name": "Jude Bellingham",
           "team": "Real Madrid",
-          "matches": 4,
-          "goals": 2,
-          "assistsInScorerFeed": 2,
-          "penalties": 0
-        },
-        {
-          "name": "Mariano Díaz",
-          "team": "Deportivo Alavés",
           "matches": 4,
           "goals": 2,
           "assistsInScorerFeed": 2,
@@ -2843,7 +2851,7 @@
         {
           "name": "Chidera Ejuke",
           "team": "Sevilla FC",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2915,7 +2923,7 @@
         {
           "name": "Isaac",
           "team": "Sevilla FC",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2923,7 +2931,7 @@
         {
           "name": "Jon Guridi",
           "team": "Sevilla FC",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -2956,14 +2964,6 @@
           "name": "Kike Barja",
           "team": "CA Osasuna",
           "matches": 4,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
-          "name": "Lucas Boyé",
-          "team": "Deportivo Alavés",
-          "matches": 3,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3003,7 +3003,7 @@
         {
           "name": "Miguel Ángel Sierra",
           "team": "Sevilla FC",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3057,6 +3057,14 @@
           "penalties": 0
         },
         {
+          "name": "Pablo Ibáñez Tébar",
+          "team": "Deportivo Alavés",
+          "matches": 4,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Pape Gueye",
           "team": "Villarreal CF",
           "matches": 4,
@@ -3075,7 +3083,7 @@
         {
           "name": "Peque",
           "team": "Sevilla FC",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -3099,7 +3107,7 @@
         {
           "name": "Tyrhys Dolan",
           "team": "RCD Espanyol",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3139,7 +3147,7 @@
         {
           "name": "Álex Calatrava",
           "team": "RCD Espanyol",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3165,8 +3173,18 @@
           "assists": 3
         },
         {
+          "name": "Mariano Díaz",
+          "team": "Deportivo Alavés",
+          "assists": 3
+        },
+        {
           "name": "Unai López",
           "team": "Rayo Vallecano",
+          "assists": 3
+        },
+        {
+          "name": "Ángel Pérez",
+          "team": "Deportivo Alavés",
           "assists": 3
         },
         {
@@ -3190,11 +3208,6 @@
           "assists": 2
         },
         {
-          "name": "Mariano Díaz",
-          "team": "Deportivo Alavés",
-          "assists": 2
-        },
-        {
           "name": "Oyarzabal",
           "team": "Real Sociedad",
           "assists": 2
@@ -3213,6 +3226,11 @@
           "name": "Xavi Espart",
           "team": "FC Barcelona",
           "assists": 2
+        },
+        {
+          "name": "Aleñá",
+          "team": "Deportivo Alavés",
+          "assists": 1
         },
         {
           "name": "Ayoze Pérez",
@@ -3345,6 +3363,11 @@
           "assists": 1
         },
         {
+          "name": "Moi Gómez",
+          "team": "CA Osasuna",
+          "assists": 1
+        },
+        {
           "name": "Moleiro",
           "team": "Villarreal CF",
           "assists": 1
@@ -3380,6 +3403,11 @@
           "assists": 1
         },
         {
+          "name": "Sivera",
+          "team": "Deportivo Alavés",
+          "assists": 1
+        },
+        {
           "name": "Tete Morente",
           "team": "Elche CF",
           "assists": 1
@@ -3408,17 +3436,12 @@
           "name": "Álvaro García",
           "team": "Rayo Vallecano",
           "assists": 1
-        },
-        {
-          "name": "Ángel Pérez",
-          "team": "Deportivo Alavés",
-          "assists": 1
         }
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-06T16:27:08Z"
+      "updatedAt": "2026-09-06T18:38:09Z"
     }
   },
-  "updatedAt": "2026-09-06T16:27:08Z"
+  "updatedAt": "2026-09-06T18:38:09Z"
 }
