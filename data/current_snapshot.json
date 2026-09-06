@@ -30,7 +30,7 @@
       "time": "16:15",
       "home": "Valencia CF",
       "away": "FC Barcelona",
-      "referee": "",
+      "referee": "Isidro Díaz de Mera",
       "status": "TIMED",
       "matchday": 4
     },
@@ -3828,5 +3828,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-09-05T22:53:56Z"
+  "updatedAt": "2026-09-06T13:40:28Z"
 }
