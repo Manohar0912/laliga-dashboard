@@ -2620,7 +2620,7 @@
           "name": "Raphinha",
           "team": "FC Barcelona",
           "matches": 4,
-          "goals": 5,
+          "goals": 6,
           "assistsInScorerFeed": 0,
           "penalties": 1
         },
@@ -2633,8 +2633,24 @@
           "penalties": 0
         },
         {
+          "name": "Fermín López",
+          "team": "FC Barcelona",
+          "matches": 4,
+          "goals": 4,
+          "assistsInScorerFeed": 2,
+          "penalties": 0
+        },
+        {
           "name": "Kylian Mbappé",
           "team": "Real Madrid",
+          "matches": 4,
+          "goals": 4,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Lamine Yamal",
+          "team": "FC Barcelona",
           "matches": 4,
           "goals": 4,
           "assistsInScorerFeed": 0,
@@ -2646,14 +2662,6 @@
           "matches": 4,
           "goals": 4,
           "assistsInScorerFeed": 2,
-          "penalties": 0
-        },
-        {
-          "name": "Fermín López",
-          "team": "FC Barcelona",
-          "matches": 4,
-          "goals": 3,
-          "assistsInScorerFeed": 0,
           "penalties": 0
         },
         {
@@ -2683,7 +2691,7 @@
         {
           "name": "Ante Budimir",
           "team": "CA Osasuna",
-          "matches": 3,
+          "matches": 4,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 2
@@ -2691,7 +2699,7 @@
         {
           "name": "Brugui",
           "team": "Levante UD",
-          "matches": 2,
+          "matches": 3,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2705,17 +2713,9 @@
           "penalties": 0
         },
         {
-          "name": "Lamine Yamal",
-          "team": "FC Barcelona",
-          "matches": 4,
-          "goals": 2,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
           "name": "Mariano Díaz",
           "team": "Deportivo Alavés",
-          "matches": 3,
+          "matches": 4,
           "goals": 2,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -2763,7 +2763,7 @@
         {
           "name": "Adrián de la Fuente",
           "team": "Levante UD",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2851,7 +2851,7 @@
         {
           "name": "Chupete",
           "team": "Málaga CF",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -2867,7 +2867,7 @@
         {
           "name": "Enzo Bardeli",
           "team": "Levante UD",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2931,7 +2931,7 @@
         {
           "name": "Jon Olasagasti",
           "team": "Levante UD",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2955,7 +2955,7 @@
         {
           "name": "Kike Barja",
           "team": "CA Osasuna",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2963,7 +2963,7 @@
         {
           "name": "Lucas Boyé",
           "team": "Deportivo Alavés",
-          "matches": 2,
+          "matches": 3,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3019,7 +3019,7 @@
         {
           "name": "Nahuel Tenaglia",
           "team": "Deportivo Alavés",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3062,6 +3062,14 @@
           "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Pedri",
+          "team": "FC Barcelona",
+          "matches": 4,
+          "goals": 1,
+          "assistsInScorerFeed": 1,
           "penalties": 0
         },
         {
@@ -3149,7 +3157,7 @@
         {
           "name": "Anthony Gordon",
           "team": "FC Barcelona",
-          "assists": 3
+          "assists": 4
         },
         {
           "name": "Javi Hernández",
@@ -3169,6 +3177,16 @@
         {
           "name": "Bellingham",
           "team": "Real Madrid",
+          "assists": 2
+        },
+        {
+          "name": "Dani Olmo",
+          "team": "FC Barcelona",
+          "assists": 2
+        },
+        {
+          "name": "Fermín",
+          "team": "FC Barcelona",
           "assists": 2
         },
         {
@@ -3399,8 +3417,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-06T13:40:30Z"
+      "updatedAt": "2026-09-06T16:27:08Z"
     }
   },
-  "updatedAt": "2026-09-06T13:40:30Z"
+  "updatedAt": "2026-09-06T16:27:08Z"
 }
