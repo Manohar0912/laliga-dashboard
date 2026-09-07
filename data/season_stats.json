@@ -2721,11 +2721,27 @@
           "penalties": 0
         },
         {
+          "name": "Fer Niño",
+          "team": "Elche CF",
+          "matches": 4,
+          "goals": 2,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Jude Bellingham",
           "team": "Real Madrid",
           "matches": 4,
           "goals": 2,
           "assistsInScorerFeed": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Luka Sučić",
+          "team": "Real Sociedad",
+          "matches": 5,
+          "goals": 2,
+          "assistsInScorerFeed": 0,
           "penalties": 0
         },
         {
@@ -2889,14 +2905,6 @@
           "penalties": 0
         },
         {
-          "name": "Fer Niño",
-          "team": "Elche CF",
-          "matches": 4,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
           "name": "Georges Mikautadze",
           "team": "Villarreal CF",
           "matches": 4,
@@ -2993,14 +3001,6 @@
           "penalties": 0
         },
         {
-          "name": "Luka Sučić",
-          "team": "Real Sociedad",
-          "matches": 5,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
           "name": "Marc Aguado",
           "team": "Elche CF",
           "matches": 4,
@@ -3069,7 +3069,7 @@
           "team": "Real Sociedad",
           "matches": 5,
           "goals": 1,
-          "assistsInScorerFeed": 0,
+          "assistsInScorerFeed": 2,
           "penalties": 0
         },
         {
@@ -3137,6 +3137,14 @@
           "penalties": 0
         },
         {
+          "name": "Thomas Lemar",
+          "team": "Elche CF",
+          "matches": 1,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Troy Parrott",
           "team": "Real Betis",
           "matches": 3,
@@ -3166,6 +3174,14 @@
           "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Yangel Herrera",
+          "team": "Real Sociedad",
+          "matches": 5,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
           "penalties": 0
         },
         {
@@ -3248,8 +3264,18 @@
           "assists": 2
         },
         {
+          "name": "Job Ochieng",
+          "team": "Real Sociedad",
+          "assists": 2
+        },
+        {
           "name": "Oyarzabal",
           "team": "Real Sociedad",
+          "assists": 2
+        },
+        {
+          "name": "Tete Morente",
+          "team": "Elche CF",
           "assists": 2
         },
         {
@@ -3280,6 +3306,11 @@
         {
           "name": "Camello",
           "team": "Rayo Vallecano",
+          "assists": 1
+        },
+        {
+          "name": "Carlos Soler",
+          "team": "Real Sociedad",
           "assists": 1
         },
         {
@@ -3453,11 +3484,6 @@
           "assists": 1
         },
         {
-          "name": "Tete Morente",
-          "team": "Elche CF",
-          "assists": 1
-        },
-        {
           "name": "Trent Alexander-Arnold",
           "team": "Real Madrid",
           "assists": 1
@@ -3465,6 +3491,11 @@
         {
           "name": "Valverde",
           "team": "Real Madrid",
+          "assists": 1
+        },
+        {
+          "name": "Victor Chust",
+          "team": "Elche CF",
           "assists": 1
         },
         {
@@ -3485,8 +3516,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-07T19:56:41Z"
+      "updatedAt": "2026-09-07T22:49:31Z"
     }
   },
-  "updatedAt": "2026-09-07T19:56:41Z"
+  "updatedAt": "2026-09-07T22:49:31Z"
 }
