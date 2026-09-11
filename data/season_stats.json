@@ -2875,7 +2875,7 @@
         {
           "name": "Chidera Ejuke",
           "team": "Sevilla FC",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2939,7 +2939,7 @@
         {
           "name": "Isaac",
           "team": "Sevilla FC",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2947,7 +2947,7 @@
         {
           "name": "Jon Guridi",
           "team": "Sevilla FC",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -2958,6 +2958,14 @@
           "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Juan Iglesias",
+          "team": "Sevilla FC",
+          "matches": 5,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
           "penalties": 0
         },
         {
@@ -2987,7 +2995,7 @@
         {
           "name": "Lucas Stassin",
           "team": "Sevilla FC",
-          "matches": 1,
+          "matches": 2,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3035,7 +3043,7 @@
         {
           "name": "Miguel Ángel Sierra",
           "team": "Sevilla FC",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3123,7 +3131,7 @@
         {
           "name": "Peque",
           "team": "Sevilla FC",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -3516,8 +3524,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-07T22:49:31Z"
+      "updatedAt": "2026-09-11T20:56:56Z"
     }
   },
-  "updatedAt": "2026-09-07T22:49:31Z"
+  "updatedAt": "2026-09-11T20:56:56Z"
 }

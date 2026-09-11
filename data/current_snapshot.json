@@ -30,8 +30,8 @@
       "time": "21:00",
       "home": "Sevilla FC",
       "away": "Valencia CF",
-      "referee": "",
-      "status": "TIMED",
+      "referee": "Mateo Busquets Ferrer",
+      "status": "IN_PLAY",
       "matchday": 5
     },
     {
@@ -315,103 +315,103 @@
       "matchday": 7
     },
     {
+      "id": 564706,
+      "date": "2026-10-09",
+      "time": "21:00",
+      "home": "Málaga CF",
+      "away": "RCD Espanyol",
+      "referee": "",
+      "status": "TIMED",
+      "matchday": 8
+    },
+    {
+      "id": 564698,
+      "date": "2026-10-10",
+      "time": "14:00",
+      "home": "Rayo Vallecano",
+      "away": "Athletic Club",
+      "referee": "",
+      "status": "TIMED",
+      "matchday": 8
+    },
+    {
       "id": 564699,
-      "date": "2026-10-11",
-      "time": "02:00",
+      "date": "2026-10-10",
+      "time": "16:15",
       "home": "Deportivo Alavés",
       "away": "Atlético Madrid",
       "referee": "",
-      "status": "SCHEDULED",
+      "status": "TIMED",
+      "matchday": 8
+    },
+    {
+      "id": 564700,
+      "date": "2026-10-10",
+      "time": "18:30",
+      "home": "FC Barcelona",
+      "away": "Getafe CF",
+      "referee": "",
+      "status": "TIMED",
+      "matchday": 8
+    },
+    {
+      "id": 564702,
+      "date": "2026-10-10",
+      "time": "21:00",
+      "home": "Real Madrid",
+      "away": "Villarreal CF",
+      "referee": "",
+      "status": "TIMED",
       "matchday": 8
     },
     {
       "id": 564703,
       "date": "2026-10-11",
-      "time": "02:00",
+      "time": "14:00",
       "home": "Elche CF",
       "away": "Celta Vigo",
       "referee": "",
-      "status": "SCHEDULED",
-      "matchday": 8
-    },
-    {
-      "id": 564700,
-      "date": "2026-10-11",
-      "time": "02:00",
-      "home": "FC Barcelona",
-      "away": "Getafe CF",
-      "referee": "",
-      "status": "SCHEDULED",
-      "matchday": 8
-    },
-    {
-      "id": 564704,
-      "date": "2026-10-11",
-      "time": "02:00",
-      "home": "Levante UD",
-      "away": "Sevilla FC",
-      "referee": "",
-      "status": "SCHEDULED",
-      "matchday": 8
-    },
-    {
-      "id": 564706,
-      "date": "2026-10-11",
-      "time": "02:00",
-      "home": "Málaga CF",
-      "away": "RCD Espanyol",
-      "referee": "",
-      "status": "SCHEDULED",
-      "matchday": 8
-    },
-    {
-      "id": 564705,
-      "date": "2026-10-11",
-      "time": "02:00",
-      "home": "Racing Santander",
-      "away": "Valencia CF",
-      "referee": "",
-      "status": "SCHEDULED",
-      "matchday": 8
-    },
-    {
-      "id": 564698,
-      "date": "2026-10-11",
-      "time": "02:00",
-      "home": "Rayo Vallecano",
-      "away": "Athletic Club",
-      "referee": "",
-      "status": "SCHEDULED",
-      "matchday": 8
-    },
-    {
-      "id": 564701,
-      "date": "2026-10-11",
-      "time": "02:00",
-      "home": "Real Betis",
-      "away": "CA Osasuna",
-      "referee": "",
-      "status": "SCHEDULED",
-      "matchday": 8
-    },
-    {
-      "id": 564702,
-      "date": "2026-10-11",
-      "time": "02:00",
-      "home": "Real Madrid",
-      "away": "Villarreal CF",
-      "referee": "",
-      "status": "SCHEDULED",
+      "status": "TIMED",
       "matchday": 8
     },
     {
       "id": 564707,
       "date": "2026-10-11",
-      "time": "02:00",
+      "time": "16:15",
       "home": "Real Sociedad",
       "away": "RC Deportivo",
       "referee": "",
-      "status": "SCHEDULED",
+      "status": "TIMED",
+      "matchday": 8
+    },
+    {
+      "id": 564701,
+      "date": "2026-10-11",
+      "time": "18:30",
+      "home": "Real Betis",
+      "away": "CA Osasuna",
+      "referee": "",
+      "status": "TIMED",
+      "matchday": 8
+    },
+    {
+      "id": 564705,
+      "date": "2026-10-11",
+      "time": "21:00",
+      "home": "Racing Santander",
+      "away": "Valencia CF",
+      "referee": "",
+      "status": "TIMED",
+      "matchday": 8
+    },
+    {
+      "id": 564704,
+      "date": "2026-10-12",
+      "time": "21:00",
+      "home": "Levante UD",
+      "away": "Sevilla FC",
+      "referee": "",
+      "status": "TIMED",
       "matchday": 8
     },
     {
@@ -3828,5 +3828,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-09-07T22:49:29Z"
+  "updatedAt": "2026-09-11T20:56:54Z"
 }
