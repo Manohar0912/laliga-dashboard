@@ -2625,6 +2625,14 @@
           "penalties": 1
         },
         {
+          "name": "Roberto Fernández",
+          "team": "RCD Espanyol",
+          "matches": 5,
+          "goals": 5,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Sergio Camello",
           "team": "Rayo Vallecano",
           "matches": 4,
@@ -2697,14 +2705,6 @@
           "penalties": 0
         },
         {
-          "name": "Roberto Fernández",
-          "team": "RCD Espanyol",
-          "matches": 5,
-          "goals": 3,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
           "name": "Álex Baena",
           "team": "Atlético Madrid",
           "matches": 4,
@@ -2723,7 +2723,7 @@
         {
           "name": "Fer Niño",
           "team": "Elche CF",
-          "matches": 4,
+          "matches": 5,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2763,7 +2763,7 @@
         {
           "name": "Roberto Navarro",
           "team": "Athletic Club",
-          "matches": 4,
+          "matches": 5,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2795,7 +2795,7 @@
         {
           "name": "Aitor Paredes Casamichana",
           "team": "Athletic Club",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2843,7 +2843,7 @@
         {
           "name": "Buba",
           "team": "Elche CF",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3011,7 +3011,7 @@
         {
           "name": "Marc Aguado",
           "team": "Elche CF",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3029,7 +3029,7 @@
           "team": "RCD Espanyol",
           "matches": 5,
           "goals": 1,
-          "assistsInScorerFeed": 0,
+          "assistsInScorerFeed": 1,
           "penalties": 0
         },
         {
@@ -3067,7 +3067,7 @@
         {
           "name": "Nico Williams",
           "team": "Athletic Club",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3083,7 +3083,7 @@
         {
           "name": "Oihan Sancet",
           "team": "Athletic Club",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3147,7 +3147,7 @@
         {
           "name": "Thomas Lemar",
           "team": "Elche CF",
-          "matches": 1,
+          "matches": 2,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3211,7 +3211,7 @@
         {
           "name": "Álex Berenguer",
           "team": "Athletic Club",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3277,6 +3277,11 @@
         {
           "name": "Fermín",
           "team": "FC Barcelona",
+          "assists": 2
+        },
+        {
+          "name": "Iñigo Vicente",
+          "team": "Racing Santander",
           "assists": 2
         },
         {
@@ -3395,11 +3400,6 @@
           "assists": 1
         },
         {
-          "name": "Iñigo Vicente",
-          "team": "Racing Santander",
-          "assists": 1
-        },
-        {
           "name": "Jon Ander Olasagasti",
           "team": "Levante UD",
           "assists": 1
@@ -3445,6 +3445,11 @@
           "assists": 1
         },
         {
+          "name": "Marcos Fernández",
+          "team": "RCD Espanyol",
+          "assists": 1
+        },
+        {
           "name": "Marcos Llorente",
           "team": "Atlético Madrid",
           "assists": 1
@@ -3467,6 +3472,11 @@
         {
           "name": "Moleiro",
           "team": "Villarreal CF",
+          "assists": 1
+        },
+        {
+          "name": "Omar",
+          "team": "RCD Espanyol",
           "assists": 1
         },
         {
@@ -3537,8 +3547,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-12T13:36:11Z"
+      "updatedAt": "2026-09-12T16:29:11Z"
     }
   },
-  "updatedAt": "2026-09-12T13:36:11Z"
+  "updatedAt": "2026-09-12T16:29:11Z"
 }
