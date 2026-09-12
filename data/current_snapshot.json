@@ -25,22 +25,12 @@
   ],
   "fixtures": [
     {
-      "id": 564676,
-      "date": "2026-09-12",
-      "time": "18:30",
-      "home": "Athletic Club",
-      "away": "Elche CF",
-      "referee": "Manuel Orellana Cid",
-      "status": "TIMED",
-      "matchday": 5
-    },
-    {
       "id": 564677,
       "date": "2026-09-12",
       "time": "21:00",
       "home": "Real Madrid",
       "away": "Rayo Vallecano",
-      "referee": "",
+      "referee": "Víctor García Verdura",
       "status": "TIMED",
       "matchday": 5
     },
@@ -3807,6 +3797,16 @@
       "ht_away_goals": 0
     },
     {
+      "id": 564676,
+      "date": "2026-09-12",
+      "home": "Athletic Club",
+      "away": "Elche CF",
+      "home_goals": 1,
+      "away_goals": 1,
+      "ht_home_goals": 0,
+      "ht_away_goals": 0
+    },
+    {
       "id": 564673,
       "date": "2026-09-12",
       "home": "CA Osasuna",
@@ -3828,5 +3828,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-09-12T16:29:09Z"
+  "updatedAt": "2026-09-12T18:46:01Z"
 }

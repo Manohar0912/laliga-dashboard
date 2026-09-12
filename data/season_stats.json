@@ -2635,7 +2635,7 @@
         {
           "name": "Sergio Camello",
           "team": "Rayo Vallecano",
-          "matches": 4,
+          "matches": 5,
           "goals": 5,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2667,7 +2667,7 @@
         {
           "name": "Kylian Mbappé",
           "team": "Real Madrid",
-          "matches": 4,
+          "matches": 5,
           "goals": 4,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2731,7 +2731,7 @@
         {
           "name": "Jude Bellingham",
           "team": "Real Madrid",
-          "matches": 4,
+          "matches": 5,
           "goals": 2,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -2811,7 +2811,7 @@
         {
           "name": "Andrei Rațiu",
           "team": "Rayo Vallecano",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2827,7 +2827,7 @@
         {
           "name": "Arda Guler",
           "team": "Real Madrid",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2867,7 +2867,7 @@
         {
           "name": "Carlos Espí",
           "team": "Real Madrid",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2903,6 +2903,14 @@
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
+        },
+        {
+          "name": "Facundo Buonanotte",
+          "team": "Elche CF",
+          "matches": 5,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
+          "penalties": 1
         },
         {
           "name": "Georges Mikautadze",
@@ -2942,6 +2950,14 @@
           "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Iñaki Williams",
+          "team": "Athletic Club",
+          "matches": 5,
+          "goals": 1,
+          "assistsInScorerFeed": 2,
           "penalties": 0
         },
         {
@@ -3187,7 +3203,7 @@
         {
           "name": "Vinicius Junior",
           "team": "Real Madrid",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -3213,7 +3229,7 @@
           "team": "Athletic Club",
           "matches": 5,
           "goals": 1,
-          "assistsInScorerFeed": 0,
+          "assistsInScorerFeed": 1,
           "penalties": 0
         },
         {
@@ -3227,7 +3243,7 @@
         {
           "name": "Álvaro García",
           "team": "Rayo Vallecano",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3325,6 +3341,11 @@
           "assists": 1
         },
         {
+          "name": "Berenguer",
+          "team": "Athletic Club",
+          "assists": 1
+        },
+        {
           "name": "Camello",
           "team": "Rayo Vallecano",
           "assists": 1
@@ -3402,6 +3423,11 @@
         {
           "name": "Jon Ander Olasagasti",
           "team": "Levante UD",
+          "assists": 1
+        },
+        {
+          "name": "Jorge Salinas",
+          "team": "Racing Santander",
           "assists": 1
         },
         {
@@ -3547,8 +3573,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-12T16:29:11Z"
+      "updatedAt": "2026-09-12T18:46:03Z"
     }
   },
-  "updatedAt": "2026-09-12T16:29:11Z"
+  "updatedAt": "2026-09-12T18:46:03Z"
 }
