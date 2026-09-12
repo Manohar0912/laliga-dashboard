@@ -2633,9 +2633,17 @@
           "penalties": 0
         },
         {
+          "name": "Yassir Zabiri",
+          "team": "Racing Santander",
+          "matches": 5,
+          "goals": 5,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Ante Budimir",
           "team": "CA Osasuna",
-          "matches": 4,
+          "matches": 5,
           "goals": 4,
           "assistsInScorerFeed": 0,
           "penalties": 3
@@ -2667,7 +2675,7 @@
         {
           "name": "Lucas Boyé",
           "team": "Deportivo Alavés",
-          "matches": 3,
+          "matches": 4,
           "goals": 4,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2683,7 +2691,7 @@
         {
           "name": "Mariano Díaz",
           "team": "Deportivo Alavés",
-          "matches": 4,
+          "matches": 5,
           "goals": 3,
           "assistsInScorerFeed": 3,
           "penalties": 0
@@ -2691,15 +2699,7 @@
         {
           "name": "Roberto Fernández",
           "team": "RCD Espanyol",
-          "matches": 4,
-          "goals": 3,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
-          "name": "Yassir Zabiri",
-          "team": "Racing Santander",
-          "matches": 4,
+          "matches": 5,
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2755,7 +2755,7 @@
         {
           "name": "Pablo García",
           "team": "Racing Santander",
-          "matches": 4,
+          "matches": 5,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2851,7 +2851,7 @@
         {
           "name": "Canales",
           "team": "Racing Santander",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2987,7 +2987,7 @@
         {
           "name": "Kike Barja",
           "team": "CA Osasuna",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3027,7 +3027,7 @@
         {
           "name": "Marcos Fernández",
           "team": "RCD Espanyol",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3059,7 +3059,7 @@
         {
           "name": "Nahuel Tenaglia",
           "team": "Deportivo Alavés",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3107,7 +3107,7 @@
         {
           "name": "Pablo Ibáñez Tébar",
           "team": "Deportivo Alavés",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3163,7 +3163,7 @@
         {
           "name": "Tyrhys Dolan",
           "team": "RCD Espanyol",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3172,6 +3172,14 @@
           "name": "Umar Sadiq",
           "team": "Valencia CF",
           "matches": 3,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Ville Koski",
+          "team": "Deportivo Alavés",
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3211,7 +3219,7 @@
         {
           "name": "Álex Calatrava",
           "team": "RCD Espanyol",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3529,8 +3537,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-11T23:15:21Z"
+      "updatedAt": "2026-09-12T13:36:11Z"
     }
   },
-  "updatedAt": "2026-09-11T23:15:21Z"
+  "updatedAt": "2026-09-12T13:36:11Z"
 }

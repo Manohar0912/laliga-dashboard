@@ -30,8 +30,8 @@
       "time": "14:00",
       "home": "Racing Santander",
       "away": "Deportivo Alavés",
-      "referee": "",
-      "status": "TIMED",
+      "referee": "Javier Alberola Rojas",
+      "status": "IN_PLAY",
       "matchday": 5
     },
     {
@@ -40,7 +40,7 @@
       "time": "16:15",
       "home": "CA Osasuna",
       "away": "RCD Espanyol",
-      "referee": "",
+      "referee": "Luis Bestard Servera",
       "status": "TIMED",
       "matchday": 5
     },
@@ -3828,5 +3828,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-09-11T23:15:20Z"
+  "updatedAt": "2026-09-12T13:36:08Z"
 }
