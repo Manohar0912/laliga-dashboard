@@ -2737,6 +2737,14 @@
           "penalties": 0
         },
         {
+          "name": "Giuliano Simeone",
+          "team": "Atlético Madrid",
+          "matches": 5,
+          "goals": 2,
+          "assistsInScorerFeed": 1,
+          "penalties": 0
+        },
+        {
           "name": "Karim Adeyemi",
           "team": "FC Barcelona",
           "matches": 5,
@@ -2815,6 +2823,14 @@
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
+        },
+        {
+          "name": "Alejandro Grimaldo",
+          "team": "Atlético Madrid",
+          "matches": 5,
+          "goals": 1,
+          "assistsInScorerFeed": 1,
+          "penalties": 1
         },
         {
           "name": "Ander Barrenetxea",
@@ -2953,14 +2969,6 @@
           "penalties": 1
         },
         {
-          "name": "Giuliano Simeone",
-          "team": "Atlético Madrid",
-          "matches": 5,
-          "goals": 1,
-          "assistsInScorerFeed": 1,
-          "penalties": 0
-        },
-        {
           "name": "Iago Aspas",
           "team": "Celta Vigo",
           "matches": 6,
@@ -3006,6 +3014,14 @@
           "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Jonathan David",
+          "team": "Atlético Madrid",
+          "matches": 2,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
           "penalties": 0
         },
         {
@@ -3359,6 +3375,11 @@
           "assists": 2
         },
         {
+          "name": "Hancko",
+          "team": "Atlético Madrid",
+          "assists": 2
+        },
+        {
           "name": "Hugo González",
           "team": "Celta Vigo",
           "assists": 2
@@ -3469,7 +3490,7 @@
           "assists": 1
         },
         {
-          "name": "Hancko",
+          "name": "Grimaldo",
           "team": "Atlético Madrid",
           "assists": 1
         },
@@ -3641,8 +3662,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-13T19:49:42Z"
+      "updatedAt": "2026-09-13T22:23:32Z"
     }
   },
-  "updatedAt": "2026-09-13T19:49:42Z"
+  "updatedAt": "2026-09-13T22:23:32Z"
 }
