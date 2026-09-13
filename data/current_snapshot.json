@@ -25,23 +25,13 @@
   ],
   "fixtures": [
     {
-      "id": 564675,
-      "date": "2026-09-13",
-      "time": "16:15",
-      "home": "Levante UD",
-      "away": "FC Barcelona",
-      "referee": "Jon González Esteban",
-      "status": "IN_PLAY",
-      "matchday": 5
-    },
-    {
       "id": 564668,
       "date": "2026-09-13",
       "time": "18:30",
       "home": "Getafe CF",
       "away": "RC Deportivo",
-      "referee": "",
-      "status": "TIMED",
+      "referee": "Ricardo de Burgos",
+      "status": "PAUSED",
       "matchday": 5
     },
     {
@@ -50,8 +40,8 @@
       "time": "21:00",
       "home": "Real Sociedad",
       "away": "Atlético Madrid",
-      "referee": "",
-      "status": "TIMED",
+      "referee": "Juan Martínez Munuera",
+      "status": "2026-09-13 19:00:00Z",
       "matchday": 5
     },
     {
@@ -61,7 +51,7 @@
       "home": "Villarreal CF",
       "away": "Real Betis",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-09-14 19:00:00Z",
       "matchday": 5
     },
     {
@@ -71,7 +61,7 @@
       "home": "Rayo Vallecano",
       "away": "RCD Espanyol",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-09-15 17:00:00Z",
       "matchday": 6
     },
     {
@@ -81,7 +71,7 @@
       "home": "Deportivo Alavés",
       "away": "Valencia CF",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-09-15 18:00:00Z",
       "matchday": 6
     },
     {
@@ -91,7 +81,7 @@
       "home": "Elche CF",
       "away": "Real Madrid",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-09-15 19:30:00Z",
       "matchday": 6
     },
     {
@@ -101,7 +91,7 @@
       "home": "Atlético Madrid",
       "away": "CA Osasuna",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-09-16 17:00:00Z",
       "matchday": 6
     },
     {
@@ -111,7 +101,7 @@
       "home": "RC Deportivo",
       "away": "Sevilla FC",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-09-16 17:00:00Z",
       "matchday": 6
     },
     {
@@ -121,7 +111,7 @@
       "home": "FC Barcelona",
       "away": "Racing Santander",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-09-16 19:30:00Z",
       "matchday": 6
     },
     {
@@ -131,7 +121,7 @@
       "home": "Levante UD",
       "away": "Athletic Club",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-09-16 19:30:00Z",
       "matchday": 6
     },
     {
@@ -141,7 +131,7 @@
       "home": "Real Betis",
       "away": "Getafe CF",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-09-17 17:00:00Z",
       "matchday": 6
     },
     {
@@ -151,7 +141,7 @@
       "home": "Málaga CF",
       "away": "Villarreal CF",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-09-17 19:30:00Z",
       "matchday": 6
     },
     {
@@ -161,7 +151,7 @@
       "home": "RCD Espanyol",
       "away": "Elche CF",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-09-18 19:00:00Z",
       "matchday": 7
     },
     {
@@ -171,7 +161,7 @@
       "home": "CA Osasuna",
       "away": "Rayo Vallecano",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-09-19 12:00:00Z",
       "matchday": 7
     },
     {
@@ -181,7 +171,7 @@
       "home": "Athletic Club",
       "away": "Deportivo Alavés",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-09-19 14:15:00Z",
       "matchday": 7
     },
     {
@@ -191,7 +181,7 @@
       "home": "Celta Vigo",
       "away": "Racing Santander",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-09-19 16:30:00Z",
       "matchday": 7
     },
     {
@@ -201,7 +191,7 @@
       "home": "Sevilla FC",
       "away": "FC Barcelona",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-09-19 19:00:00Z",
       "matchday": 7
     },
     {
@@ -211,7 +201,7 @@
       "home": "Getafe CF",
       "away": "Málaga CF",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-09-20 12:00:00Z",
       "matchday": 7
     },
     {
@@ -221,7 +211,7 @@
       "home": "Atlético Madrid",
       "away": "Real Madrid",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-09-20 14:15:00Z",
       "matchday": 7
     },
     {
@@ -231,7 +221,7 @@
       "home": "RC Deportivo",
       "away": "Real Betis",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-09-20 16:30:00Z",
       "matchday": 7
     },
     {
@@ -241,7 +231,7 @@
       "home": "Villarreal CF",
       "away": "Levante UD",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-09-20 16:30:00Z",
       "matchday": 7
     },
     {
@@ -251,7 +241,7 @@
       "home": "Valencia CF",
       "away": "Real Sociedad",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-09-20 19:00:00Z",
       "matchday": 7
     },
     {
@@ -261,7 +251,7 @@
       "home": "Málaga CF",
       "away": "RCD Espanyol",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-10-09 19:00:00Z",
       "matchday": 8
     },
     {
@@ -271,7 +261,7 @@
       "home": "Rayo Vallecano",
       "away": "Athletic Club",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-10-10 12:00:00Z",
       "matchday": 8
     },
     {
@@ -281,7 +271,7 @@
       "home": "Deportivo Alavés",
       "away": "Atlético Madrid",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-10-10 14:15:00Z",
       "matchday": 8
     },
     {
@@ -291,7 +281,7 @@
       "home": "FC Barcelona",
       "away": "Getafe CF",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-10-10 16:30:00Z",
       "matchday": 8
     },
     {
@@ -301,7 +291,7 @@
       "home": "Real Madrid",
       "away": "Villarreal CF",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-10-10 19:00:00Z",
       "matchday": 8
     },
     {
@@ -311,7 +301,7 @@
       "home": "Elche CF",
       "away": "Celta Vigo",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-10-11 12:00:00Z",
       "matchday": 8
     },
     {
@@ -321,7 +311,7 @@
       "home": "Real Sociedad",
       "away": "RC Deportivo",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-10-11 14:15:00Z",
       "matchday": 8
     },
     {
@@ -331,7 +321,7 @@
       "home": "Real Betis",
       "away": "CA Osasuna",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-10-11 16:30:00Z",
       "matchday": 8
     },
     {
@@ -341,7 +331,7 @@
       "home": "Racing Santander",
       "away": "Valencia CF",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-10-11 19:00:00Z",
       "matchday": 8
     },
     {
@@ -351,7 +341,7 @@
       "home": "Levante UD",
       "away": "Sevilla FC",
       "referee": "",
-      "status": "TIMED",
+      "status": "2026-10-12 19:00:00Z",
       "matchday": 8
     },
     {
@@ -361,7 +351,7 @@
       "home": "CA Osasuna",
       "away": "Racing Santander",
       "referee": "",
-      "status": "SCHEDULED",
+      "status": "2026-10-18 15:00:00Z",
       "matchday": 9
     },
     {
@@ -371,7 +361,7 @@
       "home": "Celta Vigo",
       "away": "Deportivo Alavés",
       "referee": "",
-      "status": "SCHEDULED",
+      "status": "2026-10-18 15:00:00Z",
       "matchday": 9
     },
     {
@@ -381,7 +371,7 @@
       "home": "Getafe CF",
       "away": "Rayo Vallecano",
       "referee": "",
-      "status": "SCHEDULED",
+      "status": "2026-10-18 15:00:00Z",
       "matchday": 9
     },
     {
@@ -391,7 +381,7 @@
       "home": "Málaga CF",
       "away": "Real Sociedad",
       "referee": "",
-      "status": "SCHEDULED",
+      "status": "2026-10-18 15:00:00Z",
       "matchday": 9
     },
     {
@@ -401,7 +391,7 @@
       "home": "RC Deportivo",
       "away": "Levante UD",
       "referee": "",
-      "status": "SCHEDULED",
+      "status": "2026-10-18 15:00:00Z",
       "matchday": 9
     },
     {
@@ -411,7 +401,7 @@
       "home": "RCD Espanyol",
       "away": "Atlético Madrid",
       "referee": "",
-      "status": "SCHEDULED",
+      "status": "2026-10-18 15:00:00Z",
       "matchday": 9
     },
     {
@@ -421,7 +411,7 @@
       "home": "Real Betis",
       "away": "FC Barcelona",
       "referee": "",
-      "status": "SCHEDULED",
+      "status": "2026-10-18 15:00:00Z",
       "matchday": 9
     },
     {
@@ -431,7 +421,7 @@
       "home": "Real Madrid",
       "away": "Sevilla FC",
       "referee": "",
-      "status": "SCHEDULED",
+      "status": "2026-10-18 15:00:00Z",
       "matchday": 9
     },
     {
@@ -441,7 +431,7 @@
       "home": "Valencia CF",
       "away": "Athletic Club",
       "referee": "",
-      "status": "SCHEDULED",
+      "status": "2026-10-18 15:00:00Z",
       "matchday": 9
     },
     {
@@ -451,7 +441,7 @@
       "home": "Villarreal CF",
       "away": "Elche CF",
       "referee": "",
-      "status": "SCHEDULED",
+      "status": "2026-10-18 15:00:00Z",
       "matchday": 9
     },
     {
@@ -3825,8 +3815,18 @@
       "away_goals": 1,
       "ht_home_goals": 1,
       "ht_away_goals": 0
+    },
+    {
+      "id": 564675,
+      "date": "2026-09-13",
+      "home": "Levante UD",
+      "away": "FC Barcelona",
+      "home_goals": 2,
+      "away_goals": 4,
+      "ht_home_goals": 0,
+      "ht_away_goals": 2
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-09-13T14:21:46Z"
+  "updatedAt": "2026-09-13T17:39:00Z"
 }
