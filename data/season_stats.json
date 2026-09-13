@@ -2627,7 +2627,7 @@
         {
           "name": "Raphinha",
           "team": "FC Barcelona",
-          "matches": 4,
+          "matches": 5,
           "goals": 6,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -2667,7 +2667,7 @@
         {
           "name": "Fermín López",
           "team": "FC Barcelona",
-          "matches": 4,
+          "matches": 5,
           "goals": 4,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -2675,7 +2675,7 @@
         {
           "name": "Lamine Yamal",
           "team": "FC Barcelona",
-          "matches": 4,
+          "matches": 5,
           "goals": 4,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2723,7 +2723,7 @@
         {
           "name": "Brugui",
           "team": "Levante UD",
-          "matches": 3,
+          "matches": 4,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2785,9 +2785,17 @@
           "penalties": 0
         },
         {
+          "name": "Adrián",
+          "team": "Málaga CF",
+          "matches": 1,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Adrián de la Fuente",
           "team": "Levante UD",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2859,7 +2867,7 @@
         {
           "name": "Carl Starfelt",
           "team": "Celta Vigo",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2883,7 +2891,7 @@
         {
           "name": "Chupete",
           "team": "Málaga CF",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -2899,7 +2907,7 @@
         {
           "name": "Enzo Bardeli",
           "team": "Levante UD",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2911,6 +2919,14 @@
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
+        },
+        {
+          "name": "Ferran Jutglà",
+          "team": "Celta Vigo",
+          "matches": 6,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
         },
         {
           "name": "Georges Mikautadze",
@@ -2939,7 +2955,7 @@
         {
           "name": "Iago Aspas",
           "team": "Celta Vigo",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2971,7 +2987,7 @@
         {
           "name": "Jon Olasagasti",
           "team": "Levante UD",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2995,7 +3011,7 @@
         {
           "name": "Karim Adeyemi",
           "team": "FC Barcelona",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3139,7 +3155,7 @@
         {
           "name": "Pedri",
           "team": "FC Barcelona",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3314,6 +3330,11 @@
           "assists": 2
         },
         {
+          "name": "Hugo González",
+          "team": "Celta Vigo",
+          "assists": 2
+        },
+        {
           "name": "Iñigo Vicente",
           "team": "Racing Santander",
           "assists": 2
@@ -3419,11 +3440,6 @@
           "assists": 1
         },
         {
-          "name": "Hugo González",
-          "team": "Celta Vigo",
-          "assists": 1
-        },
-        {
           "name": "Isaac Romero",
           "team": "Sevilla FC",
           "assists": 1
@@ -3524,6 +3540,11 @@
           "assists": 1
         },
         {
+          "name": "Pablo Martínez",
+          "team": "Málaga CF",
+          "assists": 1
+        },
+        {
           "name": "Pedri",
           "team": "FC Barcelona",
           "assists": 1
@@ -3586,8 +3607,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-12T21:25:49Z"
+      "updatedAt": "2026-09-13T14:21:49Z"
     }
   },
-  "updatedAt": "2026-09-12T21:25:49Z"
+  "updatedAt": "2026-09-13T14:21:49Z"
 }
