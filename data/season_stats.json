@@ -2649,6 +2649,14 @@
           "penalties": 0
         },
         {
+          "name": "Pierre-Emerick Aubameyang",
+          "team": "RC Deportivo",
+          "matches": 5,
+          "goals": 5,
+          "assistsInScorerFeed": 2,
+          "penalties": 0
+        },
+        {
           "name": "Roberto Fernández",
           "team": "RCD Espanyol",
           "matches": 5,
@@ -2689,14 +2697,6 @@
           "penalties": 0
         },
         {
-          "name": "Pierre-Emerick Aubameyang",
-          "team": "RC Deportivo",
-          "matches": 5,
-          "goals": 4,
-          "assistsInScorerFeed": 2,
-          "penalties": 0
-        },
-        {
           "name": "Brugui",
           "team": "Levante UD",
           "matches": 4,
@@ -2723,7 +2723,7 @@
         {
           "name": "Álex Baena",
           "team": "Atlético Madrid",
-          "matches": 4,
+          "matches": 5,
           "goals": 3,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2747,7 +2747,7 @@
         {
           "name": "Luka Sučić",
           "team": "Real Sociedad",
-          "matches": 5,
+          "matches": 6,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2787,7 +2787,7 @@
         {
           "name": "Ademola Lookman",
           "team": "Atlético Madrid",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2819,7 +2819,7 @@
         {
           "name": "Ander Barrenetxea",
           "team": "Real Sociedad",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2955,7 +2955,7 @@
         {
           "name": "Giuliano Simeone",
           "team": "Atlético Madrid",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3019,7 +3019,7 @@
         {
           "name": "Kang-in Lee",
           "team": "Atlético Madrid",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3059,7 +3059,7 @@
         {
           "name": "Marc Pubill",
           "team": "Atlético Madrid",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3115,7 +3115,7 @@
         {
           "name": "Ochieng",
           "team": "Real Sociedad",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -3131,7 +3131,7 @@
         {
           "name": "Orri Oskarsson",
           "team": "Real Sociedad",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3175,6 +3175,14 @@
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
+        },
+        {
+          "name": "RamónTerrats Espacio",
+          "team": "Getafe CF",
+          "matches": 5,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
         },
         {
           "name": "Sergio Martínez",
@@ -3243,7 +3251,7 @@
         {
           "name": "Yangel Herrera",
           "team": "Real Sociedad",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3471,6 +3479,11 @@
           "assists": 1
         },
         {
+          "name": "Iván Azón",
+          "team": "Getafe CF",
+          "assists": 1
+        },
+        {
           "name": "Jon Ander Olasagasti",
           "team": "Levante UD",
           "assists": 1
@@ -3611,6 +3624,11 @@
           "assists": 1
         },
         {
+          "name": "Yeremay Hernández",
+          "team": "RC Deportivo",
+          "assists": 1
+        },
+        {
           "name": "Álex Baena",
           "team": "Atlético Madrid",
           "assists": 1
@@ -3623,8 +3641,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-13T17:39:01Z"
+      "updatedAt": "2026-09-13T19:49:42Z"
     }
   },
-  "updatedAt": "2026-09-13T17:39:01Z"
+  "updatedAt": "2026-09-13T19:49:42Z"
 }
