@@ -2737,6 +2737,14 @@
           "penalties": 0
         },
         {
+          "name": "Gerard Moreno",
+          "team": "Villarreal CF",
+          "matches": 5,
+          "goals": 2,
+          "assistsInScorerFeed": 0,
+          "penalties": 1
+        },
+        {
           "name": "Giuliano Simeone",
           "team": "Atlético Madrid",
           "matches": 5,
@@ -2763,7 +2771,7 @@
         {
           "name": "Nicolas Pépé",
           "team": "Villarreal CF",
-          "matches": 4,
+          "matches": 5,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2787,7 +2795,7 @@
         {
           "name": "Rodrigo Riquelme",
           "team": "Real Betis",
-          "matches": 4,
+          "matches": 5,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2867,7 +2875,7 @@
         {
           "name": "Bartra",
           "team": "Real Betis",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2921,6 +2929,14 @@
           "penalties": 1
         },
         {
+          "name": "Cucho Hernández",
+          "team": "Real Betis",
+          "matches": 5,
+          "goals": 1,
+          "assistsInScorerFeed": 1,
+          "penalties": 0
+        },
+        {
           "name": "Enes Ünal",
           "team": "Getafe CF",
           "matches": 5,
@@ -2955,17 +2971,9 @@
         {
           "name": "Georges Mikautadze",
           "team": "Villarreal CF",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 1,
-          "penalties": 1
-        },
-        {
-          "name": "Gerard Moreno",
-          "team": "Villarreal CF",
-          "matches": 4,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
           "penalties": 1
         },
         {
@@ -3121,6 +3129,14 @@
           "penalties": 0
         },
         {
+          "name": "Natan",
+          "team": "Real Betis",
+          "matches": 5,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Nico Williams",
           "team": "Athletic Club",
           "matches": 5,
@@ -3171,7 +3187,7 @@
         {
           "name": "Pape Gueye",
           "team": "Villarreal CF",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3219,7 +3235,7 @@
         {
           "name": "Troy Parrott",
           "team": "Real Betis",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3662,8 +3678,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-13T22:23:32Z"
+      "updatedAt": "2026-09-14T20:34:43Z"
     }
   },
-  "updatedAt": "2026-09-13T22:23:32Z"
+  "updatedAt": "2026-09-14T20:34:43Z"
 }
