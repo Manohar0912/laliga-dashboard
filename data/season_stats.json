@@ -2617,6 +2617,14 @@
     "2026/27": {
       "players": [
         {
+          "name": "Raphinha",
+          "team": "FC Barcelona",
+          "matches": 6,
+          "goals": 9,
+          "assistsInScorerFeed": 2,
+          "penalties": 3
+        },
+        {
           "name": "Kylian Mbappé",
           "team": "Real Madrid",
           "matches": 6,
@@ -2628,15 +2636,7 @@
           "name": "Lamine Yamal",
           "team": "FC Barcelona",
           "matches": 6,
-          "goals": 6,
-          "assistsInScorerFeed": 0,
-          "penalties": 1
-        },
-        {
-          "name": "Raphinha",
-          "team": "FC Barcelona",
-          "matches": 6,
-          "goals": 6,
+          "goals": 7,
           "assistsInScorerFeed": 2,
           "penalties": 1
         },
@@ -2657,19 +2657,19 @@
           "penalties": 0
         },
         {
+          "name": "Yassir Zabiri",
+          "team": "Racing Santander",
+          "matches": 6,
+          "goals": 6,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Pierre-Emerick Aubameyang",
           "team": "RC Deportivo",
           "matches": 6,
           "goals": 5,
           "assistsInScorerFeed": 2,
-          "penalties": 0
-        },
-        {
-          "name": "Yassir Zabiri",
-          "team": "Racing Santander",
-          "matches": 6,
-          "goals": 5,
-          "assistsInScorerFeed": 0,
           "penalties": 0
         },
         {
@@ -2781,7 +2781,7 @@
           "team": "FC Barcelona",
           "matches": 6,
           "goals": 2,
-          "assistsInScorerFeed": 1,
+          "assistsInScorerFeed": 2,
           "penalties": 0
         },
         {
@@ -3017,6 +3017,14 @@
           "penalties": 0
         },
         {
+          "name": "Gabriel Jesus",
+          "team": "FC Barcelona",
+          "matches": 3,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Georges Mikautadze",
           "team": "Villarreal CF",
           "matches": 5,
@@ -3073,6 +3081,14 @@
           "penalties": 0
         },
         {
+          "name": "João Cancelo",
+          "team": "FC Barcelona",
+          "matches": 6,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Juan Iglesias",
           "team": "Sevilla FC",
           "matches": 6,
@@ -3110,6 +3126,14 @@
           "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Maguette Gueye",
+          "team": "Racing Santander",
+          "matches": 6,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
           "penalties": 0
         },
         {
@@ -3373,6 +3397,11 @@
           "assists": 4
         },
         {
+          "name": "Dani Olmo",
+          "team": "FC Barcelona",
+          "assists": 3
+        },
+        {
           "name": "Mariano Díaz",
           "team": "Deportivo Alavés",
           "assists": 3
@@ -3408,11 +3437,6 @@
           "assists": 2
         },
         {
-          "name": "Dani Olmo",
-          "team": "FC Barcelona",
-          "assists": 2
-        },
-        {
           "name": "Fermín",
           "team": "FC Barcelona",
           "assists": 2
@@ -3440,6 +3464,16 @@
         {
           "name": "Job Ochieng",
           "team": "Real Sociedad",
+          "assists": 2
+        },
+        {
+          "name": "Karim Adeyemi",
+          "team": "FC Barcelona",
+          "assists": 2
+        },
+        {
+          "name": "Lamine Yamal",
+          "team": "FC Barcelona",
           "assists": 2
         },
         {
@@ -3573,8 +3607,18 @@
           "assists": 1
         },
         {
+          "name": "Johnny",
+          "team": "Atlético Madrid",
+          "assists": 1
+        },
+        {
           "name": "Jon Ander Olasagasti",
           "team": "Levante UD",
+          "assists": 1
+        },
+        {
+          "name": "Jonathan David",
+          "team": "Atlético Madrid",
           "assists": 1
         },
         {
@@ -3585,11 +3629,6 @@
         {
           "name": "Josan",
           "team": "Elche CF",
-          "assists": 1
-        },
-        {
-          "name": "Karim Adeyemi",
-          "team": "FC Barcelona",
           "assists": 1
         },
         {
@@ -3708,6 +3747,11 @@
           "assists": 1
         },
         {
+          "name": "Villalibre",
+          "team": "Racing Santander",
+          "assists": 1
+        },
+        {
           "name": "Yeray",
           "team": "Athletic Club",
           "assists": 1
@@ -3725,8 +3769,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-16T18:54:04Z"
+      "updatedAt": "2026-09-16T22:08:57Z"
     }
   },
-  "updatedAt": "2026-09-16T18:54:04Z"
+  "updatedAt": "2026-09-16T22:08:57Z"
 }
