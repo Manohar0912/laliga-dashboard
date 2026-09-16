@@ -2627,7 +2627,7 @@
         {
           "name": "Lamine Yamal",
           "team": "FC Barcelona",
-          "matches": 5,
+          "matches": 6,
           "goals": 6,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -2635,7 +2635,7 @@
         {
           "name": "Raphinha",
           "team": "FC Barcelona",
-          "matches": 5,
+          "matches": 6,
           "goals": 6,
           "assistsInScorerFeed": 2,
           "penalties": 1
@@ -2659,7 +2659,7 @@
         {
           "name": "Pierre-Emerick Aubameyang",
           "team": "RC Deportivo",
-          "matches": 5,
+          "matches": 6,
           "goals": 5,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -2667,7 +2667,7 @@
         {
           "name": "Yassir Zabiri",
           "team": "Racing Santander",
-          "matches": 5,
+          "matches": 6,
           "goals": 5,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2675,7 +2675,7 @@
         {
           "name": "Ante Budimir",
           "team": "CA Osasuna",
-          "matches": 5,
+          "matches": 6,
           "goals": 4,
           "assistsInScorerFeed": 0,
           "penalties": 3
@@ -2683,7 +2683,7 @@
         {
           "name": "Fermín López",
           "team": "FC Barcelona",
-          "matches": 5,
+          "matches": 6,
           "goals": 4,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -2697,9 +2697,17 @@
           "penalties": 0
         },
         {
+          "name": "Álex Baena",
+          "team": "Atlético Madrid",
+          "matches": 6,
+          "goals": 4,
+          "assistsInScorerFeed": 1,
+          "penalties": 0
+        },
+        {
           "name": "Brugui",
           "team": "Levante UD",
-          "matches": 4,
+          "matches": 5,
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2729,14 +2737,6 @@
           "penalties": 0
         },
         {
-          "name": "Álex Baena",
-          "team": "Atlético Madrid",
-          "matches": 5,
-          "goals": 3,
-          "assistsInScorerFeed": 1,
-          "penalties": 0
-        },
-        {
           "name": "Carlos Espí",
           "team": "Real Madrid",
           "matches": 6,
@@ -2755,7 +2755,23 @@
         {
           "name": "Giuliano Simeone",
           "team": "Atlético Madrid",
-          "matches": 5,
+          "matches": 6,
+          "goals": 2,
+          "assistsInScorerFeed": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Jonathan David",
+          "team": "Atlético Madrid",
+          "matches": 3,
+          "goals": 2,
+          "assistsInScorerFeed": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Kang-in Lee",
+          "team": "Atlético Madrid",
+          "matches": 6,
           "goals": 2,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2763,7 +2779,7 @@
         {
           "name": "Karim Adeyemi",
           "team": "FC Barcelona",
-          "matches": 5,
+          "matches": 6,
           "goals": 2,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2771,6 +2787,14 @@
         {
           "name": "Luka Sučić",
           "team": "Real Sociedad",
+          "matches": 6,
+          "goals": 2,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Miguel Ángel Sierra",
+          "team": "Sevilla FC",
           "matches": 6,
           "goals": 2,
           "assistsInScorerFeed": 0,
@@ -2787,7 +2811,7 @@
         {
           "name": "Pablo García",
           "team": "Racing Santander",
-          "matches": 5,
+          "matches": 6,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2795,7 +2819,7 @@
         {
           "name": "Roberto Navarro",
           "team": "Athletic Club",
-          "matches": 5,
+          "matches": 6,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2827,7 +2851,7 @@
         {
           "name": "Ademola Lookman",
           "team": "Atlético Madrid",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2851,7 +2875,7 @@
         {
           "name": "Adrián de la Fuente",
           "team": "Levante UD",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2859,7 +2883,7 @@
         {
           "name": "Aitor Paredes Casamichana",
           "team": "Athletic Club",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2867,7 +2891,7 @@
         {
           "name": "Alejandro Grimaldo",
           "team": "Atlético Madrid",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 1
@@ -2923,7 +2947,7 @@
         {
           "name": "Canales",
           "team": "Racing Santander",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2939,7 +2963,7 @@
         {
           "name": "Chidera Ejuke",
           "team": "Sevilla FC",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2971,7 +2995,7 @@
         {
           "name": "Enzo Bardeli",
           "team": "Levante UD",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3011,7 +3035,7 @@
         {
           "name": "Isaac",
           "team": "Sevilla FC",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3019,7 +3043,7 @@
         {
           "name": "Iván Romero",
           "team": "Levante UD",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3027,7 +3051,7 @@
         {
           "name": "Iñaki Williams",
           "team": "Athletic Club",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -3035,7 +3059,7 @@
         {
           "name": "Jon Guridi",
           "team": "Sevilla FC",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -3043,39 +3067,23 @@
         {
           "name": "Jon Olasagasti",
           "team": "Levante UD",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 1,
-          "penalties": 0
-        },
-        {
-          "name": "Jonathan David",
-          "team": "Atlético Madrid",
-          "matches": 2,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
           "penalties": 0
         },
         {
           "name": "Juan Iglesias",
           "team": "Sevilla FC",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
         },
         {
-          "name": "Kang-in Lee",
-          "team": "Atlético Madrid",
-          "matches": 5,
-          "goals": 1,
-          "assistsInScorerFeed": 1,
-          "penalties": 0
-        },
-        {
           "name": "Kike Barja",
           "team": "CA Osasuna",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3083,7 +3091,7 @@
         {
           "name": "Lucas Stassin",
           "team": "Sevilla FC",
-          "matches": 2,
+          "matches": 3,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3099,7 +3107,7 @@
         {
           "name": "Luismi Cruz",
           "team": "RC Deportivo",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3115,7 +3123,7 @@
         {
           "name": "Marc Pubill",
           "team": "Atlético Madrid",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3131,14 +3139,6 @@
         {
           "name": "Martin Satriano",
           "team": "Getafe CF",
-          "matches": 5,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
-          "name": "Miguel Ángel Sierra",
-          "team": "Sevilla FC",
           "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
@@ -3171,7 +3171,7 @@
         {
           "name": "Nico Williams",
           "team": "Athletic Club",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3187,7 +3187,7 @@
         {
           "name": "Oihan Sancet",
           "team": "Athletic Club",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3227,7 +3227,7 @@
         {
           "name": "Pedri",
           "team": "FC Barcelona",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3235,7 +3235,7 @@
         {
           "name": "Peque",
           "team": "Sevilla FC",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -3243,6 +3243,14 @@
         {
           "name": "RamónTerrats Espacio",
           "team": "Getafe CF",
+          "matches": 5,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Robin Le Normand",
+          "team": "Atlético Madrid",
           "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
@@ -3307,7 +3315,7 @@
         {
           "name": "Xavi Espart",
           "team": "FC Barcelona",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3323,7 +3331,7 @@
         {
           "name": "Zakaria Eddahchouri",
           "team": "RC Deportivo",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3331,7 +3339,7 @@
         {
           "name": "Álex Berenguer",
           "team": "Athletic Club",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3717,8 +3725,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-15T22:13:19Z"
+      "updatedAt": "2026-09-16T18:54:04Z"
     }
   },
-  "updatedAt": "2026-09-15T22:13:19Z"
+  "updatedAt": "2026-09-16T18:54:04Z"
 }
