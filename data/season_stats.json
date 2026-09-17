@@ -2737,6 +2737,14 @@
           "penalties": 0
         },
         {
+          "name": "Pape Gueye",
+          "team": "Villarreal CF",
+          "matches": 6,
+          "goals": 3,
+          "assistsInScorerFeed": 0,
+          "penalties": 1
+        },
+        {
           "name": "Carlos Espí",
           "team": "Real Madrid",
           "matches": 6,
@@ -2897,6 +2905,14 @@
           "penalties": 0
         },
         {
+          "name": "Alberto Moleiro",
+          "team": "Villarreal CF",
+          "matches": 6,
+          "goals": 1,
+          "assistsInScorerFeed": 1,
+          "penalties": 0
+        },
+        {
           "name": "Alejandro Grimaldo",
           "team": "Atlético Madrid",
           "matches": 6,
@@ -2964,6 +2980,14 @@
           "name": "Carl Starfelt",
           "team": "Celta Vigo",
           "matches": 6,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Carlos Dotor",
+          "team": "Málaga CF",
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3249,14 +3273,6 @@
           "penalties": 0
         },
         {
-          "name": "Pape Gueye",
-          "team": "Villarreal CF",
-          "matches": 6,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
           "name": "Pedri",
           "team": "FC Barcelona",
           "matches": 6,
@@ -3440,6 +3456,11 @@
           "assists": 2
         },
         {
+          "name": "Ayoze Pérez",
+          "team": "Villarreal CF",
+          "assists": 2
+        },
+        {
           "name": "Bellingham",
           "team": "Real Madrid",
           "assists": 2
@@ -3530,11 +3551,6 @@
           "assists": 1
         },
         {
-          "name": "Ayoze Pérez",
-          "team": "Villarreal CF",
-          "assists": 1
-        },
-        {
           "name": "Camello",
           "team": "Rayo Vallecano",
           "assists": 1
@@ -3600,6 +3616,11 @@
           "assists": 1
         },
         {
+          "name": "Ilias Chakkour",
+          "team": "Villarreal CF",
+          "assists": 1
+        },
+        {
           "name": "Isaac Romero",
           "team": "Sevilla FC",
           "assists": 1
@@ -3637,6 +3658,11 @@
         {
           "name": "Josan",
           "team": "Elche CF",
+          "assists": 1
+        },
+        {
+          "name": "Juan Cruz",
+          "team": "Málaga CF",
           "assists": 1
         },
         {
@@ -3745,6 +3771,11 @@
           "assists": 1
         },
         {
+          "name": "Troy Parrott",
+          "team": "Real Betis",
+          "assists": 1
+        },
+        {
           "name": "Valverde",
           "team": "Real Madrid",
           "assists": 1
@@ -3777,8 +3808,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-17T19:00:19Z"
+      "updatedAt": "2026-09-17T22:08:07Z"
     }
   },
-  "updatedAt": "2026-09-17T19:00:19Z"
+  "updatedAt": "2026-09-17T22:08:07Z"
 }
