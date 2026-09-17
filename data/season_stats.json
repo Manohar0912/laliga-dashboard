@@ -2747,7 +2747,7 @@
         {
           "name": "Gerard Moreno",
           "team": "Villarreal CF",
-          "matches": 5,
+          "matches": 6,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -2803,7 +2803,7 @@
         {
           "name": "Nicolas Pépé",
           "team": "Villarreal CF",
-          "matches": 5,
+          "matches": 6,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2827,7 +2827,7 @@
         {
           "name": "Rodrigo Riquelme",
           "team": "Real Betis",
-          "matches": 5,
+          "matches": 6,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2838,6 +2838,14 @@
           "matches": 6,
           "goals": 2,
           "assistsInScorerFeed": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Abdessamad Ezzalzouli",
+          "team": "Real Betis",
+          "matches": 3,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
           "penalties": 0
         },
         {
@@ -2867,7 +2875,7 @@
         {
           "name": "Adrián",
           "team": "Málaga CF",
-          "matches": 1,
+          "matches": 2,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2931,7 +2939,7 @@
         {
           "name": "Bartra",
           "team": "Real Betis",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2971,7 +2979,7 @@
         {
           "name": "Chupete",
           "team": "Málaga CF",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -2979,7 +2987,7 @@
         {
           "name": "Cucho Hernández",
           "team": "Real Betis",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2987,7 +2995,7 @@
         {
           "name": "Enes Ünal",
           "team": "Getafe CF",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3027,7 +3035,7 @@
         {
           "name": "Georges Mikautadze",
           "team": "Villarreal CF",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 1
@@ -3163,7 +3171,7 @@
         {
           "name": "Martin Satriano",
           "team": "Getafe CF",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3187,7 +3195,7 @@
         {
           "name": "Natan",
           "team": "Real Betis",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3243,7 +3251,7 @@
         {
           "name": "Pape Gueye",
           "team": "Villarreal CF",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3299,9 +3307,9 @@
         {
           "name": "Troy Parrott",
           "team": "Real Betis",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
-          "assistsInScorerFeed": 0,
+          "assistsInScorerFeed": 1,
           "penalties": 0
         },
         {
@@ -3769,8 +3777,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-16T22:08:57Z"
+      "updatedAt": "2026-09-17T19:00:19Z"
     }
   },
-  "updatedAt": "2026-09-16T22:08:57Z"
+  "updatedAt": "2026-09-17T19:00:19Z"
 }

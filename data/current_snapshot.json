@@ -27,11 +27,11 @@
     {
       "id": 564685,
       "date": "2026-09-16",
-      "time": "21:30",
+      "time": "02:00",
       "home": "Levante UD",
       "away": "Athletic Club",
       "referee": "Alejandro Quintero González",
-      "status": "IN_PLAY",
+      "status": "POSTPONED",
       "matchday": 6
     },
     {
@@ -40,8 +40,8 @@
       "time": "19:00",
       "home": "Real Betis",
       "away": "Getafe CF",
-      "referee": "",
-      "status": "TIMED",
+      "referee": "José Sánchez Martínez",
+      "status": "IN_PLAY",
       "matchday": 6
     },
     {
@@ -50,7 +50,7 @@
       "time": "21:30",
       "home": "Málaga CF",
       "away": "Villarreal CF",
-      "referee": "",
+      "referee": "Miguel Chua",
       "status": "TIMED",
       "matchday": 6
     },
@@ -3828,5 +3828,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-09-16T22:08:55Z"
+  "updatedAt": "2026-09-17T19:00:13Z"
 }
