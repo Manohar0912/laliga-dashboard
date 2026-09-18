@@ -2643,7 +2643,7 @@
         {
           "name": "Roberto Fernández",
           "team": "RCD Espanyol",
-          "matches": 6,
+          "matches": 7,
           "goals": 6,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2661,6 +2661,14 @@
           "team": "Racing Santander",
           "matches": 6,
           "goals": 6,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Fer Niño",
+          "team": "Elche CF",
+          "matches": 7,
+          "goals": 5,
           "assistsInScorerFeed": 0,
           "penalties": 0
         },
@@ -2708,14 +2716,6 @@
           "name": "Brugui",
           "team": "Levante UD",
           "matches": 5,
-          "goals": 3,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
-          "name": "Fer Niño",
-          "team": "Elche CF",
-          "matches": 6,
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2859,7 +2859,7 @@
         {
           "name": "Abiel Osorio",
           "team": "Elche CF",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2963,7 +2963,7 @@
         {
           "name": "Buba",
           "team": "Elche CF",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3035,7 +3035,7 @@
         {
           "name": "Facundo Buonanotte",
           "team": "Elche CF",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -3063,6 +3063,14 @@
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 1
+        },
+        {
+          "name": "Germán Valera",
+          "team": "Elche CF",
+          "matches": 7,
+          "goals": 1,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
         },
         {
           "name": "Iago Aspas",
@@ -3171,7 +3179,7 @@
         {
           "name": "Marc Aguado",
           "team": "Elche CF",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3187,7 +3195,7 @@
         {
           "name": "Marcos Fernández",
           "team": "RCD Espanyol",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3315,7 +3323,7 @@
         {
           "name": "Thomas Lemar",
           "team": "Elche CF",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3331,7 +3339,7 @@
         {
           "name": "Tyrhys Dolan",
           "team": "RCD Espanyol",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3395,7 +3403,7 @@
         {
           "name": "Álex Calatrava",
           "team": "RCD Espanyol",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3808,8 +3816,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-17T22:08:07Z"
+      "updatedAt": "2026-09-18T20:52:55Z"
     }
   },
-  "updatedAt": "2026-09-17T22:08:07Z"
+  "updatedAt": "2026-09-18T20:52:55Z"
 }

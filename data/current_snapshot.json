@@ -25,23 +25,13 @@
   ],
   "fixtures": [
     {
-      "id": 564685,
-      "date": "2026-09-16",
-      "time": "02:00",
-      "home": "Levante UD",
-      "away": "Athletic Club",
-      "referee": "Alejandro Quintero González",
-      "status": "POSTPONED",
-      "matchday": 6
-    },
-    {
       "id": 564692,
       "date": "2026-09-18",
       "time": "21:00",
       "home": "RCD Espanyol",
       "away": "Elche CF",
-      "referee": "",
-      "status": "TIMED",
+      "referee": "Jon González Esteban",
+      "status": "IN_PLAY",
       "matchday": 7
     },
     {
@@ -333,6 +323,16 @@
       "referee": "",
       "status": "TIMED",
       "matchday": 9
+    },
+    {
+      "id": 564685,
+      "date": "2026-10-21",
+      "time": "20:00",
+      "home": "Levante UD",
+      "away": "Athletic Club",
+      "referee": "Alejandro Quintero González",
+      "status": "TIMED",
+      "matchday": 6
     },
     {
       "id": 564720,
@@ -3828,5 +3828,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-09-17T22:08:05Z"
+  "updatedAt": "2026-09-18T20:52:53Z"
 }
