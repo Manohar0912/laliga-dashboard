@@ -1,15 +1,43 @@
-# LaLiga Analytics Dashboard
+# Football Intelligence — Unified Dashboard
 
-Historical and current-season LaLiga analytics dashboard covering the competition from **1928/29 onward**.
+This branch contains the unified multi-competition dashboard.
 
-This repository is being set up with:
+## Data source
 
-- all-time LaLiga match history
-- current-season fixtures and results refresh
-- team intelligence and season match-centre analytics
-- all-time H2H analysis
-- match predictions
-- nightly validation, model retraining and rebuild through GitHub Actions
-- GitHub Pages deployment
+The Big Five leagues use public OpenFootball / football.json files hosted on GitHub:
 
-The automated refresh runs nightly to capture completed results, retrain predictions, validate the build and redeploy the dashboard. A manual workflow trigger remains available for on-demand updates.
+- Premier League
+- LaLiga
+- Bundesliga
+- Serie A
+- Ligue 1
+
+No API key is required, and the dashboard does not use the API-Sports 100-requests-per-day quota.
+
+The following competitions are already present in the navigation but currently show **Source pending** until a reliable open current-season source is added:
+
+- UEFA Champions League
+- UEFA Europa League
+- UEFA Conference League
+- Copa del Rey
+- Carabao Cup / EFL Cup
+- FA Cup
+
+## GitHub Pages
+
+This dashboard is static, so it can be hosted directly with GitHub Pages.
+
+To publish this branch:
+
+1. Open the repository **Settings**.
+2. Open **Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Select branch **unified-football-dashboard**.
+5. Select **/(root)**.
+6. Save.
+
+The site will then be available on the repository's GitHub Pages URL.
+
+## Notes
+
+OpenFootball is community-maintained and is not a live-score service. Tables and league statistics are calculated in the browser from the published fixture/result files.
