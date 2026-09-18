@@ -3444,6 +3444,11 @@
           "assists": 3
         },
         {
+          "name": "Tete Morente",
+          "team": "Elche CF",
+          "assists": 3
+        },
+        {
           "name": "Unai López",
           "team": "Rayo Vallecano",
           "assists": 3
@@ -3534,7 +3539,7 @@
           "assists": 2
         },
         {
-          "name": "Tete Morente",
+          "name": "Roy Revivo",
           "team": "Elche CF",
           "assists": 2
         },
@@ -3816,8 +3821,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-18T20:52:55Z"
+      "updatedAt": "2026-09-18T23:16:59Z"
     }
   },
-  "updatedAt": "2026-09-18T20:52:55Z"
+  "updatedAt": "2026-09-18T23:16:59Z"
 }
