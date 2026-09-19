@@ -111,7 +111,13 @@ def seed_openfootball(cfg, season):
         team1, team2 = m.get("team1") or "", m.get("team2") or ""
         if not team1 or not team2:
             continue
-        ft = ((m.get("score") or {}).get("ft"))
+        score = m.get("score")
+        if isinstance(score, dict):
+            ft = score.get("ft")
+        elif isinstance(score, list) and len(score) >= 2:
+            ft = score
+        else:
+            ft = None
         completed = isinstance(ft, list) and len(ft) >= 2
         date = m.get("date") or ""
         time_s = m.get("time") or ""
