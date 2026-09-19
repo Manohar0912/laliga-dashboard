@@ -18,6 +18,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Check out dashboard branch
         uses: actions/checkout@v4
@@ -39,4 +40,9 @@ jobs:
             exit 0
           fi
           git commit -m "Refresh current football data"
+
+          # The dashboard branch can change while this job is fetching data.
+          # Rebase the data-only commit onto the latest branch before pushing.
+          git fetch origin unified-football-dashboard
+          git rebase origin/unified-football-dashboard
           git push origin HEAD:unified-football-dashboard
