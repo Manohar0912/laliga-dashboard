@@ -75,25 +75,37 @@ def parse_event(ev):
     }
 
 def fetch_scoreboard(slug):
-    # ESPN's default soccer scoreboard gives the current relevant match window.
-    # It is substantially lighter than querying every day of the season.
-    urls = [
-        f"https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard?limit=100",
-        f"https://site.web.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard?limit=100",
-    ]
+    # Pull the current ESPN window plus the previous three calendar days.
+    # This keeps recent finals fresh without hammering the upstream service
+    # with a request for every day of the season.
+    today = dt.datetime.now(dt.timezone.utc).date()
+    queries = [None] + [(today - dt.timedelta(days=n)).strftime("%Y%m%d") for n in (1, 2, 3)]
+    rows = {}
     last = None
-    for url in urls:
-        try:
-            payload = get_json(url)
-            rows = {}
-            for ev in payload.get("events", []):
-                row = parse_event(ev)
-                if row and row["id"] and row["home"] and row["away"]:
-                    rows[row["id"]] = row
-            return rows
-        except Exception as exc:
-            last = exc
-    raise last
+    any_success = False
+    for day in queries:
+        suffix = "?limit=100" if day is None else "?dates=" + day + "&limit=100"
+        urls = [
+            f"https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard{suffix}",
+            f"https://site.web.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard{suffix}",
+        ]
+        payload = None
+        for url in urls:
+            try:
+                payload = get_json(url)
+                any_success = True
+                break
+            except Exception as exc:
+                last = exc
+        if not payload:
+            continue
+        for ev in payload.get("events", []):
+            row = parse_event(ev)
+            if row and row["id"] and row["home"] and row["away"]:
+                rows[row["id"]] = row
+    if not any_success and last:
+        raise last
+    return rows
 
 def seed_openfootball(cfg, season):
     code = cfg.get("history")
@@ -224,7 +236,15 @@ def merge_matches(seed, existing, fresh):
         prev = by_fixture.get(key)
         if prev is None or row.get("provider") == "espn" or (row.get("completed") and not prev.get("completed")):
             by_fixture[key] = row
-    return sorted(by_fixture.values(), key=lambda m: (m.get("dateTime") or m.get("date") or "", m.get("home") or ""))
+    today = dt.datetime.now(dt.timezone.utc).date().isoformat()
+    # Never leave a past fixture labelled Scheduled just because the seed
+    # source failed to publish its result. Current ESPN finals will replace it
+    # where available; otherwise it is safer to omit the stale row.
+    cleaned = [
+        m for m in by_fixture.values()
+        if m.get("completed") or (m.get("date") or "") >= today
+    ]
+    return sorted(cleaned, key=lambda m: (m.get("dateTime") or m.get("date") or "", m.get("home") or ""))
 
 def main():
     now = dt.datetime.now(dt.timezone.utc)
