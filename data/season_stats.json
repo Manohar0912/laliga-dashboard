@@ -2659,7 +2659,7 @@
         {
           "name": "Yassir Zabiri",
           "team": "Racing Santander",
-          "matches": 6,
+          "matches": 7,
           "goals": 6,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2819,7 +2819,7 @@
         {
           "name": "Pablo García",
           "team": "Racing Santander",
-          "matches": 6,
+          "matches": 7,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2971,7 +2971,7 @@
         {
           "name": "Canales",
           "team": "Racing Santander",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2979,7 +2979,7 @@
         {
           "name": "Carl Starfelt",
           "team": "Celta Vigo",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3043,7 +3043,7 @@
         {
           "name": "Ferran Jutglà",
           "team": "Celta Vigo",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3171,7 +3171,7 @@
         {
           "name": "Maguette Gueye",
           "team": "Racing Santander",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3559,6 +3559,11 @@
           "assists": 2
         },
         {
+          "name": "Adrià Pedrosa",
+          "team": "Rayo Vallecano",
+          "assists": 1
+        },
+        {
           "name": "Aleñá",
           "team": "Deportivo Alavés",
           "assists": 1
@@ -3821,8 +3826,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-19T13:55:11Z"
+      "updatedAt": "2026-09-19T17:16:35Z"
     }
   },
-  "updatedAt": "2026-09-19T13:55:11Z"
+  "updatedAt": "2026-09-19T17:16:35Z"
 }
