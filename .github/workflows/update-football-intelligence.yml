@@ -1,0 +1,42 @@
+name: Update Football Intelligence Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+  push:
+    paths:
+      - ".github/workflows/update-football-intelligence.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: football-intelligence-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out dashboard branch
+        uses: actions/checkout@v4
+        with:
+          ref: unified-football-dashboard
+          fetch-depth: 0
+
+      - name: Update current football snapshots
+        run: python3 scripts/update_current_data.py
+
+      - name: Commit refreshed data
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/current
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+          git commit -m "Refresh current football data"
+          git push origin HEAD:unified-football-dashboard
