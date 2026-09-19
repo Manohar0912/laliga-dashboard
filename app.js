@@ -62,7 +62,7 @@ function teamVisual(name,logo=""){
  return '<span class="team-avatar">'+esc(initials(name))+"</span>";
 }
 function badge(c,size=""){
- const logo=c.darkLogo||c.logo||"";
+ const logo=c.logo||c.darkLogo||"";
  const cls="badge-logo"+(size?" "+size:"");
  if(logo)return '<span class="'+cls+'"><img src="'+esc(logo)+'" alt="'+esc(c.name)+' logo" loading="lazy" referrerpolicy="no-referrer"></span>';
  return '<span class="'+cls+'">'+esc(c.short)+"</span>";
@@ -117,7 +117,7 @@ async function loadCurrent(c,force=false){
  const stats=calc(fixtures);
  const standings=mapSnapshotStandings(body.standings||[]);
  const teams=(body.teams||[]).map(t=>({name:t.name||"",logo:logoForTeam(t.name,t.logo||""),short:t.short||""})).filter(t=>t.name);
- return{c,available:true,current:true,source:body.source||"Current snapshot",updatedAt:body.updatedAt||"",fixtures,stats,standings,teams,competitionLogo:c.darkLogo||c.logo||""};
+ return{c,available:true,current:true,source:body.source||"Current snapshot",updatedAt:body.updatedAt||"",fixtures,stats,standings,teams,competitionLogo:c.logo||c.darkLogo||""};
 }
 
 async function loadHistorical(c,force=false){
