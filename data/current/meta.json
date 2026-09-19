@@ -1,72 +1,94 @@
 {
-  "updatedAt": "2026-09-19T07:17:39.309878+00:00",
+  "updatedAt": "2026-09-19T07:47:36.900954+00:00",
   "season": 2026,
   "sources": {
     "epl": {
       "ok": true,
       "matches": 375,
       "freshEvents": 6,
-      "standings": 20
+      "standings": 20,
+      "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
+      "darkLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png"
     },
     "laliga": {
       "ok": true,
       "matches": 370,
       "freshEvents": 10,
-      "standings": 20
+      "standings": 20,
+      "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
+      "darkLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png"
     },
     "bundesliga": {
       "ok": true,
       "matches": 300,
       "freshEvents": 6,
-      "standings": 18
+      "standings": 18,
+      "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
+      "darkLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/10.png"
     },
     "seriea": {
       "ok": true,
       "matches": 374,
       "freshEvents": 5,
-      "standings": 20
+      "standings": 20,
+      "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
+      "darkLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/12.png"
     },
     "ligue1": {
       "ok": true,
       "matches": 302,
       "freshEvents": 6,
-      "standings": 18
+      "standings": 18,
+      "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
+      "darkLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/9.png"
     },
     "ucl": {
       "ok": true,
       "matches": 6,
       "freshEvents": 6,
-      "standings": 36
+      "standings": 36,
+      "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2.png",
+      "darkLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2.png"
     },
     "uel": {
       "ok": true,
       "matches": 18,
       "freshEvents": 18,
-      "standings": 36
+      "standings": 36,
+      "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png",
+      "darkLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2310.png"
     },
     "uecl": {
       "ok": true,
       "matches": 18,
       "freshEvents": 18,
-      "standings": 36
+      "standings": 36,
+      "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/20296.png",
+      "darkLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png"
     },
     "copa": {
       "ok": true,
       "matches": 5,
       "freshEvents": 5,
-      "standings": 0
+      "standings": 0,
+      "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png",
+      "darkLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/80.png"
     },
     "eflcup": {
       "ok": true,
       "matches": 5,
       "freshEvents": 5,
-      "standings": 0
+      "standings": 0,
+      "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png",
+      "darkLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/41.png"
     },
     "facup": {
       "ok": true,
       "matches": 1,
       "freshEvents": 1,
-      "standings": 0
+      "standings": 0,
+      "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/40.png",
+      "darkLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/40.png"
     }
   },
   "errors": {}
