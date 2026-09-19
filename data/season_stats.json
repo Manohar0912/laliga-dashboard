@@ -2619,8 +2619,8 @@
         {
           "name": "Raphinha",
           "team": "FC Barcelona",
-          "matches": 6,
-          "goals": 9,
+          "matches": 7,
+          "goals": 10,
           "assistsInScorerFeed": 2,
           "penalties": 3
         },
@@ -2635,7 +2635,7 @@
         {
           "name": "Lamine Yamal",
           "team": "FC Barcelona",
-          "matches": 6,
+          "matches": 7,
           "goals": 7,
           "assistsInScorerFeed": 2,
           "penalties": 1
@@ -2691,7 +2691,7 @@
         {
           "name": "Fermín López",
           "team": "FC Barcelona",
-          "matches": 6,
+          "matches": 7,
           "goals": 4,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -2787,7 +2787,7 @@
         {
           "name": "Karim Adeyemi",
           "team": "FC Barcelona",
-          "matches": 6,
+          "matches": 7,
           "goals": 2,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -2803,7 +2803,7 @@
         {
           "name": "Miguel Ángel Sierra",
           "team": "Sevilla FC",
-          "matches": 6,
+          "matches": 7,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2812,6 +2812,14 @@
           "name": "Nicolas Pépé",
           "team": "Villarreal CF",
           "matches": 6,
+          "goals": 2,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Pablo Duran",
+          "team": "Celta Vigo",
+          "matches": 7,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2995,7 +3003,7 @@
         {
           "name": "Chidera Ejuke",
           "team": "Sevilla FC",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3051,7 +3059,7 @@
         {
           "name": "Gabriel Jesus",
           "team": "FC Barcelona",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3065,14 +3073,6 @@
           "penalties": 1
         },
         {
-          "name": "Germán Valera",
-          "team": "Elche CF",
-          "matches": 7,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
           "name": "Iago Aspas",
           "team": "Celta Vigo",
           "matches": 6,
@@ -3083,7 +3083,7 @@
         {
           "name": "Isaac",
           "team": "Sevilla FC",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3107,7 +3107,7 @@
         {
           "name": "Jon Guridi",
           "team": "Sevilla FC",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -3123,7 +3123,7 @@
         {
           "name": "João Cancelo",
           "team": "FC Barcelona",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3131,7 +3131,7 @@
         {
           "name": "Juan Iglesias",
           "team": "Sevilla FC",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3283,7 +3283,7 @@
         {
           "name": "Pedri",
           "team": "FC Barcelona",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3291,7 +3291,7 @@
         {
           "name": "Peque",
           "team": "Sevilla FC",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -3371,7 +3371,7 @@
         {
           "name": "Xavi Espart",
           "team": "FC Barcelona",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3489,6 +3489,11 @@
           "assists": 2
         },
         {
+          "name": "H. Álvarez",
+          "team": "Celta Vigo",
+          "assists": 2
+        },
+        {
           "name": "Hancko",
           "team": "Atlético Madrid",
           "assists": 2
@@ -3531,6 +3536,11 @@
         {
           "name": "Mbappé",
           "team": "Real Madrid",
+          "assists": 2
+        },
+        {
+          "name": "Miguel Román",
+          "team": "Celta Vigo",
           "assists": 2
         },
         {
@@ -3724,11 +3734,6 @@
           "assists": 1
         },
         {
-          "name": "Miguel Román",
-          "team": "Celta Vigo",
-          "assists": 1
-        },
-        {
           "name": "Moi Gómez",
           "team": "CA Osasuna",
           "assists": 1
@@ -3826,8 +3831,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-19T17:16:35Z"
+      "updatedAt": "2026-09-19T19:35:43Z"
     }
   },
-  "updatedAt": "2026-09-19T17:16:35Z"
+  "updatedAt": "2026-09-19T19:35:43Z"
 }
