@@ -2620,7 +2620,7 @@
           "name": "Raphinha",
           "team": "FC Barcelona",
           "matches": 7,
-          "goals": 10,
+          "goals": 12,
           "assistsInScorerFeed": 2,
           "penalties": 3
         },
@@ -2637,7 +2637,7 @@
           "team": "FC Barcelona",
           "matches": 7,
           "goals": 7,
-          "assistsInScorerFeed": 2,
+          "assistsInScorerFeed": 4,
           "penalties": 1
         },
         {
@@ -3429,6 +3429,11 @@
           "assists": 4
         },
         {
+          "name": "Lamine Yamal",
+          "team": "FC Barcelona",
+          "assists": 4
+        },
+        {
           "name": "Dani Olmo",
           "team": "FC Barcelona",
           "assists": 3
@@ -3519,11 +3524,6 @@
           "assists": 2
         },
         {
-          "name": "Lamine Yamal",
-          "team": "FC Barcelona",
-          "assists": 2
-        },
-        {
           "name": "Lucas Cepeda",
           "team": "Elche CF",
           "assists": 2
@@ -3589,6 +3589,11 @@
           "assists": 1
         },
         {
+          "name": "Christensen",
+          "team": "FC Barcelona",
+          "assists": 1
+        },
+        {
           "name": "Cucho Hernández",
           "team": "Real Betis",
           "assists": 1
@@ -3606,6 +3611,11 @@
         {
           "name": "Enzo Bardeli",
           "team": "Levante UD",
+          "assists": 1
+        },
+        {
+          "name": "Felix Correia",
+          "team": "Sevilla FC",
           "assists": 1
         },
         {
@@ -3831,8 +3841,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-19T19:35:43Z"
+      "updatedAt": "2026-09-19T21:45:30Z"
     }
   },
-  "updatedAt": "2026-09-19T19:35:43Z"
+  "updatedAt": "2026-09-19T21:45:30Z"
 }
