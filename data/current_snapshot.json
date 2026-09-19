@@ -30,8 +30,8 @@
       "time": "14:00",
       "home": "CA Osasuna",
       "away": "Rayo Vallecano",
-      "referee": "",
-      "status": "TIMED",
+      "referee": "Manuel Orellana Cid",
+      "status": "IN_PLAY",
       "matchday": 7
     },
     {
@@ -40,7 +40,7 @@
       "time": "16:15",
       "home": "Athletic Club",
       "away": "Deportivo Alavés",
-      "referee": "",
+      "referee": "Víctor García Verdura",
       "status": "TIMED",
       "matchday": 7
     },
@@ -3828,5 +3828,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-09-18T23:16:56Z"
+  "updatedAt": "2026-09-19T13:55:08Z"
 }
