@@ -147,14 +147,36 @@ function renderOverview(){
 }
 
 function renderMatches(){
- const root=$("#matchesView");let list=[];
- if(S.comp==="all")list=S.global.filter(x=>x.available).flatMap(x=>x.fixtures);
- else if(S.data?.available)list=S.data.fixtures;
+ const root=$("#matchesView");let base=[];
+ if(S.comp==="all")base=S.global.filter(x=>x.available).flatMap(x=>x.fixtures);
+ else if(S.data?.available)base=S.data.fixtures;
  else{root.innerHTML=S.data?unavailable(S.data):"";return}
- const q=S.q.toLowerCase().trim();
- list=list.filter(f=>(S.filter==="all"||(S.filter==="finished"&&f.finished)||(S.filter==="upcoming"&&!f.finished))&&(!q||(f.home+" "+f.away+" "+f.league+" "+f.round).toLowerCase().includes(q))).sort((a,b)=>(a.dateTime||a.date).localeCompare(b.dateTime||b.date));
- root.innerHTML='<div class="card page-card"><div class="page-title"><div><h2>Match centre</h2><p>'+esc(S.comp==="all"?"All available competitions":comp(S.comp).name)+'</p></div><span class="status-badge">'+list.length+' matches cached</span></div><div class="toolbar"><input id="matchSearch" placeholder="Search team or round" value="'+esc(S.q)+'"><div class="segment">'+["all","upcoming","finished"].map(x=>'<button data-f="'+x+'" class="'+(S.filter===x?"active":"")+'">'+x[0].toUpperCase()+x.slice(1)+'</button>').join("")+'</div></div><div class="match-list">'+(list.length?list.slice(0,350).map(matchHTML).join(""):'<div class="empty">No matches match the filter.</div>')+'</div><div class="note">Current-season snapshots refresh automatically on GitHub. This is not intended as second-by-second live scoring.</div></div>';
- $("#matchSearch").oninput=e=>{S.q=e.target.value;renderMatches()};$$("[data-f]").forEach(b=>b.onclick=()=>{S.filter=b.dataset.f;renderMatches()});
+
+ const filtered=()=>{
+  const q=S.q.toLowerCase().trim();
+  return base.filter(f=>
+   (S.filter==="all"||(S.filter==="finished"&&f.finished)||(S.filter==="upcoming"&&!f.finished))&&
+   (!q||(f.home+" "+f.away+" "+f.league+" "+f.round).toLowerCase().includes(q))
+  ).sort((a,b)=>(a.dateTime||a.date).localeCompare(b.dateTime||b.date));
+ };
+
+ const updateResults=()=>{
+  const list=filtered();
+  const count=$("#matchCount");
+  const results=$("#matchResults");
+  if(count)count.textContent=list.length+" matches cached";
+  if(results)results.innerHTML=list.length
+   ?list.slice(0,350).map(matchHTML).join("")
+   :'<div class="empty">No matches match the filter.</div>';
+  $$("[data-f]").forEach(b=>b.classList.toggle("active",b.dataset.f===S.filter));
+ };
+
+ root.innerHTML='<div class="card page-card"><div class="page-title"><div><h2>Match centre</h2><p>'+esc(S.comp==="all"?"All available competitions":comp(S.comp).name)+'</p></div><span class="status-badge" id="matchCount"></span></div><div class="toolbar"><input id="matchSearch" placeholder="Search team or round" value="'+esc(S.q)+'" autocomplete="off"><div class="segment">'+["all","upcoming","finished"].map(x=>'<button type="button" data-f="'+x+'" class="'+(S.filter===x?"active":"")+'">'+x[0].toUpperCase()+x.slice(1)+'</button>').join("")+'</div></div><div class="match-list" id="matchResults"></div><div class="note">Current-season snapshots refresh automatically on GitHub. This is not intended as second-by-second live scoring.</div></div>';
+
+ const search=$("#matchSearch");
+ search.oninput=e=>{S.q=e.target.value;updateResults()};
+ $$("[data-f]").forEach(b=>b.onclick=()=>{S.filter=b.dataset.f;updateResults()});
+ updateResults();
 }
 
 function compCard(c){
