@@ -76,13 +76,14 @@ def parse_event(ev):
 
 def fetch_scoreboard(slug):
     # Pull the current ESPN window plus the previous three calendar days.
-    # This keeps recent finals fresh without hammering the upstream service
-    # with a request for every day of the season.
+    # We also capture the competition artwork exposed by the same response.
     today = dt.datetime.now(dt.timezone.utc).date()
     queries = [None] + [(today - dt.timedelta(days=n)).strftime("%Y%m%d") for n in (1, 2, 3)]
     rows = {}
     last = None
     any_success = False
+    league_logo = ""
+    league_dark_logo = ""
     for day in queries:
         suffix = "?limit=100" if day is None else "?dates=" + day + "&limit=100"
         urls = [
@@ -99,13 +100,25 @@ def fetch_scoreboard(slug):
                 last = exc
         if not payload:
             continue
+        leagues = payload.get("leagues") or []
+        if leagues:
+            logos = leagues[0].get("logos") or []
+            for logo in logos:
+                href = logo.get("href") or ""
+                rel = logo.get("rel") or []
+                if "dark" in rel and not league_dark_logo:
+                    league_dark_logo = href
+                elif "default" in rel and not league_logo:
+                    league_logo = href
+            if not league_logo and logos:
+                league_logo = logos[0].get("href") or ""
         for ev in payload.get("events", []):
             row = parse_event(ev)
             if row and row["id"] and row["home"] and row["away"]:
                 rows[row["id"]] = row
     if not any_success and last:
         raise last
-    return rows
+    return rows, league_logo, league_dark_logo
 
 def seed_openfootball(cfg, season):
     code = cfg.get("history")
@@ -258,10 +271,10 @@ def main():
             existing = load_existing(path)
             seed = [] if existing else seed_openfootball(cfg, season)
             try:
-                fresh = fetch_scoreboard(cfg["slug"])
+                fresh, competition_logo, competition_dark_logo = fetch_scoreboard(cfg["slug"])
             except Exception as exc:
                 print(f"scoreboard warning {cfg['slug']}: {exc}")
-                fresh = {}
+                fresh, competition_logo, competition_dark_logo = {}, "", ""
             standings = parse_standings(cfg["slug"], season)
             matches = merge_matches(seed, existing, fresh)
             teams = {}
@@ -284,13 +297,20 @@ def main():
                 "updatedAt": now.isoformat(),
                 "source": "ESPN current feeds + OpenFootball season seed",
                 "season": season,
-                "competition": {**cfg, "id": key},
+                "competition": {**cfg, "id": key, "logo": competition_logo, "darkLogo": competition_dark_logo},
                 "standings": standings,
                 "matches": matches,
                 "teams": sorted(teams.values(), key=lambda t: t["name"]),
             }
             path.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-            meta["sources"][key] = {"ok": True, "matches": len(matches), "freshEvents": len(fresh), "standings": len(standings)}
+            meta["sources"][key] = {
+                "ok": True,
+                "matches": len(matches),
+                "freshEvents": len(fresh),
+                "standings": len(standings),
+                "logo": competition_logo,
+                "darkLogo": competition_dark_logo,
+            }
         except Exception as exc:
             print(f"ERROR {key}: {exc}")
             meta["errors"][key] = str(exc)
