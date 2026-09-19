@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-09-19T07:16:09.754824+00:00",
+  "updatedAt": "2026-09-19T07:17:39.309878+00:00",
   "season": 2026,
   "sources": {
     "epl": {
       "ok": true,
-      "matches": 385,
-      "freshEvents": 5,
+      "matches": 375,
+      "freshEvents": 6,
       "standings": 20
     },
     "laliga": {
       "ok": true,
-      "matches": 384,
-      "freshEvents": 4,
+      "matches": 370,
+      "freshEvents": 10,
       "standings": 20
     },
     "bundesliga": {
       "ok": true,
-      "matches": 309,
-      "freshEvents": 5,
+      "matches": 300,
+      "freshEvents": 6,
       "standings": 18
     },
     "seriea": {
       "ok": true,
-      "matches": 384,
-      "freshEvents": 4,
+      "matches": 374,
+      "freshEvents": 5,
       "standings": 20
     },
     "ligue1": {
       "ok": true,
-      "matches": 311,
-      "freshEvents": 5,
+      "matches": 302,
+      "freshEvents": 6,
       "standings": 18
     },
     "ucl": {
@@ -40,8 +40,8 @@
     },
     "uel": {
       "ok": true,
-      "matches": 9,
-      "freshEvents": 9,
+      "matches": 18,
+      "freshEvents": 18,
       "standings": 36
     },
     "uecl": {
@@ -58,8 +58,8 @@
     },
     "eflcup": {
       "ok": true,
-      "matches": 1,
-      "freshEvents": 1,
+      "matches": 5,
+      "freshEvents": 5,
       "standings": 0
     },
     "facup": {
