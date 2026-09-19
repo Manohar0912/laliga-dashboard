@@ -12,7 +12,7 @@ const COMPS=[
 {id:"facup",name:"FA Cup",short:"FAC",country:"England",type:"cup"}
 ];
 
-const S={comp:"all",season:null,view:"overview",data:null,global:[],filter:"all",q:"",cache:new Map()};
+const S={comp:"all",season:null,view:"overview",data:null,global:[],filter:"all",q:"",cache:new Map(),teamLogos:new Map()};
 const $=q=>document.querySelector(q),$$=q=>[...document.querySelectorAll(q)];
 const esc=v=>String(v??"").replace(/[&<>'"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
 const seasonLabel=y=>y+"/"+String((y+1)%100).padStart(2,"0");
@@ -20,6 +20,36 @@ const seasonPath=y=>y+"-"+String((y+1)%100).padStart(2,"0");
 const currentSeason=()=>{const d=new Date();return d.getMonth()>=6?d.getFullYear():d.getFullYear()-1};
 const comp=id=>COMPS.find(c=>c.id===id);
 const initials=n=>String(n||"").split(/\s+/).filter(Boolean).slice(0,3).map(x=>x[0]).join("").toUpperCase();
+const TEAM_STOP=new Set(["fc","cf","ac","afc","as","sc","sv","fsv","tsg","rb","rc","rcd","ssc","ss","acf","bc","club","football","calcio","de","cd"]);
+function teamKey(name){
+ let s=String(name||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/&/g," and ");
+ const replacements=[
+  [/bayern\s+munchen/g,"bayern munich"],
+  [/1\.?\s*fc\s+koln/g,"cologne"],
+  [/fc\s+koln/g,"cologne"],
+  [/hamburger\s+sv/g,"hamburg"],
+  [/internazionale/g,"inter"],
+  [/paris\s+saint[ -]germain/g,"psg"],
+  [/olympique\s+lyonnais/g,"lyon"],
+  [/olympique\s+de\s+marseille/g,"marseille"],
+  [/stade\s+rennais/g,"rennes"],
+  [/stade\s+brestois/g,"brest"],
+  [/wolverhampton\s+wanderers/g,"wolves"],
+  [/real\s+club\s+celta\s+de\s+vigo/g,"celta vigo"],
+  [/athletic\s+club\s+bilbao/g,"athletic club"]
+ ];
+ for(const [re,to] of replacements)s=s.replace(re,to);
+ return s.replace(/[^a-z0-9]+/g," ").trim().split(/\s+/).filter(t=>t&&!TEAM_STOP.has(t)&&!/^\d+$/.test(t)).join("");
+}
+function rememberTeamLogo(name,logo){
+ if(!name||!logo)return;
+ const key=teamKey(name);
+ if(key)S.teamLogos.set(key,logo);
+}
+function logoForTeam(name,explicit=""){
+ if(explicit)return explicit;
+ return S.teamLogos.get(teamKey(name))||"";
+}
 const pct=v=>Number.isFinite(v)?Math.round(v)+"%":"—";
 const one=v=>Number.isFinite(v)?v.toFixed(2):"—";
 const fmtDate=d=>{try{return new Intl.DateTimeFormat(undefined,{day:"numeric",month:"short",year:"numeric"}).format(new Date(d+"T12:00:00Z"))}catch{return d}};
@@ -27,10 +57,16 @@ const fmtTime=iso=>{if(!iso)return"";try{return new Intl.DateTimeFormat(undefine
 const updatedText=iso=>{if(!iso)return"Update time unavailable";const ms=Date.now()-new Date(iso).getTime();if(ms<0)return"Updated just now";const mins=Math.floor(ms/60000);if(mins<2)return"Updated just now";if(mins<60)return"Updated "+mins+" min ago";const h=Math.floor(mins/60);if(h<24)return"Updated "+h+"h ago";return"Updated "+Math.floor(h/24)+"d ago"};
 
 function teamVisual(name,logo=""){
- if(logo)return '<span class="team-avatar"><img src="'+esc(logo)+'" alt="" loading="lazy" referrerpolicy="no-referrer"></span>';
+ const resolved=logoForTeam(name,logo);
+ if(resolved)return '<span class="team-avatar has-logo"><img src="'+esc(resolved)+'" alt="'+esc(name)+' badge" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'grid\'"><span class="avatar-fallback">'+esc(initials(name))+'</span></span>';
  return '<span class="team-avatar">'+esc(initials(name))+"</span>";
 }
-const badge=c=>'<span class="badge-logo">'+esc(c.short)+"</span>";
+function badge(c,size=""){
+ const logo=c.darkLogo||c.logo||"";
+ const cls="badge-logo"+(size?" "+size:"");
+ if(logo)return '<span class="'+cls+'"><img src="'+esc(logo)+'" alt="'+esc(c.name)+' logo" loading="lazy" referrerpolicy="no-referrer"></span>';
+ return '<span class="'+cls+'">'+esc(c.short)+"</span>";
+}
 
 function setLoading(v){$("#loading").classList.toggle("hidden",!v);$("#refreshBtn").disabled=v}
 function showError(m=""){const e=$("#errorBanner");e.textContent=m;e.classList.toggle("hidden",!m)}
@@ -71,11 +107,17 @@ async function loadCurrent(c,force=false){
  const stamp=force?Date.now():Math.floor(Date.now()/300000);
  const body=await fetchJSON("./data/current/"+c.id+".json?v="+stamp,force);
  if(Number(body.season)!==currentSeason())throw new Error("Current snapshot has not rolled over to this season yet.");
+ const branding=body.competition||{};
+ if(branding.logo)c.logo=branding.logo;
+ if(branding.darkLogo)c.darkLogo=branding.darkLogo;
+ (body.teams||[]).forEach(t=>rememberTeamLogo(t.name,t.logo));
+ (body.standings||[]).forEach(t=>rememberTeamLogo(t.team,t.logo));
+ (body.matches||[]).forEach(m=>{rememberTeamLogo(m.home,m.homeLogo);rememberTeamLogo(m.away,m.awayLogo)});
  const fixtures=(body.matches||[]).map(m=>normSnapshot(c,m));
  const stats=calc(fixtures);
  const standings=mapSnapshotStandings(body.standings||[]);
- const teams=(body.teams||[]).map(t=>({name:t.name||"",logo:t.logo||"",short:t.short||""})).filter(t=>t.name);
- return{c,available:true,current:true,source:body.source||"Current snapshot",updatedAt:body.updatedAt||"",fixtures,stats,standings,teams};
+ const teams=(body.teams||[]).map(t=>({name:t.name||"",logo:logoForTeam(t.name,t.logo||""),short:t.short||""})).filter(t=>t.name);
+ return{c,available:true,current:true,source:body.source||"Current snapshot",updatedAt:body.updatedAt||"",fixtures,stats,standings,teams,competitionLogo:c.darkLogo||c.logo||""};
 }
 
 async function loadHistorical(c,force=false){
@@ -142,7 +184,7 @@ function renderOverview(){
   root.innerHTML='<div class="card hero"><div class="eyebrow">Auto-refreshed current data</div><h2>European Football Command Centre</h2><p>Current-season competitions are refreshed into this GitHub site automatically. Historical league seasons continue to use OpenFootball as the fallback archive.</p><div class="hero-meta"><span class="source-pill">GitHub-hosted snapshots</span><span class="status-badge">'+seasonLabel(S.season)+'</span>'+(freshness?'<span class="status-badge">'+esc(updatedText(freshness.updatedAt))+'</span>':'')+'</div></div><div class="grid4">'+kpi(ok.length,"Available competitions")+kpi(st.done,"Completed matches cached")+kpi(st.goals,"Goals in cached matches")+kpi(one(st.gpm),"Goals / match")+'</div><div class="grid2">'+matchesBlock("Upcoming across competitions",next)+'<div class="card panel"><div class="section-head"><h3>Competition feeds</h3><span>'+COMPS.length+' configured</span></div>'+COMPS.map(c=>{const d=S.global.find(x=>x.c.id===c.id);return'<div class="stat-row"><span>'+esc(c.name)+'</span><b>'+(d?.available?(d.current?"Current":"History"):"Unavailable")+'</b></div>'}).join("")+"</div></div>";
  }else{
   const d=S.data;if(!d){root.innerHTML="";return}if(!d.available){root.innerHTML=unavailable(d);return}const s=d.stats,table=bestTable(d);
-  root.innerHTML='<div class="card hero"><div class="eyebrow">'+esc(d.c.country)+' · '+seasonLabel(S.season)+'</div><h2>'+esc(d.c.name)+'</h2><p>'+(d.current?'The current season is served from an automatically refreshed GitHub snapshot, so the table and recent results are no longer dependent on stale OpenFootball upstream files.':'Historical season data is loaded from OpenFootball.')+'</p><div class="hero-meta">'+sourceLine(d)+'<span class="status-badge">'+s.done+' completed cached</span></div></div><div class="grid4">'+kpi(s.done,"Completed matches")+kpi(s.goals,"Goals in match cache")+kpi(one(s.gpm),"Goals / match")+kpi(pct(s.btts),"BTTS")+'</div><div class="grid2"><div class="card panel"><div class="section-head"><h3>'+(d.c.type==="league"?"Standings":"Stage / standings")+'</h3><span>'+(d.standings.length?"Current source table":"Calculated where possible")+'</span></div>'+tableHTML(table)+'</div>'+matchesBlock("Next fixtures",s.upcoming)+"</div>";
+  root.innerHTML='<div class="card hero"><div class="competition-hero-heading">'+badge(d.c,"large")+'<div><div class="eyebrow">'+esc(d.c.country)+' · '+seasonLabel(S.season)+'</div><h2>'+esc(d.c.name)+'</h2></div></div><p>'+(d.current?'The current season is served from an automatically refreshed GitHub snapshot, so the table and recent results are no longer dependent on stale OpenFootball upstream files.':'Historical season data is loaded from OpenFootball.')+'</p><div class="hero-meta">'+sourceLine(d)+'<span class="status-badge">'+s.done+' completed cached</span></div></div><div class="grid4">'+kpi(s.done,"Completed matches")+kpi(s.goals,"Goals in match cache")+kpi(one(s.gpm),"Goals / match")+kpi(pct(s.btts),"BTTS")+'</div><div class="grid2"><div class="card panel"><div class="section-head"><h3>'+(d.c.type==="league"?"Standings":"Stage / standings")+'</h3><span>'+(d.standings.length?"Current source table":"Calculated where possible")+'</span></div>'+tableHTML(table)+'</div>'+matchesBlock("Next fixtures",s.upcoming)+"</div>";
  }
 }
 
