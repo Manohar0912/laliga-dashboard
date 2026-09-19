@@ -1,0 +1,66 @@
+{
+  "updatedAt": "2026-09-19T07:14:27.313869+00:00",
+  "season": 2026,
+  "sources": {
+    "epl": {
+      "ok": false
+    },
+    "laliga": {
+      "ok": false
+    },
+    "bundesliga": {
+      "ok": false
+    },
+    "seriea": {
+      "ok": true,
+      "matches": 384,
+      "freshEvents": 4,
+      "standings": 20
+    },
+    "ligue1": {
+      "ok": false
+    },
+    "ucl": {
+      "ok": true,
+      "matches": 6,
+      "freshEvents": 6,
+      "standings": 36
+    },
+    "uel": {
+      "ok": true,
+      "matches": 9,
+      "freshEvents": 9,
+      "standings": 36
+    },
+    "uecl": {
+      "ok": true,
+      "matches": 18,
+      "freshEvents": 18,
+      "standings": 36
+    },
+    "copa": {
+      "ok": true,
+      "matches": 5,
+      "freshEvents": 5,
+      "standings": 0
+    },
+    "eflcup": {
+      "ok": true,
+      "matches": 1,
+      "freshEvents": 1,
+      "standings": 0
+    },
+    "facup": {
+      "ok": true,
+      "matches": 1,
+      "freshEvents": 1,
+      "standings": 0
+    }
+  },
+  "errors": {
+    "epl": "'list' object has no attribute 'get'",
+    "laliga": "'list' object has no attribute 'get'",
+    "bundesliga": "'list' object has no attribute 'get'",
+    "ligue1": "'list' object has no attribute 'get'"
+  }
+}
