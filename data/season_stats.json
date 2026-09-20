@@ -2683,7 +2683,7 @@
         {
           "name": "Pierre-Emerick Aubameyang",
           "team": "RC Deportivo",
-          "matches": 6,
+          "matches": 7,
           "goals": 5,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -2715,9 +2715,17 @@
         {
           "name": "Brugui",
           "team": "Levante UD",
-          "matches": 5,
+          "matches": 6,
           "goals": 3,
           "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Jonathan David",
+          "team": "Atlético Madrid",
+          "matches": 4,
+          "goals": 3,
+          "assistsInScorerFeed": 1,
           "penalties": 0
         },
         {
@@ -2739,10 +2747,18 @@
         {
           "name": "Pape Gueye",
           "team": "Villarreal CF",
-          "matches": 6,
+          "matches": 7,
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 1
+        },
+        {
+          "name": "Alejandro Grimaldo",
+          "team": "Atlético Madrid",
+          "matches": 7,
+          "goals": 2,
+          "assistsInScorerFeed": 1,
+          "penalties": 2
         },
         {
           "name": "Carlos Espí",
@@ -2753,9 +2769,17 @@
           "penalties": 0
         },
         {
+          "name": "Cucho Hernández",
+          "team": "Real Betis",
+          "matches": 7,
+          "goals": 2,
+          "assistsInScorerFeed": 1,
+          "penalties": 0
+        },
+        {
           "name": "Gerard Moreno",
           "team": "Villarreal CF",
-          "matches": 6,
+          "matches": 7,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -2765,15 +2789,15 @@
           "team": "Atlético Madrid",
           "matches": 7,
           "goals": 2,
-          "assistsInScorerFeed": 1,
+          "assistsInScorerFeed": 2,
           "penalties": 0
         },
         {
-          "name": "Jonathan David",
-          "team": "Atlético Madrid",
-          "matches": 4,
+          "name": "Iván Romero",
+          "team": "Levante UD",
+          "matches": 7,
           "goals": 2,
-          "assistsInScorerFeed": 1,
+          "assistsInScorerFeed": 0,
           "penalties": 0
         },
         {
@@ -2811,7 +2835,7 @@
         {
           "name": "Nicolas Pépé",
           "team": "Villarreal CF",
-          "matches": 6,
+          "matches": 7,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2843,7 +2867,7 @@
         {
           "name": "Rodrigo Riquelme",
           "team": "Real Betis",
-          "matches": 6,
+          "matches": 7,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2859,7 +2883,7 @@
         {
           "name": "Abdessamad Ezzalzouli",
           "team": "Real Betis",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2899,7 +2923,7 @@
         {
           "name": "Adrián de la Fuente",
           "team": "Levante UD",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2915,18 +2939,10 @@
         {
           "name": "Alberto Moleiro",
           "team": "Villarreal CF",
-          "matches": 6,
-          "goals": 1,
-          "assistsInScorerFeed": 1,
-          "penalties": 0
-        },
-        {
-          "name": "Alejandro Grimaldo",
-          "team": "Atlético Madrid",
           "matches": 7,
           "goals": 1,
-          "assistsInScorerFeed": 1,
-          "penalties": 1
+          "assistsInScorerFeed": 2,
+          "penalties": 0
         },
         {
           "name": "Ander Barrenetxea",
@@ -2963,7 +2979,7 @@
         {
           "name": "Bartra",
           "team": "Real Betis",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3017,14 +3033,6 @@
           "penalties": 1
         },
         {
-          "name": "Cucho Hernández",
-          "team": "Real Betis",
-          "matches": 6,
-          "goals": 1,
-          "assistsInScorerFeed": 1,
-          "penalties": 0
-        },
-        {
           "name": "Enes Ünal",
           "team": "Getafe CF",
           "matches": 7,
@@ -3035,7 +3043,7 @@
         {
           "name": "Enzo Bardeli",
           "team": "Levante UD",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3067,7 +3075,7 @@
         {
           "name": "Georges Mikautadze",
           "team": "Villarreal CF",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 1
@@ -3089,14 +3097,6 @@
           "penalties": 0
         },
         {
-          "name": "Iván Romero",
-          "team": "Levante UD",
-          "matches": 6,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
           "name": "Iñaki Williams",
           "team": "Athletic Club",
           "matches": 7,
@@ -3115,7 +3115,7 @@
         {
           "name": "Jon Olasagasti",
           "team": "Levante UD",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3163,7 +3163,7 @@
         {
           "name": "Luismi Cruz",
           "team": "RC Deportivo",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3227,7 +3227,7 @@
         {
           "name": "Natan",
           "team": "Real Betis",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3331,7 +3331,7 @@
         {
           "name": "Troy Parrott",
           "team": "Real Betis",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3387,7 +3387,7 @@
         {
           "name": "Zakaria Eddahchouri",
           "team": "RC Deportivo",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3489,6 +3489,11 @@
           "assists": 2
         },
         {
+          "name": "Giuliano",
+          "team": "Atlético Madrid",
+          "assists": 2
+        },
+        {
           "name": "Güler",
           "team": "Real Madrid",
           "assists": 2
@@ -3579,6 +3584,11 @@
           "assists": 1
         },
         {
+          "name": "Bernardo Silva",
+          "team": "Real Madrid",
+          "assists": 1
+        },
+        {
           "name": "Camello",
           "team": "Rayo Vallecano",
           "assists": 1
@@ -3636,11 +3646,6 @@
         {
           "name": "Giorgi Kochorashvili",
           "team": "Sevilla FC",
-          "assists": 1
-        },
-        {
-          "name": "Giuliano",
-          "team": "Atlético Madrid",
           "assists": 1
         },
         {
@@ -3846,8 +3851,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-20T14:13:22Z"
+      "updatedAt": "2026-09-20T17:39:49Z"
     }
   },
-  "updatedAt": "2026-09-20T14:13:22Z"
+  "updatedAt": "2026-09-20T17:39:49Z"
 }
