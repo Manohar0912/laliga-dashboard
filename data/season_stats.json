@@ -2737,6 +2737,14 @@
           "penalties": 0
         },
         {
+          "name": "Luka Sučić",
+          "team": "Real Sociedad",
+          "matches": 7,
+          "goals": 3,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Mariano Díaz",
           "team": "Deportivo Alavés",
           "matches": 7,
@@ -2751,6 +2759,14 @@
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 1
+        },
+        {
+          "name": "Alberto Moleiro",
+          "team": "Villarreal CF",
+          "matches": 7,
+          "goals": 2,
+          "assistsInScorerFeed": 3,
+          "penalties": 0
         },
         {
           "name": "Alejandro Grimaldo",
@@ -2775,6 +2791,14 @@
           "goals": 2,
           "assistsInScorerFeed": 1,
           "penalties": 0
+        },
+        {
+          "name": "Georges Mikautadze",
+          "team": "Villarreal CF",
+          "matches": 7,
+          "goals": 2,
+          "assistsInScorerFeed": 1,
+          "penalties": 1
         },
         {
           "name": "Gerard Moreno",
@@ -2814,14 +2838,6 @@
           "matches": 7,
           "goals": 2,
           "assistsInScorerFeed": 2,
-          "penalties": 0
-        },
-        {
-          "name": "Luka Sučić",
-          "team": "Real Sociedad",
-          "matches": 6,
-          "goals": 2,
-          "assistsInScorerFeed": 0,
           "penalties": 0
         },
         {
@@ -2937,17 +2953,9 @@
           "penalties": 0
         },
         {
-          "name": "Alberto Moleiro",
-          "team": "Villarreal CF",
-          "matches": 7,
-          "goals": 1,
-          "assistsInScorerFeed": 2,
-          "penalties": 0
-        },
-        {
           "name": "Ander Barrenetxea",
           "team": "Real Sociedad",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3073,14 +3081,6 @@
           "penalties": 0
         },
         {
-          "name": "Georges Mikautadze",
-          "team": "Villarreal CF",
-          "matches": 7,
-          "goals": 1,
-          "assistsInScorerFeed": 1,
-          "penalties": 1
-        },
-        {
           "name": "Iago Aspas",
           "team": "Celta Vigo",
           "matches": 6,
@@ -3155,7 +3155,7 @@
         {
           "name": "Luis Rioja",
           "team": "Valencia CF",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3243,9 +3243,9 @@
         {
           "name": "Ochieng",
           "team": "Real Sociedad",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
-          "assistsInScorerFeed": 2,
+          "assistsInScorerFeed": 3,
           "penalties": 0
         },
         {
@@ -3259,7 +3259,7 @@
         {
           "name": "Orri Oskarsson",
           "team": "Real Sociedad",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3379,7 +3379,7 @@
         {
           "name": "Yangel Herrera",
           "team": "Real Sociedad",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3441,6 +3441,11 @@
         {
           "name": "Mariano Díaz",
           "team": "Deportivo Alavés",
+          "assists": 3
+        },
+        {
+          "name": "Moleiro",
+          "team": "Villarreal CF",
           "assists": 3
         },
         {
@@ -3514,6 +3519,11 @@
           "assists": 2
         },
         {
+          "name": "Ilias Chakkour",
+          "team": "Villarreal CF",
+          "assists": 2
+        },
+        {
           "name": "Iñigo Vicente",
           "team": "Racing Santander",
           "assists": 2
@@ -3536,6 +3546,11 @@
         {
           "name": "Marc Bernal",
           "team": "FC Barcelona",
+          "assists": 2
+        },
+        {
+          "name": "Mario Soriano",
+          "team": "RC Deportivo",
           "assists": 2
         },
         {
@@ -3614,6 +3629,11 @@
           "assists": 1
         },
         {
+          "name": "Deossa",
+          "team": "Real Betis",
+          "assists": 1
+        },
+        {
           "name": "Diomande",
           "team": "Real Madrid",
           "assists": 1
@@ -3659,11 +3679,6 @@
           "assists": 1
         },
         {
-          "name": "Ilias Chakkour",
-          "team": "Villarreal CF",
-          "assists": 1
-        },
-        {
           "name": "Isaac Romero",
           "team": "Sevilla FC",
           "assists": 1
@@ -3676,6 +3691,11 @@
         {
           "name": "Javi Guerra",
           "team": "Valencia CF",
+          "assists": 1
+        },
+        {
+          "name": "Jeremy Toljan",
+          "team": "Levante UD",
           "assists": 1
         },
         {
@@ -3744,11 +3764,6 @@
           "assists": 1
         },
         {
-          "name": "Mario Soriano",
-          "team": "RC Deportivo",
-          "assists": 1
-        },
-        {
           "name": "Martín Satriano",
           "team": "Getafe CF",
           "assists": 1
@@ -3756,11 +3771,6 @@
         {
           "name": "Moi Gómez",
           "team": "CA Osasuna",
-          "assists": 1
-        },
-        {
-          "name": "Moleiro",
-          "team": "Villarreal CF",
           "assists": 1
         },
         {
@@ -3851,8 +3861,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-20T17:39:49Z"
+      "updatedAt": "2026-09-20T19:45:26Z"
     }
   },
-  "updatedAt": "2026-09-20T17:39:49Z"
+  "updatedAt": "2026-09-20T19:45:26Z"
 }
