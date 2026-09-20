@@ -2777,6 +2777,14 @@
           "penalties": 2
         },
         {
+          "name": "Ander Barrenetxea",
+          "team": "Real Sociedad",
+          "matches": 7,
+          "goals": 2,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Carlos Espí",
           "team": "Real Madrid",
           "matches": 7,
@@ -2947,14 +2955,6 @@
         {
           "name": "Aitor Paredes Casamichana",
           "team": "Athletic Club",
-          "matches": 7,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
-          "name": "Ander Barrenetxea",
-          "team": "Real Sociedad",
           "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
@@ -3439,6 +3439,11 @@
           "assists": 3
         },
         {
+          "name": "Job Ochieng",
+          "team": "Real Sociedad",
+          "assists": 3
+        },
+        {
           "name": "Mariano Díaz",
           "team": "Deportivo Alavés",
           "assists": 3
@@ -3489,6 +3494,11 @@
           "assists": 2
         },
         {
+          "name": "Carlos Soler",
+          "team": "Real Sociedad",
+          "assists": 2
+        },
+        {
           "name": "Fermín",
           "team": "FC Barcelona",
           "assists": 2
@@ -3526,11 +3536,6 @@
         {
           "name": "Iñigo Vicente",
           "team": "Racing Santander",
-          "assists": 2
-        },
-        {
-          "name": "Job Ochieng",
-          "team": "Real Sociedad",
           "assists": 2
         },
         {
@@ -3609,11 +3614,6 @@
           "assists": 1
         },
         {
-          "name": "Carlos Soler",
-          "team": "Real Sociedad",
-          "assists": 1
-        },
-        {
           "name": "Christensen",
           "team": "FC Barcelona",
           "assists": 1
@@ -3676,6 +3676,11 @@
         {
           "name": "Grimaldo",
           "team": "Atlético Madrid",
+          "assists": 1
+        },
+        {
+          "name": "Hugo Duro",
+          "team": "Valencia CF",
           "assists": 1
         },
         {
@@ -3861,8 +3866,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-20T19:45:26Z"
+      "updatedAt": "2026-09-20T22:25:34Z"
     }
   },
-  "updatedAt": "2026-09-20T19:45:26Z"
+  "updatedAt": "2026-09-20T22:25:34Z"
 }
