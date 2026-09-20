@@ -2627,7 +2627,7 @@
         {
           "name": "Kylian Mbappé",
           "team": "Real Madrid",
-          "matches": 6,
+          "matches": 7,
           "goals": 7,
           "assistsInScorerFeed": 2,
           "penalties": 1
@@ -2707,7 +2707,7 @@
         {
           "name": "Álex Baena",
           "team": "Atlético Madrid",
-          "matches": 6,
+          "matches": 7,
           "goals": 4,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2723,7 +2723,7 @@
         {
           "name": "Jude Bellingham",
           "team": "Real Madrid",
-          "matches": 6,
+          "matches": 7,
           "goals": 3,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -2747,7 +2747,7 @@
         {
           "name": "Carlos Espí",
           "team": "Real Madrid",
-          "matches": 6,
+          "matches": 7,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2763,7 +2763,7 @@
         {
           "name": "Giuliano Simeone",
           "team": "Atlético Madrid",
-          "matches": 6,
+          "matches": 7,
           "goals": 2,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2771,7 +2771,7 @@
         {
           "name": "Jonathan David",
           "team": "Atlético Madrid",
-          "matches": 3,
+          "matches": 4,
           "goals": 2,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2779,7 +2779,7 @@
         {
           "name": "Kang-in Lee",
           "team": "Atlético Madrid",
-          "matches": 6,
+          "matches": 7,
           "goals": 2,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2875,7 +2875,7 @@
         {
           "name": "Ademola Lookman",
           "team": "Atlético Madrid",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2891,7 +2891,7 @@
         {
           "name": "Adrián",
           "team": "Málaga CF",
-          "matches": 2,
+          "matches": 3,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2923,7 +2923,7 @@
         {
           "name": "Alejandro Grimaldo",
           "team": "Atlético Madrid",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 1
@@ -2955,7 +2955,7 @@
         {
           "name": "Arda Guler",
           "team": "Real Madrid",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -2995,7 +2995,7 @@
         {
           "name": "Carlos Dotor",
           "team": "Málaga CF",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3011,7 +3011,7 @@
         {
           "name": "Chupete",
           "team": "Málaga CF",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -3027,7 +3027,7 @@
         {
           "name": "Enes Ünal",
           "team": "Getafe CF",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3187,7 +3187,7 @@
         {
           "name": "Marc Pubill",
           "team": "Atlético Madrid",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3203,9 +3203,9 @@
         {
           "name": "Martin Satriano",
           "team": "Getafe CF",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
-          "assistsInScorerFeed": 0,
+          "assistsInScorerFeed": 1,
           "penalties": 0
         },
         {
@@ -3299,7 +3299,7 @@
         {
           "name": "RamónTerrats Espacio",
           "team": "Getafe CF",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3307,7 +3307,7 @@
         {
           "name": "Robin Le Normand",
           "team": "Atlético Madrid",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3363,7 +3363,7 @@
         {
           "name": "Vinicius Junior",
           "team": "Real Madrid",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 3,
           "penalties": 0
@@ -3411,7 +3411,7 @@
         {
           "name": "Álvaro Carreras",
           "team": "Real Madrid",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3744,6 +3744,11 @@
           "assists": 1
         },
         {
+          "name": "Martín Satriano",
+          "team": "Getafe CF",
+          "assists": 1
+        },
+        {
           "name": "Moi Gómez",
           "team": "CA Osasuna",
           "assists": 1
@@ -3841,8 +3846,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-19T21:45:30Z"
+      "updatedAt": "2026-09-20T14:13:22Z"
     }
   },
-  "updatedAt": "2026-09-19T21:45:30Z"
+  "updatedAt": "2026-09-20T14:13:22Z"
 }
