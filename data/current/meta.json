@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-20T23:15:14.829044+00:00",
+  "updatedAt": "2026-09-21T01:09:53.343934+00:00",
   "season": 2026,
   "sources": {
     "epl": {
       "ok": true,
-      "matches": 374,
+      "matches": 370,
       "freshEvents": 10,
       "standings": 20,
       "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
@@ -12,15 +12,15 @@
     },
     "laliga": {
       "ok": true,
-      "matches": 371,
-      "freshEvents": 12,
+      "matches": 366,
+      "freshEvents": 10,
       "standings": 20,
       "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
       "darkLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png"
     },
     "bundesliga": {
       "ok": true,
-      "matches": 300,
+      "matches": 297,
       "freshEvents": 9,
       "standings": 18,
       "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
@@ -28,7 +28,7 @@
     },
     "seriea": {
       "ok": true,
-      "matches": 375,
+      "matches": 370,
       "freshEvents": 10,
       "standings": 20,
       "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
@@ -36,7 +36,7 @@
     },
     "ligue1": {
       "ok": true,
-      "matches": 300,
+      "matches": 297,
       "freshEvents": 9,
       "standings": 18,
       "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
