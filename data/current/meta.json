@@ -1,43 +1,43 @@
 {
-  "updatedAt": "2026-09-30T00:27:16.273228+00:00",
+  "updatedAt": "2026-09-30T06:43:18.755694+00:00",
   "season": 2026,
   "sources": {
     "epl": {
       "ok": true,
-      "matches": 370,
-      "freshEvents": 4,
+      "matches": 376,
+      "freshEvents": 6,
       "standings": 20,
       "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
       "darkLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png"
     },
     "laliga": {
       "ok": true,
-      "matches": 366,
-      "freshEvents": 5,
+      "matches": 367,
+      "freshEvents": 1,
       "standings": 20,
       "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
       "darkLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png"
     },
     "bundesliga": {
       "ok": true,
-      "matches": 297,
-      "freshEvents": 3,
+      "matches": 298,
+      "freshEvents": 1,
       "standings": 18,
       "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
       "darkLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/10.png"
     },
     "seriea": {
       "ok": true,
-      "matches": 370,
-      "freshEvents": 5,
+      "matches": 373,
+      "freshEvents": 3,
       "standings": 20,
       "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
       "darkLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/12.png"
     },
     "ligue1": {
       "ok": true,
-      "matches": 297,
-      "freshEvents": 3,
+      "matches": 298,
+      "freshEvents": 1,
       "standings": 18,
       "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
       "darkLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/9.png"
@@ -68,8 +68,8 @@
     },
     "copa": {
       "ok": true,
-      "matches": 10,
-      "freshEvents": 5,
+      "matches": 13,
+      "freshEvents": 8,
       "standings": 0,
       "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png",
       "darkLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/80.png"
