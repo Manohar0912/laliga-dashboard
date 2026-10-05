@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T23:10:02.386121+00:00",
+  "updatedAt": "2026-10-05T02:01:01.218630+00:00",
   "season": 2026,
   "sources": {
     "epl": {
@@ -68,7 +68,7 @@
     },
     "copa": {
       "ok": true,
-      "matches": 20,
+      "matches": 18,
       "freshEvents": 10,
       "standings": 0,
       "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png",
