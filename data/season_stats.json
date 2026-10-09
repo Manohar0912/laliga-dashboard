@@ -2651,7 +2651,7 @@
         {
           "name": "Roberto Fernández",
           "team": "RCD Espanyol",
-          "matches": 7,
+          "matches": 8,
           "goals": 6,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2759,6 +2759,14 @@
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 1
+        },
+        {
+          "name": "Adrián",
+          "team": "Málaga CF",
+          "matches": 4,
+          "goals": 2,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
         },
         {
           "name": "Alberto Moleiro",
@@ -2937,14 +2945,6 @@
           "penalties": 0
         },
         {
-          "name": "Adrián",
-          "team": "Málaga CF",
-          "matches": 3,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
           "name": "Adrián de la Fuente",
           "team": "Levante UD",
           "matches": 7,
@@ -3019,7 +3019,7 @@
         {
           "name": "Carlos Dotor",
           "team": "Málaga CF",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3035,7 +3035,7 @@
         {
           "name": "Chupete",
           "team": "Málaga CF",
-          "matches": 7,
+          "matches": 8,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -3195,7 +3195,7 @@
         {
           "name": "Marcos Fernández",
           "team": "RCD Espanyol",
-          "matches": 7,
+          "matches": 8,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3339,7 +3339,7 @@
         {
           "name": "Tyrhys Dolan",
           "team": "RCD Espanyol",
-          "matches": 7,
+          "matches": 8,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3403,7 +3403,7 @@
         {
           "name": "Álex Calatrava",
           "team": "RCD Espanyol",
-          "matches": 7,
+          "matches": 8,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3419,13 +3419,13 @@
       ],
       "assists": [
         {
-          "name": "Anthony Gordon",
-          "team": "FC Barcelona",
-          "assists": 4
-        },
-        {
           "name": "Javi Hernández",
           "team": "RCD Espanyol",
+          "assists": 5
+        },
+        {
+          "name": "Anthony Gordon",
+          "team": "FC Barcelona",
           "assists": 4
         },
         {
@@ -3804,6 +3804,11 @@
           "assists": 1
         },
         {
+          "name": "Rafita",
+          "team": "Málaga CF",
+          "assists": 1
+        },
+        {
           "name": "Raul García de Haro",
           "team": "CA Osasuna",
           "assists": 1
@@ -3866,8 +3871,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-09-20T22:25:34Z"
+      "updatedAt": "2026-10-09T21:40:08Z"
     }
   },
-  "updatedAt": "2026-09-20T22:25:34Z"
+  "updatedAt": "2026-10-09T21:40:08Z"
 }
