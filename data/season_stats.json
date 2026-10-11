@@ -2649,18 +2649,10 @@
           "penalties": 0
         },
         {
-          "name": "Roberto Fernández",
-          "team": "RCD Espanyol",
-          "matches": 8,
-          "goals": 6,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
           "name": "Yassir Zabiri",
           "team": "Racing Santander",
-          "matches": 7,
-          "goals": 6,
+          "matches": 8,
+          "goals": 7,
           "assistsInScorerFeed": 0,
           "penalties": 0
         },
@@ -2668,9 +2660,17 @@
           "name": "Ante Budimir",
           "team": "CA Osasuna",
           "matches": 8,
-          "goals": 5,
+          "goals": 6,
           "assistsInScorerFeed": 0,
           "penalties": 3
+        },
+        {
+          "name": "Roberto Fernández",
+          "team": "RCD Espanyol",
+          "matches": 8,
+          "goals": 6,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
         },
         {
           "name": "Fer Niño",
@@ -2769,6 +2769,14 @@
           "penalties": 1
         },
         {
+          "name": "Abdessamad Ezzalzouli",
+          "team": "Real Betis",
+          "matches": 5,
+          "goals": 2,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Adrián",
           "team": "Málaga CF",
           "matches": 4,
@@ -2805,7 +2813,7 @@
           "team": "Real Betis",
           "matches": 8,
           "goals": 2,
-          "assistsInScorerFeed": 1,
+          "assistsInScorerFeed": 2,
           "penalties": 0
         },
         {
@@ -2839,6 +2847,14 @@
           "goals": 2,
           "assistsInScorerFeed": 2,
           "penalties": 0
+        },
+        {
+          "name": "Isco",
+          "team": "Real Betis",
+          "matches": 8,
+          "goals": 2,
+          "assistsInScorerFeed": 0,
+          "penalties": 1
         },
         {
           "name": "Iván Romero",
@@ -2891,7 +2907,7 @@
         {
           "name": "Pablo García",
           "team": "Racing Santander",
-          "matches": 7,
+          "matches": 8,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2918,14 +2934,6 @@
           "matches": 8,
           "goals": 2,
           "assistsInScorerFeed": 2,
-          "penalties": 0
-        },
-        {
-          "name": "Abdessamad Ezzalzouli",
-          "team": "Real Betis",
-          "matches": 5,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
           "penalties": 0
         },
         {
@@ -2979,7 +2987,7 @@
         {
           "name": "Andrés Martín",
           "team": "Racing Santander",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -3011,7 +3019,7 @@
         {
           "name": "Canales",
           "team": "Racing Santander",
-          "matches": 7,
+          "matches": 8,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3019,14 +3027,6 @@
         {
           "name": "Carl Starfelt",
           "team": "Celta Vigo",
-          "matches": 7,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
-          "name": "Carlos Dotor",
-          "team": "Málaga CF",
           "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
@@ -3171,7 +3171,7 @@
         {
           "name": "Maguette Gueye",
           "team": "Racing Santander",
-          "matches": 7,
+          "matches": 8,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3499,6 +3499,11 @@
           "assists": 2
         },
         {
+          "name": "Cucho Hernández",
+          "team": "Real Betis",
+          "assists": 2
+        },
+        {
           "name": "Fermín",
           "team": "FC Barcelona",
           "assists": 2
@@ -3634,13 +3639,13 @@
           "assists": 1
         },
         {
-          "name": "Christensen",
-          "team": "FC Barcelona",
+          "name": "Catena",
+          "team": "CA Osasuna",
           "assists": 1
         },
         {
-          "name": "Cucho Hernández",
-          "team": "Real Betis",
+          "name": "Christensen",
+          "team": "FC Barcelona",
           "assists": 1
         },
         {
@@ -3701,6 +3706,11 @@
         {
           "name": "Hugo Duro",
           "team": "Valencia CF",
+          "assists": 1
+        },
+        {
+          "name": "Héctor Bellerín",
+          "team": "Real Betis",
           "assists": 1
         },
         {
@@ -3844,6 +3854,11 @@
           "assists": 1
         },
         {
+          "name": "Rubén García",
+          "team": "CA Osasuna",
+          "assists": 1
+        },
+        {
           "name": "Sivera",
           "team": "Deportivo Alavés",
           "assists": 1
@@ -3881,8 +3896,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-10-11T16:18:53Z"
+      "updatedAt": "2026-10-11T20:34:21Z"
     }
   },
-  "updatedAt": "2026-10-11T16:18:53Z"
+  "updatedAt": "2026-10-11T20:34:21Z"
 }
