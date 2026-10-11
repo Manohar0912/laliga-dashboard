@@ -2667,7 +2667,7 @@
         {
           "name": "Ante Budimir",
           "team": "CA Osasuna",
-          "matches": 7,
+          "matches": 8,
           "goals": 5,
           "assistsInScorerFeed": 0,
           "penalties": 3
@@ -2675,7 +2675,7 @@
         {
           "name": "Fer Niño",
           "team": "Elche CF",
-          "matches": 7,
+          "matches": 8,
           "goals": 5,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2747,7 +2747,7 @@
         {
           "name": "Luka Sučić",
           "team": "Real Sociedad",
-          "matches": 7,
+          "matches": 8,
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2787,9 +2787,9 @@
         {
           "name": "Ander Barrenetxea",
           "team": "Real Sociedad",
-          "matches": 7,
+          "matches": 8,
           "goals": 2,
-          "assistsInScorerFeed": 0,
+          "assistsInScorerFeed": 1,
           "penalties": 0
         },
         {
@@ -2803,7 +2803,7 @@
         {
           "name": "Cucho Hernández",
           "team": "Real Betis",
-          "matches": 7,
+          "matches": 8,
           "goals": 2,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2883,7 +2883,7 @@
         {
           "name": "Pablo Duran",
           "team": "Celta Vigo",
-          "matches": 7,
+          "matches": 8,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2907,7 +2907,7 @@
         {
           "name": "Rodrigo Riquelme",
           "team": "Real Betis",
-          "matches": 7,
+          "matches": 8,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2923,7 +2923,7 @@
         {
           "name": "Abdessamad Ezzalzouli",
           "team": "Real Betis",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2931,7 +2931,7 @@
         {
           "name": "Abiel Osorio",
           "team": "Elche CF",
-          "matches": 5,
+          "matches": 6,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2995,7 +2995,7 @@
         {
           "name": "Bartra",
           "team": "Real Betis",
-          "matches": 7,
+          "matches": 8,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3067,7 +3067,7 @@
         {
           "name": "Facundo Buonanotte",
           "team": "Elche CF",
-          "matches": 7,
+          "matches": 8,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -3075,7 +3075,7 @@
         {
           "name": "Ferran Jutglà",
           "team": "Celta Vigo",
-          "matches": 7,
+          "matches": 8,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3083,7 +3083,7 @@
         {
           "name": "Iago Aspas",
           "team": "Celta Vigo",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3163,7 +3163,7 @@
         {
           "name": "Luismi Cruz",
           "team": "RC Deportivo",
-          "matches": 7,
+          "matches": 8,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3179,7 +3179,7 @@
         {
           "name": "Marc Aguado",
           "team": "Elche CF",
-          "matches": 7,
+          "matches": 8,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3227,7 +3227,7 @@
         {
           "name": "Natan",
           "team": "Real Betis",
-          "matches": 7,
+          "matches": 8,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3243,7 +3243,7 @@
         {
           "name": "Ochieng",
           "team": "Real Sociedad",
-          "matches": 7,
+          "matches": 8,
           "goals": 1,
           "assistsInScorerFeed": 3,
           "penalties": 0
@@ -3323,7 +3323,7 @@
         {
           "name": "Thomas Lemar",
           "team": "Elche CF",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3331,7 +3331,7 @@
         {
           "name": "Troy Parrott",
           "team": "Real Betis",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3379,7 +3379,7 @@
         {
           "name": "Yangel Herrera",
           "team": "Real Sociedad",
-          "matches": 7,
+          "matches": 8,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3432,6 +3432,11 @@
           "name": "Anthony Gordon",
           "team": "FC Barcelona",
           "assists": 4
+        },
+        {
+          "name": "Carlos Soler",
+          "team": "Real Sociedad",
+          "assists": 3
         },
         {
           "name": "Dani Olmo",
@@ -3491,11 +3496,6 @@
         {
           "name": "Bellingham",
           "team": "Real Madrid",
-          "assists": 2
-        },
-        {
-          "name": "Carlos Soler",
-          "team": "Real Sociedad",
           "assists": 2
         },
         {
@@ -3616,6 +3616,11 @@
         {
           "name": "Aleñá",
           "team": "Deportivo Alavés",
+          "assists": 1
+        },
+        {
+          "name": "Barrenetxea",
+          "team": "Real Sociedad",
           "assists": 1
         },
         {
@@ -3829,6 +3834,11 @@
           "assists": 1
         },
         {
+          "name": "Riki Rodríguez",
+          "team": "RC Deportivo",
+          "assists": 1
+        },
+        {
           "name": "Robbie Ure",
           "team": "Sevilla FC",
           "assists": 1
@@ -3871,8 +3881,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-10-10T23:31:58Z"
+      "updatedAt": "2026-10-11T16:18:53Z"
     }
   },
-  "updatedAt": "2026-10-10T23:31:58Z"
+  "updatedAt": "2026-10-11T16:18:53Z"
 }
