@@ -3444,6 +3444,11 @@
           "assists": 3
         },
         {
+          "name": "Iñigo Vicente",
+          "team": "Racing Santander",
+          "assists": 3
+        },
+        {
           "name": "Job Ochieng",
           "team": "Real Sociedad",
           "assists": 3
@@ -3539,8 +3544,8 @@
           "assists": 2
         },
         {
-          "name": "Iñigo Vicente",
-          "team": "Racing Santander",
+          "name": "Javi Guerra",
+          "team": "Valencia CF",
           "assists": 2
         },
         {
@@ -3724,11 +3729,6 @@
           "assists": 1
         },
         {
-          "name": "Javi Guerra",
-          "team": "Valencia CF",
-          "assists": 1
-        },
-        {
           "name": "Jeremy Toljan",
           "team": "Levante UD",
           "assists": 1
@@ -3756,6 +3756,11 @@
         {
           "name": "Juan Cruz",
           "team": "Málaga CF",
+          "assists": 1
+        },
+        {
+          "name": "Justin de Haas",
+          "team": "Valencia CF",
           "assists": 1
         },
         {
@@ -3896,8 +3901,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-10-11T20:34:21Z"
+      "updatedAt": "2026-10-11T23:59:14Z"
     }
   },
-  "updatedAt": "2026-10-11T20:34:21Z"
+  "updatedAt": "2026-10-11T23:59:14Z"
 }
