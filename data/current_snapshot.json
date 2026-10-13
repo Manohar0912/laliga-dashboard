@@ -25,16 +25,6 @@
   ],
   "fixtures": [
     {
-      "id": 564704,
-      "date": "2026-10-12",
-      "time": "21:00",
-      "home": "Levante UD",
-      "away": "Sevilla FC",
-      "referee": "Adrián Cordero Vega",
-      "status": "IN_PLAY",
-      "matchday": 8
-    },
-    {
       "id": 564716,
       "date": "2026-10-16",
       "time": "21:00",
@@ -3815,8 +3805,18 @@
       "away_goals": 2,
       "ht_home_goals": 2,
       "ht_away_goals": 0
+    },
+    {
+      "id": 564704,
+      "date": "2026-10-12",
+      "home": "Levante UD",
+      "away": "Sevilla FC",
+      "home_goals": 3,
+      "away_goals": 3,
+      "ht_home_goals": 0,
+      "ht_away_goals": 1
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-10-12T19:47:41Z"
+  "updatedAt": "2026-10-13T02:00:25Z"
 }
