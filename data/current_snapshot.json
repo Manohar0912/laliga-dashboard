@@ -30,7 +30,7 @@
       "time": "21:00",
       "home": "RC Deportivo",
       "away": "Levante UD",
-      "referee": "",
+      "referee": "Manuel Orellana Cid",
       "status": "TIMED",
       "matchday": 9
     },
@@ -3818,5 +3818,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-10-13T02:00:25Z"
+  "updatedAt": "2026-10-16T18:47:49Z"
 }

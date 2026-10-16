@@ -2723,7 +2723,7 @@
         {
           "name": "Brugui",
           "team": "Levante UD",
-          "matches": 7,
+          "matches": 8,
           "goals": 3,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2731,7 +2731,7 @@
         {
           "name": "Iván Romero",
           "team": "Levante UD",
-          "matches": 8,
+          "matches": 9,
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2795,7 +2795,7 @@
         {
           "name": "Adrián de la Fuente",
           "team": "Levante UD",
-          "matches": 8,
+          "matches": 9,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3067,7 +3067,7 @@
         {
           "name": "Enzo Bardeli",
           "team": "Levante UD",
-          "matches": 8,
+          "matches": 9,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3115,7 +3115,7 @@
         {
           "name": "Jon Olasagasti",
           "team": "Levante UD",
-          "matches": 8,
+          "matches": 9,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3163,7 +3163,7 @@
         {
           "name": "Luismi Cruz",
           "team": "RC Deportivo",
-          "matches": 8,
+          "matches": 9,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3911,8 +3911,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-10-13T02:00:38Z"
+      "updatedAt": "2026-10-16T18:47:53Z"
     }
   },
-  "updatedAt": "2026-10-13T02:00:38Z"
+  "updatedAt": "2026-10-16T18:47:53Z"
 }
