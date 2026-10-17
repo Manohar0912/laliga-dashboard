@@ -30,8 +30,8 @@
       "time": "14:00",
       "home": "RCD Espanyol",
       "away": "Atlético Madrid",
-      "referee": "",
-      "status": "TIMED",
+      "referee": "Alejandro Hernández Hernández",
+      "status": "IN_PLAY",
       "matchday": 9
     },
     {
@@ -40,7 +40,7 @@
       "time": "16:15",
       "home": "Villarreal CF",
       "away": "Elche CF",
-      "referee": "",
+      "referee": "Víctor García Verdura",
       "status": "TIMED",
       "matchday": 9
     },
@@ -3818,5 +3818,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-10-16T22:04:53Z"
+  "updatedAt": "2026-10-17T13:42:39Z"
 }
