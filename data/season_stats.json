@@ -2629,7 +2629,7 @@
           "team": "FC Barcelona",
           "matches": 9,
           "goals": 8,
-          "assistsInScorerFeed": 5,
+          "assistsInScorerFeed": 6,
           "penalties": 1
         },
         {
@@ -2709,7 +2709,15 @@
           "team": "FC Barcelona",
           "matches": 9,
           "goals": 4,
-          "assistsInScorerFeed": 2,
+          "assistsInScorerFeed": 3,
+          "penalties": 0
+        },
+        {
+          "name": "Abdessamad Ezzalzouli",
+          "team": "Real Betis",
+          "matches": 6,
+          "goals": 3,
+          "assistsInScorerFeed": 0,
           "penalties": 0
         },
         {
@@ -2726,6 +2734,14 @@
           "matches": 8,
           "goals": 3,
           "assistsInScorerFeed": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Gabriel Jesus",
+          "team": "FC Barcelona",
+          "matches": 6,
+          "goals": 3,
+          "assistsInScorerFeed": 0,
           "penalties": 0
         },
         {
@@ -2777,14 +2793,6 @@
           "penalties": 1
         },
         {
-          "name": "Abdessamad Ezzalzouli",
-          "team": "Real Betis",
-          "matches": 6,
-          "goals": 2,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
           "name": "Adrián",
           "team": "Málaga CF",
           "matches": 4,
@@ -2830,14 +2838,6 @@
           "matches": 9,
           "goals": 2,
           "assistsInScorerFeed": 2,
-          "penalties": 0
-        },
-        {
-          "name": "Gabriel Jesus",
-          "team": "FC Barcelona",
-          "matches": 6,
-          "goals": 2,
-          "assistsInScorerFeed": 0,
           "penalties": 0
         },
         {
@@ -2931,7 +2931,7 @@
         {
           "name": "Roberto Navarro",
           "team": "Athletic Club",
-          "matches": 8,
+          "matches": 9,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2979,7 +2979,7 @@
         {
           "name": "Aitor Paredes Casamichana",
           "team": "Athletic Club",
-          "matches": 8,
+          "matches": 9,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3099,7 +3099,7 @@
         {
           "name": "Iñaki Williams",
           "team": "Athletic Club",
-          "matches": 8,
+          "matches": 9,
           "goals": 1,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -3155,7 +3155,7 @@
         {
           "name": "Luis Rioja",
           "team": "Valencia CF",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3395,7 +3395,7 @@
         {
           "name": "Álex Berenguer",
           "team": "Athletic Club",
-          "matches": 8,
+          "matches": 9,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3419,13 +3419,13 @@
       ],
       "assists": [
         {
-          "name": "Javi Hernández",
-          "team": "RCD Espanyol",
-          "assists": 5
-        },
-        {
           "name": "Lamine Yamal",
           "team": "FC Barcelona",
+          "assists": 6
+        },
+        {
+          "name": "Javi Hernández",
+          "team": "RCD Espanyol",
           "assists": 5
         },
         {
@@ -3440,6 +3440,11 @@
         },
         {
           "name": "Dani Olmo",
+          "team": "FC Barcelona",
+          "assists": 3
+        },
+        {
+          "name": "Fermín",
           "team": "FC Barcelona",
           "assists": 3
         },
@@ -3504,13 +3509,13 @@
           "assists": 2
         },
         {
-          "name": "Cucho Hernández",
-          "team": "Real Betis",
+          "name": "Cubarsí",
+          "team": "FC Barcelona",
           "assists": 2
         },
         {
-          "name": "Fermín",
-          "team": "FC Barcelona",
+          "name": "Cucho Hernández",
+          "team": "Real Betis",
           "assists": 2
         },
         {
@@ -3629,11 +3634,6 @@
           "assists": 1
         },
         {
-          "name": "Aleñá",
-          "team": "Deportivo Alavés",
-          "assists": 1
-        },
-        {
           "name": "Barrenetxea",
           "team": "Real Sociedad",
           "assists": 1
@@ -3689,6 +3689,11 @@
           "assists": 1
         },
         {
+          "name": "Fornals",
+          "team": "Real Betis",
+          "assists": 1
+        },
+        {
           "name": "Fran Garcia",
           "team": "Real Betis",
           "assists": 1
@@ -3734,11 +3739,6 @@
           "assists": 1
         },
         {
-          "name": "Iván Azón",
-          "team": "Getafe CF",
-          "assists": 1
-        },
-        {
           "name": "Jeremy Toljan",
           "team": "Levante UD",
           "assists": 1
@@ -3746,11 +3746,6 @@
         {
           "name": "Johnny",
           "team": "Atlético Madrid",
-          "assists": 1
-        },
-        {
-          "name": "Jon Ander Olasagasti",
-          "team": "Levante UD",
           "assists": 1
         },
         {
@@ -3784,8 +3779,18 @@
           "assists": 1
         },
         {
+          "name": "Koundé",
+          "team": "FC Barcelona",
+          "assists": 1
+        },
+        {
           "name": "Lee Kang-In",
           "team": "Atlético Madrid",
+          "assists": 1
+        },
+        {
+          "name": "Lo Celso",
+          "team": "Real Betis",
           "assists": 1
         },
         {
@@ -3912,17 +3917,12 @@
           "name": "Yeremay Hernández",
           "team": "RC Deportivo",
           "assists": 1
-        },
-        {
-          "name": "Youssouf Fofana",
-          "team": "Sevilla FC",
-          "assists": 1
         }
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-10-17T17:08:32Z"
+      "updatedAt": "2026-10-17T19:23:13Z"
     }
   },
-  "updatedAt": "2026-10-17T17:08:32Z"
+  "updatedAt": "2026-10-17T19:23:13Z"
 }
