@@ -30,8 +30,8 @@
       "time": "14:00",
       "home": "CA Osasuna",
       "away": "Racing Santander",
-      "referee": "",
-      "status": "TIMED",
+      "referee": "Juan Martínez Munuera",
+      "status": "IN_PLAY",
       "matchday": 9
     },
     {
@@ -40,7 +40,7 @@
       "time": "16:15",
       "home": "Celta Vigo",
       "away": "Deportivo Alavés",
-      "referee": "",
+      "referee": "José Munuera Montero",
       "status": "TIMED",
       "matchday": 9
     },
@@ -3818,5 +3818,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-10-17T21:44:15Z"
+  "updatedAt": "2026-10-18T13:59:54Z"
 }
