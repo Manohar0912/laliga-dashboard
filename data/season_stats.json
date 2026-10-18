@@ -2625,6 +2625,14 @@
           "penalties": 3
         },
         {
+          "name": "Kylian Mbappé",
+          "team": "Real Madrid",
+          "matches": 9,
+          "goals": 8,
+          "assistsInScorerFeed": 2,
+          "penalties": 1
+        },
+        {
           "name": "Lamine Yamal",
           "team": "FC Barcelona",
           "matches": 9,
@@ -2639,14 +2647,6 @@
           "goals": 7,
           "assistsInScorerFeed": 0,
           "penalties": 4
-        },
-        {
-          "name": "Kylian Mbappé",
-          "team": "Real Madrid",
-          "matches": 8,
-          "goals": 7,
-          "assistsInScorerFeed": 2,
-          "penalties": 1
         },
         {
           "name": "Sergio Camello",
@@ -2721,6 +2721,14 @@
           "penalties": 0
         },
         {
+          "name": "Adrián",
+          "team": "Málaga CF",
+          "matches": 5,
+          "goals": 3,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Alejandro Grimaldo",
           "team": "Atlético Madrid",
           "matches": 9,
@@ -2763,7 +2771,7 @@
         {
           "name": "Jude Bellingham",
           "team": "Real Madrid",
-          "matches": 8,
+          "matches": 9,
           "goals": 3,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -2793,14 +2801,6 @@
           "penalties": 1
         },
         {
-          "name": "Adrián",
-          "team": "Málaga CF",
-          "matches": 5,
-          "goals": 2,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
           "name": "Adrián de la Fuente",
           "team": "Levante UD",
           "matches": 9,
@@ -2825,9 +2825,17 @@
           "penalties": 0
         },
         {
+          "name": "Arda Guler",
+          "team": "Real Madrid",
+          "matches": 9,
+          "goals": 2,
+          "assistsInScorerFeed": 2,
+          "penalties": 0
+        },
+        {
           "name": "Carlos Espí",
           "team": "Real Madrid",
-          "matches": 8,
+          "matches": 9,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2873,6 +2881,14 @@
           "penalties": 0
         },
         {
+          "name": "Gonçalo Guedes",
+          "team": "Real Sociedad",
+          "matches": 8,
+          "goals": 2,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Isaac",
           "team": "Sevilla FC",
           "matches": 8,
@@ -2910,6 +2926,14 @@
           "matches": 8,
           "goals": 2,
           "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Mikel Oyarzabal",
+          "team": "Real Sociedad",
+          "matches": 9,
+          "goals": 2,
+          "assistsInScorerFeed": 2,
           "penalties": 0
         },
         {
@@ -3017,14 +3041,6 @@
           "penalties": 1
         },
         {
-          "name": "Arda Guler",
-          "team": "Real Madrid",
-          "matches": 8,
-          "goals": 1,
-          "assistsInScorerFeed": 2,
-          "penalties": 0
-        },
-        {
           "name": "Bartra",
           "team": "Real Betis",
           "matches": 9,
@@ -3059,7 +3075,7 @@
         {
           "name": "Chidera Ejuke",
           "team": "Sevilla FC",
-          "matches": 8,
+          "matches": 9,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3129,17 +3145,9 @@
           "penalties": 0
         },
         {
-          "name": "João Cancelo",
-          "team": "FC Barcelona",
-          "matches": 9,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
           "name": "Juan Iglesias",
           "team": "Sevilla FC",
-          "matches": 8,
+          "matches": 9,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3155,7 +3163,7 @@
         {
           "name": "Lucas Stassin",
           "team": "Sevilla FC",
-          "matches": 3,
+          "matches": 4,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3174,14 +3182,6 @@
           "matches": 9,
           "goals": 1,
           "assistsInScorerFeed": 1,
-          "penalties": 0
-        },
-        {
-          "name": "Maguette Gueye",
-          "team": "Racing Santander",
-          "matches": 9,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
           "penalties": 0
         },
         {
@@ -3291,7 +3291,7 @@
         {
           "name": "Peque",
           "team": "Sevilla FC",
-          "matches": 8,
+          "matches": 9,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -3411,7 +3411,7 @@
         {
           "name": "Álvaro Carreras",
           "team": "Real Madrid",
-          "matches": 8,
+          "matches": 9,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3594,6 +3594,11 @@
           "assists": 2
         },
         {
+          "name": "Pablo Martínez",
+          "team": "Málaga CF",
+          "assists": 2
+        },
+        {
           "name": "Robbie Ure",
           "team": "Sevilla FC",
           "assists": 2
@@ -3729,6 +3734,11 @@
           "assists": 1
         },
         {
+          "name": "Hector Fort",
+          "team": "Real Sociedad",
+          "assists": 1
+        },
+        {
           "name": "Hugo Duro",
           "team": "Valencia CF",
           "assists": 1
@@ -3756,6 +3766,11 @@
         {
           "name": "Johnny",
           "team": "Atlético Madrid",
+          "assists": 1
+        },
+        {
+          "name": "Jon Martín",
+          "team": "Real Sociedad",
           "assists": 1
         },
         {
@@ -3824,11 +3839,6 @@
           "assists": 1
         },
         {
-          "name": "Marcos Llorente",
-          "team": "Atlético Madrid",
-          "assists": 1
-        },
-        {
           "name": "Martín Satriano",
           "team": "Getafe CF",
           "assists": 1
@@ -3849,11 +3859,6 @@
           "assists": 1
         },
         {
-          "name": "Pablo Martínez",
-          "team": "Málaga CF",
-          "assists": 1
-        },
-        {
           "name": "Pedri",
           "team": "FC Barcelona",
           "assists": 1
@@ -3861,16 +3866,6 @@
         {
           "name": "Petar Ratkov",
           "team": "Levante UD",
-          "assists": 1
-        },
-        {
-          "name": "Rafel Bauzà",
-          "team": "RCD Espanyol",
-          "assists": 1
-        },
-        {
-          "name": "Rafita",
-          "team": "Málaga CF",
           "assists": 1
         },
         {
@@ -3899,6 +3894,11 @@
           "assists": 1
         },
         {
+          "name": "Take Kubo",
+          "team": "Real Sociedad",
+          "assists": 1
+        },
+        {
           "name": "Trent Alexander-Arnold",
           "team": "Real Madrid",
           "assists": 1
@@ -3921,8 +3921,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-10-18T17:20:45Z"
+      "updatedAt": "2026-10-18T19:41:12Z"
     }
   },
-  "updatedAt": "2026-10-18T17:20:45Z"
+  "updatedAt": "2026-10-18T19:41:12Z"
 }
