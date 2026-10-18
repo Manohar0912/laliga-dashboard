@@ -2628,9 +2628,9 @@
           "name": "Kylian Mbappé",
           "team": "Real Madrid",
           "matches": 9,
-          "goals": 8,
+          "goals": 9,
           "assistsInScorerFeed": 2,
-          "penalties": 1
+          "penalties": 2
         },
         {
           "name": "Lamine Yamal",
@@ -2773,7 +2773,7 @@
           "team": "Real Madrid",
           "matches": 9,
           "goals": 3,
-          "assistsInScorerFeed": 2,
+          "assistsInScorerFeed": 3,
           "penalties": 0
         },
         {
@@ -2985,6 +2985,14 @@
           "penalties": 0
         },
         {
+          "name": "Yan Diomandé",
+          "team": "Real Madrid",
+          "matches": 9,
+          "goals": 2,
+          "assistsInScorerFeed": 2,
+          "penalties": 0
+        },
+        {
           "name": "Álvaro García",
           "team": "Rayo Vallecano",
           "matches": 8,
@@ -3165,7 +3173,7 @@
           "team": "Sevilla FC",
           "matches": 4,
           "goals": 1,
-          "assistsInScorerFeed": 0,
+          "assistsInScorerFeed": 1,
           "penalties": 0
         },
         {
@@ -3305,14 +3313,6 @@
           "penalties": 0
         },
         {
-          "name": "Robin Le Normand",
-          "team": "Atlético Madrid",
-          "matches": 8,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
           "name": "Sergio Martínez",
           "team": "Racing Santander",
           "matches": 4,
@@ -3439,6 +3439,11 @@
           "assists": 4
         },
         {
+          "name": "Bellingham",
+          "team": "Real Madrid",
+          "assists": 3
+        },
+        {
           "name": "Carlos Soler",
           "team": "Real Sociedad",
           "assists": 3
@@ -3504,11 +3509,6 @@
           "assists": 2
         },
         {
-          "name": "Bellingham",
-          "team": "Real Madrid",
-          "assists": 2
-        },
-        {
           "name": "Cubarsí",
           "team": "FC Barcelona",
           "assists": 2
@@ -3516,6 +3516,11 @@
         {
           "name": "Cucho Hernández",
           "team": "Real Betis",
+          "assists": 2
+        },
+        {
+          "name": "Diomande",
+          "team": "Real Madrid",
           "assists": 2
         },
         {
@@ -3684,11 +3689,6 @@
           "assists": 1
         },
         {
-          "name": "Diomande",
-          "team": "Real Madrid",
-          "assists": 1
-        },
-        {
           "name": "Enzo Bardeli",
           "team": "Levante UD",
           "assists": 1
@@ -3794,11 +3794,6 @@
           "assists": 1
         },
         {
-          "name": "Justin de Haas",
-          "team": "Valencia CF",
-          "assists": 1
-        },
-        {
           "name": "Karl Etta Eyong",
           "team": "Levante UD",
           "assists": 1
@@ -3821,6 +3816,11 @@
         {
           "name": "Lorenzo Amatucci",
           "team": "RC Deportivo",
+          "assists": 1
+        },
+        {
+          "name": "Lucas Stassin",
+          "team": "Sevilla FC",
           "assists": 1
         },
         {
@@ -3851,11 +3851,6 @@
         {
           "name": "Omar",
           "team": "RCD Espanyol",
-          "assists": 1
-        },
-        {
-          "name": "Pablo Barrios",
-          "team": "Atlético Madrid",
           "assists": 1
         },
         {
@@ -3899,6 +3894,11 @@
           "assists": 1
         },
         {
+          "name": "Tchouameni",
+          "team": "Real Madrid",
+          "assists": 1
+        },
+        {
           "name": "Trent Alexander-Arnold",
           "team": "Real Madrid",
           "assists": 1
@@ -3921,8 +3921,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-10-18T19:41:12Z"
+      "updatedAt": "2026-10-18T21:55:01Z"
     }
   },
-  "updatedAt": "2026-10-18T19:41:12Z"
+  "updatedAt": "2026-10-18T21:55:01Z"
 }
