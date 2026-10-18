@@ -2771,7 +2771,7 @@
         {
           "name": "Luka Sučić",
           "team": "Real Sociedad",
-          "matches": 8,
+          "matches": 9,
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2781,7 +2781,7 @@
           "team": "Deportivo Alavés",
           "matches": 9,
           "goals": 3,
-          "assistsInScorerFeed": 3,
+          "assistsInScorerFeed": 4,
           "penalties": 0
         },
         {
@@ -2795,7 +2795,7 @@
         {
           "name": "Adrián",
           "team": "Málaga CF",
-          "matches": 4,
+          "matches": 5,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2819,7 +2819,7 @@
         {
           "name": "Ander Barrenetxea",
           "team": "Real Sociedad",
-          "matches": 8,
+          "matches": 9,
           "goals": 2,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2838,6 +2838,14 @@
           "matches": 9,
           "goals": 2,
           "assistsInScorerFeed": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Ferran Jutglà",
+          "team": "Celta Vigo",
+          "matches": 9,
+          "goals": 2,
+          "assistsInScorerFeed": 0,
           "penalties": 0
         },
         {
@@ -2908,6 +2916,14 @@
           "name": "Nicolas Pépé",
           "team": "Villarreal CF",
           "matches": 7,
+          "goals": 2,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Orri Oskarsson",
+          "team": "Real Sociedad",
+          "matches": 8,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3051,7 +3067,7 @@
         {
           "name": "Chupete",
           "team": "Málaga CF",
-          "matches": 8,
+          "matches": 9,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -3081,19 +3097,11 @@
           "penalties": 1
         },
         {
-          "name": "Ferran Jutglà",
-          "team": "Celta Vigo",
-          "matches": 9,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
           "name": "Iago Aspas",
           "team": "Celta Vigo",
           "matches": 8,
           "goals": 1,
-          "assistsInScorerFeed": 0,
+          "assistsInScorerFeed": 1,
           "penalties": 0
         },
         {
@@ -3243,7 +3251,7 @@
         {
           "name": "Ochieng",
           "team": "Real Sociedad",
-          "matches": 8,
+          "matches": 9,
           "goals": 1,
           "assistsInScorerFeed": 3,
           "penalties": 0
@@ -3251,14 +3259,6 @@
         {
           "name": "Oihan Sancet",
           "team": "Athletic Club",
-          "matches": 7,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
-          "name": "Orri Oskarsson",
-          "team": "Real Sociedad",
           "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
@@ -3434,6 +3434,11 @@
           "assists": 4
         },
         {
+          "name": "Mariano Díaz",
+          "team": "Deportivo Alavés",
+          "assists": 4
+        },
+        {
           "name": "Carlos Soler",
           "team": "Real Sociedad",
           "assists": 3
@@ -3456,11 +3461,6 @@
         {
           "name": "Job Ochieng",
           "team": "Real Sociedad",
-          "assists": 3
-        },
-        {
-          "name": "Mariano Díaz",
-          "team": "Deportivo Alavés",
           "assists": 3
         },
         {
@@ -3634,6 +3634,11 @@
           "assists": 1
         },
         {
+          "name": "Aspas",
+          "team": "Celta Vigo",
+          "assists": 1
+        },
+        {
           "name": "Barrenetxea",
           "team": "Real Sociedad",
           "assists": 1
@@ -3736,6 +3741,11 @@
         {
           "name": "Isaac Romero",
           "team": "Sevilla FC",
+          "assists": 1
+        },
+        {
+          "name": "Javi Rodríguez",
+          "team": "Celta Vigo",
           "assists": 1
         },
         {
@@ -3899,11 +3909,6 @@
           "assists": 1
         },
         {
-          "name": "Victor Chust",
-          "team": "Elche CF",
-          "assists": 1
-        },
-        {
           "name": "Villalibre",
           "team": "Racing Santander",
           "assists": 1
@@ -3912,17 +3917,12 @@
           "name": "Yeray",
           "team": "Athletic Club",
           "assists": 1
-        },
-        {
-          "name": "Yeremay Hernández",
-          "team": "RC Deportivo",
-          "assists": 1
         }
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-10-18T13:59:57Z"
+      "updatedAt": "2026-10-18T17:20:45Z"
     }
   },
-  "updatedAt": "2026-10-18T13:59:57Z"
+  "updatedAt": "2026-10-18T17:20:45Z"
 }
