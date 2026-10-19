@@ -2651,7 +2651,7 @@
         {
           "name": "Sergio Camello",
           "team": "Rayo Vallecano",
-          "matches": 8,
+          "matches": 9,
           "goals": 7,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2801,6 +2801,14 @@
           "penalties": 1
         },
         {
+          "name": "Álvaro García",
+          "team": "Rayo Vallecano",
+          "matches": 9,
+          "goals": 3,
+          "assistsInScorerFeed": 2,
+          "penalties": 0
+        },
+        {
           "name": "Adrián de la Fuente",
           "team": "Levante UD",
           "matches": 9,
@@ -2921,6 +2929,14 @@
           "penalties": 0
         },
         {
+          "name": "Martin Satriano",
+          "team": "Getafe CF",
+          "matches": 9,
+          "goals": 2,
+          "assistsInScorerFeed": 1,
+          "penalties": 0
+        },
+        {
           "name": "Miguel Ángel Sierra",
           "team": "Sevilla FC",
           "matches": 8,
@@ -2993,14 +3009,6 @@
           "penalties": 0
         },
         {
-          "name": "Álvaro García",
-          "team": "Rayo Vallecano",
-          "matches": 8,
-          "goals": 2,
-          "assistsInScorerFeed": 2,
-          "penalties": 0
-        },
-        {
           "name": "Abiel Osorio",
           "team": "Elche CF",
           "matches": 7,
@@ -3019,7 +3027,7 @@
         {
           "name": "Adrià Pedrosa",
           "team": "Rayo Vallecano",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3099,7 +3107,7 @@
         {
           "name": "Enes Ünal",
           "team": "Getafe CF",
-          "matches": 7,
+          "matches": 8,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3217,14 +3225,6 @@
           "penalties": 0
         },
         {
-          "name": "Martin Satriano",
-          "team": "Getafe CF",
-          "matches": 8,
-          "goals": 1,
-          "assistsInScorerFeed": 1,
-          "penalties": 0
-        },
-        {
           "name": "Mikel Rodríguez",
           "team": "Deportivo Alavés",
           "matches": 3,
@@ -3307,7 +3307,7 @@
         {
           "name": "RamónTerrats Espacio",
           "team": "Getafe CF",
-          "matches": 7,
+          "matches": 8,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3519,6 +3519,11 @@
           "assists": 2
         },
         {
+          "name": "De Frutos",
+          "team": "Rayo Vallecano",
+          "assists": 2
+        },
+        {
           "name": "Diomande",
           "team": "Real Madrid",
           "assists": 2
@@ -3679,11 +3684,6 @@
           "assists": 1
         },
         {
-          "name": "De Frutos",
-          "team": "Rayo Vallecano",
-          "assists": 1
-        },
-        {
           "name": "Deossa",
           "team": "Real Betis",
           "assists": 1
@@ -3706,6 +3706,11 @@
         {
           "name": "Fran Garcia",
           "team": "Real Betis",
+          "assists": 1
+        },
+        {
+          "name": "Francho",
+          "team": "Getafe CF",
           "assists": 1
         },
         {
@@ -3781,11 +3786,6 @@
         {
           "name": "Josan",
           "team": "Elche CF",
-          "assists": 1
-        },
-        {
-          "name": "Juan Cruz",
-          "team": "Málaga CF",
           "assists": 1
         },
         {
@@ -3921,8 +3921,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-10-18T21:55:01Z"
+      "updatedAt": "2026-10-19T21:31:14Z"
     }
   },
-  "updatedAt": "2026-10-18T21:55:01Z"
+  "updatedAt": "2026-10-19T21:31:14Z"
 }
