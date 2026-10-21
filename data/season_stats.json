@@ -2673,6 +2673,14 @@
           "penalties": 0
         },
         {
+          "name": "Brugui",
+          "team": "Levante UD",
+          "matches": 8,
+          "goals": 5,
+          "assistsInScorerFeed": 1,
+          "penalties": 0
+        },
+        {
           "name": "Fer Niño",
           "team": "Elche CF",
           "matches": 9,
@@ -2735,14 +2743,6 @@
           "goals": 3,
           "assistsInScorerFeed": 1,
           "penalties": 2
-        },
-        {
-          "name": "Brugui",
-          "team": "Levante UD",
-          "matches": 8,
-          "goals": 3,
-          "assistsInScorerFeed": 1,
-          "penalties": 0
         },
         {
           "name": "Gabriel Jesus",
@@ -3007,6 +3007,14 @@
           "goals": 2,
           "assistsInScorerFeed": 2,
           "penalties": 0
+        },
+        {
+          "name": "Álex Berenguer",
+          "team": "Athletic Club",
+          "matches": 9,
+          "goals": 2,
+          "assistsInScorerFeed": 1,
+          "penalties": 1
         },
         {
           "name": "Abiel Osorio",
@@ -3390,14 +3398,6 @@
           "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
-          "name": "Álex Berenguer",
-          "team": "Athletic Club",
-          "matches": 9,
-          "goals": 1,
-          "assistsInScorerFeed": 1,
           "penalties": 0
         },
         {
@@ -3921,8 +3921,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-10-19T21:31:14Z"
+      "updatedAt": "2026-10-21T19:37:14Z"
     }
   },
-  "updatedAt": "2026-10-19T21:31:14Z"
+  "updatedAt": "2026-10-21T19:37:14Z"
 }
