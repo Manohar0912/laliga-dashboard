@@ -25,16 +25,6 @@
   ],
   "fixtures": [
     {
-      "id": 564685,
-      "date": "2026-10-21",
-      "time": "20:00",
-      "home": "Levante UD",
-      "away": "Athletic Club",
-      "referee": "Alejandro Quintero González",
-      "status": "IN_PLAY",
-      "matchday": 6
-    },
-    {
       "id": 564719,
       "date": "2026-10-23",
       "time": "21:00",
@@ -3815,8 +3805,18 @@
       "away_goals": 1,
       "ht_home_goals": 0,
       "ht_away_goals": 1
+    },
+    {
+      "id": 564685,
+      "date": "2026-10-21",
+      "home": "Levante UD",
+      "away": "Athletic Club",
+      "home_goals": 3,
+      "away_goals": 1,
+      "ht_home_goals": 2,
+      "ht_away_goals": 0
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-10-21T19:37:11Z"
+  "updatedAt": "2026-10-21T22:44:49Z"
 }

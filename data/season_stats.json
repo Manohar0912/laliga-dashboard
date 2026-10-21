@@ -3684,6 +3684,11 @@
           "assists": 1
         },
         {
+          "name": "Dani Requena",
+          "team": "Levante UD",
+          "assists": 1
+        },
+        {
           "name": "Deossa",
           "team": "Real Betis",
           "assists": 1
@@ -3786,11 +3791,6 @@
         {
           "name": "Josan",
           "team": "Elche CF",
-          "assists": 1
-        },
-        {
-          "name": "Julián Álvarez",
-          "team": "Atlético Madrid",
           "assists": 1
         },
         {
@@ -3921,8 +3921,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-10-21T19:37:14Z"
+      "updatedAt": "2026-10-21T22:44:52Z"
     }
   },
-  "updatedAt": "2026-10-21T19:37:14Z"
+  "updatedAt": "2026-10-21T22:44:52Z"
 }
