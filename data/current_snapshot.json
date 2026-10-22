@@ -326,102 +326,102 @@
     },
     {
       "id": 564748,
-      "date": "2026-11-22",
-      "time": "01:00",
+      "date": "2026-11-20",
+      "time": "21:00",
       "home": "Athletic Club",
       "away": "RCD Espanyol",
       "referee": "",
-      "status": "SCHEDULED",
-      "matchday": 13
-    },
-    {
-      "id": 564752,
-      "date": "2026-11-22",
-      "time": "01:00",
-      "home": "CA Osasuna",
-      "away": "Málaga CF",
-      "referee": "",
-      "status": "SCHEDULED",
+      "status": "TIMED",
       "matchday": 13
     },
     {
       "id": 564755,
-      "date": "2026-11-22",
-      "time": "01:00",
+      "date": "2026-11-21",
+      "time": "14:00",
       "home": "Deportivo Alavés",
       "away": "RC Deportivo",
       "referee": "",
-      "status": "SCHEDULED",
+      "status": "TIMED",
+      "matchday": 13
+    },
+    {
+      "id": 564751,
+      "date": "2026-11-21",
+      "time": "16:15",
+      "home": "Rayo Vallecano",
+      "away": "Valencia CF",
+      "referee": "",
+      "status": "TIMED",
+      "matchday": 13
+    },
+    {
+      "id": 564756,
+      "date": "2026-11-21",
+      "time": "18:30",
+      "home": "Sevilla FC",
+      "away": "Real Betis",
+      "referee": "",
+      "status": "TIMED",
+      "matchday": 13
+    },
+    {
+      "id": 564754,
+      "date": "2026-11-21",
+      "time": "21:00",
+      "home": "Real Madrid",
+      "away": "Celta Vigo",
+      "referee": "",
+      "status": "TIMED",
       "matchday": 13
     },
     {
       "id": 564749,
       "date": "2026-11-22",
-      "time": "01:00",
+      "time": "14:00",
       "home": "FC Barcelona",
       "away": "Villarreal CF",
       "referee": "",
-      "status": "SCHEDULED",
-      "matchday": 13
-    },
-    {
-      "id": 564753,
-      "date": "2026-11-22",
-      "time": "01:00",
-      "home": "Getafe CF",
-      "away": "Atlético Madrid",
-      "referee": "",
-      "status": "SCHEDULED",
-      "matchday": 13
-    },
-    {
-      "id": 564757,
-      "date": "2026-11-22",
-      "time": "01:00",
-      "home": "Levante UD",
-      "away": "Elche CF",
-      "referee": "",
-      "status": "SCHEDULED",
+      "status": "TIMED",
       "matchday": 13
     },
     {
       "id": 564750,
       "date": "2026-11-22",
-      "time": "01:00",
+      "time": "16:15",
       "home": "Racing Santander",
       "away": "Real Sociedad",
       "referee": "",
-      "status": "SCHEDULED",
+      "status": "TIMED",
       "matchday": 13
     },
     {
-      "id": 564751,
+      "id": 564752,
       "date": "2026-11-22",
-      "time": "01:00",
-      "home": "Rayo Vallecano",
-      "away": "Valencia CF",
+      "time": "18:30",
+      "home": "CA Osasuna",
+      "away": "Málaga CF",
       "referee": "",
-      "status": "SCHEDULED",
+      "status": "TIMED",
       "matchday": 13
     },
     {
-      "id": 564754,
+      "id": 564753,
       "date": "2026-11-22",
-      "time": "01:00",
-      "home": "Real Madrid",
-      "away": "Celta Vigo",
+      "time": "21:00",
+      "home": "Getafe CF",
+      "away": "Atlético Madrid",
       "referee": "",
-      "status": "SCHEDULED",
+      "status": "TIMED",
       "matchday": 13
     },
     {
-      "id": 564756,
-      "date": "2026-11-22",
-      "time": "01:00",
-      "home": "Sevilla FC",
-      "away": "Real Betis",
+      "id": 564757,
+      "date": "2026-11-23",
+      "time": "21:00",
+      "home": "Levante UD",
+      "away": "Elche CF",
       "referee": "",
-      "status": "SCHEDULED",
+      "status": "TIMED",
       "matchday": 13
     },
     {
@@ -3818,5 +3818,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-10-21T22:44:49Z"
+  "updatedAt": "2026-10-22T15:15:18Z"
 }
