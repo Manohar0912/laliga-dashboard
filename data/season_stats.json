@@ -2713,6 +2713,14 @@
           "penalties": 0
         },
         {
+          "name": "Adrián",
+          "team": "Málaga CF",
+          "matches": 6,
+          "goals": 4,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Fermín López",
           "team": "FC Barcelona",
           "matches": 9,
@@ -2723,14 +2731,6 @@
         {
           "name": "Abdessamad Ezzalzouli",
           "team": "Real Betis",
-          "matches": 6,
-          "goals": 3,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
-          "name": "Adrián",
-          "team": "Málaga CF",
           "matches": 6,
           "goals": 3,
           "assistsInScorerFeed": 0,
@@ -3734,11 +3734,6 @@
           "assists": 1
         },
         {
-          "name": "Gonzalo Villar",
-          "team": "Elche CF",
-          "assists": 1
-        },
-        {
           "name": "Grimaldo",
           "team": "Atlético Madrid",
           "assists": 1
@@ -3864,6 +3859,11 @@
           "assists": 1
         },
         {
+          "name": "Ramón Enríquez",
+          "team": "Málaga CF",
+          "assists": 1
+        },
+        {
           "name": "Raul García de Haro",
           "team": "CA Osasuna",
           "assists": 1
@@ -3921,8 +3921,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-10-23T19:10:52Z"
+      "updatedAt": "2026-10-23T22:12:50Z"
     }
   },
-  "updatedAt": "2026-10-23T19:10:52Z"
+  "updatedAt": "2026-10-23T22:12:50Z"
 }
