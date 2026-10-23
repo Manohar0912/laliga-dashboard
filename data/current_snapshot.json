@@ -30,8 +30,8 @@
       "time": "21:00",
       "home": "Deportivo Alavés",
       "away": "Málaga CF",
-      "referee": "",
-      "status": "TIMED",
+      "referee": "Carlos Muñiz Muñoz",
+      "status": "IN_PLAY",
       "matchday": 10
     },
     {
@@ -3818,5 +3818,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-10-22T15:15:18Z"
+  "updatedAt": "2026-10-23T19:10:49Z"
 }

@@ -2691,7 +2691,7 @@
         {
           "name": "Lucas Boyé",
           "team": "Deportivo Alavés",
-          "matches": 8,
+          "matches": 9,
           "goals": 5,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -2731,7 +2731,7 @@
         {
           "name": "Adrián",
           "team": "Málaga CF",
-          "matches": 5,
+          "matches": 6,
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2787,7 +2787,7 @@
         {
           "name": "Mariano Díaz",
           "team": "Deportivo Alavés",
-          "matches": 9,
+          "matches": 10,
           "goals": 3,
           "assistsInScorerFeed": 4,
           "penalties": 0
@@ -3107,7 +3107,7 @@
         {
           "name": "Chupete",
           "team": "Málaga CF",
-          "matches": 9,
+          "matches": 10,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -3243,7 +3243,7 @@
         {
           "name": "Nahuel Tenaglia",
           "team": "Deportivo Alavés",
-          "matches": 9,
+          "matches": 10,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3291,7 +3291,7 @@
         {
           "name": "Pablo Ibáñez Tébar",
           "team": "Deportivo Alavés",
-          "matches": 9,
+          "matches": 10,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3363,7 +3363,7 @@
         {
           "name": "Ville Koski",
           "team": "Deportivo Alavés",
-          "matches": 9,
+          "matches": 10,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3921,8 +3921,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-10-22T15:15:21Z"
+      "updatedAt": "2026-10-23T19:10:52Z"
     }
   },
-  "updatedAt": "2026-10-22T15:15:21Z"
+  "updatedAt": "2026-10-23T19:10:52Z"
 }
