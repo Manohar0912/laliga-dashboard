@@ -3439,6 +3439,11 @@
           "assists": 4
         },
         {
+          "name": "Moleiro",
+          "team": "Villarreal CF",
+          "assists": 4
+        },
+        {
           "name": "Bellingham",
           "team": "Real Madrid",
           "assists": 3
@@ -3466,11 +3471,6 @@
         {
           "name": "Job Ochieng",
           "team": "Real Sociedad",
-          "assists": 3
-        },
-        {
-          "name": "Moleiro",
-          "team": "Villarreal CF",
           "assists": 3
         },
         {
@@ -3656,11 +3656,6 @@
         {
           "name": "Aspas",
           "team": "Celta Vigo",
-          "assists": 1
-        },
-        {
-          "name": "Barrenetxea",
-          "team": "Real Sociedad",
           "assists": 1
         },
         {
@@ -3884,6 +3879,11 @@
           "assists": 1
         },
         {
+          "name": "Sergi Cardona",
+          "team": "Villarreal CF",
+          "assists": 1
+        },
+        {
           "name": "Sivera",
           "team": "Deportivo Alavés",
           "assists": 1
@@ -3921,8 +3921,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-10-24T17:25:34Z"
+      "updatedAt": "2026-10-24T19:48:12Z"
     }
   },
-  "updatedAt": "2026-10-24T17:25:34Z"
+  "updatedAt": "2026-10-24T19:48:12Z"
 }
