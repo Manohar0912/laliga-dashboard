@@ -2620,7 +2620,7 @@
           "name": "Raphinha",
           "team": "FC Barcelona",
           "matches": 9,
-          "goals": 12,
+          "goals": 13,
           "assistsInScorerFeed": 2,
           "penalties": 3
         },
@@ -2628,7 +2628,7 @@
           "name": "Kylian Mbappé",
           "team": "Real Madrid",
           "matches": 10,
-          "goals": 10,
+          "goals": 11,
           "assistsInScorerFeed": 2,
           "penalties": 2
         },
@@ -3301,7 +3301,7 @@
           "team": "FC Barcelona",
           "matches": 10,
           "goals": 1,
-          "assistsInScorerFeed": 1,
+          "assistsInScorerFeed": 2,
           "penalties": 0
         },
         {
@@ -3619,6 +3619,11 @@
           "assists": 2
         },
         {
+          "name": "Pedri",
+          "team": "FC Barcelona",
+          "assists": 2
+        },
+        {
           "name": "Robbie Ure",
           "team": "Sevilla FC",
           "assists": 2
@@ -3676,6 +3681,11 @@
         {
           "name": "Brugué",
           "team": "Levante UD",
+          "assists": 1
+        },
+        {
+          "name": "Camavinga",
+          "team": "Real Madrid",
           "assists": 1
         },
         {
@@ -3779,11 +3789,6 @@
           "assists": 1
         },
         {
-          "name": "Josan",
-          "team": "Elche CF",
-          "assists": 1
-        },
-        {
           "name": "Koundé",
           "team": "FC Barcelona",
           "assists": 1
@@ -3836,11 +3841,6 @@
         {
           "name": "Omar",
           "team": "RCD Espanyol",
-          "assists": 1
-        },
-        {
-          "name": "Pedri",
-          "team": "FC Barcelona",
           "assists": 1
         },
         {
@@ -3921,8 +3921,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-10-25T20:48:13Z"
+      "updatedAt": "2026-10-25T23:14:48Z"
     }
   },
-  "updatedAt": "2026-10-25T20:48:13Z"
+  "updatedAt": "2026-10-25T23:14:48Z"
 }
