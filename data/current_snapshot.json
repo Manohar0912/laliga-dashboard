@@ -30,8 +30,8 @@
       "time": "14:00",
       "home": "Athletic Club",
       "away": "Getafe CF",
-      "referee": "",
-      "status": "TIMED",
+      "referee": "Francisco Hernández Maeso",
+      "status": "IN_PLAY",
       "matchday": 10
     },
     {
@@ -40,7 +40,7 @@
       "time": "16:15",
       "home": "Celta Vigo",
       "away": "Real Betis",
-      "referee": "",
+      "referee": "Isidro Díaz de Mera",
       "status": "TIMED",
       "matchday": 10
     },
@@ -3818,5 +3818,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-10-25T00:31:31Z"
+  "updatedAt": "2026-10-25T14:21:00Z"
 }

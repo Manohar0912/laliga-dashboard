@@ -2731,7 +2731,7 @@
         {
           "name": "Abdessamad Ezzalzouli",
           "team": "Real Betis",
-          "matches": 6,
+          "matches": 7,
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2809,6 +2809,14 @@
           "penalties": 1
         },
         {
+          "name": "Álex Berenguer",
+          "team": "Athletic Club",
+          "matches": 10,
+          "goals": 3,
+          "assistsInScorerFeed": 2,
+          "penalties": 1
+        },
+        {
           "name": "Álvaro García",
           "team": "Rayo Vallecano",
           "matches": 10,
@@ -2867,7 +2875,7 @@
         {
           "name": "Ferran Jutglà",
           "team": "Celta Vigo",
-          "matches": 9,
+          "matches": 10,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2915,10 +2923,18 @@
         {
           "name": "Isco",
           "team": "Real Betis",
-          "matches": 9,
+          "matches": 10,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 1
+        },
+        {
+          "name": "Iñaki Williams",
+          "team": "Athletic Club",
+          "matches": 10,
+          "goals": 2,
+          "assistsInScorerFeed": 2,
+          "penalties": 0
         },
         {
           "name": "Kang-in Lee",
@@ -2939,7 +2955,7 @@
         {
           "name": "Martin Satriano",
           "team": "Getafe CF",
-          "matches": 9,
+          "matches": 10,
           "goals": 2,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2979,7 +2995,7 @@
         {
           "name": "Pablo Duran",
           "team": "Celta Vigo",
-          "matches": 8,
+          "matches": 9,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2995,7 +3011,7 @@
         {
           "name": "Roberto Navarro",
           "team": "Athletic Club",
-          "matches": 9,
+          "matches": 10,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3003,7 +3019,7 @@
         {
           "name": "Rodrigo Riquelme",
           "team": "Real Betis",
-          "matches": 9,
+          "matches": 10,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3015,14 +3031,6 @@
           "goals": 2,
           "assistsInScorerFeed": 2,
           "penalties": 0
-        },
-        {
-          "name": "Álex Berenguer",
-          "team": "Athletic Club",
-          "matches": 9,
-          "goals": 2,
-          "assistsInScorerFeed": 1,
-          "penalties": 1
         },
         {
           "name": "Ademola Lookman",
@@ -3043,7 +3051,7 @@
         {
           "name": "Aitor Paredes Casamichana",
           "team": "Athletic Club",
-          "matches": 9,
+          "matches": 10,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3067,7 +3075,7 @@
         {
           "name": "Bartra",
           "team": "Real Betis",
-          "matches": 9,
+          "matches": 10,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3115,7 +3123,7 @@
         {
           "name": "Enes Ünal",
           "team": "Getafe CF",
-          "matches": 8,
+          "matches": 9,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3139,17 +3147,9 @@
         {
           "name": "Iago Aspas",
           "team": "Celta Vigo",
-          "matches": 8,
-          "goals": 1,
-          "assistsInScorerFeed": 1,
-          "penalties": 0
-        },
-        {
-          "name": "Iñaki Williams",
-          "team": "Athletic Club",
           "matches": 9,
           "goals": 1,
-          "assistsInScorerFeed": 2,
+          "assistsInScorerFeed": 1,
           "penalties": 0
         },
         {
@@ -3251,7 +3251,7 @@
         {
           "name": "Natan",
           "team": "Real Betis",
-          "matches": 9,
+          "matches": 10,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3259,7 +3259,7 @@
         {
           "name": "Nico Williams",
           "team": "Athletic Club",
-          "matches": 7,
+          "matches": 8,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3315,7 +3315,7 @@
         {
           "name": "RamónTerrats Espacio",
           "team": "Getafe CF",
-          "matches": 8,
+          "matches": 9,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3339,7 +3339,7 @@
         {
           "name": "Troy Parrott",
           "team": "Real Betis",
-          "matches": 8,
+          "matches": 9,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3921,8 +3921,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-10-25T00:31:35Z"
+      "updatedAt": "2026-10-25T14:21:07Z"
     }
   },
-  "updatedAt": "2026-10-25T00:31:35Z"
+  "updatedAt": "2026-10-25T14:21:07Z"
 }
