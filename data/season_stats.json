@@ -2651,7 +2651,7 @@
         {
           "name": "Ante Budimir",
           "team": "CA Osasuna",
-          "matches": 9,
+          "matches": 10,
           "goals": 7,
           "assistsInScorerFeed": 0,
           "penalties": 4
@@ -2759,6 +2759,14 @@
           "goals": 3,
           "assistsInScorerFeed": 1,
           "penalties": 1
+        },
+        {
+          "name": "Isaac",
+          "team": "Sevilla FC",
+          "matches": 9,
+          "goals": 3,
+          "assistsInScorerFeed": 1,
+          "penalties": 0
         },
         {
           "name": "Iván Romero",
@@ -2924,14 +2932,6 @@
           "name": "Gonçalo Guedes",
           "team": "Real Sociedad",
           "matches": 9,
-          "goals": 2,
-          "assistsInScorerFeed": 1,
-          "penalties": 0
-        },
-        {
-          "name": "Isaac",
-          "team": "Sevilla FC",
-          "matches": 8,
           "goals": 2,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3107,7 +3107,7 @@
         {
           "name": "Chidera Ejuke",
           "team": "Sevilla FC",
-          "matches": 9,
+          "matches": 10,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3155,7 +3155,7 @@
         {
           "name": "Jon Guridi",
           "team": "Sevilla FC",
-          "matches": 8,
+          "matches": 9,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -3171,7 +3171,7 @@
         {
           "name": "Juan Iglesias",
           "team": "Sevilla FC",
-          "matches": 9,
+          "matches": 10,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3179,7 +3179,7 @@
         {
           "name": "Kike Barja",
           "team": "CA Osasuna",
-          "matches": 8,
+          "matches": 9,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3187,7 +3187,7 @@
         {
           "name": "Lucas Stassin",
           "team": "Sevilla FC",
-          "matches": 4,
+          "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3307,7 +3307,7 @@
         {
           "name": "Peque",
           "team": "Sevilla FC",
-          "matches": 9,
+          "matches": 10,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -3921,8 +3921,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-10-25T23:14:48Z"
+      "updatedAt": "2026-10-26T21:38:07Z"
     }
   },
-  "updatedAt": "2026-10-25T23:14:48Z"
+  "updatedAt": "2026-10-26T21:38:07Z"
 }

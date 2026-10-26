@@ -30,8 +30,8 @@
       "time": "21:00",
       "home": "Sevilla FC",
       "away": "CA Osasuna",
-      "referee": "",
-      "status": "TIMED",
+      "referee": "Miguel Ortiz Arias",
+      "status": "IN_PLAY",
       "matchday": 10
     },
     {
@@ -3818,5 +3818,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-10-25T23:14:46Z"
+  "updatedAt": "2026-10-26T21:38:02Z"
 }
