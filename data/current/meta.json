@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T01:09:58.727989+00:00",
+  "updatedAt": "2026-10-26T06:13:08.753293+00:00",
   "season": 2026,
   "sources": {
     "epl": {
@@ -28,8 +28,8 @@
     },
     "seriea": {
       "ok": true,
-      "matches": 370,
-      "freshEvents": 10,
+      "matches": 373,
+      "freshEvents": 13,
       "standings": 20,
       "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
       "darkLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/12.png"
