@@ -2905,6 +2905,14 @@
           "penalties": 0
         },
         {
+          "name": "Félix Correia",
+          "team": "Sevilla FC",
+          "matches": 7,
+          "goals": 2,
+          "assistsInScorerFeed": 1,
+          "penalties": 0
+        },
+        {
           "name": "Gerard Moreno",
           "team": "Villarreal CF",
           "matches": 10,
@@ -3190,14 +3198,6 @@
           "matches": 5,
           "goals": 1,
           "assistsInScorerFeed": 1,
-          "penalties": 0
-        },
-        {
-          "name": "Luis Rioja",
-          "team": "Valencia CF",
-          "matches": 6,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
           "penalties": 0
         },
         {
@@ -3496,6 +3496,11 @@
         {
           "name": "Vinicius Junior",
           "team": "Real Madrid",
+          "assists": 3
+        },
+        {
+          "name": "Youssouf Fofana",
+          "team": "Sevilla FC",
           "assists": 3
         },
         {
@@ -3819,11 +3824,6 @@
           "assists": 1
         },
         {
-          "name": "Marc Roca",
-          "team": "Real Betis",
-          "assists": 1
-        },
-        {
           "name": "Marcos Fernández",
           "team": "RCD Espanyol",
           "assists": 1
@@ -3921,8 +3921,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-10-26T21:38:07Z"
+      "updatedAt": "2026-10-27T00:50:27Z"
     }
   },
-  "updatedAt": "2026-10-26T21:38:07Z"
+  "updatedAt": "2026-10-27T00:50:27Z"
 }
