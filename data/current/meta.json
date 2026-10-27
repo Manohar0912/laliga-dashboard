@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T05:04:27.565331+00:00",
+  "updatedAt": "2026-10-27T10:33:50.059045+00:00",
   "season": 2026,
   "sources": {
     "epl": {
@@ -36,8 +36,8 @@
     },
     "ligue1": {
       "ok": true,
-      "matches": 299,
-      "freshEvents": 10,
+      "matches": 300,
+      "freshEvents": 11,
       "standings": 18,
       "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
       "darkLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/9.png"
