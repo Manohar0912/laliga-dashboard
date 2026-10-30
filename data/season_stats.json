@@ -2675,7 +2675,7 @@
         {
           "name": "Roberto Fernández",
           "team": "RCD Espanyol",
-          "matches": 10,
+          "matches": 11,
           "goals": 6,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2755,7 +2755,7 @@
         {
           "name": "Georges Mikautadze",
           "team": "Villarreal CF",
-          "matches": 10,
+          "matches": 11,
           "goals": 3,
           "assistsInScorerFeed": 1,
           "penalties": 1
@@ -2859,7 +2859,7 @@
         {
           "name": "Alberto Moleiro",
           "team": "Villarreal CF",
-          "matches": 10,
+          "matches": 11,
           "goals": 2,
           "assistsInScorerFeed": 4,
           "penalties": 0
@@ -2915,7 +2915,7 @@
         {
           "name": "Gerard Moreno",
           "team": "Villarreal CF",
-          "matches": 10,
+          "matches": 11,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -3003,7 +3003,7 @@
         {
           "name": "Nicolas Pépé",
           "team": "Villarreal CF",
-          "matches": 7,
+          "matches": 8,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3227,7 +3227,7 @@
         {
           "name": "Marcos Fernández",
           "team": "RCD Espanyol",
-          "matches": 10,
+          "matches": 11,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3347,7 +3347,7 @@
         {
           "name": "Tyrhys Dolan",
           "team": "RCD Espanyol",
-          "matches": 10,
+          "matches": 11,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3921,8 +3921,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-10-27T00:50:27Z"
+      "updatedAt": "2026-10-30T21:05:45Z"
     }
   },
-  "updatedAt": "2026-10-27T00:50:27Z"
+  "updatedAt": "2026-10-30T21:05:45Z"
 }
