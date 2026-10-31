@@ -2620,7 +2620,7 @@
           "name": "Raphinha",
           "team": "FC Barcelona",
           "matches": 10,
-          "goals": 13,
+          "goals": 15,
           "assistsInScorerFeed": 2,
           "penalties": 3
         },
@@ -2636,8 +2636,8 @@
           "name": "Lamine Yamal",
           "team": "FC Barcelona",
           "matches": 11,
-          "goals": 8,
-          "assistsInScorerFeed": 6,
+          "goals": 10,
+          "assistsInScorerFeed": 7,
           "penalties": 1
         },
         {
@@ -2697,6 +2697,14 @@
           "penalties": 0
         },
         {
+          "name": "Fermín López",
+          "team": "FC Barcelona",
+          "matches": 11,
+          "goals": 5,
+          "assistsInScorerFeed": 5,
+          "penalties": 0
+        },
+        {
           "name": "Lucas Boyé",
           "team": "Deportivo Alavés",
           "matches": 10,
@@ -2729,11 +2737,11 @@
           "penalties": 2
         },
         {
-          "name": "Fermín López",
-          "team": "FC Barcelona",
+          "name": "Mariano Díaz",
+          "team": "Deportivo Alavés",
           "matches": 11,
           "goals": 4,
-          "assistsInScorerFeed": 3,
+          "assistsInScorerFeed": 4,
           "penalties": 0
         },
         {
@@ -2749,7 +2757,7 @@
           "team": "FC Barcelona",
           "matches": 8,
           "goals": 3,
-          "assistsInScorerFeed": 0,
+          "assistsInScorerFeed": 1,
           "penalties": 0
         },
         {
@@ -2806,14 +2814,6 @@
           "matches": 10,
           "goals": 3,
           "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
-          "name": "Mariano Díaz",
-          "team": "Deportivo Alavés",
-          "matches": 11,
-          "goals": 3,
-          "assistsInScorerFeed": 4,
           "penalties": 0
         },
         {
@@ -2878,6 +2878,14 @@
           "matches": 10,
           "goals": 2,
           "assistsInScorerFeed": 1,
+          "penalties": 0
+        },
+        {
+          "name": "Anthony Gordon",
+          "team": "FC Barcelona",
+          "matches": 11,
+          "goals": 2,
+          "assistsInScorerFeed": 4,
           "penalties": 0
         },
         {
@@ -3249,14 +3257,6 @@
           "penalties": 0
         },
         {
-          "name": "Natan",
-          "team": "Real Betis",
-          "matches": 11,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
           "name": "Nico Williams",
           "team": "Athletic Club",
           "matches": 8,
@@ -3419,14 +3419,19 @@
       ],
       "assists": [
         {
+          "name": "Lamine Yamal",
+          "team": "FC Barcelona",
+          "assists": 7
+        },
+        {
           "name": "Javi Hernández",
           "team": "RCD Espanyol",
           "assists": 6
         },
         {
-          "name": "Lamine Yamal",
+          "name": "Fermín",
           "team": "FC Barcelona",
-          "assists": 6
+          "assists": 5
         },
         {
           "name": "Anthony Gordon",
@@ -3460,11 +3465,6 @@
         },
         {
           "name": "Dani Olmo",
-          "team": "FC Barcelona",
-          "assists": 3
-        },
-        {
-          "name": "Fermín",
           "team": "FC Barcelona",
           "assists": 3
         },
@@ -3699,6 +3699,11 @@
           "assists": 1
         },
         {
+          "name": "Cancelo",
+          "team": "FC Barcelona",
+          "assists": 1
+        },
+        {
           "name": "Catena",
           "team": "CA Osasuna",
           "assists": 1
@@ -3731,6 +3736,11 @@
         {
           "name": "Francho",
           "team": "Getafe CF",
+          "assists": 1
+        },
+        {
+          "name": "Gabriel Jesus",
+          "team": "FC Barcelona",
           "assists": 1
         },
         {
@@ -3849,11 +3859,6 @@
           "assists": 1
         },
         {
-          "name": "Raul García de Haro",
-          "team": "CA Osasuna",
-          "assists": 1
-        },
-        {
           "name": "Renato Veiga",
           "team": "Villarreal CF",
           "assists": 1
@@ -3864,6 +3869,11 @@
           "assists": 1
         },
         {
+          "name": "Rodrigo",
+          "team": "FC Barcelona",
+          "assists": 1
+        },
+        {
           "name": "Rubén García",
           "team": "CA Osasuna",
           "assists": 1
@@ -3871,11 +3881,6 @@
         {
           "name": "Sergi Cardona",
           "team": "Villarreal CF",
-          "assists": 1
-        },
-        {
-          "name": "Sivera",
-          "team": "Deportivo Alavés",
           "assists": 1
         },
         {
@@ -3907,17 +3912,12 @@
           "name": "Villalibre",
           "team": "Racing Santander",
           "assists": 1
-        },
-        {
-          "name": "Yeray",
-          "team": "Athletic Club",
-          "assists": 1
         }
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-10-31T19:57:39Z"
+      "updatedAt": "2026-10-31T23:21:49Z"
     }
   },
-  "updatedAt": "2026-10-31T19:57:39Z"
+  "updatedAt": "2026-10-31T23:21:49Z"
 }
