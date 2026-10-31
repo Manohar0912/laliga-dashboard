@@ -2659,7 +2659,7 @@
         {
           "name": "Sergio Camello",
           "team": "Rayo Vallecano",
-          "matches": 10,
+          "matches": 11,
           "goals": 7,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2683,7 +2683,7 @@
         {
           "name": "Brugui",
           "team": "Levante UD",
-          "matches": 9,
+          "matches": 10,
           "goals": 5,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2707,9 +2707,9 @@
         {
           "name": "Álex Baena",
           "team": "Atlético Madrid",
-          "matches": 10,
+          "matches": 11,
           "goals": 5,
-          "assistsInScorerFeed": 2,
+          "assistsInScorerFeed": 3,
           "penalties": 0
         },
         {
@@ -2719,6 +2719,14 @@
           "goals": 4,
           "assistsInScorerFeed": 0,
           "penalties": 0
+        },
+        {
+          "name": "Alejandro Grimaldo",
+          "team": "Atlético Madrid",
+          "matches": 11,
+          "goals": 4,
+          "assistsInScorerFeed": 2,
+          "penalties": 2
         },
         {
           "name": "Fermín López",
@@ -2737,14 +2745,6 @@
           "penalties": 0
         },
         {
-          "name": "Alejandro Grimaldo",
-          "team": "Atlético Madrid",
-          "matches": 10,
-          "goals": 3,
-          "assistsInScorerFeed": 2,
-          "penalties": 2
-        },
-        {
           "name": "Gabriel Jesus",
           "team": "FC Barcelona",
           "matches": 7,
@@ -2761,6 +2761,14 @@
           "penalties": 1
         },
         {
+          "name": "Giuliano Simeone",
+          "team": "Atlético Madrid",
+          "matches": 11,
+          "goals": 3,
+          "assistsInScorerFeed": 2,
+          "penalties": 0
+        },
+        {
           "name": "Isaac",
           "team": "Sevilla FC",
           "matches": 9,
@@ -2771,7 +2779,7 @@
         {
           "name": "Iván Romero",
           "team": "Levante UD",
-          "matches": 10,
+          "matches": 11,
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2779,7 +2787,7 @@
         {
           "name": "Jonathan David",
           "team": "Atlético Madrid",
-          "matches": 7,
+          "matches": 8,
           "goals": 3,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -2835,7 +2843,7 @@
         {
           "name": "Álvaro García",
           "team": "Rayo Vallecano",
-          "matches": 10,
+          "matches": 11,
           "goals": 3,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -2843,7 +2851,7 @@
         {
           "name": "Adrián de la Fuente",
           "team": "Levante UD",
-          "matches": 8,
+          "matches": 9,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2899,7 +2907,7 @@
         {
           "name": "Ferran Jutglà",
           "team": "Celta Vigo",
-          "matches": 10,
+          "matches": 11,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2929,14 +2937,6 @@
           "penalties": 0
         },
         {
-          "name": "Giuliano Simeone",
-          "team": "Atlético Madrid",
-          "matches": 10,
-          "goals": 2,
-          "assistsInScorerFeed": 2,
-          "penalties": 0
-        },
-        {
           "name": "Gonçalo Guedes",
           "team": "Real Sociedad",
           "matches": 9,
@@ -2963,7 +2963,7 @@
         {
           "name": "Kang-in Lee",
           "team": "Atlético Madrid",
-          "matches": 10,
+          "matches": 11,
           "goals": 2,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3011,7 +3011,7 @@
         {
           "name": "Pablo Duran",
           "team": "Celta Vigo",
-          "matches": 9,
+          "matches": 10,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3051,7 +3051,7 @@
         {
           "name": "Ademola Lookman",
           "team": "Atlético Madrid",
-          "matches": 10,
+          "matches": 11,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3059,7 +3059,7 @@
         {
           "name": "Adrià Pedrosa",
           "team": "Rayo Vallecano",
-          "matches": 8,
+          "matches": 9,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3067,7 +3067,7 @@
         {
           "name": "Andrei Rațiu",
           "team": "Rayo Vallecano",
-          "matches": 7,
+          "matches": 8,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3155,7 +3155,7 @@
         {
           "name": "Iago Aspas",
           "team": "Celta Vigo",
-          "matches": 9,
+          "matches": 10,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3171,7 +3171,7 @@
         {
           "name": "Jon Olasagasti",
           "team": "Levante UD",
-          "matches": 10,
+          "matches": 11,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3219,7 +3219,7 @@
         {
           "name": "Marc Pubill",
           "team": "Atlético Madrid",
-          "matches": 10,
+          "matches": 11,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3227,7 +3227,7 @@
         {
           "name": "Marcos Fernández",
           "team": "RCD Espanyol",
-          "matches": 11,
+          "matches": 10,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3504,6 +3504,11 @@
           "assists": 3
         },
         {
+          "name": "Álex Baena",
+          "team": "Atlético Madrid",
+          "assists": 3
+        },
+        {
           "name": "Ángel Pérez",
           "team": "Deportivo Alavés",
           "assists": 3
@@ -3651,11 +3656,6 @@
         {
           "name": "Xavi Espart",
           "team": "FC Barcelona",
-          "assists": 2
-        },
-        {
-          "name": "Álex Baena",
-          "team": "Atlético Madrid",
           "assists": 2
         },
         {
@@ -3916,8 +3916,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-10-31T00:46:09Z"
+      "updatedAt": "2026-10-31T15:43:17Z"
     }
   },
-  "updatedAt": "2026-10-31T00:46:09Z"
+  "updatedAt": "2026-10-31T15:43:17Z"
 }
