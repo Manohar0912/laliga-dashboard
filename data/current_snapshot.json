@@ -25,32 +25,12 @@
   ],
   "fixtures": [
     {
-      "id": 564735,
-      "date": "2026-10-31",
-      "time": "16:15",
-      "home": "Rayo Vallecano",
-      "away": "Celta Vigo",
-      "referee": "Manuel Orellana Cid",
-      "status": "IN_PLAY",
-      "matchday": 11
-    },
-    {
-      "id": 564736,
-      "date": "2026-10-31",
-      "time": "18:30",
-      "home": "Real Betis",
-      "away": "Málaga CF",
-      "referee": "Mateo Busquets Ferrer",
-      "status": "TIMED",
-      "matchday": 11
-    },
-    {
       "id": 564732,
       "date": "2026-10-31",
       "time": "21:00",
       "home": "FC Barcelona",
       "away": "Deportivo Alavés",
-      "referee": "",
+      "referee": "Adrián Cordero Vega",
       "status": "TIMED",
       "matchday": 11
     },
@@ -3815,8 +3795,28 @@
       "away_goals": 2,
       "ht_home_goals": 0,
       "ht_away_goals": 1
+    },
+    {
+      "id": 564735,
+      "date": "2026-10-31",
+      "home": "Rayo Vallecano",
+      "away": "Celta Vigo",
+      "home_goals": 3,
+      "away_goals": 0,
+      "ht_home_goals": 1,
+      "ht_away_goals": 0
+    },
+    {
+      "id": 564736,
+      "date": "2026-10-31",
+      "home": "Real Betis",
+      "away": "Málaga CF",
+      "home_goals": 2,
+      "away_goals": 1,
+      "ht_home_goals": 2,
+      "ht_away_goals": 0
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-10-31T15:43:14Z"
+  "updatedAt": "2026-10-31T19:57:37Z"
 }
