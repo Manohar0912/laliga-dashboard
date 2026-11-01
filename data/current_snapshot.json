@@ -25,23 +25,13 @@
   ],
   "fixtures": [
     {
-      "id": 564733,
-      "date": "2026-11-01",
-      "time": "14:00",
-      "home": "Getafe CF",
-      "away": "Sevilla FC",
-      "referee": "",
-      "status": "TIMED",
-      "matchday": 11
-    },
-    {
       "id": 564734,
       "date": "2026-11-01",
       "time": "16:15",
       "home": "Racing Santander",
       "away": "Real Madrid",
-      "referee": "",
-      "status": "TIMED",
+      "referee": "José Munuera Montero",
+      "status": "IN_PLAY",
       "matchday": 11
     },
     {
@@ -50,7 +40,7 @@
       "time": "18:30",
       "home": "Elche CF",
       "away": "Valencia CF",
-      "referee": "",
+      "referee": "Luis Bestard Servera",
       "status": "TIMED",
       "matchday": 11
     },
@@ -3815,8 +3805,18 @@
       "away_goals": 1,
       "ht_home_goals": 2,
       "ht_away_goals": 0
+    },
+    {
+      "id": 564733,
+      "date": "2026-11-01",
+      "home": "Getafe CF",
+      "away": "Sevilla FC",
+      "home_goals": 3,
+      "away_goals": 1,
+      "ht_home_goals": 0,
+      "ht_away_goals": 1
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-10-31T23:21:46Z"
+  "updatedAt": "2026-11-01T16:47:55Z"
 }
