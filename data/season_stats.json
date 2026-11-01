@@ -2745,12 +2745,28 @@
           "penalties": 0
         },
         {
+          "name": "Luka Sučić",
+          "team": "Real Sociedad",
+          "matches": 11,
+          "goals": 4,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Mariano Díaz",
           "team": "Deportivo Alavés",
           "matches": 11,
           "goals": 4,
           "assistsInScorerFeed": 4,
           "penalties": 0
+        },
+        {
+          "name": "Álex Berenguer",
+          "team": "Athletic Club",
+          "matches": 11,
+          "goals": 4,
+          "assistsInScorerFeed": 4,
+          "penalties": 2
         },
         {
           "name": "Abdessamad Ezzalzouli",
@@ -2801,19 +2817,19 @@
           "penalties": 0
         },
         {
-          "name": "Jonathan David",
-          "team": "Atlético Madrid",
-          "matches": 8,
+          "name": "Iñaki Williams",
+          "team": "Athletic Club",
+          "matches": 11,
           "goals": 3,
           "assistsInScorerFeed": 2,
           "penalties": 0
         },
         {
-          "name": "Luka Sučić",
-          "team": "Real Sociedad",
-          "matches": 10,
+          "name": "Jonathan David",
+          "team": "Atlético Madrid",
+          "matches": 8,
           "goals": 3,
-          "assistsInScorerFeed": 0,
+          "assistsInScorerFeed": 2,
           "penalties": 0
         },
         {
@@ -2827,7 +2843,7 @@
         {
           "name": "Orri Oskarsson",
           "team": "Real Sociedad",
-          "matches": 9,
+          "matches": 10,
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2849,14 +2865,6 @@
           "penalties": 0
         },
         {
-          "name": "Álex Berenguer",
-          "team": "Athletic Club",
-          "matches": 10,
-          "goals": 3,
-          "assistsInScorerFeed": 4,
-          "penalties": 1
-        },
-        {
           "name": "Álvaro García",
           "team": "Rayo Vallecano",
           "matches": 11,
@@ -2875,7 +2883,7 @@
         {
           "name": "Aitor Paredes Casamichana",
           "team": "Athletic Club",
-          "matches": 10,
+          "matches": 11,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2891,7 +2899,7 @@
         {
           "name": "Ander Barrenetxea",
           "team": "Real Sociedad",
-          "matches": 10,
+          "matches": 11,
           "goals": 2,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2979,7 +2987,7 @@
         {
           "name": "Gonçalo Guedes",
           "team": "Real Sociedad",
-          "matches": 9,
+          "matches": 10,
           "goals": 2,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2991,14 +2999,6 @@
           "goals": 2,
           "assistsInScorerFeed": 1,
           "penalties": 1
-        },
-        {
-          "name": "Iñaki Williams",
-          "team": "Athletic Club",
-          "matches": 10,
-          "goals": 2,
-          "assistsInScorerFeed": 2,
-          "penalties": 0
         },
         {
           "name": "Jorge de Frutos",
@@ -3035,7 +3035,7 @@
         {
           "name": "Mikel Oyarzabal",
           "team": "Real Sociedad",
-          "matches": 10,
+          "matches": 11,
           "goals": 2,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -3067,7 +3067,7 @@
         {
           "name": "Roberto Navarro",
           "team": "Athletic Club",
-          "matches": 10,
+          "matches": 11,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3076,6 +3076,14 @@
           "name": "Rodrigo Riquelme",
           "team": "Real Betis",
           "matches": 11,
+          "goals": 2,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Umar Sadiq",
+          "team": "Valencia CF",
+          "matches": 4,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3259,15 +3267,15 @@
         {
           "name": "Nico Williams",
           "team": "Athletic Club",
-          "matches": 8,
+          "matches": 9,
           "goals": 1,
-          "assistsInScorerFeed": 0,
+          "assistsInScorerFeed": 1,
           "penalties": 0
         },
         {
           "name": "Ochieng",
           "team": "Real Sociedad",
-          "matches": 10,
+          "matches": 11,
           "goals": 1,
           "assistsInScorerFeed": 3,
           "penalties": 0
@@ -3275,7 +3283,7 @@
         {
           "name": "Oihan Sancet",
           "team": "Athletic Club",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3353,14 +3361,6 @@
           "penalties": 0
         },
         {
-          "name": "Umar Sadiq",
-          "team": "Valencia CF",
-          "matches": 4,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
           "name": "Ville Koski",
           "team": "Deportivo Alavés",
           "matches": 11,
@@ -3387,7 +3387,7 @@
         {
           "name": "Yangel Herrera",
           "team": "Real Sociedad",
-          "matches": 9,
+          "matches": 10,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3466,6 +3466,11 @@
         {
           "name": "Dani Olmo",
           "team": "FC Barcelona",
+          "assists": 3
+        },
+        {
+          "name": "Güler",
+          "team": "Real Madrid",
           "assists": 3
         },
         {
@@ -3561,11 +3566,6 @@
         {
           "name": "Grimaldo",
           "team": "Atlético Madrid",
-          "assists": 2
-        },
-        {
-          "name": "Güler",
-          "team": "Real Madrid",
           "assists": 2
         },
         {
@@ -3916,8 +3916,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-11-01T16:47:58Z"
+      "updatedAt": "2026-11-01T21:10:11Z"
     }
   },
-  "updatedAt": "2026-11-01T16:47:58Z"
+  "updatedAt": "2026-11-01T21:10:11Z"
 }
