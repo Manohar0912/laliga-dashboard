@@ -2651,7 +2651,7 @@
         {
           "name": "Ante Budimir",
           "team": "CA Osasuna",
-          "matches": 10,
+          "matches": 11,
           "goals": 7,
           "assistsInScorerFeed": 0,
           "penalties": 4
@@ -2715,7 +2715,7 @@
         {
           "name": "Pierre-Emerick Aubameyang",
           "team": "RC Deportivo",
-          "matches": 7,
+          "matches": 8,
           "goals": 5,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -3203,7 +3203,7 @@
         {
           "name": "Kike Barja",
           "team": "CA Osasuna",
-          "matches": 9,
+          "matches": 10,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3219,7 +3219,7 @@
         {
           "name": "Luismi Cruz",
           "team": "RC Deportivo",
-          "matches": 10,
+          "matches": 11,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3916,8 +3916,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-11-02T00:45:40Z"
+      "updatedAt": "2026-11-02T20:20:22Z"
     }
   },
-  "updatedAt": "2026-11-02T00:45:40Z"
+  "updatedAt": "2026-11-02T20:20:22Z"
 }
