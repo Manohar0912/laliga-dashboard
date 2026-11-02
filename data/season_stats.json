@@ -3849,6 +3849,11 @@
           "assists": 1
         },
         {
+          "name": "Nico Williams",
+          "team": "Athletic Club",
+          "assists": 1
+        },
+        {
           "name": "Omar",
           "team": "RCD Espanyol",
           "assists": 1
@@ -3889,11 +3894,6 @@
           "assists": 1
         },
         {
-          "name": "Tchouameni",
-          "team": "Real Madrid",
-          "assists": 1
-        },
-        {
           "name": "Thiago Fernández",
           "team": "Levante UD",
           "assists": 1
@@ -3916,8 +3916,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-11-01T21:10:11Z"
+      "updatedAt": "2026-11-02T00:45:40Z"
     }
   },
-  "updatedAt": "2026-11-01T21:10:11Z"
+  "updatedAt": "2026-11-02T00:45:40Z"
 }
