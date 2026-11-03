@@ -2641,20 +2641,20 @@
           "penalties": 1
         },
         {
+          "name": "Ante Budimir",
+          "team": "CA Osasuna",
+          "matches": 11,
+          "goals": 8,
+          "assistsInScorerFeed": 0,
+          "penalties": 4
+        },
+        {
           "name": "Yassir Zabiri",
           "team": "Racing Santander",
           "matches": 11,
           "goals": 8,
           "assistsInScorerFeed": 0,
           "penalties": 0
-        },
-        {
-          "name": "Ante Budimir",
-          "team": "CA Osasuna",
-          "matches": 11,
-          "goals": 7,
-          "assistsInScorerFeed": 0,
-          "penalties": 4
         },
         {
           "name": "Sergio Camello",
@@ -3025,6 +3025,14 @@
           "penalties": 0
         },
         {
+          "name": "Mario Soriano",
+          "team": "RC Deportivo",
+          "matches": 11,
+          "goals": 2,
+          "assistsInScorerFeed": 2,
+          "penalties": 0
+        },
+        {
           "name": "Miguel Ángel Sierra",
           "team": "Sevilla FC",
           "matches": 8,
@@ -3044,6 +3052,14 @@
           "name": "Nicolas Pépé",
           "team": "Villarreal CF",
           "matches": 8,
+          "goals": 2,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Nsongo Tonfack",
+          "team": "RC Deportivo",
+          "matches": 11,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3221,7 +3237,7 @@
           "team": "RC Deportivo",
           "matches": 11,
           "goals": 1,
-          "assistsInScorerFeed": 1,
+          "assistsInScorerFeed": 2,
           "penalties": 0
         },
         {
@@ -3321,14 +3337,6 @@
           "penalties": 1
         },
         {
-          "name": "RamónTerrats Espacio",
-          "team": "Getafe CF",
-          "matches": 10,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
           "name": "Sergio Martínez",
           "team": "Racing Santander",
           "matches": 4,
@@ -3374,14 +3382,6 @@
           "matches": 8,
           "goals": 1,
           "assistsInScorerFeed": 3,
-          "penalties": 0
-        },
-        {
-          "name": "Xavi Espart",
-          "team": "FC Barcelona",
-          "matches": 10,
-          "goals": 1,
-          "assistsInScorerFeed": 1,
           "penalties": 0
         },
         {
@@ -3609,6 +3609,11 @@
           "assists": 2
         },
         {
+          "name": "Luismi Cruz",
+          "team": "RC Deportivo",
+          "assists": 2
+        },
+        {
           "name": "Marc Bernal",
           "team": "FC Barcelona",
           "assists": 2
@@ -3631,6 +3636,11 @@
         {
           "name": "Miguel Román",
           "team": "Celta Vigo",
+          "assists": 2
+        },
+        {
+          "name": "Moi Gómez",
+          "team": "CA Osasuna",
           "assists": 2
         },
         {
@@ -3696,11 +3706,6 @@
         {
           "name": "Aspas",
           "team": "Celta Vigo",
-          "assists": 1
-        },
-        {
-          "name": "Bernardo Silva",
-          "team": "Real Madrid",
           "assists": 1
         },
         {
@@ -3839,11 +3844,6 @@
           "assists": 1
         },
         {
-          "name": "Luismi Cruz",
-          "team": "RC Deportivo",
-          "assists": 1
-        },
-        {
           "name": "Marcos Fernández",
           "team": "RCD Espanyol",
           "assists": 1
@@ -3916,8 +3916,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-11-02T20:20:22Z"
+      "updatedAt": "2026-11-03T02:38:43Z"
     }
   },
-  "updatedAt": "2026-11-02T20:20:22Z"
+  "updatedAt": "2026-11-03T02:38:43Z"
 }
