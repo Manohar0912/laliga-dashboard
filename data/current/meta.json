@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T03:29:35.179824+00:00",
+  "updatedAt": "2026-11-05T12:20:01.499162+00:00",
   "season": 2026,
   "sources": {
     "epl": {
@@ -52,8 +52,8 @@
     },
     "uel": {
       "ok": true,
-      "matches": 55,
-      "freshEvents": 1,
+      "matches": 72,
+      "freshEvents": 18,
       "standings": 36,
       "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png",
       "darkLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2310.png"
@@ -68,8 +68,8 @@
     },
     "copa": {
       "ok": true,
-      "matches": 60,
-      "freshEvents": 8,
+      "matches": 62,
+      "freshEvents": 10,
       "standings": 0,
       "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png",
       "darkLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/80.png"
