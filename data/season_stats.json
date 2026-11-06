@@ -2707,7 +2707,7 @@
         {
           "name": "Lucas Boyé",
           "team": "Deportivo Alavés",
-          "matches": 10,
+          "matches": 11,
           "goals": 5,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -2755,7 +2755,7 @@
         {
           "name": "Mariano Díaz",
           "team": "Deportivo Alavés",
-          "matches": 11,
+          "matches": 12,
           "goals": 4,
           "assistsInScorerFeed": 4,
           "penalties": 0
@@ -2803,7 +2803,7 @@
         {
           "name": "Isaac",
           "team": "Sevilla FC",
-          "matches": 10,
+          "matches": 11,
           "goals": 3,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2963,7 +2963,7 @@
         {
           "name": "Félix Correia",
           "team": "Sevilla FC",
-          "matches": 8,
+          "matches": 9,
           "goals": 2,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -3155,7 +3155,7 @@
         {
           "name": "Chidera Ejuke",
           "team": "Sevilla FC",
-          "matches": 11,
+          "matches": 12,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3195,7 +3195,7 @@
         {
           "name": "Jon Guridi",
           "team": "Sevilla FC",
-          "matches": 10,
+          "matches": 11,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -3211,7 +3211,7 @@
         {
           "name": "Juan Iglesias",
           "team": "Sevilla FC",
-          "matches": 11,
+          "matches": 12,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3227,7 +3227,7 @@
         {
           "name": "Lucas Stassin",
           "team": "Sevilla FC",
-          "matches": 6,
+          "matches": 7,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3275,7 +3275,7 @@
         {
           "name": "Nahuel Tenaglia",
           "team": "Deportivo Alavés",
-          "matches": 11,
+          "matches": 12,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3315,7 +3315,7 @@
         {
           "name": "Pablo Ibáñez Tébar",
           "team": "Deportivo Alavés",
-          "matches": 11,
+          "matches": 12,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3371,7 +3371,7 @@
         {
           "name": "Ville Koski",
           "team": "Deportivo Alavés",
-          "matches": 11,
+          "matches": 12,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3916,8 +3916,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-11-03T02:38:43Z"
+      "updatedAt": "2026-11-06T22:23:25Z"
     }
   },
-  "updatedAt": "2026-11-03T02:38:43Z"
+  "updatedAt": "2026-11-06T22:23:25Z"
 }

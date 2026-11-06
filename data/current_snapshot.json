@@ -30,7 +30,7 @@
       "time": "21:00",
       "home": "Sevilla FC",
       "away": "Deportivo Alavés",
-      "referee": "",
+      "referee": "Luis Bestard Servera",
       "status": "TIMED",
       "matchday": 12
     },
@@ -3818,5 +3818,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-11-03T02:38:39Z"
+  "updatedAt": "2026-11-06T22:23:21Z"
 }
