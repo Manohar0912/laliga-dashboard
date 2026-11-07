@@ -25,23 +25,13 @@
   ],
   "fixtures": [
     {
-      "id": 564744,
-      "date": "2026-11-07",
-      "time": "14:00",
-      "home": "Málaga CF",
-      "away": "Racing Santander",
-      "referee": "",
-      "status": "TIMED",
-      "matchday": 12
-    },
-    {
       "id": 564745,
       "date": "2026-11-07",
       "time": "16:15",
       "home": "RCD Espanyol",
       "away": "RC Deportivo",
-      "referee": "",
-      "status": "TIMED",
+      "referee": "Alejandro Quintero González",
+      "status": "IN_PLAY",
       "matchday": 12
     },
     {
@@ -50,7 +40,7 @@
       "time": "18:30",
       "home": "CA Osasuna",
       "away": "Athletic Club",
-      "referee": "",
+      "referee": "Miguel Sesma Espinosa",
       "status": "TIMED",
       "matchday": 12
     },
@@ -3815,8 +3805,18 @@
       "away_goals": 0,
       "ht_home_goals": 0,
       "ht_away_goals": 0
+    },
+    {
+      "id": 564744,
+      "date": "2026-11-07",
+      "home": "Málaga CF",
+      "away": "Racing Santander",
+      "home_goals": 1,
+      "away_goals": 2,
+      "ht_home_goals": 1,
+      "ht_away_goals": 0
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-11-07T02:21:48Z"
+  "updatedAt": "2026-11-07T16:24:29Z"
 }
