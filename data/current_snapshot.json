@@ -25,16 +25,6 @@
   ],
   "fixtures": [
     {
-      "id": 564741,
-      "date": "2026-11-07",
-      "time": "21:00",
-      "home": "Valencia CF",
-      "away": "Real Madrid",
-      "referee": "Francisco Hernández Maeso",
-      "status": "IN_PLAY",
-      "matchday": 12
-    },
-    {
       "id": 564738,
       "date": "2026-11-08",
       "time": "14:00",
@@ -283,6 +273,26 @@
       "referee": "",
       "status": "TIMED",
       "matchday": 14
+    },
+    {
+      "id": 564855,
+      "date": "2026-12-02",
+      "time": "19:00",
+      "home": "Real Sociedad",
+      "away": "Real Madrid",
+      "referee": "",
+      "status": "TIMED",
+      "matchday": 23
+    },
+    {
+      "id": 564857,
+      "date": "2026-12-02",
+      "time": "21:30",
+      "home": "FC Barcelona",
+      "away": "Atlético Madrid",
+      "referee": "",
+      "status": "TIMED",
+      "matchday": 23
     },
     {
       "id": 564775,
@@ -1115,16 +1125,6 @@
       "matchday": 23
     },
     {
-      "id": 564857,
-      "date": "2027-02-07",
-      "time": "01:00",
-      "home": "FC Barcelona",
-      "away": "Atlético Madrid",
-      "referee": "",
-      "status": "SCHEDULED",
-      "matchday": 23
-    },
-    {
       "id": 564853,
       "date": "2027-02-07",
       "time": "01:00",
@@ -1160,16 +1160,6 @@
       "time": "01:00",
       "home": "Real Betis",
       "away": "Sevilla FC",
-      "referee": "",
-      "status": "SCHEDULED",
-      "matchday": 23
-    },
-    {
-      "id": 564855,
-      "date": "2027-02-07",
-      "time": "01:00",
-      "home": "Real Sociedad",
-      "away": "Real Madrid",
       "referee": "",
       "status": "SCHEDULED",
       "matchday": 23
@@ -3815,8 +3805,18 @@
       "away_goals": 0,
       "ht_home_goals": 0,
       "ht_away_goals": 0
+    },
+    {
+      "id": 564741,
+      "date": "2026-11-07",
+      "home": "Valencia CF",
+      "away": "Real Madrid",
+      "home_goals": 0,
+      "away_goals": 3,
+      "ht_home_goals": 0,
+      "ht_away_goals": 2
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-11-07T20:29:59Z"
+  "updatedAt": "2026-11-07T23:57:27Z"
 }

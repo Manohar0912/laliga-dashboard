@@ -2628,7 +2628,7 @@
           "name": "Kylian Mbappé",
           "team": "Real Madrid",
           "matches": 12,
-          "goals": 12,
+          "goals": 13,
           "assistsInScorerFeed": 2,
           "penalties": 3
         },
@@ -2777,6 +2777,14 @@
           "penalties": 0
         },
         {
+          "name": "Arda Guler",
+          "team": "Real Madrid",
+          "matches": 12,
+          "goals": 3,
+          "assistsInScorerFeed": 4,
+          "penalties": 0
+        },
+        {
           "name": "Gabriel Jesus",
           "team": "FC Barcelona",
           "matches": 8,
@@ -2910,14 +2918,6 @@
           "matches": 11,
           "goals": 2,
           "assistsInScorerFeed": 4,
-          "penalties": 0
-        },
-        {
-          "name": "Arda Guler",
-          "team": "Real Madrid",
-          "matches": 12,
-          "goals": 2,
-          "assistsInScorerFeed": 3,
           "penalties": 0
         },
         {
@@ -3439,6 +3439,11 @@
           "assists": 4
         },
         {
+          "name": "Güler",
+          "team": "Real Madrid",
+          "assists": 4
+        },
+        {
           "name": "Mariano Díaz",
           "team": "Deportivo Alavés",
           "assists": 4
@@ -3466,11 +3471,6 @@
         {
           "name": "Dani Olmo",
           "team": "FC Barcelona",
-          "assists": 3
-        },
-        {
-          "name": "Güler",
-          "team": "Real Madrid",
           "assists": 3
         },
         {
@@ -3916,8 +3916,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-11-07T20:30:09Z"
+      "updatedAt": "2026-11-07T23:57:31Z"
     }
   },
-  "updatedAt": "2026-11-07T20:30:09Z"
+  "updatedAt": "2026-11-07T23:57:31Z"
 }
