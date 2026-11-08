@@ -2659,7 +2659,7 @@
         {
           "name": "Sergio Camello",
           "team": "Rayo Vallecano",
-          "matches": 11,
+          "matches": 12,
           "goals": 7,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -2667,7 +2667,7 @@
         {
           "name": "Fer Niño",
           "team": "Elche CF",
-          "matches": 11,
+          "matches": 12,
           "goals": 6,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -2691,7 +2691,7 @@
         {
           "name": "Brugui",
           "team": "Levante UD",
-          "matches": 10,
+          "matches": 11,
           "goals": 5,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2747,7 +2747,7 @@
         {
           "name": "Luka Sučić",
           "team": "Real Sociedad",
-          "matches": 11,
+          "matches": 12,
           "goals": 4,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2771,7 +2771,7 @@
         {
           "name": "Abdessamad Ezzalzouli",
           "team": "Real Betis",
-          "matches": 8,
+          "matches": 9,
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2785,6 +2785,14 @@
           "penalties": 0
         },
         {
+          "name": "Bartra",
+          "team": "Real Betis",
+          "matches": 12,
+          "goals": 3,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Gabriel Jesus",
           "team": "FC Barcelona",
           "matches": 8,
@@ -2795,7 +2803,7 @@
         {
           "name": "Georges Mikautadze",
           "team": "Villarreal CF",
-          "matches": 11,
+          "matches": 12,
           "goals": 3,
           "assistsInScorerFeed": 1,
           "penalties": 1
@@ -2819,7 +2827,7 @@
         {
           "name": "Iván Romero",
           "team": "Levante UD",
-          "matches": 11,
+          "matches": 12,
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2843,7 +2851,7 @@
         {
           "name": "Martin Satriano",
           "team": "Getafe CF",
-          "matches": 11,
+          "matches": 12,
           "goals": 3,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -2851,7 +2859,7 @@
         {
           "name": "Orri Oskarsson",
           "team": "Real Sociedad",
-          "matches": 10,
+          "matches": 11,
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2859,10 +2867,18 @@
         {
           "name": "Pape Gueye",
           "team": "Villarreal CF",
-          "matches": 10,
+          "matches": 11,
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 1
+        },
+        {
+          "name": "Rodrigo Riquelme",
+          "team": "Real Betis",
+          "matches": 12,
+          "goals": 3,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
         },
         {
           "name": "Yan Diomandé",
@@ -2883,7 +2899,7 @@
         {
           "name": "Adrián de la Fuente",
           "team": "Levante UD",
-          "matches": 9,
+          "matches": 10,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2899,7 +2915,7 @@
         {
           "name": "Alberto Moleiro",
           "team": "Villarreal CF",
-          "matches": 11,
+          "matches": 12,
           "goals": 2,
           "assistsInScorerFeed": 4,
           "penalties": 0
@@ -2907,7 +2923,7 @@
         {
           "name": "Ander Barrenetxea",
           "team": "Real Sociedad",
-          "matches": 11,
+          "matches": 12,
           "goals": 2,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2918,14 +2934,6 @@
           "matches": 11,
           "goals": 2,
           "assistsInScorerFeed": 4,
-          "penalties": 0
-        },
-        {
-          "name": "Bartra",
-          "team": "Real Betis",
-          "matches": 11,
-          "goals": 2,
-          "assistsInScorerFeed": 0,
           "penalties": 0
         },
         {
@@ -2955,7 +2963,7 @@
         {
           "name": "Enes Ünal",
           "team": "Getafe CF",
-          "matches": 10,
+          "matches": 11,
           "goals": 2,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2963,7 +2971,7 @@
         {
           "name": "Ferran Jutglà",
           "team": "Celta Vigo",
-          "matches": 11,
+          "matches": 12,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2987,7 +2995,7 @@
         {
           "name": "Germán Valera",
           "team": "Elche CF",
-          "matches": 11,
+          "matches": 12,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2995,7 +3003,7 @@
         {
           "name": "Gonçalo Guedes",
           "team": "Real Sociedad",
-          "matches": 10,
+          "matches": 11,
           "goals": 2,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3003,7 +3011,7 @@
         {
           "name": "Isco",
           "team": "Real Betis",
-          "matches": 11,
+          "matches": 12,
           "goals": 2,
           "assistsInScorerFeed": 1,
           "penalties": 1
@@ -3011,7 +3019,7 @@
         {
           "name": "Jorge de Frutos",
           "team": "Rayo Vallecano",
-          "matches": 9,
+          "matches": 10,
           "goals": 2,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -3067,7 +3075,7 @@
         {
           "name": "Nicolas Pépé",
           "team": "Villarreal CF",
-          "matches": 8,
+          "matches": 9,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3083,7 +3091,7 @@
         {
           "name": "Pablo Duran",
           "team": "Celta Vigo",
-          "matches": 10,
+          "matches": 11,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3100,14 +3108,6 @@
           "name": "Roberto Navarro",
           "team": "Athletic Club",
           "matches": 12,
-          "goals": 2,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
-          "name": "Rodrigo Riquelme",
-          "team": "Real Betis",
-          "matches": 11,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3131,7 +3131,7 @@
         {
           "name": "Andrei Rațiu",
           "team": "Rayo Vallecano",
-          "matches": 8,
+          "matches": 9,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3187,7 +3187,7 @@
         {
           "name": "Enzo Bardeli",
           "team": "Levante UD",
-          "matches": 8,
+          "matches": 9,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3195,7 +3195,7 @@
         {
           "name": "Facundo Buonanotte",
           "team": "Elche CF",
-          "matches": 11,
+          "matches": 12,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 1
@@ -3203,7 +3203,7 @@
         {
           "name": "Iago Aspas",
           "team": "Celta Vigo",
-          "matches": 10,
+          "matches": 11,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3219,7 +3219,7 @@
         {
           "name": "Jon Olasagasti",
           "team": "Levante UD",
-          "matches": 11,
+          "matches": 12,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3299,7 +3299,7 @@
         {
           "name": "Ochieng",
           "team": "Real Sociedad",
-          "matches": 11,
+          "matches": 12,
           "goals": 1,
           "assistsInScorerFeed": 3,
           "penalties": 0
@@ -3363,7 +3363,7 @@
         {
           "name": "Troy Parrott",
           "team": "Real Betis",
-          "matches": 10,
+          "matches": 11,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3395,7 +3395,7 @@
         {
           "name": "Yangel Herrera",
           "team": "Real Sociedad",
-          "matches": 10,
+          "matches": 11,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3916,8 +3916,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-11-07T23:57:31Z"
+      "updatedAt": "2026-11-08T16:39:07Z"
     }
   },
-  "updatedAt": "2026-11-07T23:57:31Z"
+  "updatedAt": "2026-11-08T16:39:07Z"
 }
