@@ -25,16 +25,6 @@
   ],
   "fixtures": [
     {
-      "id": 564746,
-      "date": "2026-11-08",
-      "time": "21:00",
-      "home": "Atlético Madrid",
-      "away": "FC Barcelona",
-      "referee": "Javier Alberola Rojas",
-      "status": "IN_PLAY",
-      "matchday": 12
-    },
-    {
       "id": 564748,
       "date": "2026-11-20",
       "time": "21:00",
@@ -3777,6 +3767,16 @@
       "ht_away_goals": 2
     },
     {
+      "id": 564746,
+      "date": "2026-11-08",
+      "home": "Atlético Madrid",
+      "away": "FC Barcelona",
+      "home_goals": 1,
+      "away_goals": 2,
+      "ht_home_goals": 1,
+      "ht_away_goals": 1
+    },
+    {
       "id": 564742,
       "date": "2026-11-08",
       "home": "Celta Vigo",
@@ -3818,5 +3818,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-11-08T20:46:19Z"
+  "updatedAt": "2026-11-09T00:51:22Z"
 }

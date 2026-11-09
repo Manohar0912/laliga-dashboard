@@ -2637,7 +2637,7 @@
           "team": "FC Barcelona",
           "matches": 12,
           "goals": 10,
-          "assistsInScorerFeed": 7,
+          "assistsInScorerFeed": 8,
           "penalties": 1
         },
         {
@@ -2655,6 +2655,14 @@
           "goals": 8,
           "assistsInScorerFeed": 0,
           "penalties": 4
+        },
+        {
+          "name": "Fermín López",
+          "team": "FC Barcelona",
+          "matches": 12,
+          "goals": 7,
+          "assistsInScorerFeed": 5,
+          "penalties": 0
         },
         {
           "name": "Sergio Camello",
@@ -2694,14 +2702,6 @@
           "matches": 11,
           "goals": 5,
           "assistsInScorerFeed": 1,
-          "penalties": 0
-        },
-        {
-          "name": "Fermín López",
-          "team": "FC Barcelona",
-          "matches": 12,
-          "goals": 5,
-          "assistsInScorerFeed": 5,
           "penalties": 0
         },
         {
@@ -3421,7 +3421,7 @@
         {
           "name": "Lamine Yamal",
           "team": "FC Barcelona",
-          "assists": 7
+          "assists": 8
         },
         {
           "name": "Javi Hernández",
@@ -3600,6 +3600,11 @@
         },
         {
           "name": "Jonathan David",
+          "team": "Atlético Madrid",
+          "assists": 2
+        },
+        {
+          "name": "Julián Álvarez",
           "team": "Atlético Madrid",
           "assists": 2
         },
@@ -3829,11 +3834,6 @@
           "assists": 1
         },
         {
-          "name": "Lo Celso",
-          "team": "Real Betis",
-          "assists": 1
-        },
-        {
           "name": "Lorenzo Amatucci",
           "team": "RC Deportivo",
           "assists": 1
@@ -3916,8 +3916,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-11-08T20:46:23Z"
+      "updatedAt": "2026-11-09T00:51:24Z"
     }
   },
-  "updatedAt": "2026-11-08T20:46:23Z"
+  "updatedAt": "2026-11-09T00:51:24Z"
 }
