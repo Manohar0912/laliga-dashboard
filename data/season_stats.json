@@ -2675,7 +2675,7 @@
         {
           "name": "Sergio Camello",
           "team": "Rayo Vallecano",
-          "matches": 12,
+          "matches": 13,
           "goals": 7,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -2686,6 +2686,14 @@
           "matches": 12,
           "goals": 6,
           "assistsInScorerFeed": 0,
+          "penalties": 1
+        },
+        {
+          "name": "Lucas Boyé",
+          "team": "Deportivo Alavés",
+          "matches": 12,
+          "goals": 6,
+          "assistsInScorerFeed": 1,
           "penalties": 1
         },
         {
@@ -2705,17 +2713,9 @@
           "penalties": 0
         },
         {
-          "name": "Lucas Boyé",
-          "team": "Deportivo Alavés",
-          "matches": 11,
-          "goals": 5,
-          "assistsInScorerFeed": 0,
-          "penalties": 1
-        },
-        {
           "name": "Pierre-Emerick Aubameyang",
           "team": "RC Deportivo",
-          "matches": 9,
+          "matches": 10,
           "goals": 5,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -2763,7 +2763,7 @@
         {
           "name": "Mariano Díaz",
           "team": "Deportivo Alavés",
-          "matches": 12,
+          "matches": 13,
           "goals": 4,
           "assistsInScorerFeed": 4,
           "penalties": 0
@@ -2787,7 +2787,7 @@
         {
           "name": "Abdessamad Ezzalzouli",
           "team": "Real Betis",
-          "matches": 9,
+          "matches": 10,
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2803,7 +2803,7 @@
         {
           "name": "Bartra",
           "team": "Real Betis",
-          "matches": 12,
+          "matches": 13,
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2827,7 +2827,7 @@
         {
           "name": "Isaac",
           "team": "Sevilla FC",
-          "matches": 11,
+          "matches": 12,
           "goals": 3,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2875,7 +2875,7 @@
         {
           "name": "Rodrigo Riquelme",
           "team": "Real Betis",
-          "matches": 12,
+          "matches": 13,
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2891,7 +2891,7 @@
         {
           "name": "Álvaro García",
           "team": "Rayo Vallecano",
-          "matches": 11,
+          "matches": 12,
           "goals": 3,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -2955,7 +2955,7 @@
         {
           "name": "Cucho Hernández",
           "team": "Real Betis",
-          "matches": 9,
+          "matches": 10,
           "goals": 2,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -2979,7 +2979,7 @@
         {
           "name": "Félix Correia",
           "team": "Sevilla FC",
-          "matches": 9,
+          "matches": 10,
           "goals": 2,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -3011,7 +3011,7 @@
         {
           "name": "Isco",
           "team": "Real Betis",
-          "matches": 12,
+          "matches": 13,
           "goals": 2,
           "assistsInScorerFeed": 1,
           "penalties": 1
@@ -3019,7 +3019,7 @@
         {
           "name": "Jorge de Frutos",
           "team": "Rayo Vallecano",
-          "matches": 10,
+          "matches": 11,
           "goals": 2,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -3043,7 +3043,7 @@
         {
           "name": "Mario Soriano",
           "team": "RC Deportivo",
-          "matches": 12,
+          "matches": 13,
           "goals": 2,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -3083,7 +3083,7 @@
         {
           "name": "Nsongo Tonfack",
           "team": "RC Deportivo",
-          "matches": 12,
+          "matches": 13,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3115,7 +3115,7 @@
         {
           "name": "Umar Sadiq",
           "team": "Valencia CF",
-          "matches": 5,
+          "matches": 6,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3131,7 +3131,7 @@
         {
           "name": "Andrei Rațiu",
           "team": "Rayo Vallecano",
-          "matches": 9,
+          "matches": 10,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3171,7 +3171,7 @@
         {
           "name": "Chidera Ejuke",
           "team": "Sevilla FC",
-          "matches": 12,
+          "matches": 13,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3211,7 +3211,7 @@
         {
           "name": "Jon Guridi",
           "team": "Sevilla FC",
-          "matches": 11,
+          "matches": 12,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -3227,7 +3227,7 @@
         {
           "name": "Juan Iglesias",
           "team": "Sevilla FC",
-          "matches": 12,
+          "matches": 13,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3243,7 +3243,7 @@
         {
           "name": "Lucas Stassin",
           "team": "Sevilla FC",
-          "matches": 7,
+          "matches": 8,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3251,7 +3251,7 @@
         {
           "name": "Luismi Cruz",
           "team": "RC Deportivo",
-          "matches": 12,
+          "matches": 13,
           "goals": 1,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -3291,7 +3291,7 @@
         {
           "name": "Nahuel Tenaglia",
           "team": "Deportivo Alavés",
-          "matches": 12,
+          "matches": 13,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3323,7 +3323,7 @@
         {
           "name": "Pablo Ibáñez Tébar",
           "team": "Deportivo Alavés",
-          "matches": 12,
+          "matches": 13,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3339,7 +3339,7 @@
         {
           "name": "Peque",
           "team": "Sevilla FC",
-          "matches": 11,
+          "matches": 12,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -3363,7 +3363,7 @@
         {
           "name": "Troy Parrott",
           "team": "Real Betis",
-          "matches": 11,
+          "matches": 12,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3379,7 +3379,7 @@
         {
           "name": "Ville Koski",
           "team": "Deportivo Alavés",
-          "matches": 12,
+          "matches": 13,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3454,6 +3454,11 @@
           "assists": 4
         },
         {
+          "name": "Ángel Pérez",
+          "team": "Deportivo Alavés",
+          "assists": 4
+        },
+        {
           "name": "Ayoze Pérez",
           "team": "Villarreal CF",
           "assists": 3
@@ -3481,6 +3486,11 @@
         {
           "name": "Iñigo Vicente",
           "team": "Racing Santander",
+          "assists": 3
+        },
+        {
+          "name": "Javi Guerra",
+          "team": "Valencia CF",
           "assists": 3
         },
         {
@@ -3516,11 +3526,6 @@
         {
           "name": "Álex Baena",
           "team": "Atlético Madrid",
-          "assists": 3
-        },
-        {
-          "name": "Ángel Pérez",
-          "team": "Deportivo Alavés",
           "assists": 3
         },
         {
@@ -3591,11 +3596,6 @@
         {
           "name": "Ilias Chakkour",
           "team": "Villarreal CF",
-          "assists": 2
-        },
-        {
-          "name": "Javi Guerra",
-          "team": "Valencia CF",
           "assists": 2
         },
         {
@@ -3714,6 +3714,11 @@
           "assists": 1
         },
         {
+          "name": "Antonio Blanco",
+          "team": "Deportivo Alavés",
+          "assists": 1
+        },
+        {
           "name": "Aspas",
           "team": "Celta Vigo",
           "assists": 1
@@ -3750,11 +3755,6 @@
         },
         {
           "name": "Fornals",
-          "team": "Real Betis",
-          "assists": 1
-        },
-        {
-          "name": "Fran Garcia",
           "team": "Real Betis",
           "assists": 1
         },
@@ -3916,8 +3916,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-11-21T00:15:12Z"
+      "updatedAt": "2026-11-21T17:28:20Z"
     }
   },
-  "updatedAt": "2026-11-21T00:15:12Z"
+  "updatedAt": "2026-11-21T17:28:20Z"
 }
