@@ -2627,9 +2627,9 @@
         {
           "name": "Kylian Mbappé",
           "team": "Real Madrid",
-          "matches": 12,
+          "matches": 13,
           "goals": 13,
-          "assistsInScorerFeed": 2,
+          "assistsInScorerFeed": 3,
           "penalties": 3
         },
         {
@@ -2713,6 +2713,14 @@
           "penalties": 0
         },
         {
+          "name": "Jude Bellingham",
+          "team": "Real Madrid",
+          "matches": 13,
+          "goals": 5,
+          "assistsInScorerFeed": 3,
+          "penalties": 0
+        },
+        {
           "name": "Pierre-Emerick Aubameyang",
           "team": "RC Deportivo",
           "matches": 10,
@@ -2742,14 +2750,6 @@
           "matches": 12,
           "goals": 4,
           "assistsInScorerFeed": 2,
-          "penalties": 0
-        },
-        {
-          "name": "Jude Bellingham",
-          "team": "Real Madrid",
-          "matches": 12,
-          "goals": 4,
-          "assistsInScorerFeed": 3,
           "penalties": 0
         },
         {
@@ -2795,7 +2795,7 @@
         {
           "name": "Arda Guler",
           "team": "Real Madrid",
-          "matches": 12,
+          "matches": 13,
           "goals": 3,
           "assistsInScorerFeed": 4,
           "penalties": 0
@@ -2803,6 +2803,14 @@
         {
           "name": "Bartra",
           "team": "Real Betis",
+          "matches": 13,
+          "goals": 3,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Carlos Espí",
+          "team": "Real Madrid",
           "matches": 13,
           "goals": 3,
           "assistsInScorerFeed": 0,
@@ -2829,7 +2837,7 @@
           "team": "Sevilla FC",
           "matches": 12,
           "goals": 3,
-          "assistsInScorerFeed": 1,
+          "assistsInScorerFeed": 2,
           "penalties": 0
         },
         {
@@ -2865,6 +2873,14 @@
           "penalties": 0
         },
         {
+          "name": "Pablo Duran",
+          "team": "Celta Vigo",
+          "matches": 12,
+          "goals": 3,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Pape Gueye",
           "team": "Villarreal CF",
           "matches": 11,
@@ -2883,7 +2899,7 @@
         {
           "name": "Yan Diomandé",
           "team": "Real Madrid",
-          "matches": 12,
+          "matches": 13,
           "goals": 3,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -2945,14 +2961,6 @@
           "penalties": 0
         },
         {
-          "name": "Carlos Espí",
-          "team": "Real Madrid",
-          "matches": 12,
-          "goals": 2,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
           "name": "Cucho Hernández",
           "team": "Real Betis",
           "matches": 10,
@@ -2971,7 +2979,7 @@
         {
           "name": "Ferran Jutglà",
           "team": "Celta Vigo",
-          "matches": 12,
+          "matches": 13,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3013,7 +3021,7 @@
           "team": "Real Betis",
           "matches": 13,
           "goals": 2,
-          "assistsInScorerFeed": 1,
+          "assistsInScorerFeed": 2,
           "penalties": 1
         },
         {
@@ -3038,6 +3046,14 @@
           "matches": 12,
           "goals": 2,
           "assistsInScorerFeed": 2,
+          "penalties": 0
+        },
+        {
+          "name": "Kike Salas",
+          "team": "Sevilla FC",
+          "matches": 11,
+          "goals": 2,
+          "assistsInScorerFeed": 0,
           "penalties": 0
         },
         {
@@ -3084,14 +3100,6 @@
           "name": "Nsongo Tonfack",
           "team": "RC Deportivo",
           "matches": 13,
-          "goals": 2,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
-          "name": "Pablo Duran",
-          "team": "Celta Vigo",
-          "matches": 11,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3193,17 +3201,9 @@
           "penalties": 0
         },
         {
-          "name": "Facundo Buonanotte",
-          "team": "Elche CF",
-          "matches": 12,
-          "goals": 1,
-          "assistsInScorerFeed": 1,
-          "penalties": 1
-        },
-        {
           "name": "Iago Aspas",
           "team": "Celta Vigo",
-          "matches": 11,
+          "matches": 12,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3387,7 +3387,7 @@
         {
           "name": "Vinicius Junior",
           "team": "Real Madrid",
-          "matches": 8,
+          "matches": 9,
           "goals": 1,
           "assistsInScorerFeed": 3,
           "penalties": 0
@@ -3499,6 +3499,11 @@
           "assists": 3
         },
         {
+          "name": "Mbappé",
+          "team": "Real Madrid",
+          "assists": 3
+        },
+        {
           "name": "Raphinha",
           "team": "FC Barcelona",
           "assists": 3
@@ -3599,6 +3604,16 @@
           "assists": 2
         },
         {
+          "name": "Isaac Romero",
+          "team": "Sevilla FC",
+          "assists": 2
+        },
+        {
+          "name": "Isco",
+          "team": "Real Betis",
+          "assists": 2
+        },
+        {
           "name": "Jonathan David",
           "team": "Atlético Madrid",
           "assists": 2
@@ -3636,11 +3651,6 @@
         {
           "name": "Martín Satriano",
           "team": "Getafe CF",
-          "assists": 2
-        },
-        {
-          "name": "Mbappé",
-          "team": "Real Madrid",
           "assists": 2
         },
         {
@@ -3789,16 +3799,6 @@
           "assists": 1
         },
         {
-          "name": "Isaac Romero",
-          "team": "Sevilla FC",
-          "assists": 1
-        },
-        {
-          "name": "Isco",
-          "team": "Real Betis",
-          "assists": 1
-        },
-        {
           "name": "Javi Rodríguez",
           "team": "Celta Vigo",
           "assists": 1
@@ -3916,8 +3916,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-11-21T17:28:20Z"
+      "updatedAt": "2026-11-21T22:23:48Z"
     }
   },
-  "updatedAt": "2026-11-21T17:28:20Z"
+  "updatedAt": "2026-11-21T22:23:48Z"
 }
