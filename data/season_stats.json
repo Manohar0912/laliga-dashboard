@@ -2652,7 +2652,7 @@
           "name": "Ante Budimir",
           "team": "CA Osasuna",
           "matches": 13,
-          "goals": 8,
+          "goals": 9,
           "assistsInScorerFeed": 0,
           "penalties": 4
         },
@@ -2697,12 +2697,28 @@
           "penalties": 1
         },
         {
+          "name": "Álex Baena",
+          "team": "Atlético Madrid",
+          "matches": 13,
+          "goals": 6,
+          "assistsInScorerFeed": 3,
+          "penalties": 0
+        },
+        {
           "name": "Adrián",
           "team": "Málaga CF",
           "matches": 9,
           "goals": 5,
           "assistsInScorerFeed": 1,
           "penalties": 0
+        },
+        {
+          "name": "Alejandro Grimaldo",
+          "team": "Atlético Madrid",
+          "matches": 13,
+          "goals": 5,
+          "assistsInScorerFeed": 2,
+          "penalties": 3
         },
         {
           "name": "Brugui",
@@ -2729,25 +2745,9 @@
           "penalties": 0
         },
         {
-          "name": "Álex Baena",
-          "team": "Atlético Madrid",
-          "matches": 12,
-          "goals": 5,
-          "assistsInScorerFeed": 3,
-          "penalties": 0
-        },
-        {
-          "name": "Alejandro Grimaldo",
-          "team": "Atlético Madrid",
-          "matches": 12,
-          "goals": 4,
-          "assistsInScorerFeed": 2,
-          "penalties": 2
-        },
-        {
           "name": "Giuliano Simeone",
           "team": "Atlético Madrid",
-          "matches": 12,
+          "matches": 13,
           "goals": 4,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -2867,7 +2867,7 @@
         {
           "name": "Jonathan David",
           "team": "Atlético Madrid",
-          "matches": 9,
+          "matches": 10,
           "goals": 3,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -2875,7 +2875,7 @@
         {
           "name": "Martin Satriano",
           "team": "Getafe CF",
-          "matches": 12,
+          "matches": 13,
           "goals": 3,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -2995,7 +2995,7 @@
         {
           "name": "Enes Ünal",
           "team": "Getafe CF",
-          "matches": 11,
+          "matches": 12,
           "goals": 2,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3051,7 +3051,7 @@
         {
           "name": "Kang-in Lee",
           "team": "Atlético Madrid",
-          "matches": 12,
+          "matches": 13,
           "goals": 2,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3449,6 +3449,11 @@
           "assists": 4
         },
         {
+          "name": "Julián Álvarez",
+          "team": "Atlético Madrid",
+          "assists": 4
+        },
+        {
           "name": "Mariano Díaz",
           "team": "Deportivo Alavés",
           "assists": 4
@@ -3620,11 +3625,6 @@
         },
         {
           "name": "Jonathan David",
-          "team": "Atlético Madrid",
-          "assists": 2
-        },
-        {
-          "name": "Julián Álvarez",
           "team": "Atlético Madrid",
           "assists": 2
         },
@@ -3909,15 +3909,15 @@
           "assists": 1
         },
         {
-          "name": "Troy Parrott",
-          "team": "Real Betis",
+          "name": "Valentin Rosier",
+          "team": "CA Osasuna",
           "assists": 1
         }
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-11-22T17:48:26Z"
+      "updatedAt": "2026-11-22T23:35:08Z"
     }
   },
-  "updatedAt": "2026-11-22T17:48:26Z"
+  "updatedAt": "2026-11-22T23:35:08Z"
 }

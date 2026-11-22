@@ -25,26 +25,6 @@
   ],
   "fixtures": [
     {
-      "id": 564752,
-      "date": "2026-11-22",
-      "time": "18:30",
-      "home": "CA Osasuna",
-      "away": "Málaga CF",
-      "referee": "Ricardo de Burgos",
-      "status": "IN_PLAY",
-      "matchday": 13
-    },
-    {
-      "id": 564753,
-      "date": "2026-11-22",
-      "time": "21:00",
-      "home": "Getafe CF",
-      "away": "Atlético Madrid",
-      "referee": "",
-      "status": "TIMED",
-      "matchday": 13
-    },
-    {
       "id": 564757,
       "date": "2026-11-23",
       "time": "21:00",
@@ -3797,12 +3777,32 @@
       "ht_away_goals": 0
     },
     {
+      "id": 564752,
+      "date": "2026-11-22",
+      "home": "CA Osasuna",
+      "away": "Málaga CF",
+      "home_goals": 1,
+      "away_goals": 0,
+      "ht_home_goals": 1,
+      "ht_away_goals": 0
+    },
+    {
       "id": 564749,
       "date": "2026-11-22",
       "home": "FC Barcelona",
       "away": "Villarreal CF",
       "home_goals": 3,
       "away_goals": 2,
+      "ht_home_goals": 0,
+      "ht_away_goals": 2
+    },
+    {
+      "id": 564753,
+      "date": "2026-11-22",
+      "home": "Getafe CF",
+      "away": "Atlético Madrid",
+      "home_goals": 0,
+      "away_goals": 3,
       "ht_home_goals": 0,
       "ht_away_goals": 2
     },
@@ -3818,5 +3818,5 @@
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-11-22T17:48:23Z"
+  "updatedAt": "2026-11-22T23:35:03Z"
 }
