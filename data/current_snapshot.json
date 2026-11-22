@@ -25,33 +25,13 @@
   ],
   "fixtures": [
     {
-      "id": 564749,
-      "date": "2026-11-22",
-      "time": "14:00",
-      "home": "FC Barcelona",
-      "away": "Villarreal CF",
-      "referee": "",
-      "status": "TIMED",
-      "matchday": 13
-    },
-    {
-      "id": 564750,
-      "date": "2026-11-22",
-      "time": "16:15",
-      "home": "Racing Santander",
-      "away": "Real Sociedad",
-      "referee": "",
-      "status": "TIMED",
-      "matchday": 13
-    },
-    {
       "id": 564752,
       "date": "2026-11-22",
       "time": "18:30",
       "home": "CA Osasuna",
       "away": "Málaga CF",
-      "referee": "",
-      "status": "TIMED",
+      "referee": "Ricardo de Burgos",
+      "status": "IN_PLAY",
       "matchday": 13
     },
     {
@@ -3815,8 +3795,28 @@
       "away_goals": 1,
       "ht_home_goals": 0,
       "ht_away_goals": 0
+    },
+    {
+      "id": 564749,
+      "date": "2026-11-22",
+      "home": "FC Barcelona",
+      "away": "Villarreal CF",
+      "home_goals": 3,
+      "away_goals": 2,
+      "ht_home_goals": 0,
+      "ht_away_goals": 2
+    },
+    {
+      "id": 564750,
+      "date": "2026-11-22",
+      "home": "Racing Santander",
+      "away": "Real Sociedad",
+      "home_goals": 3,
+      "away_goals": 2,
+      "ht_home_goals": 2,
+      "ht_away_goals": 1
     }
   ],
   "source": "football-data.org v4 / competitions/PD/matches",
-  "updatedAt": "2026-11-21T22:23:45Z"
+  "updatedAt": "2026-11-22T17:48:23Z"
 }

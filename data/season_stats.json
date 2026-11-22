@@ -2619,7 +2619,7 @@
         {
           "name": "Raphinha",
           "team": "FC Barcelona",
-          "matches": 11,
+          "matches": 12,
           "goals": 15,
           "assistsInScorerFeed": 2,
           "penalties": 3
@@ -2633,25 +2633,25 @@
           "penalties": 3
         },
         {
-          "name": "Lamine Yamal",
-          "team": "FC Barcelona",
-          "matches": 12,
-          "goals": 10,
-          "assistsInScorerFeed": 8,
-          "penalties": 1
-        },
-        {
           "name": "Yassir Zabiri",
           "team": "Racing Santander",
-          "matches": 12,
-          "goals": 9,
+          "matches": 13,
+          "goals": 11,
           "assistsInScorerFeed": 0,
           "penalties": 0
         },
         {
+          "name": "Lamine Yamal",
+          "team": "FC Barcelona",
+          "matches": 13,
+          "goals": 10,
+          "assistsInScorerFeed": 9,
+          "penalties": 1
+        },
+        {
           "name": "Ante Budimir",
           "team": "CA Osasuna",
-          "matches": 12,
+          "matches": 13,
           "goals": 8,
           "assistsInScorerFeed": 0,
           "penalties": 4
@@ -2659,8 +2659,8 @@
         {
           "name": "Fermín López",
           "team": "FC Barcelona",
-          "matches": 12,
-          "goals": 7,
+          "matches": 13,
+          "goals": 8,
           "assistsInScorerFeed": 5,
           "penalties": 0
         },
@@ -2699,7 +2699,7 @@
         {
           "name": "Adrián",
           "team": "Málaga CF",
-          "matches": 8,
+          "matches": 9,
           "goals": 5,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2755,7 +2755,7 @@
         {
           "name": "Luka Sučić",
           "team": "Real Sociedad",
-          "matches": 12,
+          "matches": 13,
           "goals": 4,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2771,7 +2771,7 @@
         {
           "name": "Orri Oskarsson",
           "team": "Real Sociedad",
-          "matches": 11,
+          "matches": 12,
           "goals": 4,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2819,7 +2819,7 @@
         {
           "name": "Gabriel Jesus",
           "team": "FC Barcelona",
-          "matches": 9,
+          "matches": 10,
           "goals": 3,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2827,10 +2827,18 @@
         {
           "name": "Georges Mikautadze",
           "team": "Villarreal CF",
-          "matches": 12,
+          "matches": 13,
           "goals": 3,
           "assistsInScorerFeed": 1,
           "penalties": 1
+        },
+        {
+          "name": "Gonçalo Guedes",
+          "team": "Real Sociedad",
+          "matches": 12,
+          "goals": 3,
+          "assistsInScorerFeed": 1,
+          "penalties": 0
         },
         {
           "name": "Isaac",
@@ -2873,6 +2881,14 @@
           "penalties": 0
         },
         {
+          "name": "Mikel Oyarzabal",
+          "team": "Real Sociedad",
+          "matches": 12,
+          "goals": 3,
+          "assistsInScorerFeed": 2,
+          "penalties": 0
+        },
+        {
           "name": "Pablo Duran",
           "team": "Celta Vigo",
           "matches": 12,
@@ -2883,7 +2899,7 @@
         {
           "name": "Pape Gueye",
           "team": "Villarreal CF",
-          "matches": 11,
+          "matches": 12,
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -2931,9 +2947,9 @@
         {
           "name": "Alberto Moleiro",
           "team": "Villarreal CF",
-          "matches": 12,
+          "matches": 13,
           "goals": 2,
-          "assistsInScorerFeed": 4,
+          "assistsInScorerFeed": 5,
           "penalties": 0
         },
         {
@@ -2947,15 +2963,23 @@
         {
           "name": "Anthony Gordon",
           "team": "FC Barcelona",
-          "matches": 12,
+          "matches": 13,
           "goals": 2,
           "assistsInScorerFeed": 4,
           "penalties": 0
         },
         {
+          "name": "Canales",
+          "team": "Racing Santander",
+          "matches": 13,
+          "goals": 2,
+          "assistsInScorerFeed": 1,
+          "penalties": 1
+        },
+        {
           "name": "Carlos Dotor",
           "team": "Málaga CF",
-          "matches": 11,
+          "matches": 12,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3009,14 +3033,6 @@
           "penalties": 0
         },
         {
-          "name": "Gonçalo Guedes",
-          "team": "Real Sociedad",
-          "matches": 11,
-          "goals": 2,
-          "assistsInScorerFeed": 1,
-          "penalties": 0
-        },
-        {
           "name": "Isco",
           "team": "Real Betis",
           "matches": 13,
@@ -3043,7 +3059,7 @@
         {
           "name": "Karim Adeyemi",
           "team": "FC Barcelona",
-          "matches": 12,
+          "matches": 13,
           "goals": 2,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -3073,14 +3089,6 @@
           "penalties": 0
         },
         {
-          "name": "Mikel Oyarzabal",
-          "team": "Real Sociedad",
-          "matches": 11,
-          "goals": 2,
-          "assistsInScorerFeed": 2,
-          "penalties": 0
-        },
-        {
           "name": "Nico Williams",
           "team": "Athletic Club",
           "matches": 11,
@@ -3091,7 +3099,7 @@
         {
           "name": "Nicolas Pépé",
           "team": "Villarreal CF",
-          "matches": 9,
+          "matches": 10,
           "goals": 2,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3107,7 +3115,7 @@
         {
           "name": "Pablo García",
           "team": "Racing Santander",
-          "matches": 12,
+          "matches": 13,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3116,6 +3124,14 @@
           "name": "Roberto Navarro",
           "team": "Athletic Club",
           "matches": 13,
+          "goals": 2,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Tajon Buchanan",
+          "team": "Villarreal CF",
+          "matches": 11,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3161,14 +3177,6 @@
           "penalties": 0
         },
         {
-          "name": "Canales",
-          "team": "Racing Santander",
-          "matches": 12,
-          "goals": 1,
-          "assistsInScorerFeed": 1,
-          "penalties": 0
-        },
-        {
           "name": "Carl Starfelt",
           "team": "Celta Vigo",
           "matches": 7,
@@ -3187,7 +3195,7 @@
         {
           "name": "Chupete",
           "team": "Málaga CF",
-          "matches": 12,
+          "matches": 13,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -3235,7 +3243,7 @@
         {
           "name": "Kike Barja",
           "team": "CA Osasuna",
-          "matches": 11,
+          "matches": 12,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3299,7 +3307,7 @@
         {
           "name": "Ochieng",
           "team": "Real Sociedad",
-          "matches": 12,
+          "matches": 13,
           "goals": 1,
           "assistsInScorerFeed": 3,
           "penalties": 0
@@ -3331,9 +3339,9 @@
         {
           "name": "Pedri",
           "team": "FC Barcelona",
-          "matches": 12,
+          "matches": 13,
           "goals": 1,
-          "assistsInScorerFeed": 2,
+          "assistsInScorerFeed": 3,
           "penalties": 0
         },
         {
@@ -3377,14 +3385,6 @@
           "penalties": 0
         },
         {
-          "name": "Ville Koski",
-          "team": "Deportivo Alavés",
-          "matches": 13,
-          "goals": 1,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
           "name": "Vinicius Junior",
           "team": "Real Madrid",
           "matches": 9,
@@ -3421,7 +3421,7 @@
         {
           "name": "Lamine Yamal",
           "team": "FC Barcelona",
-          "assists": 8
+          "assists": 9
         },
         {
           "name": "Javi Hernández",
@@ -3431,6 +3431,11 @@
         {
           "name": "Fermín",
           "team": "FC Barcelona",
+          "assists": 5
+        },
+        {
+          "name": "Moleiro",
+          "team": "Villarreal CF",
           "assists": 5
         },
         {
@@ -3446,11 +3451,6 @@
         {
           "name": "Mariano Díaz",
           "team": "Deportivo Alavés",
-          "assists": 4
-        },
-        {
-          "name": "Moleiro",
-          "team": "Villarreal CF",
           "assists": 4
         },
         {
@@ -3501,6 +3501,11 @@
         {
           "name": "Mbappé",
           "team": "Real Madrid",
+          "assists": 3
+        },
+        {
+          "name": "Pedri",
+          "team": "FC Barcelona",
           "assists": 3
         },
         {
@@ -3674,11 +3679,6 @@
           "assists": 2
         },
         {
-          "name": "Pedri",
-          "team": "FC Barcelona",
-          "assists": 2
-        },
-        {
           "name": "Robbie Ure",
           "team": "Sevilla FC",
           "assists": 2
@@ -3707,11 +3707,6 @@
           "name": "Álvaro García",
           "team": "Rayo Vallecano",
           "assists": 2
-        },
-        {
-          "name": "Adrià Pedrosa",
-          "team": "Rayo Vallecano",
-          "assists": 1
         },
         {
           "name": "Alvaro Mantilla",
@@ -3799,6 +3794,11 @@
           "assists": 1
         },
         {
+          "name": "Iker Luque",
+          "team": "Racing Santander",
+          "assists": 1
+        },
+        {
           "name": "Javi Rodríguez",
           "team": "Celta Vigo",
           "assists": 1
@@ -3811,6 +3811,11 @@
         {
           "name": "Johnny",
           "team": "Atlético Madrid",
+          "assists": 1
+        },
+        {
+          "name": "Jon Gorrotxategi",
+          "team": "Real Sociedad",
           "assists": 1
         },
         {
@@ -3869,11 +3874,6 @@
           "assists": 1
         },
         {
-          "name": "Ramón Enríquez",
-          "team": "Málaga CF",
-          "assists": 1
-        },
-        {
           "name": "Riki Rodríguez",
           "team": "RC Deportivo",
           "assists": 1
@@ -3884,13 +3884,13 @@
           "assists": 1
         },
         {
-          "name": "Rubén García",
-          "team": "CA Osasuna",
+          "name": "Sergi Cardona",
+          "team": "Villarreal CF",
           "assists": 1
         },
         {
-          "name": "Sergi Cardona",
-          "team": "Villarreal CF",
+          "name": "Sergio Gómez",
+          "team": "Real Sociedad",
           "assists": 1
         },
         {
@@ -3916,8 +3916,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-11-21T22:23:48Z"
+      "updatedAt": "2026-11-22T17:48:26Z"
     }
   },
-  "updatedAt": "2026-11-21T22:23:48Z"
+  "updatedAt": "2026-11-22T17:48:26Z"
 }
