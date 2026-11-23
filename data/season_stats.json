@@ -2683,7 +2683,7 @@
         {
           "name": "Fer Niño",
           "team": "Elche CF",
-          "matches": 12,
+          "matches": 13,
           "goals": 6,
           "assistsInScorerFeed": 0,
           "penalties": 1
@@ -2723,7 +2723,7 @@
         {
           "name": "Brugui",
           "team": "Levante UD",
-          "matches": 11,
+          "matches": 12,
           "goals": 5,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2851,7 +2851,7 @@
         {
           "name": "Iván Romero",
           "team": "Levante UD",
-          "matches": 12,
+          "matches": 13,
           "goals": 3,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2931,7 +2931,7 @@
         {
           "name": "Adrián de la Fuente",
           "team": "Levante UD",
-          "matches": 10,
+          "matches": 11,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2993,6 +2993,14 @@
           "penalties": 0
         },
         {
+          "name": "Dani Requena",
+          "team": "Levante UD",
+          "matches": 12,
+          "goals": 2,
+          "assistsInScorerFeed": 1,
+          "penalties": 0
+        },
+        {
           "name": "Enes Ünal",
           "team": "Getafe CF",
           "matches": 12,
@@ -3027,9 +3035,9 @@
         {
           "name": "Germán Valera",
           "team": "Elche CF",
-          "matches": 12,
+          "matches": 13,
           "goals": 2,
-          "assistsInScorerFeed": 0,
+          "assistsInScorerFeed": 1,
           "penalties": 0
         },
         {
@@ -3171,7 +3179,7 @@
         {
           "name": "Buba",
           "team": "Elche CF",
-          "matches": 10,
+          "matches": 11,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3203,7 +3211,7 @@
         {
           "name": "Enzo Bardeli",
           "team": "Levante UD",
-          "matches": 9,
+          "matches": 10,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3227,17 +3235,9 @@
         {
           "name": "Jon Olasagasti",
           "team": "Levante UD",
-          "matches": 12,
-          "goals": 1,
-          "assistsInScorerFeed": 1,
-          "penalties": 0
-        },
-        {
-          "name": "Juan Iglesias",
-          "team": "Sevilla FC",
           "matches": 13,
           "goals": 1,
-          "assistsInScorerFeed": 0,
+          "assistsInScorerFeed": 2,
           "penalties": 0
         },
         {
@@ -3363,7 +3363,7 @@
         {
           "name": "Thomas Lemar",
           "team": "Elche CF",
-          "matches": 8,
+          "matches": 9,
           "goals": 1,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -3624,6 +3624,11 @@
           "assists": 2
         },
         {
+          "name": "Jon Ander Olasagasti",
+          "team": "Levante UD",
+          "assists": 2
+        },
+        {
           "name": "Jonathan David",
           "team": "Atlético Madrid",
           "assists": 2
@@ -3779,6 +3784,11 @@
           "assists": 1
         },
         {
+          "name": "Germán Valera",
+          "team": "Elche CF",
+          "assists": 1
+        },
+        {
           "name": "Giorgi Kochorashvili",
           "team": "Sevilla FC",
           "assists": 1
@@ -3796,11 +3806,6 @@
         {
           "name": "Iker Luque",
           "team": "Racing Santander",
-          "assists": 1
-        },
-        {
-          "name": "Javi Rodríguez",
-          "team": "Celta Vigo",
           "assists": 1
         },
         {
@@ -3831,11 +3836,6 @@
         {
           "name": "Koundé",
           "team": "FC Barcelona",
-          "assists": 1
-        },
-        {
-          "name": "Lee Kang-In",
-          "team": "Atlético Madrid",
           "assists": 1
         },
         {
@@ -3916,8 +3916,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-11-22T23:35:08Z"
+      "updatedAt": "2026-11-23T22:01:49Z"
     }
   },
-  "updatedAt": "2026-11-22T23:35:08Z"
+  "updatedAt": "2026-11-23T22:01:49Z"
 }
