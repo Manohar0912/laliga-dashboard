@@ -2635,8 +2635,8 @@
         {
           "name": "Yassir Zabiri",
           "team": "Racing Santander",
-          "matches": 13,
-          "goals": 11,
+          "matches": 14,
+          "goals": 12,
           "assistsInScorerFeed": 0,
           "penalties": 0
         },
@@ -2723,7 +2723,7 @@
         {
           "name": "Brugui",
           "team": "Levante UD",
-          "matches": 12,
+          "matches": 13,
           "goals": 5,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -2753,6 +2753,14 @@
           "penalties": 0
         },
         {
+          "name": "Iván Romero",
+          "team": "Levante UD",
+          "matches": 14,
+          "goals": 4,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
           "name": "Luka Sučić",
           "team": "Real Sociedad",
           "matches": 13,
@@ -2772,6 +2780,14 @@
           "name": "Orri Oskarsson",
           "team": "Real Sociedad",
           "matches": 12,
+          "goals": 4,
+          "assistsInScorerFeed": 0,
+          "penalties": 0
+        },
+        {
+          "name": "Pablo García",
+          "team": "Racing Santander",
+          "matches": 14,
           "goals": 4,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2849,14 +2865,6 @@
           "penalties": 0
         },
         {
-          "name": "Iván Romero",
-          "team": "Levante UD",
-          "matches": 13,
-          "goals": 3,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
           "name": "Iñaki Williams",
           "team": "Athletic Club",
           "matches": 13,
@@ -2931,7 +2939,7 @@
         {
           "name": "Adrián de la Fuente",
           "team": "Levante UD",
-          "matches": 11,
+          "matches": 12,
           "goals": 2,
           "assistsInScorerFeed": 0,
           "penalties": 0
@@ -2971,7 +2979,7 @@
         {
           "name": "Canales",
           "team": "Racing Santander",
-          "matches": 13,
+          "matches": 14,
           "goals": 2,
           "assistsInScorerFeed": 1,
           "penalties": 1
@@ -2995,7 +3003,7 @@
         {
           "name": "Dani Requena",
           "team": "Levante UD",
-          "matches": 12,
+          "matches": 13,
           "goals": 2,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3121,14 +3129,6 @@
           "penalties": 0
         },
         {
-          "name": "Pablo García",
-          "team": "Racing Santander",
-          "matches": 13,
-          "goals": 2,
-          "assistsInScorerFeed": 0,
-          "penalties": 0
-        },
-        {
           "name": "Roberto Navarro",
           "team": "Athletic Club",
           "matches": 13,
@@ -3211,7 +3211,7 @@
         {
           "name": "Enzo Bardeli",
           "team": "Levante UD",
-          "matches": 10,
+          "matches": 11,
           "goals": 1,
           "assistsInScorerFeed": 1,
           "penalties": 0
@@ -3235,7 +3235,7 @@
         {
           "name": "Jon Olasagasti",
           "team": "Levante UD",
-          "matches": 13,
+          "matches": 14,
           "goals": 1,
           "assistsInScorerFeed": 2,
           "penalties": 0
@@ -3449,6 +3449,11 @@
           "assists": 4
         },
         {
+          "name": "Iñigo Vicente",
+          "team": "Racing Santander",
+          "assists": 4
+        },
+        {
           "name": "Julián Álvarez",
           "team": "Atlético Madrid",
           "assists": 4
@@ -3486,11 +3491,6 @@
         {
           "name": "Dani Olmo",
           "team": "FC Barcelona",
-          "assists": 3
-        },
-        {
-          "name": "Iñigo Vicente",
-          "team": "Racing Santander",
           "assists": 3
         },
         {
@@ -3634,6 +3634,11 @@
           "assists": 2
         },
         {
+          "name": "Jorge Salinas",
+          "team": "Racing Santander",
+          "assists": 2
+        },
+        {
           "name": "Karim Adeyemi",
           "team": "FC Barcelona",
           "assists": 2
@@ -3719,6 +3724,11 @@
           "assists": 1
         },
         {
+          "name": "Andre Almeida",
+          "team": "Racing Santander",
+          "assists": 1
+        },
+        {
           "name": "Andrés García",
           "team": "Getafe CF",
           "assists": 1
@@ -3779,16 +3789,6 @@
           "assists": 1
         },
         {
-          "name": "Georges Mikautadze",
-          "team": "Villarreal CF",
-          "assists": 1
-        },
-        {
-          "name": "Germán Valera",
-          "team": "Elche CF",
-          "assists": 1
-        },
-        {
           "name": "Giorgi Kochorashvili",
           "team": "Sevilla FC",
           "assists": 1
@@ -3829,11 +3829,6 @@
           "assists": 1
         },
         {
-          "name": "Jorge Salinas",
-          "team": "Racing Santander",
-          "assists": 1
-        },
-        {
           "name": "Koundé",
           "team": "FC Barcelona",
           "assists": 1
@@ -3861,6 +3856,11 @@
         {
           "name": "Omar",
           "team": "RCD Espanyol",
+          "assists": 1
+        },
+        {
+          "name": "Oriol Rey",
+          "team": "Levante UD",
           "assists": 1
         },
         {
@@ -3916,8 +3916,8 @@
       ],
       "goalsSource": "football-data.org v4 / competitions/PD/scorers (goal-ranked)",
       "assistsSource": "AS.com / dedicated asistencias-de-gol ranking",
-      "updatedAt": "2026-11-23T22:01:49Z"
+      "updatedAt": "2026-11-28T02:10:33Z"
     }
   },
-  "updatedAt": "2026-11-23T22:01:49Z"
+  "updatedAt": "2026-11-28T02:10:33Z"
 }
